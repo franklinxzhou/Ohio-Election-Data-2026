@@ -1,0 +1,72 @@
+Auglaize County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+Raw/Auglaize.pdf, November 9 unofficial precinct report. The references
+below are PDF page numbers. The county posts the same precinct report at
+https://www.boe.ohio.gov/auglaize/c/elecres/20261103precinct.pdf
+OH_pct20.json, nodes[].ORIG_NAME for historical precinct membership and
+nodes[].ENACTED_LOWER for the graph's House district assignments.
+Auglaize County GIS Voting Precinct layer, joined on the base PRECINCTID.
+https://gis.auglaizecounty.org/arcgis/rest/services/BrdofElections/VotingPrecincts/MapServer/4
+U.S. Census Bureau TIGERweb 2020 Voting Districts, state 39 and county 011,
+joined to historical graph labels by BASENAME.
+https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+The county's October 2023 map already shows the four changed precincts.
+https://www.boe.ohio.gov/auglaize/c/upload/CountyPrecinctMap.pdf
+
+Precinct boundary changes relative to the graph
+  Union W (0310, pp. 113-114) and Union E (0315, pp. 117-118) each lie
+  more than 99.8% within the 2020 UNION voting district (GEOID 39011006ABL,
+  graph node 314). Both rows link to node 314 as split_precinct. The 2020
+  report lists Union, and the 2024 report lists Union W and Union E.
+  https://www.boe.ohio.gov/auglaize/c/elecres/20201103precinct.pdf#page=109
+  https://www.boe.ohio.gov/auglaize/c/elecres/20241105precinct.pdf#page=121
+  https://www.boe.ohio.gov/auglaize/c/elecres/20241105precinct.pdf#page=125
+
+  New Bremen S (0395, pp. 153-154) lies about 99.8% within the 2020
+  NEW BREMEN E district (GEOID 39011006AAV, graph node 303). New Bremen S
+  links to node 303 as split_precinct. New Bremen E (0390, pp. 149-150)
+  also links to node 303 by name.
+
+  St. Marys S (0280, pp. 101-102) overlaps the 2020 ST. MARYS E district
+  by about 71.8% (GEOID 39011006ABH, graph node 305) and ST. MARYS W by
+  about 28.2% (GEOID 39011006ABJ, graph node 310). Its row links to both
+  as boundary_overlap.
+
+  Percentages estimate the share of each current precinct's area by
+  overlaying the county GIS polygons with the 2020 Census polygons.
+  Intersections below 0.3% were treated as boundary discrepancies.
+  The CSV keeps one set of reported vote totals per current precinct.
+
+Combined graph nodes
+  Node 298 holds 0190 German (pp. 69-70) and 0400 New Bremen W (pp. 157-158).
+  ORIG_NAME = GERMAN_AUGLAIZE,NEW BREMEN W_AUGLAIZE
+
+  Node 300 holds 0210 Jackson (pp. 77-78) and 0370 Minster N (pp. 141-142).
+  ORIG_NAME = JACKSON_AUGLAIZE,MINSTER N_AUGLAIZE
+
+  Node 305 holds 0250 Noble (pp. 89-90) and 0270 St. Marys E (pp. 97-98).
+  ORIG_NAME = NOBLE_AUGLAIZE,ST. MARYS E_AUGLAIZE
+
+  Node 310 holds 0030 St. Marys 2A (pp. 9-10) and 0290 St. Marys W (pp. 105-106).
+  ORIG_NAME = ST. MARYS 2A_AUGLAIZE,ST. MARYS W_AUGLAIZE
+
+  Node 319 holds 0330 Wayne (pp. 125-126) and 0430 Waynesfield (pp. 165-166).
+  ORIG_NAME = WAYNESFIELD_AUGLAIZE,WAYNE_AUGLAIZE
+
+Historical groups split across graph nodes
+  Nodes 294 (HD78) and 295 (HD84) share the same historical membership.
+  0160 Duchouquet E (pp. 61-62)
+  0120 Wapakoneta 3B (pp. 45-46)
+
+  Nodes 296 (HD78) and 297 (HD84) share the same historical membership.
+  0180 Duchouquet W (pp. 65-66)
+  0230 Moulton (pp. 85-86)
+  0070 Wapakoneta 1A (pp. 25-26)
+  0080 Wapakoneta 1B (pp. 29-30)
+  0100 Wapakoneta 2B (pp. 37-38)
+  0140 Wapakoneta 4B (pp. 53-54)
+
+  Each current row in these two groups links to its historical group as
+  a whole. The district labels describe the graph nodes.

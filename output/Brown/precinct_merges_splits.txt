@@ -1,0 +1,50 @@
+Brown County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+Raw/Brown.pdf, November 12 Official Canvass. The references below are
+PDF pages with the statewide vote counts.
+OH_pct20.json, nodes[].ORIG_NAME for historical precinct membership and
+nodes[].ENACTED_LOWER for the graph's House district assignments.
+
+Mount Orab Village West
+  0081 Mount Orab Village West (pp. 22-23) links to node 395 as
+  split_precinct. Brown County Engineer's May 2021 voting-precinct
+  shapefile identifies code 81 as MT ORAB STERLING. The county's November
+  2021 canvass uses the Mount Orab Village West name for the same code.
+  The shapefile boundary overlaps historical MT ORAB NORTH (2020 Census
+  GEOID 39015008ACG, node 395) by about 99.5% of its area. Under 1%
+  overlaps historical Sterling Twp South, mostly in a narrow strip along
+  the precinct boundary. The graph link uses the dominant overlap.
+  Current 0070 Mt Orab North (pp. 16-17) also links to node 395 by name.
+  Both vote rows retain their separately reported totals.
+  County Engineer voting-precinct shapefile
+  https://gis.browncountyengineer.org/GISWEB/DOWNLOAD-DATA/VOTING-PRECINCT.zip
+  County Board of Elections November 2021 precinct report
+  https://www.boe.ohio.gov/brown/c/elecres/20211102precinct.pdf
+  Census TIGERweb 2020 Voting Districts, state 39 and county 015
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+
+Combined graph node 389
+  0091 Green Twp South (pp. 28-29)
+  0210 Pike Twp East (pp. 61-62)
+  ORIG_NAME = GREEN TWP SOUTH_BROWN,PIKE TWP EAST_BROWN
+
+Combined graph node 397
+  0170 Perry Twp-Villages (pp. 49-50)
+  0190 Perry Twp South (pp. 52-53)
+  ORIG_NAME = PERRY TWP SOUTH_BROWN,PERRY TWP-VILLAGES_BROWN
+
+Combined graph node 402
+  0340 Sardinia Vill (pp. 94-95)
+  0350 Washington Twp (pp. 97-98)
+  ORIG_NAME = SARDINIA VILLAGE_BROWN,WASHINGTON TWP_BROWN
+
+Historical group split across graph nodes 386 (HD63) and 387 (HD90)
+  Both nodes share the same historical membership. Each precinct below
+  links to that historical group as a whole.
+  0060 Franklin Twp (pp. 13-14)
+  0230 Georgetown East (pp. 67-68)
+  0240 Georgetown North (pp. 70-71)
+  0270 Georgetown Sw (pp. 73-74)
+  0280 Pleasant Twp (pp. 76-77)

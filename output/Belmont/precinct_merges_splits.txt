@@ -1,0 +1,54 @@
+Belmont County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+Raw/Belmont.pdf, official precinct canvass. The references below identify
+the precincts in its turnout section. The CSV lists the vote-table pages.
+https://www.boe.ohio.gov/belmont/c/elecres/20261103precinct.pdf
+OH_pct20.json, nodes[].ORIG_NAME for historical graph membership.
+
+Flushing Township precinct consolidation
+  Current 047 FLUSHING TWP (2026 canvass p. 4) links to former 046
+  FLUSHING TWP 1 (node 337) and former 047 FLUSHING TWP 2 (node 338).
+  The November 2024 canvass lists both former precincts. The November
+  2025 turnout table lists a single township precinct labeled 047
+  FLUSHING TWP 1. The May 2026 turnout table calls it 047 FLUSHING TWP.
+  The crosswalk infers the consolidation from these canvasses. The
+  CSV keeps the current township's vote totals on one row.
+  November 2024 canvass, p. 19
+  https://www.boe.ohio.gov/belmont/c/elecres/20241105precinct.pdf#page=19
+  November 2025 canvass, p. 1
+  https://www.boe.ohio.gov/belmont/c/elecres/20251104precinct.pdf#page=1
+  May 2026 canvass, p. 4
+  https://www.boe.ohio.gov/belmont/c/elecres/20260505precinct.pdf#page=4
+
+Combined graph node 320
+  112 BARNESVILLE VILLAGE 1 (p. 9)
+  120 WARREN TWP (p. 10)
+  ORIG_NAME = BARNESVILLE VILLAGE 1_BELMONT,WARREN TWP_BELMONT
+
+Combined graph node 323
+  001 BELLAIRE VILLAGE 1 (p. 1)
+  083 PULTNEY TWP 1 (p. 7)
+  ORIG_NAME = BELLAIRE VILLAGE 1_BELMONT,PULTNEY TWP 1_BELMONT
+
+Combined graph node 329
+  066 BRIDGEPORT VILLAGE 2 (p. 6)
+  073 PEASE TWP 2 (p. 6)
+  ORIG_NAME = BRIDGEPORT VILLAGE 2_BELMONT,PEASE TWP 2_BELMONT
+
+Combined graph node 343
+  007 MARTINS FERRY 1-A (p. 1)
+  009 MARTINS FERRY 2-A (p. 2)
+  011 MARTINS FERRY 3-A (p. 2)
+  012 MARTINS FERRY 3-B (p. 2)
+  013 MARTINS FERRY 4-A (p. 2)
+  078 PEASE TWP 4 (p. 7)
+  ORIG_NAME members = MARTINS FERRY 1-A, MARTINS FERRY 2-A,
+  MARTINS FERRY 3-A, MARTINS FERRY 3-B, MARTINS FERRY 4-A, PEASE TWP 4
+  (each member has the suffix _BELMONT in the graph).
+
+Combined graph node 358
+  024 ST CLAIRSVILLE 3-B (p. 3)
+  101 RICHLAND TWP 5 (p. 8)
+  ORIG_NAME = RICHLAND TWP 5_BELMONT,ST CLAIRSVILLE 3-B_BELMONT

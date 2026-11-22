@@ -1,0 +1,34 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Brown,0010,Byrd Twp,official,Raw/Brown.pdf,1-2,382,exact,71,176,75,179,64,189,64,194,62,187,64,192,67,188,68,186
+Brown,0020,Clark Hamersville,official,Raw/Brown.pdf,4-5,383,exact,104,324,110,336,104,363,98,367,102,349,105,358,105,360,106,361
+Brown,0040,Clark Twp West,official,Raw/Brown.pdf,7-8,384,exact,102,376,112,374,111,402,106,403,103,386,104,404,108,400,113,396
+Brown,0050,Eagle Twp,official,Raw/Brown.pdf,10-11,385,exact,82,338,98,336,86,366,86,369,81,353,89,362,85,368,91,359
+Brown,0060,Franklin Twp,official,Raw/Brown.pdf,13-14,386;387,split_nodes,138,527,158,527,139,560,131,568,145,537,138,554,146,551,146,552
+Brown,0070,Mt Orab North,official,Raw/Brown.pdf,16-17,395,exact,127,290,135,292,127,322,126,324,118,310,126,323,127,324,134,316
+Brown,0080,Mt Orab South,official,Raw/Brown.pdf,19-20,396,exact,166,401,175,406,157,433,157,438,162,409,161,423,161,422,161,425
+Brown,0081,Mount Orab Village West,official,Raw/Brown.pdf,22-23,395,split_precinct,80,308,84,315,77,346,80,344,75,331,85,337,80,343,83,338
+Brown,0090,Green Twp North,official,Raw/Brown.pdf,25-26,388,exact,61,163,66,163,57,181,54,182,60,170,60,178,61,178,59,179
+Brown,0091,Green Twp South,official,Raw/Brown.pdf,28-29,389,combined_node,79,234,89,229,81,257,76,258,79,247,78,257,79,254,78,254
+Brown,0100,Aberdeen Village,official,Raw/Brown.pdf,31-32,381,exact,114,257,118,256,109,285,108,286,110,273,109,284,107,288,105,285
+Brown,0110,Huntington Twp,official,Raw/Brown.pdf,34-35,390,exact,55,198,64,201,63,211,64,210,65,207,64,211,64,210,63,210
+Brown,0120,Jackson Twp,official,Raw/Brown.pdf,37-38,391,exact,211,595,223,574,211,623,201,630,201,606,212,615,207,621,214,612
+Brown,0130,Jefferson Russ,official,Raw/Brown.pdf,40-41,392,exact,128,328,142,322,128,356,126,361,128,347,135,349,130,352,132,348
+Brown,0150,Lewis Twp North,official,Raw/Brown.pdf,43-44,393,exact,154,432,162,430,147,474,138,480,151,446,152,466,151,469,162,456
+Brown,0160,Lewis/Higginsport,official,Raw/Brown.pdf,46-47,394,exact,48,148,50,156,48,169,48,168,49,161,51,166,47,168,47,170
+Brown,0170,Perry Twp-Villages,official,Raw/Brown.pdf,49-50,397,combined_node,115,313,116,319,109,344,106,344,109,328,112,339,111,339,113,336
+Brown,0190,Perry Twp South,official,Raw/Brown.pdf,52-53,397,combined_node,87,297,96,296,77,322,77,326,86,309,84,315,87,313,87,314
+Brown,0200,Perry Twp West,official,Raw/Brown.pdf,55-56,398,exact,101,353,108,363,104,380,105,380,104,367,104,377,105,377,102,380
+Brown,0201,Perry/lake Lorelei,official,Raw/Brown.pdf,58-59,399,exact,172,343,173,362,163,385,160,388,168,367,166,380,170,377,168,379
+Brown,0210,Pike Twp East,official,Raw/Brown.pdf,61-62,389,combined_node,122,283,137,278,125,306,127,303,122,293,132,298,128,302,133,296
+Brown,0220,Pike Twp West,official,Raw/Brown.pdf,64-65,400,exact,111,278,122,283,111,301,106,308,112,294,108,303,114,299,113,300
+Brown,0230,Georgetown East,official,Raw/Brown.pdf,67-68,386;387,split_nodes,150,267,166,267,145,304,158,294,148,285,152,298,151,298,153,294
+Brown,0240,Georgetown North,official,Raw/Brown.pdf,70-71,386;387,split_nodes,129,289,143,290,125,323,129,321,125,303,131,318,136,312,135,315
+Brown,0270,Georgetown Sw,official,Raw/Brown.pdf,73-74,386;387,split_nodes,134,243,149,232,128,262,126,261,131,250,135,255,126,263,126,259
+Brown,0280,Pleasant Twp,official,Raw/Brown.pdf,76-77,386;387,split_nodes,126,347,141,336,127,373,118,382,126,360,129,372,130,372,132,374
+Brown,0290,Scott Twp,official,Raw/Brown.pdf,79-80,403,exact,99,360,108,354,97,385,90,388,97,368,94,384,98,383,102,376
+Brown,0300,Sterling Twp North,official,Raw/Brown.pdf,82-83,404,exact,134,400,145,412,143,444,143,447,143,418,138,447,145,445,148,440
+Brown,0308,Sterling Twp South,official,Raw/Brown.pdf,85-86,405,exact,131,418,139,421,129,463,131,458,127,435,136,449,126,460,131,449
+Brown,0310,Ripley Village,official,Raw/Brown.pdf,88-89,401,exact,166,270,183,270,180,289,173,301,163,282,178,290,171,295,175,291
+Brown,0330,Union Twp,official,Raw/Brown.pdf,91-92,406,exact,133,256,143,251,135,281,136,282,128,272,137,282,132,284,136,278
+Brown,0340,Sardinia Vill,official,Raw/Brown.pdf,94-95,402,combined_node,75,179,77,181,73,200,75,195,70,190,74,199,76,197,77,194
+Brown,0350,Washington Twp,official,Raw/Brown.pdf,97-98,402,combined_node,124,336,140,332,122,372,124,371,127,349,131,362,125,366,136,357

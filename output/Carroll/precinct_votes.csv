@@ -1,0 +1,24 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Carroll,001,AUGUSTA,official,Raw/Carroll.csv,,672,exact,139,381,148,382,139,420,132,428,140,402,132,425,138,421,141,416
+Carroll,004,BROWN A,official,Raw/Carroll.csv,,673,normalized,95,239,100,235,93,260,90,263,95,243,95,254,96,256,97,253
+Carroll,005,BROWN B,official,Raw/Carroll.csv,,674,normalized,79,243,84,245,78,269,78,269,77,256,80,264,84,265,85,262
+Carroll,006,BROWN C,official,Raw/Carroll.csv,,675,combined_node,117,254,111,256,108,285,107,285,104,270,108,282,109,284,114,280
+Carroll,008,CARROLLTON A,official,Raw/Carroll.csv,,676,exact,161,304,168,299,154,333,150,338,157,318,156,329,153,329,157,330
+Carroll,009,CARROLLTON B,official,Raw/Carroll.csv,,677,exact,187,365,194,360,165,422,167,424,169,405,168,410,168,417,183,402
+Carroll,010,CENTER,official,Raw/Carroll.csv,,678,normalized,101,341,105,340,99,385,96,390,104,361,99,380,102,373,110,366
+Carroll,011,EAST,official,Raw/Carroll.csv,,679,normalized,52,212,60,203,54,226,55,224,55,214,50,229,53,227,58,221
+Carroll,012,FOX,official,Raw/Carroll.csv,,680,normalized,74,248,79,250,76,273,73,276,78,265,76,275,77,271,73,275
+Carroll,013,HARRISON A,official,Raw/Carroll.csv,,681,exact,148,406,172,396,153,442,155,444,158,426,155,439,161,432,160,434
+Carroll,014,HARRISON B,official,Raw/Carroll.csv,,682,exact,100,296,111,287,108,303,102,311,107,301,109,301,109,303,113,299
+Carroll,017,LEAVITTSVILLE,official,Raw/Carroll.csv,,683,exact,95,226,96,230,90,261,88,262,89,251,92,255,94,251,98,248
+Carroll,015,LEE,official,Raw/Carroll.csv,,684,normalized,69,255,80,258,71,290,71,287,68,278,70,290,73,286,76,275
+Carroll,016,LOUDON,official,Raw/Carroll.csv,,685,normalized,64,256,68,262,69,286,70,288,67,280,70,287,71,286,77,277
+Carroll,002,MALVERN,official,Raw/Carroll.csv,,686,exact,166,169,171,178,168,210,168,212,170,195,168,210,170,207,172,205
+Carroll,003,MINERVA,official,Raw/Carroll.csv,,675,combined_node,173,279,185,287,169,336,176,328,177,316,180,325,184,320,192,311
+Carroll,007,MOHAWK,official,Raw/Carroll.csv,,687,exact,254,505,263,508,250,533,241,541,252,520,245,529,251,533,251,532
+Carroll,018,MONROE,official,Raw/Carroll.csv,,688,exact,166,290,175,288,166,329,151,347,153,318,172,320,172,318,169,323
+Carroll,019,ORANGE,official,Raw/Carroll.csv,,689,normalized,154,272,150,272,145,308,143,305,148,295,144,300,146,304,149,298
+Carroll,020,PERRY,official,Raw/Carroll.csv,,690,exact,76,245,88,244,70,283,74,278,78,264,77,277,78,272,77,272
+Carroll,021,ROSE,official,Raw/Carroll.csv,,691,normalized,155,422,168,423,160,464,150,473,162,438,165,453,163,455,172,444
+Carroll,022,UNION,official,Raw/Carroll.csv,,692,normalized,90,284,97,283,93,313,91,317,95,300,95,313,98,311,104,307
+Carroll,023,WASHINGTON,official,Raw/Carroll.csv,,693,normalized,99,298,99,301,96,324,86,338,99,315,91,326,93,327,100,321

@@ -1,0 +1,98 @@
+Butler County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+Raw/Butler.csv, Butler County unofficial precinct export. Line numbers
+below include the two title lines and the column header.
+https://liveresults.boe.ohio.gov/ENR/butlerohenr/24/en/Index_24.html
+OH_pct20.json, nodes[].ORIG_NAME for historical precinct membership and
+nodes[].ENACTED_LOWER for House district labels on graph nodes.
+Butler County Board of Elections precinct map index and embedded KML.
+https://elections.bcohio.gov/dataandresources/maps/index.php
+https://www.google.com/maps/d/kml?mid=1PgPoiqhzQ0oXHCLj7UV-uLqznpNAsiU&forcekml=1
+U.S. Census Bureau TIGERweb 2020 Voting Districts, state 39 and county 017.
+https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+
+Precincts matched by geographic overlap
+  The figures estimate the share of each current mapped precinct's area
+  in the named 2020 voting districts. The crosswalk includes overlaps
+  of at least 1% of current area. Each CSV row keeps the full reported
+  precinct vote totals. The percentages describe area.
+  LIBERTY26 (lines 6480-6529)
+    LIBERTY TWP 6 (>99.9%) -> graph node 532
+  LIBERTY27 (lines 6530-6579)
+    LIBERTY TWP 2 (84.6%) -> graph node 528
+    LIBERTY TWP 3 (15.3%) -> graph node 529
+  LIBERTY28 (lines 6580-6629)
+    LIBERTY TWP 3 (99.9%) -> graph node 529
+  LIBERTY29 (lines 6630-6679)
+    LIBERTY TWP 11 (99.9%) -> graph node 512
+  LIBERTY30 (lines 6730-6779)
+    LIBERTY TWP 11 (99.9%) -> graph node 512
+  LIBERTY31 (lines 6780-6829)
+    LIBERTY TWP 20 (82.2%) -> graph node 522
+    LIBERTY TWP 24 (17.1%) -> graph node 526
+  MADISON6 (lines 7390-7440)
+    MADISON TWP 2 (97.5%) -> graph node 537
+    MIDDLETOWN PT6 WD1 (1.8%) -> graph node 564
+  MADISON7 (lines 7441-7491)
+    MADISON TWP 4 (99.0%) -> graph node 539
+  MONROE10 (lines 9408-9456)
+    MONROE 4 (99.2%) -> graph node 509
+  MONROE11 (lines 9457-9505)
+    MONROE 2 (47.2%) -> graph node 580
+    MONROE 9 (45.1%) -> graph node 583
+    MONROE 1 (7.6%) -> graph node 579
+
+  The January 12, 2026 Board minutes record a new Monroe precinct
+  following the congressional district update.
+  https://cms2.revize.com/revize/butlercountyboe/Permanent/Board%20Meetings/2026/Meeting%20Minutes/20260112%20Minutes.pdf?t=202602111211120
+
+Combined graph node 444
+  FAIR9WD4 (lines 1854-1903) -> FAIRFIELD PT9 WD4
+  FFTWP14 (lines 2169-2222) -> FAIRFIELD TWP 14
+
+Historical group split across graph nodes 464 (HD46), 465 (HD47)
+  HAM1WD2 (lines 3451-3499) -> HAMILTON PT1 WD2
+  HAM2WD2 (lines 4039-4087) -> HAMILTON PT2 WD2
+  HAM4WD1 (lines 4431-4479) -> HAMILTON PT4 WD1
+  HAM5WD1 (lines 4529-4577) -> HAMILTON PT5 WD1
+  STCLAIR5 (lines 11715-11765) -> ST. CLAIR TWP 5
+
+Combined graph node 467
+  HAM1WD4 (lines 3549-3597) -> HAMILTON PT1 WD4
+  HAM2WD4 (lines 4137-4185) -> HAMILTON PT2 WD4
+
+Combined graph node 476
+  HAM16WD1 (lines 3206-3254) -> HAMILTON PT16 WD1
+  HAM25WD1 (lines 3941-3989) -> HAMILTON PT25 WD1
+  HANOVER2 (lines 5072-5122) -> HANOVER TWP 2
+  HANOVER9 (lines 5429-5479) -> HANOVER TWP 9
+
+Historical group split across graph nodes 486 (HD45), 487 (HD47)
+  HAM22WD1 (lines 3794-3842) -> HAMILTON PT22 WD1
+  HANOVER7 (lines 5325-5377) -> HANOVER TWP 7
+
+Combined graph node 509
+  LEMON1 (lines 5480-5530) -> LEMON TWP 1
+  MIDD8WD2 (lines 9013-9061) -> MIDDLETOWN PT8 WD2
+  MONROE3 (lines 9555-9603) -> MONROE 3
+  MONROE4 (lines 9604-9652) -> MONROE 4
+  MONROE5 (lines 9653-9701) -> MONROE 5
+  MONROE8 (lines 9800-9847) -> MONROE 8
+
+Historical group split across graph nodes 540 (HD46), 541 (HD40)
+  MADISON5 (lines 7334-7389) -> MADISON TWP 5
+  STCLAIR1 (lines 11511-11561) -> ST. CLAIR TWP 1
+  TRENTON5 (lines 11982-12035) -> TRENTON 5
+  TRENTON7 (lines 12090-12145) -> TRENTON 7
+  TRENTON8 (lines 12146-12199) -> TRENTON 8
+
+Combined graph node 589
+  OXFORD10 (lines 10192-10244) -> OXFORD 10
+  OXFORD4 (lines 10510-10562) -> OXFORD 4
+  OXTWP1 (lines 10828-10876) -> OXFORD TWP 1
+  OXTWP3 (lines 10928-10976) -> OXFORD TWP 3
+
+Historical group split across graph nodes 613 (HD46), 614 (HD47), 615 (HD40)
+  STCLAIR2 (lines 11562-11614) -> ST. CLAIR TWP 2

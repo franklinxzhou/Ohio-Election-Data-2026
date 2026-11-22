@@ -1,0 +1,43 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Auglaize,0010,St. Marys 1A,unofficial,Raw/Auglaize.pdf,1-2,308,exact,124,374,133,376,117,416,127,403,124,396,120,403,119,405,128,399
+Auglaize,0020,St. Marys 1B,unofficial,Raw/Auglaize.pdf,5-6,309,exact,82,174,81,179,79,191,82,189,81,179,84,186,82,188,85,183
+Auglaize,0030,St. Marys 2A,unofficial,Raw/Auglaize.pdf,9-10,310,combined_node,101,219,106,222,87,254,95,247,95,240,91,247,98,240,100,236
+Auglaize,0040,St. Marys 2B,unofficial,Raw/Auglaize.pdf,13-14,311,exact,177,427,191,422,142,493,147,486,159,452,155,470,157,468,157,467
+Auglaize,0050,St. Marys 3A,unofficial,Raw/Auglaize.pdf,17-18,312,exact,146,366,159,361,133,410,139,402,141,382,139,397,137,397,142,393
+Auglaize,0060,St. Marys 4A,unofficial,Raw/Auglaize.pdf,21-22,313,exact,116,257,128,252,104,298,123,275,110,271,123,275,117,281,119,278
+Auglaize,0070,Wapakoneta 1A,unofficial,Raw/Auglaize.pdf,25-26,296;297,split_nodes,178,508,198,503,172,554,163,563,171,535,172,547,175,541,186,533
+Auglaize,0080,Wapakoneta 1B,unofficial,Raw/Auglaize.pdf,29-30,296;297,split_nodes,161,465,175,457,159,511,160,509,162,491,168,497,174,490,161,500
+Auglaize,0090,Wapakoneta 2A,unofficial,Raw/Auglaize.pdf,33-34,315,exact,94,193,91,197,92,213,89,216,94,201,95,207,97,207,100,202
+Auglaize,0100,Wapakoneta 2B,unofficial,Raw/Auglaize.pdf,37-38,296;297,split_nodes,100,294,106,297,94,321,96,322,94,309,100,316,103,316,101,314
+Auglaize,0110,Wapakoneta 3A,unofficial,Raw/Auglaize.pdf,41-42,316,exact,83,140,85,140,81,175,79,176,82,158,81,174,80,178,84,172
+Auglaize,0120,Wapakoneta 3B,unofficial,Raw/Auglaize.pdf,45-46,294;295,split_nodes,91,225,86,233,82,256,84,255,82,244,87,250,89,248,93,242
+Auglaize,0130,Wapakoneta 4A,unofficial,Raw/Auglaize.pdf,49-50,317,exact,76,148,76,153,76,181,77,179,76,166,74,181,81,173,82,169
+Auglaize,0140,Wapakoneta 4B,unofficial,Raw/Auglaize.pdf,53-54,296;297,split_nodes,140,373,138,370,132,407,137,404,138,389,137,402,139,400,141,398
+Auglaize,0150,Clay,unofficial,Raw/Auglaize.pdf,57-58,291,exact,53,267,56,269,51,292,52,290,52,283,52,290,51,290,54,287
+Auglaize,0160,Duchouquet E,unofficial,Raw/Auglaize.pdf,61-62,294;295,split_nodes,138,566,148,562,128,624,137,615,135,595,135,612,140,612,141,610
+Auglaize,0180,Duchouquet W,unofficial,Raw/Auglaize.pdf,65-66,296;297,split_nodes,155,418,164,420,135,470,156,453,150,442,138,465,153,450,155,450
+Auglaize,0190,German,unofficial,Raw/Auglaize.pdf,69-70,298,combined_node,66,347,59,354,55,368,51,371,61,352,65,349,60,360,62,357
+Auglaize,0200,Goshen,unofficial,Raw/Auglaize.pdf,73-74,299,exact,28,158,31,161,27,167,28,166,29,163,30,163,29,162,32,161
+Auglaize,0210,Jackson,unofficial,Raw/Auglaize.pdf,77-78,300,combined_node,33,391,39,387,26,414,26,414,34,394,30,403,35,398,31,401
+Auglaize,0220,Logan,unofficial,Raw/Auglaize.pdf,81-82,301,exact,62,376,75,361,64,394,62,395,62,379,66,387,64,387,66,381
+Auglaize,0230,Moulton,unofficial,Raw/Auglaize.pdf,85-86,296;297,split_nodes,139,647,168,625,128,709,129,708,130,680,136,700,143,689,143,689
+Auglaize,0250,Noble,unofficial,Raw/Auglaize.pdf,89-90,305,combined_node,97,470,106,458,80,511,90,498,95,482,94,494,91,495,96,487
+Auglaize,0260,Pusheta,unofficial,Raw/Auglaize.pdf,93-94,306,exact,85,466,94,462,83,501,92,490,90,479,95,486,91,485,86,490
+Auglaize,0270,St. Marys E,unofficial,Raw/Auglaize.pdf,97-98,305,combined_node,108,375,132,365,99,410,107,402,106,393,108,396,108,397,118,392
+Auglaize,0280,St. Marys S,unofficial,Raw/Auglaize.pdf,101-102,305;310,boundary_overlap,133,467,152,455,115,508,125,499,127,482,144,474,138,476,132,485
+Auglaize,0290,St. Marys W,unofficial,Raw/Auglaize.pdf,105-106,310,combined_node,111,250,116,255,101,292,111,279,110,264,114,278,116,276,113,276
+Auglaize,0300,Salem,unofficial,Raw/Auglaize.pdf,109-110,307,exact,23,151,28,150,23,168,22,168,22,159,24,165,24,165,27,159
+Auglaize,0310,Union W,unofficial,Raw/Auglaize.pdf,113-114,314,split_precinct,78,398,81,397,82,428,82,425,84,410,86,421,82,423,84,421
+Auglaize,0315,Union E,unofficial,Raw/Auglaize.pdf,117-118,314,split_precinct,50,238,49,239,48,258,49,255,48,248,51,254,51,253,52,253
+Auglaize,0320,Washington,unofficial,Raw/Auglaize.pdf,121-122,318,exact,42,430,46,429,39,452,42,449,43,439,43,444,45,443,43,446
+Auglaize,0330,Wayne,unofficial,Raw/Auglaize.pdf,125-126,319,combined_node,46,263,46,268,37,294,43,288,42,283,44,285,42,285,44,281
+Auglaize,0340,Buckland,unofficial,Raw/Auglaize.pdf,129-130,290,exact,23,51,21,55,19,60,21,58,19,54,17,61,20,58,21,56
+Auglaize,0350,Cridersville E,unofficial,Raw/Auglaize.pdf,133-134,292,exact,47,157,51,155,42,172,46,166,47,161,44,171,51,164,47,167
+Auglaize,0360,Cridersville W,unofficial,Raw/Auglaize.pdf,137-138,293,exact,91,316,94,304,80,347,86,341,91,327,91,330,92,330,92,329
+Auglaize,0370,Minster N,unofficial,Raw/Auglaize.pdf,141-142,300,combined_node,147,675,165,663,119,724,133,710,139,684,148,693,149,689,147,696
+Auglaize,0380,Minster S,unofficial,Raw/Auglaize.pdf,145-146,302,exact,98,537,101,537,82,575,95,556,96,549,102,548,104,549,106,549
+Auglaize,0390,New Bremen E,unofficial,Raw/Auglaize.pdf,149-150,303,exact,63,310,70,296,57,320,54,321,59,313,59,315,63,313,59,316
+Auglaize,0395,New Bremen S,unofficial,Raw/Auglaize.pdf,153-154,303,split_precinct,137,454,158,443,118,488,138,465,131,449,134,464,138,456,144,454
+Auglaize,0400,New Bremen W,unofficial,Raw/Auglaize.pdf,157-158,298,combined_node,122,383,128,381,107,423,116,413,120,390,126,401,124,405,122,400
+Auglaize,0410,New Knoxville,unofficial,Raw/Auglaize.pdf,161-162,304,exact,64,340,65,338,52,371,57,364,61,350,57,363,63,360,62,358
+Auglaize,0430,Waynesfield,unofficial,Raw/Auglaize.pdf,165-166,319,combined_node,42,159,48,155,48,180,50,176,49,169,49,174,51,174,52,169
