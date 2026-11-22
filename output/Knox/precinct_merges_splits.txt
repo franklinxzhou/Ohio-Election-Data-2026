@@ -1,0 +1,78 @@
+Knox County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Knox.pdf, 09:39 AM official precinct report dated November 17,
+  2026. CSV page references are physical PDF pages. Page 67 is an
+  inserted 3-C local-levy supplement with no statewide contests.
+  The canvass supplies precinct labels. The precinct code field is blank.
+  https://www.boe.ohio.gov/knox/election-info/election-results/
+  Countywide official summary, pp. 2-4:
+  https://www.boe.ohio.gov/knox/c/elecres/20261103results.pdf
+  Knox County Tax Map & GIS voting precinct shapefile dated June 12, 2026:
+  https://www.co.knox.oh.us/DocumentCenter/View/1174/Voting-Precincts-ZIP
+  Census 2020 TIGERweb Voting Districts for Ohio, Knox County (39083):
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  Query parameters: where=STATE='39' AND COUNTY='083', outFields=BASENAME,GEOID,
+  outSR=5070, f=geojson.
+  OH_pct20.json, nodes[].ORIG_NAME for historical membership.
+
+Splits and other boundary changes
+  Milford A and Milford B cover 44.04% and 55.76% of old MILFORD
+  (4210), respectively. Pleasant A and Pleasant B cover 35.51% and
+  63.10% of old PLEASANT (part of 4216).
+  Fredericktown A covers 93.81% of old FREDERICKTOWN A and 98.98%
+  of old FREDERICKTOWN C. It also overlaps old WAYNE (14.82% of
+  current Fredericktown A's area).
+  Clinton A is mostly former CLINTON C. Clinton B includes most of
+  former CLINTON A and CLINTON B. The rows below show the mapped
+  shares for these and the other overlaps.
+
+Graph nodes with multiple 2020 precinct names
+  4186 and 4187: CLINTON A, CLINTON B and MOUNT VERNON 1-B. The
+    same historical group occurs in two House districts (61 and 98).
+    Both graph IDs are retained for overlaps with that group.
+  4188: CLINTON C and MORRIS B.
+  4191: FREDERICKTOWN A and WAYNE.
+  4213: MONROE B and MOUNT VERNON 3-C.
+  4216: MOUNT VERNON 1-A, 1-C, 3-B and PLEASANT.
+
+Method
+  County map parts were grouped by precinct and intersected with Census
+  precinct polygons in EPSG:5070. Map CLAY matches canvass CLAY-MART and
+  Census CLAY-MARTINSBURG. Mount Vernon's ward labels omit the city name
+  in the canvass and county map.
+  Each percentage below is the mapped share of the current precinct.
+  Graph links include all historical precincts covering at least 2% of
+  that area. Small overlaps may reflect differences in the map sources.
+  Votes remain on their original canvass rows. Area shares record geometry.
+
+Mapped crosswalk exceptions
+1-B | boundary_overlap | 4186;4187 | MOUNT VERNON 1-B (87.54%); CLINTON A (9.10%)
+1-C | boundary_overlap | 4216 | MOUNT VERNON 1-C (88.58%); PLEASANT (10.45%)
+2-A | boundary_overlap | 4186;4187;4217 | MOUNT VERNON 2-A (96.48%); CLINTON B (3.03%)
+2-B | boundary_overlap | 4188;4218 | MOUNT VERNON 2-B (97.02%); CLINTON C (2.78%)
+3-A | boundary_overlap | 4213;4220 | MOUNT VERNON 3-A (86.92%); MOUNT VERNON 3-C (12.49%)
+3-B | boundary_overlap | 4213;4216 | MOUNT VERNON 3-B (86.19%); MOUNT VERNON 3-C (11.86%)
+3-C | boundary_overlap | 4213;4220 | MOUNT VERNON 3-C (85.24%); MOUNT VERNON 3-A (11.66%)
+4-B | boundary_overlap | 4188;4222 | MOUNT VERNON 4-B (94.24%); MORRIS B (4.25%)
+4-C | boundary_overlap | 4222;4223 | MOUNT VERNON 4-C (90.58%); MOUNT VERNON 4-B (9.13%)
+BRINKHAVEN | boundary_overlap | 4181;4225 | BRINKHAVEN (93.89%); UNION (5.51%)
+CENTERBURG | boundary_overlap | 4184;4198;4199 | CENTERBURG (73.25%); HILLIAR B (18.00%); HILLIAR A (8.75%)
+CLINTON A | boundary_overlap | 4186;4187;4188 | CLINTON C (91.03%); CLINTON B (8.08%)
+CLINTON B | boundary_overlap | 4186;4187 | CLINTON B (71.93%); CLINTON A (24.50%)
+DANVILLE | boundary_overlap | 4190;4225 | DANVILLE (85.92%); UNION (14.08%)
+FREDERICKTOWN A | boundary_overlap | 4191;4193 | FREDERICKTOWN A (42.44%); FREDERICKTOWN C (41.01%); WAYNE (14.82%)
+GAMBIER A | boundary_overlap | 4194;4195;4196 | GAMBIER A (57.64%); GAMBIER B (38.69%); GAMBIER C (2.31%)
+GAMBIER B | boundary_overlap | 4194;4196 | GAMBIER C (97.65%); GAMBIER A (2.35%)
+GAMBIER C | boundary_overlap | 4189;4194;4195 | GAMBIER B (77.00%); GAMBIER A (18.10%); COLLEGE (4.73%)
+HOWARD A | boundary_overlap | 4200;4203 | HOWARD A (55.31%); HOWARD D (42.98%)
+HOWARD B | boundary_overlap | 4201;4202 | HOWARD B (95.76%); HOWARD C (4.06%)
+HOWARD C | boundary_overlap | 4200;4202;4203;4204 | HOWARD C (77.61%); HOWARD A (9.12%); HOWARD E (7.30%); HOWARD D (5.69%)
+HOWARD D | boundary_overlap | 4203;4204 | HOWARD D (67.77%); HOWARD E (32.23%)
+HOWARD E | boundary_overlap | 4202;4204 | HOWARD E (65.44%); HOWARD C (34.33%)
+MILFORD A | split_precinct | 4210 | MILFORD (99.97%)
+MILFORD B | split_precinct | 4210 | MILFORD (99.80%)
+MORRIS B | boundary_overlap | 4188;4215 | MORRIS B (87.86%); MORRIS A (12.01%)
+PLEASANT A | split_precinct | 4216 | PLEASANT (97.67%)
+PLEASANT B | split_precinct | 4216 | PLEASANT (99.90%)

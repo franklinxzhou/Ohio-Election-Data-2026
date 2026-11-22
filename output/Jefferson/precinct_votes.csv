@@ -1,0 +1,56 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Jefferson,001,STEUBENVILLE 1-1,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4151;4152,merged_precinct,226,158,235,156,240,179,230,196,239,168,250,174,233,185,243,173
+Jefferson,004,STEUBENVILLE 2-1,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4153,exact,145,173,145,172,154,182,157,181,153,173,157,177,153,183,154,182
+Jefferson,005,STEUBENVILLE 2-2,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4154,exact,247,266,255,258,269,275,260,290,269,266,274,269,268,274,271,271
+Jefferson,007,STEUBENVILLE 3-1,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4155,combined_node,133,197,142,199,136,217,143,215,133,207,136,216,131,224,137,219
+Jefferson,008,STEUBENVILLE 3-2,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4156,exact,170,278,177,273,172,282,170,299,174,283,178,285,173,290,175,285
+Jefferson,010,STEUBENVILLE 4-1,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4155;4157,merged_precinct,198,97,193,95,211,103,209,108,208,95,215,102,215,104,217,100
+Jefferson,013,STEUBENVILLE 5-1,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4158,exact,182,231,182,226,184,236,177,251,179,242,185,239,185,239,187,236
+Jefferson,014,STEUBENVILLE 5-2,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4159,exact,168,247,164,246,176,254,172,264,172,245,177,256,173,261,179,257
+Jefferson,015,STEUBENVILLE 5-3,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4160,exact,170,251,163,244,166,263,162,268,168,250,165,267,173,262,177,257
+Jefferson,017,STEUBENVILLE 6-1,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4161,exact,154,217,154,213,160,229,148,246,159,224,163,228,160,232,159,229
+Jefferson,018,STEUBENVILLE 6-2,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4162,exact,171,352,172,350,171,359,161,379,177,351,171,366,180,361,179,360
+Jefferson,019,STEUBENVILLE 6-3,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4123,combined_node,207,307,206,310,208,313,204,325,205,314,208,319,203,321,208,321
+Jefferson,021,TORONTO 1-A,official,Raw/Jefferson.pdf,"2,3,5,7,9,11,13,15",4165,exact,196,263,194,261,196,274,185,291,197,272,189,280,194,280,199,276
+Jefferson,023,TORONTO 2-A,official,Raw/Jefferson.pdf,"2,3,5,7,9,11,13,15",4166,exact,172,238,169,246,171,261,168,271,171,255,172,257,172,262,170,260
+Jefferson,025,TORONTO 3-A,official,Raw/Jefferson.pdf,"2,4,6,8,10,12,14,16",4167,exact,168,218,165,219,172,238,162,250,166,229,175,237,176,237,174,237
+Jefferson,027,TORONTO 4-A,official,Raw/Jefferson.pdf,"2,4,6,8,10,12,14,16",4168,exact,125,171,122,173,130,182,131,186,123,179,132,181,131,181,135,178
+Jefferson,029,BRUSH CREEK,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4122,exact,41,85,44,84,38,96,36,104,42,95,41,99,38,101,44,97
+Jefferson,031,WINTERSVILLE A,official,Raw/Jefferson.pdf,"2,4,6,8,10,12,14,16",4175,exact,182,271,178,273,183,276,178,294,191,268,189,274,192,274,194,274
+Jefferson,032,WINTERSVILLE B,official,Raw/Jefferson.pdf,"2,4,6,8,10,12,14,16",4176,exact,180,208,180,216,184,227,180,235,182,218,183,227,178,230,190,221
+Jefferson,033,WINTERSVILLE C,official,Raw/Jefferson.pdf,"2,4,6,8,10,12,14,16",4169;4177,merged_precinct,276,339,276,327,274,361,272,379,277,356,272,370,274,366,278,362
+Jefferson,034,BANTAM RIDGE,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4116,exact,194,451,191,448,193,469,181,488,185,464,184,479,185,476,194,462
+Jefferson,036,BRENTWOOD,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4120,exact,178,267,177,263,186,261,175,279,183,257,188,260,187,263,188,261
+Jefferson,037,CROSS CREEK,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4123,combined_node,118,344,122,344,118,369,114,383,113,361,119,372,118,371,128,362
+Jefferson,040,WEST PARK,official,Raw/Jefferson.pdf,"2,4,6,8,10,12,14,16",4174,exact,153,231,161,238,160,252,164,256,154,244,171,245,166,255,162,258
+Jefferson,042,ISLAND CREEK,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4132,exact,106,247,109,240,109,258,106,267,107,258,108,262,111,261,112,261
+Jefferson,043,MT TABOR,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4137,exact,63,237,67,232,62,258,62,263,59,253,63,257,65,259,65,259
+Jefferson,044,PLEASANT HILL 1,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4142,exact,104,268,108,269,104,285,101,298,106,280,106,288,108,284,116,275
+Jefferson,045,PLEASANT HILL 2,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4143,exact,101,322,100,328,104,348,101,363,98,341,103,360,102,360,110,350
+Jefferson,046,TWO RIDGE,official,Raw/Jefferson.pdf,"2,4,6,8,10,12,14,16",4169,combined_node,107,173,105,180,108,181,114,180,110,177,111,181,110,184,110,183
+Jefferson,047,WELSMAR,official,Raw/Jefferson.pdf,"2,4,6,8,10,12,14,16",4173,exact,26,75,28,75,27,89,28,90,25,90,28,90,25,93,27,91
+Jefferson,048,WINTRINGER,official,Raw/Jefferson.pdf,"2,4,6,8,10,12,14,16",4178,exact,40,102,47,101,43,110,42,114,46,101,44,109,45,109,48,105
+Jefferson,050,STRATTON,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4163,exact,35,50,34,51,36,59,39,56,39,53,38,56,39,54,42,52
+Jefferson,051,GRANT,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4127;4130,merged_precinct,95,199,98,198,98,212,93,224,93,208,94,217,95,216,99,212
+Jefferson,052,NEW SOMERSET,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4139,exact,103,349,108,346,107,368,110,370,108,360,111,366,112,367,109,360
+Jefferson,055,EMERSON,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4126;4136,merged_precinct,259,410,245,409,255,428,247,447,248,428,255,431,248,438,264,417
+Jefferson,057,ROSS,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4146,exact,54,150,54,154,49,163,50,168,54,159,52,163,53,165,57,161
+Jefferson,058,RICHMOND,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4145,exact,42,139,47,131,43,144,39,152,38,144,44,146,39,151,47,145
+Jefferson,059,SALEM,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4147,exact,63,258,57,253,59,282,55,292,61,271,65,282,62,285,63,281
+Jefferson,060,SHELLEY,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4149,exact,154,514,157,503,150,543,144,564,149,534,147,561,149,555,154,547
+Jefferson,063,SALINE,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4131;4148,merged_precinct,129,230,120,236,129,266,132,279,130,258,130,274,130,277,136,267
+Jefferson,066,LINCOLN,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4133;4150,merged_precinct,172,150,171,152,166,171,160,189,169,166,165,179,166,177,170,173
+Jefferson,067,PINE VALLEY,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4124;4140,merged_precinct,141,186,138,182,145,192,136,205,141,189,141,195,146,195,146,189
+Jefferson,068,PINEY FORK,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4114;4141,merged_precinct,117,209,119,210,124,221,123,227,124,217,125,221,122,222,122,223
+Jefferson,069,AMSTERDAM,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4115,exact,49,56,55,57,53,63,52,64,50,62,52,61,51,65,52,64
+Jefferson,071,ELK,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4118;4125,merged_precinct,128,357,131,354,142,387,136,403,134,383,139,396,140,395,143,389
+Jefferson,072,MINGO 1,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4128;4134,merged_precinct,186,258,188,256,201,270,197,282,189,270,191,278,190,278,196,275
+Jefferson,074,MINGO 2,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4128;4135,merged_precinct,220,344,218,341,209,358,220,364,224,347,214,368,220,360,227,351
+Jefferson,076,GEORGES RUN,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4128,combined_node,59,131,63,124,59,136,57,147,60,130,63,141,65,139,62,142
+Jefferson,079,TILTONSVILLE,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4144;4164,merged_precinct,256,317,254,314,248,339,247,350,251,331,253,336,254,334,263,326
+Jefferson,081,YORKVILLE,official,Raw/Jefferson.pdf,"2,4,6,8,10,12,14,16",4179,exact,81,98,85,96,84,109,84,108,84,103,87,103,86,105,84,106
+Jefferson,083,GLEN ROBBINS,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4129,exact,243,322,233,322,248,352,242,366,252,338,249,356,250,355,256,346
+Jefferson,085,BELVEDERE,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4117,exact,77,256,81,247,72,277,79,275,77,259,79,273,77,272,85,265
+Jefferson,087,WAYNE,official,Raw/Jefferson.pdf,"2,4,6,8,10,12,14,16",4119;4170,merged_precinct,105,382,109,377,101,419,105,419,98,399,103,419,106,413,107,409
+Jefferson,088,BRILLIANT,official,Raw/Jefferson.pdf,"1,3,5,7,9,11,13,15",4121,exact,134,228,135,236,138,245,133,257,132,247,132,257,131,256,138,245
+Jefferson,090,WELLS,official,Raw/Jefferson.pdf,"2,4,6,8,10,12,14,16",4138;4171;4172,merged_precinct,176,303,176,299,169,341,166,354,174,328,169,345,169,348,178,335

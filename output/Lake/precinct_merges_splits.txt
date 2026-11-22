@@ -1,0 +1,83 @@
+Lake County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Lake.pdf, official Precinct Summary Results Report dated November
+  19, 2026. CSV page references are physical PDF pages. The report
+  supplies precinct names. The CSV precinct code field is blank.
+  https://wpassets.lakecountyohio.gov/wp-content/uploads/sites/12/2026/11/19104819/Lake-Countys-Official-Canvass-Precinct-Summary.pdf
+  Countywide official summary, pp. 2-4:
+  https://wpassets.lakecountyohio.gov/wp-content/uploads/sites/12/2026/11/19104826/Official-with-Write-in.pdf
+  County voting precinct polygons:
+  https://gis.lakecountyohio.gov/arcgis/rest/services/Elections/Elections_Precincts/MapServer/0
+  Query: where=1=1, outFields=NAME,PRECINCTID,Short_ID, outSR=5070, f=geojson.
+  Census 2020 TIGERweb Voting Districts, Lake County, Ohio (39085):
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  Query: where=STATE='39' AND COUNTY='085', outFields=BASENAME,GEOID,
+  outSR=5070, f=geojson.
+  OH_pct20.json, nodes[].ORIG_NAME for historical graph membership.
+
+Canvass reporting splits
+  The 170 report labels cover 163 voting precincts. Each pair below
+  was summed for the statewide contests. The CSV includes pages for
+  both parts of each precinct.
+  CONCORD TWP B: CHAR + RLSD.
+  KIRTLAND HILLS AA: KIRT + MENT.
+  PAINESVILLE CITY 2B: PCTY + RLSD.
+  PAINESVILLE CITY 3B: PCTY + RLSD.
+  PAINESVILLE CITY 3C: PCTY + RLSD.
+  WAITE HILL VILLAGE AA: KIRT + WLEL.
+  WILLOUGHBY CITY 3C: KIRT + WLEL.
+
+Changes and shared graph nodes
+  All 163 named historical precinct labels also appear in the county
+  GIS. Some precincts retain their names after their boundaries change.
+  Painesville City 4A corresponds mostly to the former 4D, including
+  79.16% of old 4D. Painesville City 4D covers 98.81% of former 4A.
+  Painesville City 3C contains 41.70% of the former 4C area.
+  Concord Twp M contains 28.45% of the former Concord Twp I area.
+  4254 groups FAIRPORT HBR BB, GRAND RIVER AA, PAINESVILLE CITY 1A,
+    PAINESVILLE CITY 4B, and PAINESVILLE TWP J.
+  4318 groups PAINESVILLE CITY 2B and PAINESVILLE TWP D.
+  4337 groups PERRY TWP C and PERRY VILLAGE AA.
+  4283 and 4284 both represent MENTOR CITY 1I, in House districts 23
+    and 57. Both IDs are retained wherever the historic precinct links.
+  4340 and 4341 are Census areas labeled VOTING DISTRICTS NOT DEFINED.
+    They do not correspond to a canvass precinct and are excluded.
+
+Method
+  The two map layers were intersected in EPSG:5070. Percentages below
+  refer to the current precinct's mapped area. The crosswalk retains
+  named historic precincts covering at least 2% of that area. Other
+  precincts link by name. Small overlaps can reflect map differences.
+  Votes remain on the 163 precinct rows and are never apportioned
+  across graph nodes.
+
+Mapped crosswalk exceptions
+CONCORD TWP E | boundary_overlap | 4230;4283;4284 | CONCORD TWP E (96.43%); MENTOR CITY 1I (3.22%)
+CONCORD TWP M | boundary_overlap | 4234;4238 | CONCORD TWP M (55.02%); CONCORD TWP I (44.86%)
+FAIRPORT HBR AA | boundary_overlap | 4253;4254 | FAIRPORT HBR AA (92.69%); PAINESVILLE TWP J (4.11%)
+FAIRPORT HBR BB | boundary_overlap | 4254 | FAIRPORT HBR BB (97.46%); PAINESVILLE CITY 1A (2.05%)
+MADISON VILLAGE AA | boundary_overlap | 4271;4273 | MADISON VILLAGE AA (96.60%); MADISON TWP I (3.17%)
+MENTOR CITY 1E | boundary_overlap | 4279;4283;4284 | MENTOR CITY 1E (88.91%); MENTOR CITY 1I (10.91%)
+MENTOR CITY 2C | boundary_overlap | 4287;4288;4360 | MENTOR CITY 2C (92.14%); WILLOUGHBY CITY 3C (4.05%); MENTOR CITY 2D (3.77%)
+MENTOR CITY 2I | boundary_overlap | 4259;4293 | MENTOR CITY 2I (96.50%); KIRTLAND HILLS AA (3.41%)
+MENTOR CITY 3A | boundary_overlap | 4294;4311 | MENTOR CITY 3A (95.56%); MENTOR-ON-THE-LAKE 1A (3.17%)
+MENTOR CITY 4D | boundary_overlap | 4304;4305 | MENTOR CITY 4D (94.64%); MENTOR CITY 4C (4.69%)
+PAINESVILLE CITY 1A | boundary_overlap | 4254;4317 | PAINESVILLE CITY 1A (95.34%); PAINESVILLE CITY 2A (4.27%)
+PAINESVILLE CITY 1B | boundary_overlap | 4316;4333 | PAINESVILLE CITY 1B (97.42%); PAINESVILLE TWP K (2.51%)
+PAINESVILLE CITY 2A | boundary_overlap | 4254;4317 | PAINESVILLE CITY 2A (91.43%); PAINESVILLE CITY 4B (3.88%)
+PAINESVILLE CITY 3A | boundary_overlap | 4319;4323 | PAINESVILLE CITY 3A (96.80%); PAINESVILLE CITY 4C (2.97%)
+PAINESVILLE CITY 3B | boundary_overlap | 4318;4320 | PAINESVILLE CITY 3B (94.79%); PAINESVILLE TWP D (4.47%)
+PAINESVILLE CITY 3C | boundary_overlap | 4321;4323;4330 | PAINESVILLE CITY 3C (69.89%); PAINESVILLE CITY 4C (25.30%); PAINESVILLE TWP G (2.59%)
+PAINESVILLE CITY 4A | boundary_overlap | 4324 | PAINESVILLE CITY 4D (98.74%)
+PAINESVILLE CITY 4B | boundary_overlap | 4254;4324 | PAINESVILLE CITY 4B (87.97%); PAINESVILLE CITY 4D (10.62%)
+PAINESVILLE CITY 4D | boundary_overlap | 4322 | PAINESVILLE CITY 4A (99.11%)
+PAINESVILLE TWP A | boundary_overlap | 4325;4333 | PAINESVILLE TWP A (94.56%); PAINESVILLE TWP K (5.34%)
+PAINESVILLE TWP F | boundary_overlap | 4233;4329 | PAINESVILLE TWP F (96.78%); CONCORD TWP H (2.74%)
+PAINESVILLE TWP H | boundary_overlap | 4324;4331 | PAINESVILLE TWP H (96.43%); PAINESVILLE CITY 4D (3.44%)
+PERRY VILLAGE AA | boundary_overlap | 4336;4337 | PERRY VILLAGE AA (96.74%); PERRY TWP B (2.63%)
+TIMBERLAKE VILLAGE AA | boundary_overlap | 4247;4248;4339 | TIMBERLAKE VILLAGE AA (92.82%); EASTLAKE CITY 3A (2.32%); EASTLAKE CITY 3B (2.29%)
+WILLOUGHBY CITY 5A | boundary_overlap | 4360;4364 | WILLOUGHBY CITY 5A (97.08%); WILLOUGHBY CITY 3C (2.77%)
+WILLOUGHBY CITY 6B | boundary_overlap | 4368;4371 | WILLOUGHBY CITY 6B (97.66%); WILLOUGHBY HILLS CITY BB (2.22%)
+WILLOWICK CITY 2B | boundary_overlap | 4241;4381 | WILLOWICK CITY 2B (97.02%); EASTLAKE CITY 1A (2.83%)

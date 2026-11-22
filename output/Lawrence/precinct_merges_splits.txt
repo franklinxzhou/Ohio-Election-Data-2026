@@ -1,0 +1,27 @@
+Lawrence County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Lawrence.pdf, Official Results precinct summary dated November 19,
+  2026 at 12:04 PM. CSV page references identify the statewide tables
+  in that PDF. The county website also has an election-night release.
+  https://www.boe.ohio.gov/lawrence/election-info/election-results/
+  OH_pct20.json, nodes[].ORIG_NAME for historical graph membership.
+
+Combined graph nodes
+  4411: 0500 UPPER #1, 0630 IRONTON 1D, and 0670 IRONTON 2B.
+  4450: 0270 SHERIDAN #2, 0280 SOUTH POINT #4, and 0290 SOUTH POINT #5.
+  Each of these precincts has a separate row in the official report
+  and retains its own vote totals in the CSV.
+
+All 84 official precinct labels match historical names across 80
+graph nodes. The lookup drops number signs from labels such as AID #1
+for matching while the CSV preserves the printed labels and codes.
+The name crosswalk identifies no canvass precinct merges or splits.
+Exact boundary continuity remains unverified.
+
+Vote reconciliation
+  All 672 precinct contest totals reconcile to the printed totals.
+  The countywide sums were independently recomputed from the official
+  precinct report. The separate cumulative report could not be retrieved
+  for an official countywide comparison.

@@ -1,0 +1,69 @@
+Jefferson County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Jefferson.pdf, Official Precinct Detail dated November 16, 2026.
+  The statewide candidate tables are on pp. 1-16. The countywide
+  candidate totals appear on pp. 1-2 of the separate official summary.
+  https://www.boe.ohio.gov/jefferson/election-info/election-results/
+  https://www.boe.ohio.gov/jefferson/c/elecres/20261103results.pdf
+  OH_pct20.json, nodes[].ORIG_NAME and adjacency for 2020 graph membership.
+
+Consolidations announced for November 2025
+  068 PINEY FORK: ADENA (4114) + PINEY FORK (4141).
+  072 MINGO 1: MINGO A (4134) + MINGO B (part of 4128).
+  074 MINGO 2: MINGO C (4135) + MINGO D (part of 4128).
+  079 TILTONSVILLE: RAYLAND (4144) + TILTONSVILLE (4164).
+  090 WELLS: NEW ALEXANDRIA (4138) + WELLS 1 (4171) + WELLS 2 (4172).
+  033 WINTERSVILLE C: WINTERSVILLE D (part of 4169) + WINTERSVILLE C (4177).
+  WTOV reported the Board of Elections' approved consolidation list
+  on July 21, 2025. The November 2025 official precinct detail lists
+  the successor names, including MINGO 1 and 2 on p. 17, and reports
+  New Alexandria's village council contest under WELLS on p. 20.
+  https://wtov9.com/news/local/jefferson-county-approves-major-precinct-overhaul-affecting-27-of-voters-by-2025-election-precinct-overhaul-jefferson-county-polling-location-registered-voters-election-day-voting-process-consolidations-robert-gale
+  https://www.boe.ohio.gov/jefferson/c/elecres/20251104precinct.pdf
+
+Earlier changes shown by village contests
+  The November 2022 official canvass lists the old names separately.
+  The following local contests show where those villages were reported:
+  071 ELK: BERGHOLZ (4118) + ELK (4125). Bergholz council, 2025 p. 12.
+  051 GRANT: EMPIRE (4127) + GRANT (4130). Empire council, 2025 pp. 14-15.
+  067 PINE VALLEY: DILLONVALE (4124) + PINE VALLEY (4140).
+    Dillonvale council, 2025 p. 13.
+  055 EMERSON: EMERSON (4126) + MT PLEASANT (4136).
+    Mt Pleasant village levies, 2026 pp. 51-52.
+  063 SALINE: IRONDALE (4131) + SALINE (4148).
+    Irondale village levy, 2026 p. 50.
+  https://www.boe.ohio.gov/jefferson/c/elecres/20221108precinct.pdf
+  https://www.boe.ohio.gov/jefferson/c/elecres/20251104precinct.pdf
+
+Consolidations inferred from successive reports
+  066 LINCOLN: SMITHFIELD (4150) + LINCOLN (4133).
+    Their 2022 registrations were 455 and 327. Smithfield disappears
+    from the 2024 list, where Lincoln reports 781 registered voters.
+    Lincoln is Smithfield's only neighbor in the 2020 graph.
+  087 WAYNE: BLOOMINGDALE (4119) + WAYNE (4170).
+    Their 2022 registrations were 112 and 802. Bloomingdale disappears
+    from the 2024 list, where Wayne reports 901 registered voters.
+    Wayne is Bloomingdale's only neighbor in the 2020 graph.
+  001 STEUBENVILLE 1-1: STEUBENVILLE 1-1 (4151) + STEUBENVILLE 1-2 (4152).
+    The 2025 mayoral table lists 628 and 550 registered voters. Both
+    names still appear in May 2026. In November, 1-1 has 1,206 and is
+    the sole remaining Ward 1 precinct.
+  010 STEUBENVILLE 4-1: STEUBENVILLE 4-1 (4157) + STEUBENVILLE 4-2
+    (part of 4155). The 2025 mayoral table lists 679 and 518 registered
+    voters. Both names still appear in May 2026. In November, 4-1 has
+    1,238 and is the sole remaining Ward 4 precinct.
+  https://liveresults.boe.ohio.gov/widgets/jeffersonoh/2024-11-05/TurnoutByPrecinctTable.html
+  https://www.boe.ohio.gov/jefferson/c/elecres/20251104precinct.pdf
+  https://www.boe.ohio.gov/jefferson/c/elecres/20260505precinct.pdf
+
+2020 graph nodes shared by multiple 2026 canvass rows
+  4123: CROSS CREEK and STEUBENVILLE 6-3.
+  4128: GEORGES RUN, MINGO 1 (via MINGO B), MINGO 2 (via MINGO D).
+  4155: STEUBENVILLE 3-1 and STEUBENVILLE 4-1 (via STEUBENVILLE 4-2).
+  4169: TWO RIDGE and WINTERSVILLE C (via WINTERSVILLE D).
+
+Each canvass row keeps its full vote totals. A row marked merged_precinct
+can also share a graph node. The crosswalk uses names and documentary
+evidence. Exact polygon boundaries and smaller shifts remain unverified.

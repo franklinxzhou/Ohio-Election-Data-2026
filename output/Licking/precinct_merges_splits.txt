@@ -1,0 +1,46 @@
+Licking County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Licking.pdf, Licking's Unofficial Canvass, generated November 4,
+  2026 at 3:13 PM. The CSV cites pages with statewide candidate votes.
+  The report supplies precinct labels. The precinct code field is blank.
+  https://www.boe.ohio.gov/licking/election-info/election-results/
+  OH_pct20.json, nodes[].ORIG_NAME and NAME for 2020 graph membership.
+  All 16 candidate sums match the Licking row of the Ohio Secretary
+  of State's unofficial canvass (U.S. Congress, Statewide Offices,
+  and Supreme Court sheets). The workbook used for comparison is
+  archived at output/Highland/unofficial_state_canvass.xlsx.
+  https://liveresults.ohiosos.gov/Api/v1/download?filename=GeneralElectionXlsFile
+
+Graph nodes containing multiple historical precincts
+  4471: ETNA TWP A, PATASKALA 1-B, REYNOLDSBURG 2-A,
+    REYNOLDSBURG 3-A, REYNOLDSBURG 3-B.
+  4472: ETNA TWP B, ETNA TWP C.
+  4475: GRANVILLE TWP A, GRANVILLE TWP C, GRANVILLE VLG A,
+    GRANVILLE VLG B, NEWARK 5-A.
+  4480: HARRISON TWP A, PATASKALA 3-B.
+  4481: HARRISON TWP B, HARRISON TWP D, PATASKALA 4-B.
+  4497: JOHNSTOWN VLG C, MONROE TWP B.
+
+Historical groups represented in two graph nodes
+  4501 and 4502: LICKING TWP B, UNION TWP B.
+  4504 and 4505: MADISON TWP A, MADISON TWP B, NEWARK 1-B.
+  4523 and 4524: NEWARK 5-E, NEWARK 6-A, NEWARK 6-B, NEWARK 6-D,
+    NEWARK 6-E, NEWARK 7-B, NEWARK TWP, NEWTON TWP A, NEWTON TWP B.
+  Each pair repeats the same historical names in House districts 68 and
+  69. The CSV retains both graph IDs for those canvass precincts.
+
+Label variants
+  TOWNSHIP and VILLAGE match TWP and VLG in the graph. JOHNSTOWN A,
+  B and C match JOHNSTOWN VLG A, B and C, respectively. Other matches:
+  EDEN FALL TOWNSHIP -> EDEN FALLSBURY TWP.
+  HARRISON TWP B-KIRK -> HARRISON TWP B.
+  HARTFORD TWP-VLG -> HARTFORD TWP.
+  HOPEWELL TWP-GRATIOT VLG -> HOPEWELL TWP/GRATIOT VLG.
+  NEWTON TWP B-ST LOU -> NEWTON TWP B.
+  ST. ALBANS TWP B-ALEX -> ST. ALBANS TWP B.
+
+All 96 precincts keep their original canvass vote rows and link to
+75 graph nodes. The name crosswalk identifies no canvass precinct
+merges or splits. Boundary continuity remains unverified.

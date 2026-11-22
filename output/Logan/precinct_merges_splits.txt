@@ -1,0 +1,31 @@
+Logan County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Logan.pdf, official precinct canvass dated November 16, 2026 at
+  10:15 AM. CSV page references identify statewide candidate tables.
+  The report supplies precinct labels. The CSV precinct code is blank.
+  https://www.boe.ohio.gov/logan/election-info/election-results/
+  Official countywide summary, pp. 2-4:
+  https://www.boe.ohio.gov/logan/c/elecres/20261103results.pdf
+  OH_pct20.json, nodes[].ORIG_NAME for historical graph membership.
+
+Combined graph nodes
+  4549: Harrison, Jefferson North, Jefferson South, Lake, and Liberty.
+  4559: Russells Point, Stokes West, and Washington North.
+  Each precinct retains its own canvass row and vote counts.
+
+Label variants
+  Jefferson North and South match JEFFERSON N and S. Stokes North,
+  Southeast, and West match STOKES N, SE, and W. Washington North and
+  South match WASHINGTON N and S.
+  Miami/Quincy matches MIAMI (4553). The Board of Elections precinct
+  map labels the precinct Miami & Quincy (19), and the 2025 official
+  canvass reports Miami Township and Quincy Village contests in the
+  same Miami/Quincy precinct (p. 60).
+  https://www.boe.ohio.gov/logan/c/images/Logan_County_Precincts.pdf
+  https://www.boe.ohio.gov/logan/c/elecres/20251104precinct.pdf
+
+All 36 canvass precincts link to 30 graph nodes. The name crosswalk
+identifies no canvass precinct merges or splits. Exact boundary
+continuity remains unverified.

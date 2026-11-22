@@ -1,0 +1,85 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Lawrence,0010,AID #1,official,Raw/Lawrence.pdf,"1,2,3,4",4386,normalized,36,162,38,160,31,175,29,176,33,169,32,171,28,175,32,173
+Lawrence,0020,AID #2,official,Raw/Lawrence.pdf,"8,9,10,11",4387,normalized,24,50,22,50,20,55,21,54,20,54,21,54,20,56,21,54
+Lawrence,0030,DECATUR,official,Raw/Lawrence.pdf,"15,16,17,18",4399,exact,30,132,26,140,27,144,25,144,28,139,26,143,26,142,30,140
+Lawrence,0040,ELIZABETH #1,official,Raw/Lawrence.pdf,"22,23,24,25",4400,normalized,61,144,67,146,63,155,62,157,60,154,61,158,61,157,63,154
+Lawrence,0050,ELIZABETH #2,official,Raw/Lawrence.pdf,"29,30,31,32",4401,normalized,67,238,66,233,64,258,74,248,66,247,71,249,66,257,68,252
+Lawrence,0060,ELIZABETH #3,official,Raw/Lawrence.pdf,"36,37,38,39",4402,normalized,48,91,54,81,50,97,47,97,50,94,48,97,48,99,49,97
+Lawrence,0070,FAYETTE #1,official,Raw/Lawrence.pdf,"43,44,45,46",4403,normalized,98,253,100,262,93,280,92,281,92,269,93,279,96,276,96,276
+Lawrence,0080,FAYETTE #2,official,Raw/Lawrence.pdf,"51,52,53,54",4404,normalized,46,143,52,140,53,145,52,149,51,145,52,148,53,147,49,151
+Lawrence,0090,FAYETTE #3,official,Raw/Lawrence.pdf,"59,60,61,62",4405,normalized,62,181,68,179,65,199,72,191,67,182,71,192,66,200,71,191
+Lawrence,0100,BURLINGTON #1,official,Raw/Lawrence.pdf,"67,68,69,70",4391,normalized,83,108,84,112,87,132,89,132,82,125,85,135,85,134,90,130
+Lawrence,0110,BURLINGTON #2,official,Raw/Lawrence.pdf,"75,76,77,78",4392,normalized,155,202,147,221,157,227,149,231,152,223,156,225,151,230,152,228
+Lawrence,0120,BURLINGTON #3,official,Raw/Lawrence.pdf,"83,84,85,86",4393,normalized,126,184,122,191,132,197,129,197,128,189,127,200,131,196,131,193
+Lawrence,0130,SOUTH POINT #1,official,Raw/Lawrence.pdf,"91,92,93,94",4451,normalized,68,120,74,126,71,133,68,135,72,129,68,137,71,132,72,133
+Lawrence,0140,SOUTH POINT #2,official,Raw/Lawrence.pdf,"99,100,101,102",4452,normalized,140,223,142,233,141,246,138,247,140,234,144,243,143,240,140,246
+Lawrence,0150,SOUTH POINT #3,official,Raw/Lawrence.pdf,"107,108,109,110",4453,normalized,91,149,93,147,85,164,84,162,86,159,86,160,84,163,84,162
+Lawrence,0160,HAMILTON,official,Raw/Lawrence.pdf,"115,116,117,118",4406,exact,56,105,58,104,68,107,64,111,62,102,68,106,69,107,65,109
+Lawrence,0170,HANGING ROCK,official,Raw/Lawrence.pdf,"122,123,124,125",4407,exact,32,48,32,51,28,61,27,62,27,53,27,57,28,57,27,59
+Lawrence,0180,LAWRENCE #1,official,Raw/Lawrence.pdf,"129,130,131,132",4439,normalized,66,206,70,204,66,220,57,229,63,212,61,224,54,228,62,221
+Lawrence,0190,LAWRENCE #2,official,Raw/Lawrence.pdf,"136,137,138,139",4440,normalized,81,172,84,170,81,189,81,187,85,173,79,189,81,187,79,190
+Lawrence,0200,LAWRENCE #3,official,Raw/Lawrence.pdf,"143,144,145,146",4441,normalized,77,262,81,262,75,277,79,276,77,267,78,273,77,273,76,276
+Lawrence,0210,MASON #1,official,Raw/Lawrence.pdf,"150,151,152,153",4442,normalized,37,122,40,119,37,126,39,124,38,122,38,123,36,124,37,122
+Lawrence,0220,MASON #2,official,Raw/Lawrence.pdf,"157,158,159,160",4443,normalized,26,82,23,85,26,90,26,90,24,89,22,94,23,92,25,91
+Lawrence,0230,PERRY #1,official,Raw/Lawrence.pdf,"164,165,166,167",4445,normalized,85,185,94,179,87,197,87,199,89,188,85,202,84,199,90,195
+Lawrence,0240,PERRY #2,official,Raw/Lawrence.pdf,"171,172,173,174",4446,normalized,108,221,117,227,102,252,99,255,99,237,104,254,107,252,105,250
+Lawrence,0250,PERRY #3,official,Raw/Lawrence.pdf,"179,180,181,182",4447,normalized,31,127,37,130,31,141,31,142,28,136,29,142,29,143,30,142
+Lawrence,0260,SHERIDAN #1,official,Raw/Lawrence.pdf,"186,187,188,189",4449,normalized,90,186,94,193,97,204,93,209,90,198,98,203,94,208,99,204
+Lawrence,0270,SHERIDAN #2,official,Raw/Lawrence.pdf,"193,194,195,196",4450,combined_node,134,150,138,160,135,170,135,166,134,164,132,168,134,168,141,162
+Lawrence,0280,SOUTH POINT #4,official,Raw/Lawrence.pdf,"200,201,202,203",4450,combined_node,50,87,53,87,50,95,53,92,53,88,51,93,55,89,54,91
+Lawrence,0290,SOUTH POINT #5,official,Raw/Lawrence.pdf,"207,208,209,210",4450,combined_node,120,194,126,196,117,218,111,223,121,206,117,217,121,212,127,202
+Lawrence,0300,ATHALIA,official,Raw/Lawrence.pdf,"214,215,216,217",4388,exact,30,47,33,50,31,53,30,53,34,49,30,53,32,51,31,53
+Lawrence,0310,LABELLE #1,official,Raw/Lawrence.pdf,"221,222,223,224",4432,normalized,89,169,83,177,84,194,83,192,82,184,82,194,81,195,84,193
+Lawrence,0320,LABELLE #2,official,Raw/Lawrence.pdf,"229,230,231,232",4433,normalized,245,419,246,430,240,462,234,467,242,444,241,458,234,462,246,450
+Lawrence,0330,LABELLE #3,official,Raw/Lawrence.pdf,"237,238,239,240",4434,normalized,105,152,107,154,107,168,104,171,101,163,106,170,111,163,112,165
+Lawrence,0340,LABELLE #4,official,Raw/Lawrence.pdf,"245,246,247,248",4435,normalized,161,274,164,279,165,296,159,301,158,286,158,305,158,306,166,293
+Lawrence,0350,LABELLE #5,official,Raw/Lawrence.pdf,"253,254,255,256",4436,normalized,86,159,87,165,89,172,91,166,87,167,89,171,90,168,89,170
+Lawrence,0360,LABELLE #6,official,Raw/Lawrence.pdf,"261,262,263,264",4437,normalized,197,370,209,375,199,402,191,409,197,383,199,399,202,395,203,394
+Lawrence,0370,LABELLE #7,official,Raw/Lawrence.pdf,"269,270,271,272",4438,normalized,78,138,80,135,74,149,74,149,75,145,76,145,74,148,74,148
+Lawrence,0380,MILLER,official,Raw/Lawrence.pdf,"277,278,279,280",4444,exact,116,307,119,308,109,340,117,333,116,324,116,338,119,334,120,332
+Lawrence,0390,SYMMES,official,Raw/Lawrence.pdf,"285,286,287,288",4454,exact,19,87,18,91,18,94,18,94,16,94,19,95,19,94,20,92
+Lawrence,0400,UNION #1,official,Raw/Lawrence.pdf,"292,293,294,295",4455,normalized,115,278,121,275,118,295,115,296,118,282,117,295,116,296,121,288
+Lawrence,0410,UNION #2,official,Raw/Lawrence.pdf,"299,300,301,302",4456,normalized,99,174,100,183,104,190,103,193,100,185,102,190,100,192,101,193
+Lawrence,0420,UNION #3,official,Raw/Lawrence.pdf,"306,307,308,309",4457,normalized,138,226,139,237,132,243,133,244,133,236,128,245,131,245,133,241
+Lawrence,0430,UNION #4,official,Raw/Lawrence.pdf,"313,314,315,316",4458,normalized,160,290,165,304,163,319,163,319,160,309,154,325,166,317,166,313
+Lawrence,0440,UNION #5,official,Raw/Lawrence.pdf,"320,321,322,323",4459,normalized,111,179,111,188,116,189,115,189,114,182,115,190,117,186,117,186
+Lawrence,0450,BRADRICK #1,official,Raw/Lawrence.pdf,"327,328,329,330",4389,normalized,58,139,61,146,62,150,60,153,62,144,59,152,64,147,61,149
+Lawrence,0460,BRADRICK #2,official,Raw/Lawrence.pdf,"334,335,336,337",4390,normalized,50,134,54,130,50,144,50,142,50,137,52,142,49,145,51,142
+Lawrence,0470,CHESAPEAKE A,official,Raw/Lawrence.pdf,"341,342,343,344",4394,exact,38,42,34,46,35,50,38,47,34,45,36,48,36,48,35,49
+Lawrence,0480,CHESAPEAKE B,official,Raw/Lawrence.pdf,"350,351,352,353",4395,exact,44,80,43,83,43,91,42,90,44,86,43,89,44,87,45,88
+Lawrence,0490,PROCTORVILLE,official,Raw/Lawrence.pdf,"358,359,360,361",4448,exact,64,59,64,63,65,66,64,66,66,64,65,67,65,66,67,64
+Lawrence,0500,UPPER #1,official,Raw/Lawrence.pdf,"366,367,368,369",4411,combined_node,41,54,45,51,46,52,46,54,42,52,44,55,44,54,45,54
+Lawrence,0510,UPPER #2,official,Raw/Lawrence.pdf,"373,374,375,376",4460,normalized,68,172,73,163,68,187,68,188,66,177,70,186,72,184,71,185
+Lawrence,0520,UPPER #3,official,Raw/Lawrence.pdf,"380,381,382,383",4461,normalized,68,186,69,189,67,194,68,196,68,193,69,195,65,199,68,195
+Lawrence,0530,UPPER #4,official,Raw/Lawrence.pdf,"387,388,389,390",4462,normalized,59,118,54,117,54,128,54,129,55,126,60,124,56,126,55,127
+Lawrence,0540,COAL GROVE A,official,Raw/Lawrence.pdf,"394,395,396,397",4396,exact,31,56,36,58,33,64,29,67,34,59,35,62,33,64,34,63
+Lawrence,0550,COAL GROVE B,official,Raw/Lawrence.pdf,"401,402,403,404",4397,exact,39,147,42,148,43,161,43,160,44,158,41,160,42,162,46,157
+Lawrence,0560,COAL GROVE C,official,Raw/Lawrence.pdf,"408,409,410,411",4398,exact,51,143,64,138,54,152,55,152,56,144,55,152,55,152,53,151
+Lawrence,0570,WASHINGTON,official,Raw/Lawrence.pdf,"415,416,417,418",4463,exact,19,44,14,48,11,54,18,49,14,50,17,49,17,50,15,50
+Lawrence,0580,WINDSOR #1,official,Raw/Lawrence.pdf,"422,423,424,425",4464,normalized,50,175,59,172,52,191,50,194,52,177,52,193,51,190,53,188
+Lawrence,0590,WINDSOR #2,official,Raw/Lawrence.pdf,"429,430,431,432",4465,normalized,96,224,98,226,97,252,99,249,94,239,97,251,98,247,105,240
+Lawrence,0600,IRONTON 1A,official,Raw/Lawrence.pdf,"436,437,438,439",4408,exact,87,106,89,100,84,112,88,106,84,106,87,109,87,109,86,109
+Lawrence,0610,IRONTON 1B,official,Raw/Lawrence.pdf,"444,445,446,447",4409,exact,44,54,48,55,47,60,46,57,44,57,44,59,46,60,48,58
+Lawrence,0620,IRONTON 1C,official,Raw/Lawrence.pdf,"452,453,454,455",4410,exact,31,39,33,41,34,43,32,45,34,42,33,44,33,44,34,41
+Lawrence,0630,IRONTON 1D,official,Raw/Lawrence.pdf,"460,461,462,463",4411,combined_node,29,28,29,32,30,38,30,38,30,33,31,37,30,38,32,36
+Lawrence,0640,IRONTON 1E,official,Raw/Lawrence.pdf,"468,469,470,471",4412,exact,98,124,104,126,101,140,97,144,96,131,107,133,97,142,97,140
+Lawrence,0650,IRONTON 1F,official,Raw/Lawrence.pdf,"476,477,478,479",4413,exact,117,126,126,125,115,142,111,144,121,129,112,141,117,138,116,140
+Lawrence,0660,IRONTON 2A,official,Raw/Lawrence.pdf,"484,485,486,487",4414,exact,23,30,23,32,23,37,22,36,23,34,21,38,22,38,23,37
+Lawrence,0670,IRONTON 2B,official,Raw/Lawrence.pdf,"492,493,494,495",4411,combined_node,13,26,15,30,13,32,13,32,13,30,13,32,13,32,13,30
+Lawrence,0680,IRONTON 2C,official,Raw/Lawrence.pdf,"500,501,502,503",4415,exact,43,58,44,57,44,61,45,60,46,57,44,60,45,60,41,61
+Lawrence,0690,IRONTON 2D,official,Raw/Lawrence.pdf,"508,509,510,511",4416,exact,60,37,63,35,58,45,61,43,59,40,64,40,60,43,61,41
+Lawrence,0700,IRONTON 3A,official,Raw/Lawrence.pdf,"516,517,518,519",4417,exact,37,34,46,32,40,41,38,45,40,40,40,43,38,44,41,41
+Lawrence,0710,IRONTON 3B,official,Raw/Lawrence.pdf,"524,525,526,527",4418,exact,56,34,54,36,56,38,54,38,54,38,55,37,55,37,56,37
+Lawrence,0720,IRONTON 3C,official,Raw/Lawrence.pdf,"532,533,534,535",4419,exact,10,20,10,20,10,21,10,21,10,21,9,22,9,22,9,22
+Lawrence,0730,IRONTON 3D,official,Raw/Lawrence.pdf,"540,541,542,543",4420,exact,43,32,45,33,44,38,45,36,45,36,43,38,44,37,43,39
+Lawrence,0740,IRONTON 3E,official,Raw/Lawrence.pdf,"548,549,550,551",4421,exact,67,62,72,60,72,64,72,63,75,56,66,69,72,62,72,64
+Lawrence,0750,IRONTON 4A,official,Raw/Lawrence.pdf,"556,557,558,559",4422,exact,39,48,38,49,37,52,38,51,36,52,39,50,38,50,39,50
+Lawrence,0760,IRONTON 4B,official,Raw/Lawrence.pdf,"564,565,566,567",4423,exact,45,61,48,55,39,71,40,68,40,66,42,67,39,68,43,66
+Lawrence,0770,IRONTON 4C,official,Raw/Lawrence.pdf,"572,573,574,575",4424,exact,60,73,62,76,56,83,59,81,58,78,59,81,59,81,58,82
+Lawrence,0780,IRONTON 4D,official,Raw/Lawrence.pdf,"580,581,582,583",4425,exact,62,53,65,54,64,59,59,62,59,58,63,57,61,58,64,56
+Lawrence,0790,IRONTON 4E,official,Raw/Lawrence.pdf,"588,589,590,591",4426,exact,66,94,73,96,73,101,72,101,76,95,72,101,70,103,75,99
+Lawrence,0800,IRONTON 4F,official,Raw/Lawrence.pdf,"596,597,598,599",4427,exact,90,133,100,126,89,135,86,140,93,124,91,134,92,136,87,142
+Lawrence,0810,IRONTON 4G,official,Raw/Lawrence.pdf,"604,605,606,607",4428,exact,82,61,82,59,84,69,78,75,77,72,79,71,81,71,80,73
+Lawrence,0820,IRONTON 4H,official,Raw/Lawrence.pdf,"612,613,614,615",4429,exact,48,48,47,47,50,50,51,48,51,46,50,50,51,49,53,47
+Lawrence,0830,IRONTON 4I,official,Raw/Lawrence.pdf,"620,621,622,623",4430,exact,85,66,86,62,84,69,81,71,82,70,83,72,82,73,80,73
+Lawrence,0840,IRONTON 5A,official,Raw/Lawrence.pdf,"628,629,630,631",4431,exact,56,108,64,106,56,118,56,118,57,112,56,118,54,117,54,118
