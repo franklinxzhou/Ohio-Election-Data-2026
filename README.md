@@ -38,3 +38,12 @@ Given the incomplete availability of certified precinct-level returns, the estim
 
 Our full analysis of Ohio's three proposed/enacted congressional districting plans will be published soon. Please check back for details!
 
+## AI Use Disclosure
+
+In the preparation of this dataset, the author used ChatGPT (GPT-6.2 Sol, OpenAI) as an AI-assisted programming and research support tool. Its use included:
+
+1. Data extraction and processing: Assisting in the development of parsers for county-level election canvass documents and adapting these parsers to the varying structures and formatting conventions of PDF files published by county BoEs.
+2. Source documentation: Assisting in organizing and cross-referencing publicly available records of precinct boundary changes, including county BoE meeting minutes and precinct boundary documentation.
+3. Data validation: Assisting in comparing aggregated precinct-level election returns against independently reported county-level totals.
+
+AI-generated code, suggestions, and validation procedures were used as research aids rather than independent sources of data or authoritative verification. *The author retains full responsibility for the implementation of the methods, the accuracy and integrity of the resulting dataset, as well as any errors or omissions.*
