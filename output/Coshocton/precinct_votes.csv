@@ -1,0 +1,24 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Coshocton,,1-A,official,Raw/Coshocton.pdf,2-7,1059,combined_node,124,145,140,139,124,160,126,163,131,151,132,157,129,154,130,157
+Coshocton,,1-B,official,Raw/Coshocton.pdf,2-7,1060,normalized,173,184,179,198,180,210,173,219,175,194,181,208,182,209,181,211
+Coshocton,,2-A,official,Raw/Coshocton.pdf,2-7,1059,combined_node,129,189,136,190,127,215,123,218,135,198,134,207,124,218,137,204
+Coshocton,,2-B,official,Raw/Coshocton.pdf,2-7,1061,normalized,118,173,127,176,121,203,122,203,123,188,125,197,128,195,129,193
+Coshocton,,3-A,official,Raw/Coshocton.pdf,2-7,1062,normalized,200,273,224,267,202,315,209,308,209,289,215,302,216,301,214,305
+Coshocton,,3-B,official,Raw/Coshocton.pdf,2-7,1059,combined_node,255,385,269,360,243,408,235,416,247,385,251,395,244,396,255,392
+Coshocton,,4-A,official,Raw/Coshocton.pdf,2-7,1059,combined_node,89,123,98,120,87,141,82,145,89,129,84,144,92,140,96,135
+Coshocton,,4-B,official,Raw/Coshocton.pdf,2-7,1059,combined_node,310,481,333,456,299,520,287,535,301,485,292,518,292,513,303,511
+Coshocton,,Bedford / Washington,official,Raw/Coshocton.pdf,2-7,1056,exact,113,357,118,355,108,383,111,381,112,365,110,374,114,370,124,361
+Coshocton,,Bethlehem,official,Raw/Coshocton.pdf,2-7,1057,exact,109,350,131,335,104,379,96,386,107,364,105,373,104,374,112,365
+Coshocton,,Clark / Monroe / Tiverton,official,Raw/Coshocton.pdf,2-7,1058,exact,92,339,93,351,90,381,97,370,91,363,91,376,97,368,93,371
+Coshocton,,Crawford,official,Raw/Coshocton.pdf,2-7,1063,exact,28,133,34,130,32,137,30,137,26,136,31,138,31,136,34,133
+Coshocton,,Franklin / Virginia,official,Raw/Coshocton.pdf,2-7,1064,normalized,149,426,180,422,149,484,155,485,147,458,161,468,161,467,161,466
+Coshocton,,Jackson,official,Raw/Coshocton.pdf,2-7,1065,exact,182,569,194,563,177,627,178,627,182,587,186,612,183,612,186,609
+Coshocton,,Jefferson / Nellie / New Castle /,official,Raw/Coshocton.pdf,2-7,1066,normalized,182,492,202,495,184,546,191,536,189,516,194,537,187,534,200,524
+Coshocton,,Keene / Millcreek,official,Raw/Coshocton.pdf,2-7,1067,exact,207,529,243,520,199,576,204,571,212,535,197,571,207,564,214,555
+Coshocton,,Lafayette,official,Raw/Coshocton.pdf,2-7,1059,combined_node,224,429,247,423,226,472,225,481,234,443,234,464,233,463,238,459
+Coshocton,,Linton,official,Raw/Coshocton.pdf,2-7,1068,normalized,69,160,78,162,68,188,73,183,70,178,67,186,68,185,71,185
+Coshocton,,Oxford,official,Raw/Coshocton.pdf,2-7,1069,exact,171,412,185,414,166,456,168,459,171,436,167,459,170,454,176,451
+Coshocton,,Perry / Pike,official,Raw/Coshocton.pdf,2-7,1070,exact,83,349,100,348,78,387,79,387,84,364,83,377,79,383,84,379
+Coshocton,,Tuscarawas,official,Raw/Coshocton.pdf,2-7,1059,combined_node,112,253,126,249,123,287,119,292,123,270,130,277,125,283,139,266
+Coshocton,,West Lafayette,official,Raw/Coshocton.pdf,2-7,1059,combined_node,221,382,244,366,232,405,216,418,221,396,228,401,232,402,236,401
+Coshocton,,White Eyes / Adams,official,Raw/Coshocton.pdf,2-7,1071,exact,160,447,173,451,154,481,155,479,160,462,163,473,158,472,167,463

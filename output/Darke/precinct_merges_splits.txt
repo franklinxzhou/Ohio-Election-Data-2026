@@ -1,0 +1,34 @@
+Darke County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Darke.pdf, final official precinct canvass, generated November 17,
+  2026 at 12:07 p.m. The report supplies names without a separate code.
+  https://www.boe.ohio.gov/darke/c/elecres/20261103precinct.pdf
+  OH_pct20.json, nodes[].ORIG_NAME for historical graph membership.
+
+Combined graph node 2086
+  GREENVILLE CITY 2-B (pp. 21-23)
+  GREENVILLE CITY 2-C (pp. 26-28)
+  ORIG_NAME = GREENVILLE CITY 2-B_DARKE,GREENVILLE CITY 2-C_DARKE
+
+Combined graph node 2109
+  VERSAILLES VILLAGE - A (pp. 208-210)
+  WAYNE TOWNSHIP (pp. 218-220)
+  ORIG_NAME = VERSAILLES VILLAGE - A_DARKE,WAYNE TOWNSHIP_DARKE
+
+Monroe Township
+  MONROE TOWNSHIP (pp. 146-148) links to node 2102,
+  MONROE TWP & PITSBURG VILLAGE_DARKE. The 2019 official precinct
+  report uses the longer name. The 2025 official precinct report
+  lists both Pitsburg issues under MONROE TOWNSHIP on PDF p. 75.
+  https://www.boe.ohio.gov/darke/c/elecres/20191105precinct.pdf
+  https://www.boe.ohio.gov/darke/c/elecres/20251104precinct.pdf
+
+Other label differences
+  FRANKLIN TWP. matches FRANKLIN TOWNSHIP. LIBERTY TWP. & PALESTINE,
+  PATTERSON TWP. OSGOOD & YORKSHIRE, and TWIN TWP. GORDON & ITHACA
+  match after dropping the period in TWP.
+
+Each precinct keeps its own vote row. The crosswalk follows published
+precinct names and the graph membership. Boundary continuity was not assessed.

@@ -1,0 +1,36 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Crawford,,BUCYRUS 1A,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1073,exact,112,182,119,185,114,213,114,211,113,198,120,204,112,211,120,201
+Crawford,,BUCYRUS 1B,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1074,combined_node,95,172,101,170,99,195,96,198,95,184,99,195,105,191,106,189
+Crawford,,BUCYRUS 2A,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1075,exact,156,226,172,230,165,262,163,263,167,241,170,253,167,258,170,256
+Crawford,,BUCYRUS 2B,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1076,exact,152,333,164,337,149,372,157,365,141,357,155,362,156,361,163,357
+Crawford,,BUCYRUS 3A,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1077,exact,123,256,125,255,123,278,120,276,124,264,124,275,125,273,127,269
+Crawford,,BUCYRUS 3B,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1078,exact,134,223,140,220,135,242,135,243,129,233,137,240,143,232,144,227
+Crawford,,BUCYRUS 3C,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1079,exact,172,340,179,330,156,369,158,360,165,350,164,354,167,357,166,359
+Crawford,,BUCYRUS 4A,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1074,combined_node,118,250,133,254,120,278,119,278,113,271,118,281,127,274,126,270
+Crawford,,BUCYRUS 4B,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1080,exact,151,199,159,200,157,223,148,227,156,211,152,225,160,217,162,219
+Crawford,,CRESTLINE 1A,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1083,exact,178,245,185,247,172,279,170,279,173,267,172,279,177,271,176,272
+Crawford,,CRESTLINE 2A,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1084,combined_node,124,267,130,279,121,305,123,302,132,278,119,302,127,294,135,287
+Crawford,,CRESTLINE 3A,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1084,combined_node,87,188,86,199,93,204,94,202,88,198,92,206,96,203,93,204
+Crawford,,CRESTLINE 4A,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1085,exact,138,173,143,181,138,202,135,200,136,186,137,199,141,195,143,195
+Crawford,,GALION 1A,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1087,combined_node,130,246,137,246,136,264,129,270,133,251,132,267,133,268,134,263
+Crawford,,GALION 1B,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1087,combined_node,164,218,176,218,169,238,166,244,160,238,168,240,163,243,173,234
+Crawford,,GALION 2A,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1087,combined_node,92,166,96,179,97,189,93,194,89,178,95,189,95,189,96,188
+Crawford,,GALION 2B,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1087,combined_node,131,192,140,183,138,203,134,205,134,191,136,204,140,199,141,199
+Crawford,,GALION 3A,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1087,combined_node,103,141,114,143,105,168,113,165,106,155,111,166,110,163,113,161
+Crawford,,GALION 3B,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1088,exact,118,200,124,205,118,227,122,224,125,212,125,222,126,218,126,219
+Crawford,,GALION 4A,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1087,combined_node,126,167,128,166,127,184,129,183,123,177,130,180,130,183,133,180
+Crawford,,GALION 4B,official,output/Crawford/official_canvass.pdf,"2,4,6,8,10,12",1087,combined_node,110,175,115,176,115,198,110,202,106,187,115,198,117,196,119,194
+Crawford,,GALION 4C,official,output/Crawford/official_canvass.pdf,"3,4,6,8,10,12",1089,exact,150,245,155,246,151,266,145,268,146,257,148,264,154,263,156,259
+Crawford,,AUBURN TWP,official,output/Crawford/official_canvass.pdf,"3,4,6,8,10,12",1072,exact,35,216,41,215,38,231,37,233,42,221,41,227,36,228,41,226
+Crawford,,BUCYRUS TWP,official,output/Crawford/official_canvass.pdf,"3,4,6,8,10,12",1081,exact,97,300,109,291,91,335,95,328,88,321,98,327,94,329,91,331
+Crawford,,CHATFIELD TWP,official,output/Crawford/official_canvass.pdf,"3,4,6,8,10,12",1074,combined_node,49,238,62,230,55,247,50,253,52,238,51,252,55,248,56,245
+Crawford,,CRANBERRY TWP,official,output/Crawford/official_canvass.pdf,"3,4,6,8,10,12",1082,exact,125,455,154,433,116,499,117,501,120,476,114,499,124,488,121,494
+Crawford,,DALLAS TWP,official,output/Crawford/official_canvass.pdf,"3,4,6,8,10,12",1086,exact,47,158,53,158,45,175,47,179,50,166,46,173,47,174,52,169
+Crawford,,HOLMES-TEXAS,official,output/Crawford/official_canvass.pdf,"3,4,6,8,10,12",1074,combined_node,144,492,156,485,139,535,141,537,138,512,140,533,144,525,143,526
+Crawford,,JEFFERSON TWP,official,output/Crawford/official_canvass.pdf,"3,4,6,8,10,12",1090,exact,171,469,178,451,156,504,155,504,153,489,160,499,162,495,166,492
+Crawford,,LIBERTY TWP,official,output/Crawford/official_canvass.pdf,"3,4,6,8,10,12",1074,combined_node,121,436,127,423,119,456,114,460,116,441,120,453,118,456,122,453
+Crawford,,LYKENS-TOD,official,output/Crawford/official_canvass.pdf,"3,5,7,9,11,13",1074,combined_node,87,421,97,412,84,452,84,450,87,436,82,448,86,447,99,433
+Crawford,,POLK TWP,official,output/Crawford/official_canvass.pdf,"3,5,7,9,11,13",1087,combined_node,216,623,226,625,208,678,210,676,208,649,214,672,212,674,222,661
+Crawford,,SANDUSKY-WHETSTONE NORTH,official,output/Crawford/official_canvass.pdf,"3,5,7,9,11,13",1091,exact,156,491,158,489,141,529,141,532,150,512,148,521,145,520,160,504
+Crawford,,VERNON TWP,official,output/Crawford/official_canvass.pdf,"3,5,7,9,11,13",1092,exact,79,243,74,244,64,270,64,269,65,258,71,261,65,267,70,262
+Crawford,,WHETSTONE TWP SOUTH,official,output/Crawford/official_canvass.pdf,"3,5,7,9,11,13",1093,exact,89,258,97,246,80,284,88,273,85,264,88,273,85,276,94,266

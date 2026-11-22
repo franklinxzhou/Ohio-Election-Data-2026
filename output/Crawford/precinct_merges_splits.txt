@@ -1,0 +1,38 @@
+Crawford County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Crawford.pdf is the May 5, 2026 primary. The extraction uses
+  output/Crawford/official_canvass.pdf, the county's official November
+  canvass generated November 18. Pages 2-13 contain the statewide returns
+  and Totals rows. The report supplies no separate precinct codes.
+  https://crawfordcountyohioboe.gov/wp-content/uploads/Official-Precinct-Results-SOVC-11-3-2026.pdf
+  OH_pct20.json, nodes[].ORIG_NAME.
+
+Combined graph node 1074
+  BUCYRUS 1B (PDF pp. 2,4,6,8,10,12)
+  BUCYRUS 4A (PDF pp. 2,4,6,8,10,12)
+  CHATFIELD TWP (PDF pp. 3,4,6,8,10,12)
+  HOLMES-TEXAS (PDF pp. 3,4,6,8,10,12)
+  LIBERTY TWP (PDF pp. 3,4,6,8,10,12)
+  LYKENS-TOD (PDF pp. 3,5,7,9,11,13)
+  ORIG_NAME = BUCYRUS 1B_CRAWFORD,BUCYRUS 4A_CRAWFORD,CHATFIELD TWP_CRAWFORD,HOLMES-TEXAS_CRAWFORD,LIBERTY TWP_CRAWFORD,LYKENS-TOD_CRAWFORD
+
+Combined graph node 1084
+  CRESTLINE 2A (PDF pp. 2,4,6,8,10,12)
+  CRESTLINE 3A (PDF pp. 2,4,6,8,10,12)
+  ORIG_NAME = CRESTLINE 2A_CRAWFORD,CRESTLINE 3A_CRAWFORD
+
+Combined graph node 1087
+  GALION 1A (PDF pp. 2,4,6,8,10,12)
+  GALION 1B (PDF pp. 2,4,6,8,10,12)
+  GALION 2A (PDF pp. 2,4,6,8,10,12)
+  GALION 2B (PDF pp. 2,4,6,8,10,12)
+  GALION 3A (PDF pp. 2,4,6,8,10,12)
+  GALION 4A (PDF pp. 2,4,6,8,10,12)
+  GALION 4B (PDF pp. 2,4,6,8,10,12)
+  POLK TWP (PDF pp. 3,5,7,9,11,13)
+  ORIG_NAME = GALION 1A_CRAWFORD,GALION 1B_CRAWFORD,GALION 2A_CRAWFORD,GALION 2B_CRAWFORD,GALION 3A_CRAWFORD,GALION 4A_CRAWFORD,GALION 4B_CRAWFORD,POLK TWP_CRAWFORD
+
+Each precinct retains its own vote row. The crosswalk follows the names
+in the graph and the canvass. Boundary continuity was not assessed.

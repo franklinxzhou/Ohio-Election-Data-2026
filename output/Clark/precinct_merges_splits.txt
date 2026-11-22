@@ -1,0 +1,103 @@
+Clark County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Clark.pdf, November 17 official canvass. Statewide vote counts
+  and countywide controls appear on pp. 1-2 and 5-18.
+  https://www.boe.ohio.gov/clark/c/elecres/SOVCbyContestPrecinct.pdf
+  Clark County Auditor, Voting Precincts GIS (78 precinct names).
+  https://ago.clarkcountyohio.gov/ccoarcgis/rest/services/WMAS/VotingPrecincts/MapServer/0
+  Clark County Board of Elections countywide and Springfield maps.
+  https://www.boe.ohio.gov/clark/c/upload/CountyWidePrecinctMap.pdf
+  https://www.boe.ohio.gov/clark/c/upload/CityPrecinctsMap.pdf
+  U.S. Census Bureau, 2020 Census Voting Districts, state 39, county 023.
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  OH_pct20.json, nodes[].ORIG_NAME and ENACTED_LOWER.
+
+Historical boundary changes
+  The county layer was joined to the canvass by name. GIS abbreviations,
+  spacing and zero padding differ, and GIS codes can be reused. For each
+  county polygon the crosswalk includes 2020 voting districts covering
+  at least 2% of its mapped area. Shares are approximate, measured on a
+  raster in the common GIS projection (EPSG:3857, about 1,700 pixels along
+  each current precinct's longest side). Small overlaps are omitted.
+  Graph IDs are the union of the retained districts' ORIG_NAME matches.
+  Area percentages describe geography. Votes remain in their own precinct
+  rows in full and are not allocated across graph nodes.
+
+  CITY 21, CARL 5, and MFLD 9 each occupy a portion of one historical
+  district (CITY 11, CARL 1, and MFLD 1, respectively). CITY 27 tracks
+  historical CITY 14 with approximately the same footprint.
+  The first published returns found for CARL 4 and CARL 5 are from the
+  May 2026 primary. Both were absent in the November 2025 results.
+  https://liveresults.boe.ohio.gov/ENR/clarkohenr/18/en/Index_18.html
+  https://liveresults.boe.ohio.gov/ENR/clarkohenr/19/en/Index_19.html
+
+  Current code and name: historical districts with area shares -> graph IDs
+  001 CITY 1: CITY 1 93.4%, CITY 21 6.6% -> 742, 744
+  003 CITY 3: CITY 3 64.0%, CITY 2 36.1% -> 752, 757
+  004 CITY 4: CITY 4 62.6%, CITY 3 37.4% -> 757, 758
+  005 CITY 5: CITY 5 57.1%, CITY 18 16.3%, CITY 9 13.9%, CITY 6 12.8% -> 740, 759, 760, 763
+  006 CITY 6: CITY 7 66.0%, CITY 6 34.1% -> 760, 761
+  007 CITY 7: CITY 7 31.5%, CITY 12 27.9%, CITY 8 22.7%, T-4 13.2%, T-3 5.0% -> 734, 761, 762, 791, 792
+  008 CITY 8: CITY 10 56.8%, CITY 8 31.6%, CITY 12 7.3%, CITY 9 4.5% -> 732, 734, 762, 763
+  009 CITY 9: CITY 9 59.9%, CITY 10 24.3%, CITY 13 10.4%, CITY 18 5.5% -> 732, 735, 740, 763
+  010 CITY 10: CITY 13 71.8%, CITY 12 22.3%, CITY 16 3.4%, CITY 15 2.5% -> 734, 735, 737, 738
+  011 CITY 11: CITY 15 37.2%, CITY 16 30.5%, CITY 17 26.5%, CITY 13 6.0% -> 735, 737, 738, 739
+  012 CITY 12: CITY 15 39.0%, CITY 25 23.5%, CITY 16 22.9%, CITY 17 14.6% -> 737, 738, 739, 748
+  013 CITY 13: CITY 18 58.1%, CITY 24 34.3%, CITY 25 7.7% -> 740, 747, 748
+  014 CITY 14: CITY 29 62.4%, CITY 30 22.7%, CITY 25 8.6%, CITY 24 6.4% -> 747, 748, 751, 753
+  015 CITY 15: CITY 26 75.9%, CITY 27 15.8%, CITY 28 8.4% -> 737, 749, 750
+  016 CITY 16: CITY 28 58.2%, CITY 31 41.8% -> 737, 750
+  017 CITY 17: CITY 26 34.8%, CITY 31 33.6%, CITY 27 31.7% -> 737, 749
+  018 CITY 18: CITY 32 63.1%, MFLD 1 14.3%, CITY 31 8.3%, CITY 26 7.9%, CITY 35 5.2% -> 737
+  019 CITY 19: CITY 33 70.3%, CITY 32 29.8% -> 737, 754
+  020 CITY 20: CITY 34 37.3%, CITY 35 33.6%, CITY 36 29.2% -> 737, 755
+  021 CITY 21: CITY 11 99.8% -> 733
+  022 CITY 22: CITY 37 59.6%, CITY 11 25.9%, CITY 36 14.6% -> 733, 737, 756
+  023 CITY 23: CITY 30 61.3%, CITY 34 17.9%, CITY 18 13.0%, CITY 37 4.3%, CITY 36 3.5% -> 737, 740, 753, 755, 756
+  024 CITY 24: CITY 23 52.3%, CITY 18 21.0%, CITY 22 20.7%, CITY 30 5.6% -> 740, 745, 746, 753
+  025 CITY 25: CITY 20 41.0%, CITY 19 38.6%, CITY 21 14.9%, CITY 18 3.7%, CITY 22 2.1% -> 740, 741, 743, 744, 745
+  026 CITY 26: CITY 1 59.4%, CITY 21 37.8%, CITY 22 2.8% -> 742, 744, 745
+  027 CITY 27: CITY 14 100.0% -> 736
+  028 CARL 1: CARL 1 93.1%, CARL 2 7.0% -> 727, 728
+  031 CARL 4: CARL 1 52.1%, BETH 7 47.2% -> 724, 727
+  032 CARL 5: CARL 1 100.0% -> 727
+  033 BETH 1: BETH 1 63.2%, BETH 3 29.4%, MR-1 3.7%, BETH 9 2.5% -> 717, 718, 720, 726, 781
+  034 BETH 2: BETH 2 56.6%, BETH 9 43.5% -> 719, 726
+  035 BETH 3: BETH 8 44.9%, BETH 9 31.4%, BETH 2 23.8% -> 719, 725, 726
+  036 BETH 4: BETH 7 57.3%, BETH 8 21.6%, BETH 4 15.7%, BETH 3 5.5% -> 720, 721, 724, 725
+  037 BETH 5: BETH 4 56.4%, BETH 6 25.1%, BETH 5 18.2% -> 721, 722, 723
+  038 BETH 6: BETH 5 56.3%, BETH 7 25.7%, BETH 6 16.9% -> 722, 723, 724
+  039 GERM 1: GERM 1 81.3%, GERM 2 18.2% -> 737, 766
+  041 GERM 3: GERM 3 62.8%, GERM 4 37.3% -> 767, 768
+  043 GERM 5: GERM 5 92.2%, GERM 4 7.7% -> 737, 768
+  046 HARM 1: HARM 1 91.1%, HARM 2 8.8% -> 771, 772
+  047 HARM 2: HARM 2 80.1%, HARM 1 18.8% -> 771, 772
+  050 MR - 1: MR-1 96.7%, MR-2 3.4% -> 781, 782
+  053 MR - 4: MR-4 38.3%, MR-6 31.1%, MR-5 30.7% -> 784, 785, 786
+  058 MFLD 1: MFLD 6 53.1%, MFLD 1 25.0%, MFLD 2 19.2%, GERM 2 2.4% -> 737, 774, 777
+  059 MFLD 2: MFLD 4 68.2%, MFLD 2 29.6%, MFLD 8 2.1% -> 774, 776, 779
+  061 MFLD 4: MFLD 4 74.1%, MFLD 2 23.4%, MFLD 8 2.7% -> 774, 776, 779
+  062 MFLD 5: MFLD 5 90.9%, MFLD 4 8.1% -> 775, 776
+  063 MFLD 6: MFLD 9 79.5%, MFLD 6 20.5% -> 777, 780
+  064 MFLD 7: MFLD 10 52.7%, MFLD 9 47.3% -> 773, 780
+  065 MFLD 8: MFLD 7 60.7%, MFLD 8 21.8%, MFLD 10 11.7%, MFLD 6 6.0% -> 773, 777, 778, 779
+  066 MFLD 9: MFLD 1 98.3% -> 737
+  067 PIKE 1: PIKE 1 85.7%, PIKE 2 14.4% -> 724, 787
+  072 T - 2: T-2 96.9%, GERM 2 2.8% -> 737
+  073 T - 3: T-3 70.5%, T-4 29.1% -> 791, 792
+  074 T - 4: T-4 96.6%, GREE 1 3.4% -> 769, 792
+  075 T - 5: T-6 63.7%, T-5 34.5% -> 742, 793
+  076 T - 6: T-6 90.8%, T-7 5.9%, HARM 1 3.1% -> 742, 771
+  078 T - 8: T-8 72.2%, T-6 22.9%, HARM 1 2.6%, T-7 2.3% -> 742, 771, 794
+
+Graph nodes with multiple historical members
+  724: BETH 7 and PIKE 1.
+  737: CITY 15, CITY 26, CITY 31, CITY 32, CITY 35, CITY 36, GERM 2,
+       GERM 5, MFLD 1, and T-2.
+  742: CITY 1, T-6, and T-7.
+  775: MFLD 3 and MFLD 5.
+  Historical BETH 1 spans graph nodes 717 (HD71) and 718 (HD74).
+  The Census layer depicts BETH 1 as one voting district, so its share
+  points to both graph pieces. The share is not assigned between them.

@@ -1,0 +1,36 @@
+Coshocton County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Coshocton.pdf, Official Canvass Statement of Votes Cast, generated
+  November 17, 2026. Pages 2-7 contain the statewide precinct returns and
+  countywide Totals rows. The report does not supply a separate code field.
+  https://www.coshocton.boe.ohio.gov/wp-content/uploads/sites/5/2026/11/SOVC.pdf
+  OH_pct20.json, nodes[].ORIG_NAME.
+
+Combined graph node 1059
+  1-A, 2-A, 3-B, 4-A, 4-B, Lafayette, Tuscarawas, and West Lafayette.
+  The five ward labels carry a COSHOCTON prefix in ORIG_NAME.
+  West Lafayette appears as W LAFAYETTE in ORIG_NAME.
+  All eight reported precincts keep separate vote rows.
+
+Other label differences
+  1060, 1061, 1062: 1-B, 2-B, 3-A appear with a COSHOCTON prefix in
+  the graph. The county's city precinct map identifies the ward labels.
+  https://www.coshocton.boe.ohio.gov/wp-content/uploads/sites/5/2021/04/2019-City-Of-Coshocton-Precincts.pdf
+
+  1064: Franklin / Virginia links to FRANKLIN / CONESVILLE / VIRGINIA.
+  The 2025 official Conesville Village Council contest reports votes
+  under Franklin/Virginia.
+
+  1066: The 2026 report shows Jefferson / Nellie / New Castle / with
+  the last name clipped. The 2025 official Warsaw Village Council
+  contest gives the full label, Jefferson/Nellie/New Castle/Warsaw.
+  The CSV preserves the printed 2026 label.
+
+  1068: Linton links to LINTON / PLAINFIELD. The 2025 official Plainfield
+  Village Council contest reports its ballots under Linton.
+  https://www.coshocton.boe.ohio.gov/wp-content/uploads/sites/5/2025/11/SOVC.pdf
+
+  The crosswalk uses these documented name equivalents. Boundary
+  continuity was not assessed.

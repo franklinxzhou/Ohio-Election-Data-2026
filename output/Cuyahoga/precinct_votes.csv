@@ -1,0 +1,898 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Cuyahoga,1,BAY VILLAGE -01-A,unofficial,Raw/Cuyahoga.csv,,1094,normalized,449,263,457,254,428,280,419,286,422,266,424,275,427,274,429,273
+Cuyahoga,2,BAY VILLAGE -01-B,unofficial,Raw/Cuyahoga.csv,,1095;1096,boundary_overlap,454,227,482,209,448,246,441,258,453,226,452,239,447,236,447,244
+Cuyahoga,3,BAY VILLAGE -01-C,unofficial,Raw/Cuyahoga.csv,,1096,normalized,454,240,468,229,440,249,430,264,444,231,435,251,443,235,449,241
+Cuyahoga,4,BAY VILLAGE -02-A,unofficial,Raw/Cuyahoga.csv,,1097,normalized,493,241,509,231,470,263,456,274,470,241,461,265,476,245,485,239
+Cuyahoga,5,BAY VILLAGE -02-B,unofficial,Raw/Cuyahoga.csv,,1096;1097;1098;2057,boundary_overlap,471,199,484,185,451,218,446,223,462,197,446,218,463,207,458,213
+Cuyahoga,6,BAY VILLAGE -02-C,unofficial,Raw/Cuyahoga.csv,,1099;1102,boundary_overlap,541,241,561,228,524,258,510,273,522,235,522,252,538,240,531,248
+Cuyahoga,7,BAY VILLAGE -03-A,unofficial,Raw/Cuyahoga.csv,,1100,normalized,464,287,485,269,449,299,440,315,457,274,446,296,453,292,453,289
+Cuyahoga,8,BAY VILLAGE -03-B,unofficial,Raw/Cuyahoga.csv,,1101;1103;2059,boundary_overlap,467,232,497,205,462,246,449,260,470,226,453,252,466,233,461,245
+Cuyahoga,9,BAY VILLAGE -03-C,unofficial,Raw/Cuyahoga.csv,,1100;1101;1102,boundary_overlap,480,262,492,246,456,276,440,292,459,254,442,274,450,271,459,268
+Cuyahoga,10,BAY VILLAGE -04-A,unofficial,Raw/Cuyahoga.csv,,1102;1103,boundary_overlap,446,262,455,250,424,280,395,309,411,274,414,282,424,275,419,284
+Cuyahoga,11,BAY VILLAGE -04-B,unofficial,Raw/Cuyahoga.csv,,1104,normalized,455,326,470,312,433,348,421,359,437,328,424,345,429,335,426,341
+Cuyahoga,12,BAY VILLAGE -04-C,unofficial,Raw/Cuyahoga.csv,,1105,normalized,519,312,542,293,511,330,487,347,509,315,502,332,512,321,513,324
+Cuyahoga,13,BEACHWOOD -00-A,unofficial,Raw/Cuyahoga.csv,,1106,normalized,358,293,397,257,354,285,338,296,350,278,342,288,355,271,359,270
+Cuyahoga,14,BEACHWOOD -00-B,unofficial,Raw/Cuyahoga.csv,,1107,normalized,308,371,345,335,302,368,286,375,298,363,292,371,308,342,314,337
+Cuyahoga,15,BEACHWOOD -00-C,unofficial,Raw/Cuyahoga.csv,,1108;1114,boundary_overlap,452,89,468,76,448,86,440,98,451,74,449,89,456,75,454,80
+Cuyahoga,16,BEACHWOOD -00-D,unofficial,Raw/Cuyahoga.csv,,1109;1110;1111,boundary_overlap,603,102,611,92,590,109,580,124,593,98,588,109,598,99,602,99
+Cuyahoga,17,BEACHWOOD -00-E,unofficial,Raw/Cuyahoga.csv,,1111,normalized,499,74,517,63,516,75,508,83,503,68,507,78,507,73,501,79
+Cuyahoga,18,BEACHWOOD -00-F,unofficial,Raw/Cuyahoga.csv,,1112,normalized,517,135,542,114,515,131,495,147,504,129,506,129,515,123,519,122
+Cuyahoga,19,BEACHWOOD -00-G,unofficial,Raw/Cuyahoga.csv,,1113,normalized,421,233,446,208,406,237,404,236,419,216,406,226,418,214,414,216
+Cuyahoga,20,BEACHWOOD -00-H,unofficial,Raw/Cuyahoga.csv,,1114,normalized,552,104,570,84,544,108,533,117,547,98,539,104,542,96,548,91
+Cuyahoga,21,BEACHWOOD -00-I,unofficial,Raw/Cuyahoga.csv,,1115,normalized,344,45,347,47,340,52,335,58,345,44,344,49,343,48,342,47
+Cuyahoga,22,BEACHWOOD -00-J,unofficial,Raw/Cuyahoga.csv,,1109;1110;1111;1112,boundary_overlap,515,116,531,103,504,125,485,140,503,117,495,127,512,109,508,116
+Cuyahoga,23,BEDFORD -01-A,unofficial,Raw/Cuyahoga.csv,,1125;1126;1133,boundary_overlap,336,69,342,67,333,83,332,87,341,68,337,75,332,82,330,84
+Cuyahoga,24,BEDFORD -01-B,unofficial,Raw/Cuyahoga.csv,,1125;1126,boundary_overlap,332,53,339,56,339,64,331,70,338,58,339,61,335,63,336,65
+Cuyahoga,25,BEDFORD -02-A,unofficial,Raw/Cuyahoga.csv,,1127;1128,boundary_overlap,334,79,330,80,331,83,326,90,333,72,327,80,326,81,327,84
+Cuyahoga,26,BEDFORD -02-B,unofficial,Raw/Cuyahoga.csv,,1128;1130,boundary_overlap,335,119,339,117,330,127,325,134,334,110,332,118,332,116,329,121
+Cuyahoga,27,BEDFORD -03-A,unofficial,Raw/Cuyahoga.csv,,1129;1130;1133,boundary_overlap,225,65,240,63,240,63,232,73,235,63,238,67,239,63,238,67
+Cuyahoga,28,BEDFORD -03-B,unofficial,Raw/Cuyahoga.csv,,1128;1129;1130,boundary_overlap,244,84,249,89,249,91,247,95,248,87,244,96,251,90,248,93
+Cuyahoga,29,BEDFORD -04-A,unofficial,Raw/Cuyahoga.csv,,1131,normalized,238,14,245,17,248,20,246,20,241,17,242,21,241,20,245,21
+Cuyahoga,30,BEDFORD -04-B,unofficial,Raw/Cuyahoga.csv,,1132;1133,boundary_overlap,330,48,339,50,341,54,347,53,342,48,347,49,338,51,337,56
+Cuyahoga,31,BEDFORD -05-A,unofficial,Raw/Cuyahoga.csv,,1133,normalized,283,76,292,75,292,86,283,89,288,75,285,90,292,86,293,81
+Cuyahoga,32,BEDFORD -05-B,unofficial,Raw/Cuyahoga.csv,,1131;1132;1133,boundary_overlap,300,88,316,89,305,104,306,105,303,94,309,99,310,96,308,98
+Cuyahoga,33,BEDFORD -06-A,unofficial,Raw/Cuyahoga.csv,,1134,normalized,333,95,349,82,339,102,340,100,344,92,336,101,342,97,344,94
+Cuyahoga,34,BEDFORD -06-B,unofficial,Raw/Cuyahoga.csv,,1125;1126;1134,boundary_overlap,327,78,339,77,330,88,322,97,328,76,329,89,330,82,326,84
+Cuyahoga,35,BEDFORD HEIGHTS -01-A,unofficial,Raw/Cuyahoga.csv,,1116,normalized,277,44,286,44,282,53,281,55,284,45,283,53,274,54,288,46
+Cuyahoga,36,BEDFORD HEIGHTS -01-B,unofficial,Raw/Cuyahoga.csv,,1117,normalized,381,40,388,39,385,36,383,41,384,33,384,36,387,36,383,38
+Cuyahoga,37,BEDFORD HEIGHTS -01-C,unofficial,Raw/Cuyahoga.csv,,1118,normalized,299,11,303,17,306,19,304,21,309,13,304,20,301,20,303,18
+Cuyahoga,38,BEDFORD HEIGHTS -02-A,unofficial,Raw/Cuyahoga.csv,,1119,normalized,351,20,358,22,357,23,358,28,358,24,359,25,354,27,357,22
+Cuyahoga,39,BEDFORD HEIGHTS -02-B,unofficial,Raw/Cuyahoga.csv,,1120,normalized,318,11,325,11,321,12,319,12,320,9,314,14,317,15,320,11
+Cuyahoga,40,BEDFORD HEIGHTS -03-A,unofficial,Raw/Cuyahoga.csv,,1121,normalized,355,9,367,12,372,13,375,12,365,9,375,10,371,13,373,12
+Cuyahoga,41,BEDFORD HEIGHTS -03-B,unofficial,Raw/Cuyahoga.csv,,1122,normalized,676,46,682,47,685,54,685,55,688,50,685,56,678,56,691,45
+Cuyahoga,42,BEDFORD HEIGHTS -04-A,unofficial,Raw/Cuyahoga.csv,,1123,normalized,493,30,496,26,491,32,495,32,491,25,497,28,492,28,496,25
+Cuyahoga,43,BEDFORD HEIGHTS -04-B,unofficial,Raw/Cuyahoga.csv,,1124,normalized,291,41,301,38,296,49,293,46,301,37,299,46,301,44,299,43
+Cuyahoga,44,BENTLEYVILLE -00-A,unofficial,Raw/Cuyahoga.csv,,1135,normalized,316,184,333,171,304,198,291,209,305,186,294,207,311,190,318,186
+Cuyahoga,45,BEREA -01-A,unofficial,Raw/Cuyahoga.csv,,1136;1144,boundary_overlap,453,188,470,177,455,198,454,203,455,180,449,198,459,192,451,197
+Cuyahoga,46,BEREA -01-B,unofficial,Raw/Cuyahoga.csv,,1137,normalized,520,164,534,155,524,178,503,197,514,157,526,172,524,171,516,176
+Cuyahoga,47,BEREA -02-A,unofficial,Raw/Cuyahoga.csv,,1138;1139,boundary_overlap,343,199,347,203,347,203,323,232,343,199,345,206,330,209,335,208
+Cuyahoga,48,BEREA -02-B,unofficial,Raw/Cuyahoga.csv,,1139;1140,boundary_overlap,422,154,435,149,419,163,414,166,422,147,413,160,416,160,418,158
+Cuyahoga,49,BEREA -02-C,unofficial,Raw/Cuyahoga.csv,,1138;1139;1140,boundary_overlap,297,170,299,170,291,186,288,191,288,174,295,183,284,189,290,184
+Cuyahoga,50,BEREA -03-A,unofficial,Raw/Cuyahoga.csv,,1140;1141,boundary_overlap,481,228,504,210,477,246,470,250,488,220,480,235,487,235,483,236
+Cuyahoga,51,BEREA -03-B,unofficial,Raw/Cuyahoga.csv,,1140;1141;1142,boundary_overlap,539,221,555,212,536,238,518,255,523,216,517,244,537,229,532,230
+Cuyahoga,52,BEREA -04-A,unofficial,Raw/Cuyahoga.csv,,1144;1145,boundary_overlap,357,163,372,162,371,170,364,173,367,154,361,170,366,169,366,170
+Cuyahoga,53,BEREA -04-B,unofficial,Raw/Cuyahoga.csv,,1144;1145;1146,boundary_overlap,468,244,483,232,465,250,456,263,462,239,460,252,476,237,474,245
+Cuyahoga,54,BEREA -05-A,unofficial,Raw/Cuyahoga.csv,,1146;1148,boundary_overlap,359,192,371,185,357,204,349,215,355,190,355,201,365,188,354,201
+Cuyahoga,55,BEREA -05-B,unofficial,Raw/Cuyahoga.csv,,1142;1143;1147,boundary_overlap,424,177,433,176,414,201,407,209,412,179,411,198,415,193,414,193
+Cuyahoga,56,BEREA -05-C,unofficial,Raw/Cuyahoga.csv,,1142;1143;1147,boundary_overlap,378,222,388,216,372,232,356,247,374,224,368,229,374,225,367,233
+Cuyahoga,57,BRATENAHL -00-A,unofficial,Raw/Cuyahoga.csv,,1149,normalized,659,261,665,254,654,272,646,282,658,250,663,262,660,257,663,258
+Cuyahoga,58,BRECKSVILLE -00-A,unofficial,Raw/Cuyahoga.csv,,1150,normalized,459,336,483,322,447,364,427,386,443,338,441,366,447,356,445,359
+Cuyahoga,59,BRECKSVILLE -00-B,unofficial,Raw/Cuyahoga.csv,,1151,normalized,436,347,462,319,409,365,399,381,414,346,403,364,413,348,425,340
+Cuyahoga,60,BRECKSVILLE -00-C,unofficial,Raw/Cuyahoga.csv,,1152,normalized,389,332,410,315,386,343,364,358,378,331,372,344,387,330,383,330
+Cuyahoga,61,BRECKSVILLE -00-D,unofficial,Raw/Cuyahoga.csv,,1153,normalized,396,345,408,328,385,361,378,377,384,337,379,360,387,349,391,347
+Cuyahoga,62,BRECKSVILLE -00-E,unofficial,Raw/Cuyahoga.csv,,1154;1156,boundary_overlap,428,364,446,352,417,388,394,404,413,373,414,389,423,371,422,374
+Cuyahoga,63,BRECKSVILLE -00-F,unofficial,Raw/Cuyahoga.csv,,1155,normalized,384,310,410,299,381,333,374,345,388,302,382,327,390,322,383,326
+Cuyahoga,64,BRECKSVILLE -00-G,unofficial,Raw/Cuyahoga.csv,,1156,normalized,570,364,586,343,550,382,529,409,557,360,554,368,564,360,558,369
+Cuyahoga,65,BRECKSVILLE -00-H,unofficial,Raw/Cuyahoga.csv,,1157,normalized,341,389,364,373,319,412,306,422,326,392,310,416,325,397,332,394
+Cuyahoga,66,BRECKSVILLE -00-I,unofficial,Raw/Cuyahoga.csv,,1158,normalized,433,369,454,347,413,392,379,426,411,375,403,389,417,373,417,379
+Cuyahoga,67,BRECKSVILLE -00-J,unofficial,Raw/Cuyahoga.csv,,1159,normalized,337,262,352,250,332,274,323,289,328,259,328,268,324,274,327,272
+Cuyahoga,68,BROADVIEW HEIGHTS -01-A,unofficial,Raw/Cuyahoga.csv,,1160;1162,boundary_overlap,374,373,381,373,365,387,346,412,374,375,360,384,361,384,368,385
+Cuyahoga,69,BROADVIEW HEIGHTS -01-B,unofficial,Raw/Cuyahoga.csv,,1161;1173,boundary_overlap,402,359,417,345,378,380,368,395,387,362,376,369,390,363,386,363
+Cuyahoga,70,BROADVIEW HEIGHTS -01-C,unofficial,Raw/Cuyahoga.csv,,1162;1164,boundary_overlap,407,295,416,283,391,313,374,334,392,297,384,315,394,304,393,309
+Cuyahoga,71,BROADVIEW HEIGHTS -02-A,unofficial,Raw/Cuyahoga.csv,,1163;1166,boundary_overlap,332,301,335,299,313,335,299,345,320,306,322,323,324,322,321,326
+Cuyahoga,72,BROADVIEW HEIGHTS -02-B,unofficial,Raw/Cuyahoga.csv,,1164;1165,boundary_overlap,317,278,324,271,293,299,290,308,300,278,297,286,291,291,296,288
+Cuyahoga,73,BROADVIEW HEIGHTS -02-C,unofficial,Raw/Cuyahoga.csv,,1165,normalized,368,313,385,307,351,331,345,344,352,319,351,326,353,318,358,320
+Cuyahoga,74,BROADVIEW HEIGHTS -02-D,unofficial,Raw/Cuyahoga.csv,,1163;1164,boundary_overlap,303,274,318,263,300,283,282,299,312,257,299,273,307,264,291,287
+Cuyahoga,75,BROADVIEW HEIGHTS -03-A,unofficial,Raw/Cuyahoga.csv,,1166;1169;1171,boundary_overlap,394,268,402,270,395,291,383,306,384,277,386,288,396,286,400,282
+Cuyahoga,76,BROADVIEW HEIGHTS -03-B,unofficial,Raw/Cuyahoga.csv,,1167;1172,boundary_overlap,238,223,242,224,229,240,223,246,237,222,225,237,229,232,230,235
+Cuyahoga,77,BROADVIEW HEIGHTS -03-C,unofficial,Raw/Cuyahoga.csv,,1163;1166;1168,boundary_overlap,416,389,427,374,388,404,379,417,397,382,379,406,400,386,394,387
+Cuyahoga,78,BROADVIEW HEIGHTS -04-A,unofficial,Raw/Cuyahoga.csv,,1170,normalized,345,476,379,441,335,490,314,515,340,474,335,484,348,466,342,472
+Cuyahoga,79,BROADVIEW HEIGHTS -04-B,unofficial,Raw/Cuyahoga.csv,,1171,normalized,122,42,135,42,136,42,131,45,132,41,132,45,132,45,132,45
+Cuyahoga,80,BROADVIEW HEIGHTS -04-C,unofficial,Raw/Cuyahoga.csv,,1170;1172,boundary_overlap,293,339,300,323,301,340,282,362,290,344,288,345,295,343,287,353
+Cuyahoga,81,BROADVIEW HEIGHTS -04-D,unofficial,Raw/Cuyahoga.csv,,1170;1173,boundary_overlap,369,363,384,356,359,389,339,403,361,371,362,375,355,384,358,377
+Cuyahoga,82,BROOK PARK -01-A,unofficial,Raw/Cuyahoga.csv,,1174;1179;1568;1825;1826,boundary_overlap,270,165,285,165,267,183,261,195,270,170,273,174,266,172,260,177
+Cuyahoga,83,BROOK PARK -01-B,unofficial,Raw/Cuyahoga.csv,,1175;1176;1178,boundary_overlap,339,238,371,216,343,257,341,266,360,218,346,246,349,245,346,250
+Cuyahoga,84,BROOK PARK -01-C,unofficial,Raw/Cuyahoga.csv,,1176;1179,boundary_overlap,267,214,290,196,278,215,272,221,277,197,277,207,277,213,270,219
+Cuyahoga,85,BROOK PARK -02-A,unofficial,Raw/Cuyahoga.csv,,1175;1177,boundary_overlap,304,228,325,211,306,246,302,252,317,222,313,231,313,226,315,225
+Cuyahoga,86,BROOK PARK -02-B,unofficial,Raw/Cuyahoga.csv,,1178;1179;1181,boundary_overlap,303,265,320,258,299,281,281,301,309,258,305,273,307,262,291,279
+Cuyahoga,87,BROOK PARK -02-C,unofficial,Raw/Cuyahoga.csv,,1177;1178;1179,boundary_overlap,271,233,296,224,279,239,267,255,288,217,274,236,287,228,280,233
+Cuyahoga,88,BROOK PARK -03-A,unofficial,Raw/Cuyahoga.csv,,1180;1182,boundary_overlap,317,219,327,222,311,242,294,262,318,221,308,237,310,234,307,241
+Cuyahoga,89,BROOK PARK -03-B,unofficial,Raw/Cuyahoga.csv,,1180;1181;1184,boundary_overlap,290,213,300,210,295,230,286,241,296,213,288,228,293,220,291,220
+Cuyahoga,90,BROOK PARK -03-C,unofficial,Raw/Cuyahoga.csv,,1181;1182;1568,boundary_overlap,332,215,349,210,335,232,321,244,332,212,335,223,340,221,332,230
+Cuyahoga,91,BROOK PARK -04-A,unofficial,Raw/Cuyahoga.csv,,1177;1183,boundary_overlap,323,232,324,227,299,255,303,255,310,229,308,242,305,244,310,238
+Cuyahoga,92,BROOK PARK -04-B,unofficial,Raw/Cuyahoga.csv,,1184;1185,boundary_overlap,349,214,357,211,351,225,342,238,355,206,344,231,352,221,343,229
+Cuyahoga,93,BROOK PARK -04-C,unofficial,Raw/Cuyahoga.csv,,1177;1183;1185,boundary_overlap,313,236,316,239,304,251,299,258,315,229,304,242,307,246,307,248
+Cuyahoga,94,BROOKLYN -00-A,unofficial,Raw/Cuyahoga.csv,,1187,normalized,250,65,263,67,262,71,256,79,265,64,260,73,265,69,255,72
+Cuyahoga,95,BROOKLYN -00-B,unofficial,Raw/Cuyahoga.csv,,1188,normalized,292,242,308,241,285,255,277,271,298,230,289,253,291,243,293,240
+Cuyahoga,96,BROOKLYN -00-C,unofficial,Raw/Cuyahoga.csv,,1189;1190,boundary_overlap,302,201,303,202,297,213,291,226,299,201,299,211,298,207,289,217
+Cuyahoga,97,BROOKLYN -00-D,unofficial,Raw/Cuyahoga.csv,,1190,normalized,318,158,325,153,319,169,313,177,312,161,323,161,317,165,313,167
+Cuyahoga,98,BROOKLYN -00-E,unofficial,Raw/Cuyahoga.csv,,1191,normalized,289,156,302,153,290,174,291,170,290,154,292,167,291,166,288,169
+Cuyahoga,99,BROOKLYN -00-F,unofficial,Raw/Cuyahoga.csv,,1192,normalized,283,166,296,157,279,175,278,180,281,160,280,170,274,172,281,171
+Cuyahoga,100,BROOKLYN -00-G,unofficial,Raw/Cuyahoga.csv,,1193,normalized,341,198,358,191,340,204,333,219,341,195,345,202,346,197,338,203
+Cuyahoga,101,BROOKLYN -00-H,unofficial,Raw/Cuyahoga.csv,,1194,normalized,315,172,323,170,313,183,303,197,320,170,318,176,309,176,307,180
+Cuyahoga,102,BROOKLYN HEIGHTS -00-A,unofficial,Raw/Cuyahoga.csv,,1186,normalized,415,352,436,345,403,382,386,401,398,347,405,361,406,349,407,355
+Cuyahoga,103,CHAGRIN FALLS -00-A,unofficial,Raw/Cuyahoga.csv,,1196,normalized,362,186,378,170,345,204,335,207,343,187,329,209,349,199,347,199
+Cuyahoga,104,CHAGRIN FALLS -00-B,unofficial,Raw/Cuyahoga.csv,,1197,normalized,472,283,478,272,456,292,443,308,457,286,443,305,462,280,463,279
+Cuyahoga,105,CHAGRIN FALLS -00-C,unofficial,Raw/Cuyahoga.csv,,1198,normalized,407,234,418,223,392,247,389,248,393,241,384,251,402,235,403,232
+Cuyahoga,106,CHAGRIN FALLS -00-D,unofficial,Raw/Cuyahoga.csv,,1196,split_precinct,223,115,220,117,213,125,205,129,212,114,215,122,219,117,221,118
+Cuyahoga,107,CHAGRIN FALLS TWP -00-A,unofficial,Raw/Cuyahoga.csv,,1195,normalized,33,29,34,23,31,31,30,33,31,29,30,31,31,29,29,33
+Cuyahoga,108,CLEVELAND -01-A,unofficial,Raw/Cuyahoga.csv,,1232,boundary_overlap,282,7,288,8,291,9,293,11,292,7,289,12,287,12,290,9
+Cuyahoga,109,CLEVELAND -01-B,unofficial,Raw/Cuyahoga.csv,,1233;1234,split_nodes,270,19,282,19,288,24,287,24,285,18,293,20,278,25,286,22
+Cuyahoga,110,CLEVELAND -01-C,unofficial,Raw/Cuyahoga.csv,,1235,normalized,246,8,245,8,242,9,242,12,240,7,246,8,238,10,232,14
+Cuyahoga,111,CLEVELAND -01-D,unofficial,Raw/Cuyahoga.csv,,1232;1236;1306,boundary_overlap,256,6,259,8,264,4,271,4,266,4,265,5,263,5,259,4
+Cuyahoga,112,CLEVELAND -01-E,unofficial,Raw/Cuyahoga.csv,,1237,normalized,373,13,388,11,386,12,384,14,384,9,388,10,381,12,386,12
+Cuyahoga,113,CLEVELAND -01-F,unofficial,Raw/Cuyahoga.csv,,1238;1240,boundary_overlap,419,10,428,12,432,18,434,16,431,13,432,17,428,18,438,10
+Cuyahoga,114,CLEVELAND -01-G,unofficial,Raw/Cuyahoga.csv,,1264;1265,boundary_overlap,348,7,357,12,361,7,358,12,357,11,361,9,353,8,361,9
+Cuyahoga,115,CLEVELAND -01-H,unofficial,Raw/Cuyahoga.csv,,1240;1242,boundary_overlap,442,16,454,15,452,22,458,20,456,15,453,22,447,21,449,17
+Cuyahoga,116,CLEVELAND -01-I,unofficial,Raw/Cuyahoga.csv,,1241,normalized,289,7,290,8,292,11,294,11,286,11,298,8,294,10,293,13
+Cuyahoga,117,CLEVELAND -01-J,unofficial,Raw/Cuyahoga.csv,,1263;1264,boundary_overlap,284,3,296,5,296,5,292,12,300,4,294,10,291,12,301,6
+Cuyahoga,118,CLEVELAND -01-K,unofficial,Raw/Cuyahoga.csv,,1239;1246;1251,boundary_overlap,328,10,336,13,346,8,343,18,339,8,346,12,341,9,338,13
+Cuyahoga,119,CLEVELAND -01-L,unofficial,Raw/Cuyahoga.csv,,1242;1243,boundary_overlap,516,16,529,15,522,25,535,20,517,19,528,20,516,21,530,16
+Cuyahoga,120,CLEVELAND -01-M,unofficial,Raw/Cuyahoga.csv,,1242;1244;1248,boundary_overlap,492,9,506,9,502,11,502,17,509,8,504,13,506,12,506,9
+Cuyahoga,121,CLEVELAND -01-N,unofficial,Raw/Cuyahoga.csv,,1245;1247,boundary_overlap,488,23,503,19,493,28,505,28,498,21,499,28,497,28,502,25
+Cuyahoga,122,CLEVELAND -01-O,unofficial,Raw/Cuyahoga.csv,,1246;1249,boundary_overlap,430,12,436,10,435,13,440,20,437,4,439,11,437,10,432,14
+Cuyahoga,123,CLEVELAND -01-P,unofficial,Raw/Cuyahoga.csv,,1244;1245;1247,boundary_overlap,470,7,485,7,490,8,484,12,490,8,493,10,487,8,496,8
+Cuyahoga,124,CLEVELAND -01-Q,unofficial,Raw/Cuyahoga.csv,,1248;1250,boundary_overlap,502,17,511,19,513,20,510,20,505,13,506,19,502,26,506,21
+Cuyahoga,125,CLEVELAND -01-R,unofficial,Raw/Cuyahoga.csv,,1242;1244;1248;1249;1250;1251,boundary_overlap,457,16,464,23,475,24,475,23,467,19,473,21,463,21,468,21
+Cuyahoga,126,CLEVELAND -01-S,unofficial,Raw/Cuyahoga.csv,,1239;1250,boundary_overlap,435,6,438,12,446,9,442,13,437,6,443,11,439,9,441,10
+Cuyahoga,127,CLEVELAND -02-A,unofficial,Raw/Cuyahoga.csv,,1464;1468;1470;1471,boundary_overlap,191,37,202,32,195,47,193,51,193,35,196,45,195,47,193,45
+Cuyahoga,128,CLEVELAND -02-B,unofficial,Raw/Cuyahoga.csv,,1465;1466;1468,boundary_overlap,185,46,189,44,196,48,188,52,191,46,197,46,196,45,193,48
+Cuyahoga,129,CLEVELAND -02-C,unofficial,Raw/Cuyahoga.csv,,1466;1467;1468,boundary_overlap,222,52,229,50,238,57,229,62,231,51,238,56,236,55,230,59
+Cuyahoga,130,CLEVELAND -02-D,unofficial,Raw/Cuyahoga.csv,,1463;1464;1465;1466,boundary_overlap,190,51,194,50,194,53,193,56,187,51,191,54,192,53,190,54
+Cuyahoga,131,CLEVELAND -02-E,unofficial,Raw/Cuyahoga.csv,,1260;1271;1272;1273;1335,boundary_overlap,365,17,383,17,383,24,379,24,387,14,384,23,377,23,379,23
+Cuyahoga,132,CLEVELAND -02-F,unofficial,Raw/Cuyahoga.csv,,1257;1266,boundary_overlap,305,7,307,17,317,12,316,11,311,9,312,14,317,12,315,12
+Cuyahoga,133,CLEVELAND -02-G,unofficial,Raw/Cuyahoga.csv,,1259;1266;1269,boundary_overlap,336,8,348,9,349,15,348,14,352,9,350,15,352,10,349,12
+Cuyahoga,134,CLEVELAND -02-H,unofficial,Raw/Cuyahoga.csv,,1267;1268;1270,boundary_overlap,362,11,368,11,367,19,371,17,360,14,372,14,362,15,364,14
+Cuyahoga,135,CLEVELAND -02-I,unofficial,Raw/Cuyahoga.csv,,1308;1309,boundary_overlap,223,10,233,8,232,11,237,9,233,8,234,8,226,9,234,8
+Cuyahoga,136,CLEVELAND -02-J,unofficial,Raw/Cuyahoga.csv,,1260;1261;1273;1274;1275,boundary_overlap,361,10,365,14,369,15,371,17,367,13,372,13,367,14,364,15
+Cuyahoga,137,CLEVELAND -02-K,unofficial,Raw/Cuyahoga.csv,,1262;1314,boundary_overlap,375,13,390,12,393,13,392,17,387,12,390,17,383,19,388,15
+Cuyahoga,138,CLEVELAND -02-L,unofficial,Raw/Cuyahoga.csv,,1256;1259;1270,boundary_overlap,387,10,389,12,395,14,393,19,390,12,394,16,398,12,386,16
+Cuyahoga,139,CLEVELAND -02-M,unofficial,Raw/Cuyahoga.csv,,1252;1253;1254;1255,boundary_overlap,261,42,260,52,262,52,264,53,266,44,269,50,266,50,266,48
+Cuyahoga,140,CLEVELAND -02-N,unofficial,Raw/Cuyahoga.csv,,1252;1253;1255,boundary_overlap,299,56,306,62,308,66,305,70,304,58,308,63,305,63,306,65
+Cuyahoga,141,CLEVELAND -02-O,unofficial,Raw/Cuyahoga.csv,,1253;1254;1255;1256,boundary_overlap,437,30,440,32,438,35,438,36,437,28,434,34,433,31,440,31
+Cuyahoga,142,CLEVELAND -02-P,unofficial,Raw/Cuyahoga.csv,,1258;1267,boundary_overlap,352,9,366,10,368,18,371,16,369,9,379,7,368,17,361,17
+Cuyahoga,143,CLEVELAND -03-A,unofficial,Raw/Cuyahoga.csv,,1335;1346,boundary_overlap,212,8,215,8,212,12,216,11,211,7,214,10,211,9,211,10
+Cuyahoga,144,CLEVELAND -03-B,unofficial,Raw/Cuyahoga.csv,,1336;1346,boundary_overlap,152,21,162,23,168,20,164,24,157,20,164,22,157,26,158,26
+Cuyahoga,145,CLEVELAND -03-C,unofficial,Raw/Cuyahoga.csv,,1273;1274;1298;1315,boundary_overlap,378,5,385,4,387,5,383,7,386,4,385,7,385,7,386,4
+Cuyahoga,146,CLEVELAND -03-D,unofficial,Raw/Cuyahoga.csv,,1297;1298,boundary_overlap,337,6,350,9,347,10,349,11,351,4,351,6,340,10,338,14
+Cuyahoga,147,CLEVELAND -03-E,unofficial,Raw/Cuyahoga.csv,,1275;1297;1300;1303;1315,boundary_overlap,315,10,326,10,323,12,332,11,326,10,329,9,324,10,319,11
+Cuyahoga,148,CLEVELAND -03-F,unofficial,Raw/Cuyahoga.csv,,1301,renamed,171,5,171,5,171,5,168,10,172,4,171,6,169,5,167,7
+Cuyahoga,149,CLEVELAND -03-G,unofficial,Raw/Cuyahoga.csv,,1302;1303,boundary_overlap,313,12,324,10,323,13,320,15,321,8,320,16,311,15,321,11
+Cuyahoga,150,CLEVELAND -03-H,unofficial,Raw/Cuyahoga.csv,,1325;1469;1471,boundary_overlap,184,42,193,37,190,44,192,44,190,42,192,44,194,44,188,48
+Cuyahoga,151,CLEVELAND -03-I,unofficial,Raw/Cuyahoga.csv,,1463;1464;1469;1470,boundary_overlap,235,32,243,34,242,37,237,46,237,34,244,38,236,41,239,40
+Cuyahoga,152,CLEVELAND -03-J,unofficial,Raw/Cuyahoga.csv,,1318;1325,boundary_overlap,171,25,183,24,184,29,184,28,188,18,188,23,183,25,186,25
+Cuyahoga,153,CLEVELAND -03-K,unofficial,Raw/Cuyahoga.csv,,1326;1330,boundary_overlap,197,19,203,21,206,26,206,28,205,20,206,22,205,24,203,23
+Cuyahoga,154,CLEVELAND -03-L,unofficial,Raw/Cuyahoga.csv,,1304;1305;1306;1307,boundary_overlap,281,4,287,9,290,13,291,11,291,5,294,9,292,11,293,12
+Cuyahoga,155,CLEVELAND -03-M,unofficial,Raw/Cuyahoga.csv,,1304;1305;1306,boundary_overlap,299,9,302,11,299,13,303,12,298,9,301,14,300,15,300,14
+Cuyahoga,156,CLEVELAND -03-N,unofficial,Raw/Cuyahoga.csv,,1311,split_precinct,559,41,563,37,564,41,555,48,547,45,556,45,562,38,559,43
+Cuyahoga,157,CLEVELAND -03-O,unofficial,Raw/Cuyahoga.csv,,1306;1307;1308;1309,boundary_overlap,311,15,326,11,317,16,321,16,315,11,317,18,308,20,315,16
+Cuyahoga,158,CLEVELAND -03-P,unofficial,Raw/Cuyahoga.csv,,1312,renamed,364,12,370,12,365,16,365,17,370,12,364,14,366,14,366,15
+Cuyahoga,159,CLEVELAND -03-Q,unofficial,Raw/Cuyahoga.csv,,1299;1300;1310,boundary_overlap,260,6,264,9,267,13,268,11,262,10,270,11,269,10,263,11
+Cuyahoga,160,CLEVELAND -03-R,unofficial,Raw/Cuyahoga.csv,,1313,renamed,372,13,385,15,390,16,393,15,385,12,389,15,392,13,384,21
+Cuyahoga,161,CLEVELAND -04-A,unofficial,Raw/Cuyahoga.csv,,1472,split_precinct,268,159,280,157,267,173,258,183,277,155,266,167,266,167,266,169
+Cuyahoga,162,CLEVELAND -04-B,unofficial,Raw/Cuyahoga.csv,,1460;1461;1462;1477,boundary_overlap,224,69,233,68,232,76,228,79,232,67,231,69,232,68,228,75
+Cuyahoga,163,CLEVELAND -04-C,unofficial,Raw/Cuyahoga.csv,,1460;1461;1462,boundary_overlap,276,117,287,116,287,118,281,122,284,108,285,120,285,115,286,115
+Cuyahoga,164,CLEVELAND -04-D,unofficial,Raw/Cuyahoga.csv,,1481;1482;1483,boundary_overlap,252,77,263,74,255,82,253,88,257,73,261,80,261,77,259,82
+Cuyahoga,165,CLEVELAND -04-E,unofficial,Raw/Cuyahoga.csv,,1483;1493;1494,boundary_overlap,235,77,250,82,249,87,237,95,244,77,246,86,249,84,240,88
+Cuyahoga,166,CLEVELAND -04-F,unofficial,Raw/Cuyahoga.csv,,1484;1485;1486;1487,boundary_overlap,230,106,242,106,244,110,242,114,237,98,239,116,241,114,238,111
+Cuyahoga,167,CLEVELAND -04-G,unofficial,Raw/Cuyahoga.csv,,1472;1473,boundary_overlap,289,124,293,127,289,132,281,140,293,123,285,133,291,128,287,128
+Cuyahoga,168,CLEVELAND -04-H,unofficial,Raw/Cuyahoga.csv,,1484;1485;1486;1487;1488;1489;1491,boundary_overlap,278,136,298,129,284,133,265,145,271,127,272,131,281,128,283,128
+Cuyahoga,169,CLEVELAND -04-I,unofficial,Raw/Cuyahoga.csv,,1474,renamed,379,145,389,138,385,157,370,164,377,133,380,155,384,153,373,159
+Cuyahoga,170,CLEVELAND -04-J,unofficial,Raw/Cuyahoga.csv,,1490;1491,boundary_overlap,317,153,323,153,328,162,323,169,319,150,333,158,326,163,316,168
+Cuyahoga,171,CLEVELAND -04-K,unofficial,Raw/Cuyahoga.csv,,1484;1485;1488;1489;1490;1491,boundary_overlap,263,143,269,148,275,153,267,162,270,141,272,152,272,153,275,150
+Cuyahoga,172,CLEVELAND -04-L,unofficial,Raw/Cuyahoga.csv,,1492,renamed,229,108,236,103,246,108,239,119,247,102,250,107,247,107,240,111
+Cuyahoga,173,CLEVELAND -04-M,unofficial,Raw/Cuyahoga.csv,,1493;1494;1495;1496,boundary_overlap,331,111,337,109,329,129,331,126,332,111,334,114,337,112,328,120
+Cuyahoga,174,CLEVELAND -04-N,unofficial,Raw/Cuyahoga.csv,,1495,split_precinct,277,100,290,102,293,110,280,118,285,108,292,105,291,107,287,108
+Cuyahoga,175,CLEVELAND -04-O,unofficial,Raw/Cuyahoga.csv,,1495;1496,boundary_overlap,277,186,289,181,281,199,264,215,282,175,282,195,290,183,281,193
+Cuyahoga,176,CLEVELAND -04-P,unofficial,Raw/Cuyahoga.csv,,1497,renamed,256,145,261,141,259,148,249,155,253,141,257,145,255,149,249,153
+Cuyahoga,177,CLEVELAND -04-Q,unofficial,Raw/Cuyahoga.csv,,1475,renamed,360,133,376,124,360,141,349,149,370,127,356,135,358,134,359,135
+Cuyahoga,178,CLEVELAND -05-A,unofficial,Raw/Cuyahoga.csv,,1316;1322,boundary_overlap,188,10,194,10,196,12,194,13,189,10,200,8,194,13,194,12
+Cuyahoga,179,CLEVELAND -05-B,unofficial,Raw/Cuyahoga.csv,,1317;1318;1320,boundary_overlap,126,8,133,7,130,9,135,8,134,8,137,7,134,7,133,8
+Cuyahoga,180,CLEVELAND -05-C,unofficial,Raw/Cuyahoga.csv,,1284;1287,boundary_overlap,353,55,363,54,360,59,355,61,354,52,357,57,359,60,358,59
+Cuyahoga,181,CLEVELAND -05-D,unofficial,Raw/Cuyahoga.csv,,1319;1322,boundary_overlap,148,9,164,12,164,13,168,11,166,8,169,9,163,10,170,8
+Cuyahoga,182,CLEVELAND -05-E,unofficial,Raw/Cuyahoga.csv,,1287;1365;1378,boundary_overlap,81,13,82,14,86,13,81,17,80,14,82,17,82,17,83,16
+Cuyahoga,183,CLEVELAND -05-F,unofficial,Raw/Cuyahoga.csv,,1321;1324,boundary_overlap,186,7,187,11,193,10,194,10,190,6,198,9,192,12,190,14
+Cuyahoga,184,CLEVELAND -05-G,unofficial,Raw/Cuyahoga.csv,,1332;1333;1356,boundary_overlap,169,18,182,16,181,24,183,21,177,20,181,23,184,20,185,19
+Cuyahoga,185,CLEVELAND -05-H,unofficial,Raw/Cuyahoga.csv,,1323;1324;1341;1344,boundary_overlap,243,7,251,12,250,13,254,12,245,10,251,15,246,12,251,12
+Cuyahoga,186,CLEVELAND -05-I,unofficial,Raw/Cuyahoga.csv,,1287,split_precinct,244,39,252,34,243,43,240,43,236,40,239,38,240,40,246,37
+Cuyahoga,187,CLEVELAND -05-J,unofficial,Raw/Cuyahoga.csv,,1281;1318;1471,boundary_overlap,112,35,127,33,127,39,124,46,124,33,127,41,129,38,126,40
+Cuyahoga,188,CLEVELAND -05-K,unofficial,Raw/Cuyahoga.csv,,1329;1330;1331,boundary_overlap,164,4,162,4,167,7,169,3,172,2,169,4,164,6,165,5
+Cuyahoga,189,CLEVELAND -05-L,unofficial,Raw/Cuyahoga.csv,,1324;1327;1328,boundary_overlap,176,14,180,15,182,19,181,20,178,15,183,20,186,18,185,16
+Cuyahoga,190,CLEVELAND -05-M,unofficial,Raw/Cuyahoga.csv,,1324;1328;1329,boundary_overlap,287,9,301,8,305,12,299,13,297,7,300,11,300,12,296,13
+Cuyahoga,191,CLEVELAND -05-N,unofficial,Raw/Cuyahoga.csv,,1287;1333,boundary_overlap,353,47,367,41,353,50,346,57,354,48,347,53,347,51,350,54
+Cuyahoga,192,CLEVELAND -05-O,unofficial,Raw/Cuyahoga.csv,,1334,renamed,353,5,359,9,357,12,357,11,347,9,352,15,360,10,352,13
+Cuyahoga,193,CLEVELAND -06-A,unofficial,Raw/Cuyahoga.csv,,1341;1342;1343;1370;1374,boundary_overlap,378,21,375,29,378,29,379,29,381,25,381,28,379,28,376,31
+Cuyahoga,194,CLEVELAND -06-B,unofficial,Raw/Cuyahoga.csv,,1343;1368;1415,boundary_overlap,432,31,445,30,437,38,434,43,433,31,434,39,438,37,441,35
+Cuyahoga,195,CLEVELAND -06-C,unofficial,Raw/Cuyahoga.csv,,1295;1310;1340;1344;1347,boundary_overlap,321,21,326,29,328,28,331,30,329,22,336,22,334,21,334,23
+Cuyahoga,196,CLEVELAND -06-D,unofficial,Raw/Cuyahoga.csv,,1338;1355,boundary_overlap,220,36,233,33,223,36,221,40,225,30,220,38,228,33,223,36
+Cuyahoga,197,CLEVELAND -06-E,unofficial,Raw/Cuyahoga.csv,,1336;1339;1340,boundary_overlap,298,13,304,13,301,15,305,16,307,13,309,15,301,20,303,14
+Cuyahoga,198,CLEVELAND -06-F,unofficial,Raw/Cuyahoga.csv,,1409,split_precinct,218,7,225,7,221,10,217,12,215,9,221,10,218,9,220,10
+Cuyahoga,199,CLEVELAND -06-G,unofficial,Raw/Cuyahoga.csv,,1343;1347;1355,boundary_overlap,294,14,296,13,289,20,289,18,288,13,289,19,289,20,293,15
+Cuyahoga,200,CLEVELAND -06-H,unofficial,Raw/Cuyahoga.csv,,1296;1311;1337;1354,boundary_overlap,222,4,226,3,222,7,223,7,225,3,223,9,219,9,222,6
+Cuyahoga,201,CLEVELAND -06-I,unofficial,Raw/Cuyahoga.csv,,1337;1354,boundary_overlap,270,7,286,7,287,10,293,10,282,4,291,7,290,6,291,7
+Cuyahoga,202,CLEVELAND -06-J,unofficial,Raw/Cuyahoga.csv,,1341;1344,boundary_overlap,356,8,358,9,364,11,364,15,355,10,363,12,359,15,361,12
+Cuyahoga,203,CLEVELAND -06-K,unofficial,Raw/Cuyahoga.csv,,1345,normalized,171,17,177,16,176,22,178,20,171,22,170,29,177,20,172,24
+Cuyahoga,204,CLEVELAND -06-L,unofficial,Raw/Cuyahoga.csv,,1342;1343;1347,boundary_overlap,375,13,376,13,381,16,381,19,378,12,379,13,375,16,376,16
+Cuyahoga,205,CLEVELAND -06-M,unofficial,Raw/Cuyahoga.csv,,1296;1337;1352,boundary_overlap,467,25,486,21,481,25,478,30,478,20,475,27,476,27,477,27
+Cuyahoga,206,CLEVELAND -06-N,unofficial,Raw/Cuyahoga.csv,,1352;1353,boundary_overlap,438,42,461,40,455,41,453,49,448,40,456,44,458,38,452,43
+Cuyahoga,207,CLEVELAND -06-O,unofficial,Raw/Cuyahoga.csv,,1349,normalized,270,58,280,57,280,64,276,70,276,58,272,68,275,67,279,63
+Cuyahoga,208,CLEVELAND -06-P,unofficial,Raw/Cuyahoga.csv,,1299;1350,boundary_overlap,341,9,362,12,356,10,352,12,346,10,355,11,350,15,354,12
+Cuyahoga,209,CLEVELAND -06-Q,unofficial,Raw/Cuyahoga.csv,,1348;1351,boundary_overlap,353,12,363,10,356,17,364,16,361,11,363,16,356,15,360,15
+Cuyahoga,210,CLEVELAND -07-A,unofficial,Raw/Cuyahoga.csv,,1276;1283,boundary_overlap,174,22,181,24,188,24,178,31,176,25,180,28,178,26,182,27
+Cuyahoga,211,CLEVELAND -07-B,unofficial,Raw/Cuyahoga.csv,,1277;1530,boundary_overlap,417,49,438,49,429,63,430,60,424,48,424,58,434,49,427,57
+Cuyahoga,212,CLEVELAND -07-C,unofficial,Raw/Cuyahoga.csv,,1278;1279,boundary_overlap,509,50,528,52,515,55,500,71,505,52,509,59,517,55,516,55
+Cuyahoga,213,CLEVELAND -07-D,unofficial,Raw/Cuyahoga.csv,,1279,split_precinct,506,61,513,62,514,65,506,73,508,60,508,66,504,68,510,67
+Cuyahoga,214,CLEVELAND -07-E,unofficial,Raw/Cuyahoga.csv,,1278;1280,boundary_overlap,383,49,396,44,387,61,373,72,382,50,387,56,392,55,388,59
+Cuyahoga,215,CLEVELAND -07-F,unofficial,Raw/Cuyahoga.csv,,1281;1289;1290,boundary_overlap,547,96,567,82,556,105,538,114,549,95,536,109,542,108,554,94
+Cuyahoga,216,CLEVELAND -07-G,unofficial,Raw/Cuyahoga.csv,,1282;1283,boundary_overlap,472,69,476,66,467,83,458,97,459,74,459,90,472,79,462,85
+Cuyahoga,217,CLEVELAND -07-H,unofficial,Raw/Cuyahoga.csv,,1282;1283,boundary_overlap,344,43,359,35,346,51,337,54,344,43,339,50,345,47,346,46
+Cuyahoga,218,CLEVELAND -07-I,unofficial,Raw/Cuyahoga.csv,,1277;1523,boundary_overlap,434,62,455,62,442,72,437,78,444,58,443,71,443,75,433,79
+Cuyahoga,219,CLEVELAND -07-J,unofficial,Raw/Cuyahoga.csv,,1277;1285;1294;1519,boundary_overlap,416,67,427,66,419,76,415,77,417,61,420,69,419,73,417,72
+Cuyahoga,220,CLEVELAND -07-K,unofficial,Raw/Cuyahoga.csv,,1286;1478,boundary_overlap,486,75,503,74,483,88,488,83,482,77,482,84,484,82,485,85
+Cuyahoga,221,CLEVELAND -07-L,unofficial,Raw/Cuyahoga.csv,,1519;1524;1526,boundary_overlap,432,31,448,28,445,34,445,38,441,26,454,31,446,33,442,34
+Cuyahoga,222,CLEVELAND -07-M,unofficial,Raw/Cuyahoga.csv,,1281;1289;1290,boundary_overlap,524,61,536,60,535,64,519,77,527,57,530,64,525,73,531,63
+Cuyahoga,223,CLEVELAND -07-N,unofficial,Raw/Cuyahoga.csv,,1527;1529;1530,boundary_overlap,494,54,510,55,502,60,485,71,500,50,490,65,498,61,493,63
+Cuyahoga,224,CLEVELAND -07-O,unofficial,Raw/Cuyahoga.csv,,1515;1527;1530,boundary_overlap,453,98,462,96,444,108,439,114,438,102,445,108,450,104,451,105
+Cuyahoga,225,CLEVELAND -07-P,unofficial,Raw/Cuyahoga.csv,,1280;1285;1291,boundary_overlap,478,64,494,68,483,77,471,87,462,73,471,84,476,81,477,82
+Cuyahoga,226,CLEVELAND -07-Q,unofficial,Raw/Cuyahoga.csv,,1287;1292,boundary_overlap,359,58,371,60,363,67,349,81,354,63,360,72,363,68,370,62
+Cuyahoga,227,CLEVELAND -07-R,unofficial,Raw/Cuyahoga.csv,,1530,split_precinct,376,66,384,66,379,72,370,80,382,64,372,75,385,69,381,71
+Cuyahoga,228,CLEVELAND -08-A,unofficial,Raw/Cuyahoga.csv,,1287;1377,boundary_overlap,15,5,19,3,17,6,17,6,16,6,17,6,17,6,16,6
+Cuyahoga,229,CLEVELAND -08-B,unofficial,Raw/Cuyahoga.csv,,1284;1287;1292,boundary_overlap,371,75,388,68,380,76,373,84,368,78,369,82,379,72,376,74
+Cuyahoga,230,CLEVELAND -08-C,unofficial,Raw/Cuyahoga.csv,,1287;1332;1359;1365;1377,boundary_overlap,279,45,287,34,285,45,280,56,274,44,287,42,283,45,283,44
+Cuyahoga,231,CLEVELAND -08-D,unofficial,Raw/Cuyahoga.csv,,1332;1356;1358;1359,boundary_overlap,151,39,154,37,156,39,154,42,148,39,153,40,157,38,151,42
+Cuyahoga,232,CLEVELAND -08-E,unofficial,Raw/Cuyahoga.csv,,1287;1358;1376;1377;1429,boundary_overlap,272,52,282,49,278,59,270,65,278,46,283,55,277,62,267,68
+Cuyahoga,233,CLEVELAND -08-F,unofficial,Raw/Cuyahoga.csv,,1360;1361;1362;1371,boundary_overlap,299,10,304,10,311,12,309,14,306,10,311,11,308,14,309,10
+Cuyahoga,234,CLEVELAND -08-G,unofficial,Raw/Cuyahoga.csv,,1361;1363;1418,boundary_overlap,293,4,302,10,313,11,320,11,303,6,320,7,315,10,314,11
+Cuyahoga,235,CLEVELAND -08-H,unofficial,Raw/Cuyahoga.csv,,1357;1360;1373,boundary_overlap,216,22,222,23,217,35,216,34,221,24,223,30,222,33,223,28
+Cuyahoga,236,CLEVELAND -08-I,unofficial,Raw/Cuyahoga.csv,,1362;1364;1414,boundary_overlap,289,7,303,6,306,7,308,7,306,5,308,7,299,10,301,10
+Cuyahoga,237,CLEVELAND -08-J,unofficial,Raw/Cuyahoga.csv,,1366;1368;1369,boundary_overlap,209,10,216,17,215,21,221,20,214,15,219,20,220,16,209,20
+Cuyahoga,238,CLEVELAND -08-K,unofficial,Raw/Cuyahoga.csv,,1431,split_precinct,213,7,215,5,214,8,209,13,211,7,212,9,212,8,211,8
+Cuyahoga,239,CLEVELAND -08-L,unofficial,Raw/Cuyahoga.csv,,1367;1372;1374,boundary_overlap,418,17,432,21,435,23,444,19,437,14,436,20,438,23,440,21
+Cuyahoga,240,CLEVELAND -08-M,unofficial,Raw/Cuyahoga.csv,,1360;1417;1422;1431,boundary_overlap,248,26,260,26,255,28,252,34,257,25,261,28,258,26,258,22
+Cuyahoga,241,CLEVELAND -08-N,unofficial,Raw/Cuyahoga.csv,,1149;1420;1423,boundary_overlap,213,17,220,14,227,11,225,15,223,12,218,16,225,12,229,11
+Cuyahoga,242,CLEVELAND -08-O,unofficial,Raw/Cuyahoga.csv,,1372;1373;1376,boundary_overlap,284,8,284,9,291,10,289,14,292,9,295,10,294,11,288,11
+Cuyahoga,243,CLEVELAND -08-P,unofficial,Raw/Cuyahoga.csv,,1362;1369;1370;1371,boundary_overlap,327,9,344,7,336,12,342,12,335,5,344,10,347,8,343,7
+Cuyahoga,244,CLEVELAND -08-Q,unofficial,Raw/Cuyahoga.csv,,1374;1375,boundary_overlap,227,8,236,10,236,17,238,14,235,10,238,13,236,17,234,15
+Cuyahoga,245,CLEVELAND -09-A,unofficial,Raw/Cuyahoga.csv,,1398;1400;1411,boundary_overlap,286,8,294,6,308,10,305,8,296,6,302,10,296,9,303,8
+Cuyahoga,246,CLEVELAND -09-B,unofficial,Raw/Cuyahoga.csv,,1149;1398;1399;1423,boundary_overlap,324,7,333,9,330,15,333,15,331,10,332,14,326,14,328,13
+Cuyahoga,247,CLEVELAND -09-C,unofficial,Raw/Cuyahoga.csv,,1430;1433,boundary_overlap,302,7,312,8,313,12,317,11,313,7,316,7,313,8,313,9
+Cuyahoga,248,CLEVELAND -09-D,unofficial,Raw/Cuyahoga.csv,,1424;1432;1434,boundary_overlap,297,13,301,13,307,13,305,13,299,13,304,14,304,15,299,14
+Cuyahoga,249,CLEVELAND -09-E,unofficial,Raw/Cuyahoga.csv,,1401;1402,boundary_overlap,308,11,313,9,306,15,312,11,307,10,310,14,304,14,304,13
+Cuyahoga,250,CLEVELAND -09-F,unofficial,Raw/Cuyahoga.csv,,1403;1407;1408,boundary_overlap,358,10,367,13,367,19,374,22,365,13,377,12,374,16,373,13
+Cuyahoga,251,CLEVELAND -09-G,unofficial,Raw/Cuyahoga.csv,,1398;1404;1407;1411;1412,boundary_overlap,352,11,366,16,366,16,377,13,364,13,363,23,364,19,367,15
+Cuyahoga,252,CLEVELAND -09-H,unofficial,Raw/Cuyahoga.csv,,1405;1406;1412,boundary_overlap,383,14,395,10,391,16,394,16,388,10,393,15,385,15,387,17
+Cuyahoga,253,CLEVELAND -09-I,unofficial,Raw/Cuyahoga.csv,,1394;1424;1430;1432,boundary_overlap,289,11,289,12,290,16,292,19,295,13,293,17,293,15,284,17
+Cuyahoga,254,CLEVELAND -09-J,unofficial,Raw/Cuyahoga.csv,,1394;1397;1426,boundary_overlap,232,3,241,4,244,6,236,13,240,4,240,5,241,5,241,7
+Cuyahoga,255,CLEVELAND -09-K,unofficial,Raw/Cuyahoga.csv,,1406;1408;1409,boundary_overlap,323,10,324,8,321,13,321,15,322,9,323,14,318,11,318,14
+Cuyahoga,256,CLEVELAND -09-L,unofficial,Raw/Cuyahoga.csv,,1400;1421,boundary_overlap,282,9,280,8,285,10,288,9,280,9,283,11,282,10,282,12
+Cuyahoga,257,CLEVELAND -09-M,unofficial,Raw/Cuyahoga.csv,,1419;1420,boundary_overlap,337,13,348,18,348,12,354,17,351,17,348,20,343,21,351,15
+Cuyahoga,258,CLEVELAND -09-N,unofficial,Raw/Cuyahoga.csv,,1428;1441,boundary_overlap,281,9,299,12,305,12,304,14,289,13,306,12,297,15,299,14
+Cuyahoga,259,CLEVELAND -09-O,unofficial,Raw/Cuyahoga.csv,,1404;1412;1414;1416,boundary_overlap,298,6,306,9,301,20,309,12,305,7,306,14,301,14,302,11
+Cuyahoga,260,CLEVELAND -09-P,unofficial,Raw/Cuyahoga.csv,,1413;1415,boundary_overlap,158,14,163,12,156,15,155,18,156,13,157,15,156,18,160,13
+Cuyahoga,261,CLEVELAND -09-Q,unofficial,Raw/Cuyahoga.csv,,1396;1397,boundary_overlap,356,15,376,14,383,17,385,21,376,16,380,20,374,19,377,18
+Cuyahoga,262,CLEVELAND -09-R,unofficial,Raw/Cuyahoga.csv,,1413;1415,boundary_overlap,147,8,148,8,151,8,145,12,147,8,146,12,150,8,146,12
+Cuyahoga,263,CLEVELAND -09-S,unofficial,Raw/Cuyahoga.csv,,1410;1414;1416,boundary_overlap,362,7,378,12,375,12,376,15,368,11,375,15,366,15,370,12
+Cuyahoga,264,CLEVELAND -09-T,unofficial,Raw/Cuyahoga.csv,,1394;1432;1434;1435,boundary_overlap,277,6,283,4,285,5,285,8,282,4,282,6,280,5,283,5
+Cuyahoga,265,CLEVELAND -10-A,unofficial,Raw/Cuyahoga.csv,,1379,split_precinct,468,90,478,92,467,109,458,119,467,91,462,108,474,99,470,106
+Cuyahoga,266,CLEVELAND -10-B,unofficial,Raw/Cuyahoga.csv,,1380,split_precinct,444,110,465,92,451,111,435,133,461,95,452,107,452,106,442,118
+Cuyahoga,267,CLEVELAND -10-C,unofficial,Raw/Cuyahoga.csv,,1381,renamed,421,69,429,68,421,78,427,78,427,66,428,75,423,67,428,71
+Cuyahoga,268,CLEVELAND -10-D,unofficial,Raw/Cuyahoga.csv,,1382;1396,boundary_overlap,305,14,315,19,322,20,326,21,322,17,327,15,324,18,323,18
+Cuyahoga,269,CLEVELAND -10-E,unofficial,Raw/Cuyahoga.csv,,1385;1427;1442,boundary_overlap,359,39,372,41,371,42,368,45,364,40,371,40,362,42,366,42
+Cuyahoga,270,CLEVELAND -10-F,unofficial,Raw/Cuyahoga.csv,,1425;1426,boundary_overlap,258,9,267,8,266,13,273,11,260,10,268,11,264,15,261,12
+Cuyahoga,271,CLEVELAND -10-G,unofficial,Raw/Cuyahoga.csv,,1385;1391,boundary_overlap,449,47,452,46,457,53,457,59,454,50,461,48,449,54,452,56
+Cuyahoga,272,CLEVELAND -10-H,unofficial,Raw/Cuyahoga.csv,,1384;1386,boundary_overlap,312,17,308,27,320,30,316,29,320,19,316,28,320,25,302,31
+Cuyahoga,273,CLEVELAND -10-I,unofficial,Raw/Cuyahoga.csv,,1383;1387;1389;1390,boundary_overlap,426,21,443,27,442,32,445,36,439,31,442,31,441,34,438,31
+Cuyahoga,274,CLEVELAND -10-J,unofficial,Raw/Cuyahoga.csv,,1382;1388,boundary_overlap,448,38,459,39,460,46,461,47,451,36,455,44,459,39,468,36
+Cuyahoga,275,CLEVELAND -10-K,unofficial,Raw/Cuyahoga.csv,,1389;1390,split_precinct,217,14,213,21,221,18,228,14,226,12,226,15,222,14,225,13
+Cuyahoga,276,CLEVELAND -10-L,unofficial,Raw/Cuyahoga.csv,,1383;1391,boundary_overlap,405,39,425,41,432,37,435,43,415,37,430,41,435,40,421,51
+Cuyahoga,277,CLEVELAND -10-M,unofficial,Raw/Cuyahoga.csv,,1392;1393;1428,boundary_overlap,302,25,314,28,322,29,316,31,311,30,323,27,318,32,312,33
+Cuyahoga,278,CLEVELAND -10-N,unofficial,Raw/Cuyahoga.csv,,1393;1442,boundary_overlap,299,18,307,16,310,19,312,25,310,14,313,19,307,23,304,22
+Cuyahoga,279,CLEVELAND -10-O,unofficial,Raw/Cuyahoga.csv,,1391;1392;1395;1427;1442,boundary_overlap,239,26,241,31,241,31,244,35,247,27,245,29,243,29,244,28
+Cuyahoga,280,CLEVELAND -10-P,unofficial,Raw/Cuyahoga.csv,,1436;1438,boundary_overlap,366,13,374,17,383,18,371,23,376,14,376,21,375,22,374,22
+Cuyahoga,281,CLEVELAND -10-Q,unofficial,Raw/Cuyahoga.csv,,1436;1437,boundary_overlap,242,11,248,13,254,13,262,9,251,11,255,13,254,16,251,12
+Cuyahoga,282,CLEVELAND -10-R,unofficial,Raw/Cuyahoga.csv,,1440,split_precinct,303,10,310,3,317,8,314,9,310,5,321,8,310,8,307,12
+Cuyahoga,283,CLEVELAND -10-S,unofficial,Raw/Cuyahoga.csv,,1436;1439,boundary_overlap,337,10,347,14,341,14,349,10,341,9,346,13,345,14,351,8
+Cuyahoga,284,CLEVELAND -11-A,unofficial,Raw/Cuyahoga.csv,,1515;1526;1528,boundary_overlap,309,52,324,50,325,54,323,58,322,51,322,56,327,51,320,59
+Cuyahoga,285,CLEVELAND -11-B,unofficial,Raw/Cuyahoga.csv,,1455;1515;1518,boundary_overlap,289,66,296,64,305,70,297,78,304,61,301,75,298,77,301,75
+Cuyahoga,286,CLEVELAND -11-C,unofficial,Raw/Cuyahoga.csv,,1518;1521;1531,boundary_overlap,192,44,219,45,219,50,210,53,215,43,214,51,216,50,214,51
+Cuyahoga,287,CLEVELAND -11-D,unofficial,Raw/Cuyahoga.csv,,1520;1531,boundary_overlap,236,46,251,51,254,51,245,58,253,46,253,49,253,49,251,51
+Cuyahoga,288,CLEVELAND -11-E,unofficial,Raw/Cuyahoga.csv,,1524;1525;1526,boundary_overlap,220,43,238,44,244,47,244,48,245,41,245,46,249,40,241,48
+Cuyahoga,289,CLEVELAND -11-F,unofficial,Raw/Cuyahoga.csv,,1446;1520,boundary_overlap,156,37,160,42,162,44,157,48,160,41,161,44,160,43,155,48
+Cuyahoga,290,CLEVELAND -11-G,unofficial,Raw/Cuyahoga.csv,,1288;1293;1519;1525,boundary_overlap,154,51,163,48,158,56,154,58,158,53,158,55,162,53,159,54
+Cuyahoga,291,CLEVELAND -11-H,unofficial,Raw/Cuyahoga.csv,,1451;1457,boundary_overlap,289,76,302,77,301,85,293,92,299,80,296,90,297,84,291,89
+Cuyahoga,292,CLEVELAND -11-I,unofficial,Raw/Cuyahoga.csv,,1446;1451;1457,boundary_overlap,200,64,210,60,212,59,204,68,206,58,208,63,211,59,204,65
+Cuyahoga,293,CLEVELAND -11-J,unofficial,Raw/Cuyahoga.csv,,1288;1293;1446;1503,boundary_overlap,177,48,179,51,175,54,177,53,178,45,177,50,183,46,179,50
+Cuyahoga,294,CLEVELAND -11-K,unofficial,Raw/Cuyahoga.csv,,1191;1479;1480;1498,boundary_overlap,366,205,380,196,368,215,366,222,365,201,367,209,384,200,369,210
+Cuyahoga,295,CLEVELAND -11-L,unofficial,Raw/Cuyahoga.csv,,1480;1488;1489,boundary_overlap,407,181,421,173,427,185,416,193,419,177,417,184,417,184,417,184
+Cuyahoga,296,CLEVELAND -11-M,unofficial,Raw/Cuyahoga.csv,,1486;1487;1488;1498,boundary_overlap,377,141,390,147,381,152,372,164,383,146,384,150,390,144,375,156
+Cuyahoga,297,CLEVELAND -11-N,unofficial,Raw/Cuyahoga.csv,,1481;1484;1485;1486;1487,boundary_overlap,236,74,242,77,242,86,243,89,232,79,235,87,243,82,242,83
+Cuyahoga,298,CLEVELAND -12-A,unofficial,Raw/Cuyahoga.csv,,1514;1515,boundary_overlap,484,124,512,113,500,133,488,147,489,115,499,128,506,123,507,121
+Cuyahoga,299,CLEVELAND -12-B,unofficial,Raw/Cuyahoga.csv,,1514;1516;1517,boundary_overlap,469,54,499,53,491,57,488,60,487,48,490,57,493,50,490,53
+Cuyahoga,300,CLEVELAND -12-C,unofficial,Raw/Cuyahoga.csv,,1455;1515;1516,boundary_overlap,624,72,650,68,653,70,641,84,634,68,639,76,645,68,638,72
+Cuyahoga,301,CLEVELAND -12-D,unofficial,Raw/Cuyahoga.csv,,1455;1456;1516;1517,boundary_overlap,320,33,347,38,355,44,350,50,344,37,349,45,354,36,352,45
+Cuyahoga,302,CLEVELAND -12-E,unofficial,Raw/Cuyahoga.csv,,1453;1454;1456;1522,boundary_overlap,179,68,191,71,192,74,188,78,187,73,191,75,193,71,185,78
+Cuyahoga,303,CLEVELAND -12-F,unofficial,Raw/Cuyahoga.csv,,1446;1451;1453;1454;1521,boundary_overlap,235,44,251,46,247,49,245,51,246,39,243,47,242,51,249,42
+Cuyahoga,304,CLEVELAND -12-G,unofficial,Raw/Cuyahoga.csv,,1456;1521;1522,boundary_overlap,263,60,273,64,275,72,262,79,270,67,269,74,277,66,275,67
+Cuyahoga,305,CLEVELAND -12-H,unofficial,Raw/Cuyahoga.csv,,1445;1448;1453;1454,boundary_overlap,248,59,269,54,271,61,266,67,271,54,267,61,273,55,270,58
+Cuyahoga,306,CLEVELAND -12-I,unofficial,Raw/Cuyahoga.csv,,1445;1448;1453,boundary_overlap,312,86,336,81,328,89,321,94,320,85,324,91,325,89,324,84
+Cuyahoga,307,CLEVELAND -12-J,unofficial,Raw/Cuyahoga.csv,,1449;1450;1541;1542;1544,boundary_overlap,320,101,333,103,330,112,326,115,334,100,326,113,325,109,326,109
+Cuyahoga,308,CLEVELAND -12-K,unofficial,Raw/Cuyahoga.csv,,1444;1449,boundary_overlap,313,101,334,93,334,110,328,119,334,95,333,111,335,102,327,111
+Cuyahoga,309,CLEVELAND -12-L,unofficial,Raw/Cuyahoga.csv,,1448;1452,boundary_overlap,341,96,366,100,358,106,348,114,358,94,347,109,351,103,353,100
+Cuyahoga,310,CLEVELAND -12-M,unofficial,Raw/Cuyahoga.csv,,1447;1448;1458,boundary_overlap,265,80,280,72,270,86,268,84,272,77,267,83,276,78,270,79
+Cuyahoga,311,CLEVELAND -12-N,unofficial,Raw/Cuyahoga.csv,,1458,split_precinct,357,105,371,108,373,112,370,118,373,99,372,109,373,108,374,108
+Cuyahoga,312,CLEVELAND -13-A,unofficial,Raw/Cuyahoga.csv,,1547;1549,boundary_overlap,368,113,391,109,388,118,371,131,376,110,381,118,386,113,385,117
+Cuyahoga,313,CLEVELAND -13-B,unofficial,Raw/Cuyahoga.csv,,1540;1541;1542,boundary_overlap,222,65,224,70,229,73,223,77,223,68,222,79,225,74,228,71
+Cuyahoga,314,CLEVELAND -13-C,unofficial,Raw/Cuyahoga.csv,,1540;1541;1542,boundary_overlap,150,67,154,70,153,78,152,76,150,71,151,72,159,67,153,68
+Cuyahoga,315,CLEVELAND -13-D,unofficial,Raw/Cuyahoga.csv,,1544;1545,boundary_overlap,328,105,355,100,341,115,334,120,331,112,341,114,337,119,329,124
+Cuyahoga,316,CLEVELAND -13-E,unofficial,Raw/Cuyahoga.csv,,1450;1541;1542;1544,boundary_overlap,326,114,340,109,333,125,326,134,331,113,335,119,334,120,328,126
+Cuyahoga,317,CLEVELAND -13-F,unofficial,Raw/Cuyahoga.csv,,1443;1444,boundary_overlap,210,18,222,15,210,21,208,29,216,16,208,23,207,22,212,18
+Cuyahoga,318,CLEVELAND -13-G,unofficial,Raw/Cuyahoga.csv,,1443,split_precinct,113,12,115,14,115,15,114,19,116,13,113,15,118,14,113,15
+Cuyahoga,319,CLEVELAND -13-H,unofficial,Raw/Cuyahoga.csv,,1546;1547,boundary_overlap,250,97,270,93,260,106,255,112,263,93,259,104,256,105,263,97
+Cuyahoga,320,CLEVELAND -13-I,unofficial,Raw/Cuyahoga.csv,,1533;1539;1548,boundary_overlap,305,100,314,95,300,121,302,125,306,106,305,117,306,112,300,115
+Cuyahoga,321,CLEVELAND -13-J,unofficial,Raw/Cuyahoga.csv,,1543;1548,boundary_overlap,355,113,371,115,372,122,366,129,366,111,369,116,377,113,366,122
+Cuyahoga,322,CLEVELAND -13-K,unofficial,Raw/Cuyahoga.csv,,1532;1539,boundary_overlap,337,73,357,67,348,81,324,103,341,68,348,82,353,75,340,88
+Cuyahoga,323,CLEVELAND -13-L,unofficial,Raw/Cuyahoga.csv,,1533,split_precinct,299,109,307,102,305,114,298,126,301,108,304,113,298,109,291,118
+Cuyahoga,324,CLEVELAND -13-M,unofficial,Raw/Cuyahoga.csv,,1534,split_precinct,247,140,243,141,245,145,242,153,245,136,251,141,248,140,247,140
+Cuyahoga,325,CLEVELAND -13-N,unofficial,Raw/Cuyahoga.csv,,1535,renamed,285,99,295,88,295,107,283,117,289,99,288,109,292,102,289,103
+Cuyahoga,326,CLEVELAND -13-O,unofficial,Raw/Cuyahoga.csv,,1538,renamed,206,46,199,50,207,47,205,53,204,44,207,47,206,50,203,54
+Cuyahoga,327,CLEVELAND -13-P,unofficial,Raw/Cuyahoga.csv,,1537,renamed,231,74,248,71,242,89,241,93,238,76,244,87,251,80,245,84
+Cuyahoga,328,CLEVELAND -13-Q,unofficial,Raw/Cuyahoga.csv,,1536,renamed,247,100,257,95,258,108,253,110,256,92,258,101,258,98,253,99
+Cuyahoga,329,CLEVELAND -14-A,unofficial,Raw/Cuyahoga.csv,,1499;1500;1513,boundary_overlap,196,59,205,53,208,56,198,66,201,54,199,62,205,53,201,59
+Cuyahoga,330,CLEVELAND -14-B,unofficial,Raw/Cuyahoga.csv,,1500;1513,boundary_overlap,165,53,170,54,169,62,170,65,162,59,171,57,176,59,165,59
+Cuyahoga,331,CLEVELAND -14-C,unofficial,Raw/Cuyahoga.csv,,1501;1507;1508,boundary_overlap,221,61,237,55,234,60,225,67,230,56,230,60,234,60,224,65
+Cuyahoga,332,CLEVELAND -14-D,unofficial,Raw/Cuyahoga.csv,,1502;1508,boundary_overlap,213,69,228,71,226,72,217,86,217,75,222,77,220,81,221,75
+Cuyahoga,333,CLEVELAND -14-E,unofficial,Raw/Cuyahoga.csv,,1459;1501,boundary_overlap,227,63,235,70,232,73,240,68,232,65,233,73,234,69,231,68
+Cuyahoga,334,CLEVELAND -14-F,unofficial,Raw/Cuyahoga.csv,,1288;1294;1503;1519,boundary_overlap,130,42,139,44,138,48,127,54,135,49,135,50,137,46,134,48
+Cuyahoga,335,CLEVELAND -14-G,unofficial,Raw/Cuyahoga.csv,,1478;1504,boundary_overlap,207,27,213,30,214,31,209,35,210,29,210,34,208,36,209,36
+Cuyahoga,336,CLEVELAND -14-H,unofficial,Raw/Cuyahoga.csv,,1471;1476;1505,boundary_overlap,202,46,208,47,210,46,206,49,207,45,210,44,214,45,212,44
+Cuyahoga,337,CLEVELAND -14-I,unofficial,Raw/Cuyahoga.csv,,1506;1511,boundary_overlap,179,41,188,36,186,43,181,49,179,41,185,41,192,40,190,40
+Cuyahoga,338,CLEVELAND -14-J,unofficial,Raw/Cuyahoga.csv,,1507;1508,boundary_overlap,183,59,197,57,197,54,186,64,194,50,194,56,196,55,193,57
+Cuyahoga,339,CLEVELAND -14-K,unofficial,Raw/Cuyahoga.csv,,1285;1294;1511,boundary_overlap,143,58,153,61,153,68,144,73,149,63,156,63,158,64,148,69
+Cuyahoga,340,CLEVELAND -14-L,unofficial,Raw/Cuyahoga.csv,,1509,normalized,181,38,186,39,183,44,181,44,185,36,183,43,190,38,187,37
+Cuyahoga,341,CLEVELAND -14-M,unofficial,Raw/Cuyahoga.csv,,1285;1510;1511,boundary_overlap,163,57,164,59,164,66,162,70,162,60,167,66,169,62,169,61
+Cuyahoga,342,CLEVELAND -14-N,unofficial,Raw/Cuyahoga.csv,,1472;1476;1477,boundary_overlap,208,64,225,68,222,74,219,76,221,66,227,72,219,76,221,71
+Cuyahoga,343,CLEVELAND -14-O,unofficial,Raw/Cuyahoga.csv,,1512,normalized,120,19,124,18,122,23,124,19,121,18,122,20,124,17,121,21
+Cuyahoga,344,CLEVELAND -15-A,unofficial,Raw/Cuyahoga.csv,,1550;1568,boundary_overlap,322,154,340,149,329,166,312,179,325,146,331,160,332,156,326,159
+Cuyahoga,345,CLEVELAND -15-B,unofficial,Raw/Cuyahoga.csv,,1551;1561,boundary_overlap,353,120,360,122,352,134,341,144,346,120,354,127,355,127,355,129
+Cuyahoga,346,CLEVELAND -15-C,unofficial,Raw/Cuyahoga.csv,,1552,boundary_overlap,371,176,396,164,377,192,368,198,376,171,372,189,378,181,375,184
+Cuyahoga,347,CLEVELAND -15-D,unofficial,Raw/Cuyahoga.csv,,1553,renamed,372,126,381,127,376,143,363,154,381,126,370,142,375,135,371,140
+Cuyahoga,348,CLEVELAND -15-E,unofficial,Raw/Cuyahoga.csv,,1554,renamed,450,186,450,185,446,201,427,220,443,187,443,191,444,195,439,200
+Cuyahoga,349,CLEVELAND -15-F,unofficial,Raw/Cuyahoga.csv,,1555,boundary_overlap,446,179,465,172,445,196,435,205,439,170,448,190,445,189,443,191
+Cuyahoga,350,CLEVELAND -15-G,unofficial,Raw/Cuyahoga.csv,,1556,split_precinct,266,115,276,116,266,125,264,134,273,104,273,120,269,120,271,121
+Cuyahoga,351,CLEVELAND -15-H,unofficial,Raw/Cuyahoga.csv,,1557,renamed,403,108,405,108,404,119,388,136,400,112,396,119,404,113,404,116
+Cuyahoga,352,CLEVELAND -15-I,unofficial,Raw/Cuyahoga.csv,,1558,renamed,366,134,378,131,368,139,357,150,371,123,360,143,366,138,355,148
+Cuyahoga,353,CLEVELAND -15-J,unofficial,Raw/Cuyahoga.csv,,1559,renamed,428,185,441,179,413,203,410,213,426,171,417,194,424,189,426,196
+Cuyahoga,354,CLEVELAND -15-K,unofficial,Raw/Cuyahoga.csv,,1560,renamed,464,165,482,155,465,170,446,183,458,152,461,164,454,168,445,176
+Cuyahoga,355,CLEVELAND -15-L,unofficial,Raw/Cuyahoga.csv,,1551;1568,boundary_overlap,162,47,178,45,179,50,171,53,175,42,174,51,175,51,172,54
+Cuyahoga,356,CLEVELAND -15-M,unofficial,Raw/Cuyahoga.csv,,1549;1562,boundary_overlap,340,87,357,80,349,94,351,92,350,86,352,88,349,89,340,98
+Cuyahoga,357,CLEVELAND -15-N,unofficial,Raw/Cuyahoga.csv,,1563,renamed,480,181,500,172,487,190,483,197,481,172,482,188,479,185,476,187
+Cuyahoga,358,CLEVELAND -15-O,unofficial,Raw/Cuyahoga.csv,,1562;1564,boundary_overlap,504,153,527,141,506,161,482,190,496,152,500,157,500,154,487,169
+Cuyahoga,359,CLEVELAND -15-P,unofficial,Raw/Cuyahoga.csv,,1565,renamed,454,193,474,180,445,210,439,216,454,185,434,207,452,198,448,201
+Cuyahoga,360,CLEVELAND -15-Q,unofficial,Raw/Cuyahoga.csv,,1566;1677,boundary_overlap,456,201,472,193,447,216,438,227,449,204,447,215,456,205,444,224
+Cuyahoga,361,CLEVELAND -15-R,unofficial,Raw/Cuyahoga.csv,,1566;1567,boundary_overlap,434,206,455,180,423,210,415,220,437,179,419,205,427,197,425,207
+Cuyahoga,362,CLEVELAND HEIGHTS -01-A,unofficial,Raw/Cuyahoga.csv,,1199,normalized,434,26,441,28,435,37,428,41,433,28,432,34,438,32,437,31
+Cuyahoga,363,CLEVELAND HEIGHTS -01-B,unofficial,Raw/Cuyahoga.csv,,1200,normalized,427,29,435,29,432,34,434,37,432,31,434,34,437,29,432,33
+Cuyahoga,364,CLEVELAND HEIGHTS -01-C,unofficial,Raw/Cuyahoga.csv,,1201,normalized,522,42,542,35,533,50,529,55,532,42,527,52,534,46,544,39
+Cuyahoga,365,CLEVELAND HEIGHTS -01-D,unofficial,Raw/Cuyahoga.csv,,1202,normalized,396,21,423,20,410,30,409,28,410,24,408,30,411,28,412,28
+Cuyahoga,366,CLEVELAND HEIGHTS -01-E,unofficial,Raw/Cuyahoga.csv,,1203,normalized,672,105,681,96,674,109,661,119,671,102,662,119,678,104,679,101
+Cuyahoga,367,CLEVELAND HEIGHTS -01-F,unofficial,Raw/Cuyahoga.csv,,1204,normalized,611,93,633,78,611,98,602,111,610,83,608,96,617,88,623,85
+Cuyahoga,368,CLEVELAND HEIGHTS -02-A,unofficial,Raw/Cuyahoga.csv,,1205,normalized,599,43,626,37,617,47,610,56,612,44,616,52,614,47,620,44
+Cuyahoga,369,CLEVELAND HEIGHTS -02-B,unofficial,Raw/Cuyahoga.csv,,1206,normalized,680,110,684,110,656,127,644,139,654,116,654,124,668,114,669,118
+Cuyahoga,370,CLEVELAND HEIGHTS -02-C,unofficial,Raw/Cuyahoga.csv,,1207,normalized,779,82,796,68,769,88,746,111,767,77,766,86,775,83,771,87
+Cuyahoga,371,CLEVELAND HEIGHTS -02-D,unofficial,Raw/Cuyahoga.csv,,1208,normalized,714,66,736,58,730,66,714,82,723,59,721,72,724,67,720,69
+Cuyahoga,372,CLEVELAND HEIGHTS -02-E,unofficial,Raw/Cuyahoga.csv,,1209,normalized,720,115,734,109,717,119,715,126,710,113,711,121,723,120,724,118
+Cuyahoga,373,CLEVELAND HEIGHTS -02-F,unofficial,Raw/Cuyahoga.csv,,1210,normalized,637,64,649,58,649,64,634,78,638,58,644,61,644,67,648,64
+Cuyahoga,374,CLEVELAND HEIGHTS -03-A,unofficial,Raw/Cuyahoga.csv,,1211,normalized,284,13,312,11,313,12,307,18,302,16,314,13,307,16,310,15
+Cuyahoga,375,CLEVELAND HEIGHTS -03-B,unofficial,Raw/Cuyahoga.csv,,1212,normalized,458,29,469,31,468,33,467,36,461,26,469,32,462,38,468,32
+Cuyahoga,376,CLEVELAND HEIGHTS -03-C,unofficial,Raw/Cuyahoga.csv,,1213,normalized,448,28,457,31,457,34,446,43,442,34,450,41,456,34,450,37
+Cuyahoga,377,CLEVELAND HEIGHTS -03-D,unofficial,Raw/Cuyahoga.csv,,1214,normalized,634,33,644,32,630,39,630,40,625,30,630,32,636,32,633,33
+Cuyahoga,378,CLEVELAND HEIGHTS -03-E,unofficial,Raw/Cuyahoga.csv,,1215,normalized,464,43,476,41,463,54,453,63,459,48,457,52,462,50,461,53
+Cuyahoga,379,CLEVELAND HEIGHTS -03-F,unofficial,Raw/Cuyahoga.csv,,1216,normalized,375,31,389,28,387,34,381,37,387,29,378,38,382,33,385,32
+Cuyahoga,380,CLEVELAND HEIGHTS -04-A,unofficial,Raw/Cuyahoga.csv,,1217;1989,boundary_overlap,496,125,516,122,521,125,514,130,512,122,514,131,522,124,516,129
+Cuyahoga,381,CLEVELAND HEIGHTS -04-B,unofficial,Raw/Cuyahoga.csv,,1218;1989,boundary_overlap,258,332,260,331,260,338,267,327,253,332,256,335,260,334,265,328
+Cuyahoga,382,CLEVELAND HEIGHTS -04-C,unofficial,Raw/Cuyahoga.csv,,1219,normalized,476,42,505,40,509,46,500,53,493,47,506,48,497,48,503,47
+Cuyahoga,383,CLEVELAND HEIGHTS -04-D,unofficial,Raw/Cuyahoga.csv,,1220,normalized,301,138,322,126,312,143,311,144,304,136,313,143,313,142,311,139
+Cuyahoga,384,CLEVELAND HEIGHTS -04-E,unofficial,Raw/Cuyahoga.csv,,1221,normalized,532,31,539,31,529,41,527,42,527,33,526,36,526,33,524,38
+Cuyahoga,385,CLEVELAND HEIGHTS -04-F,unofficial,Raw/Cuyahoga.csv,,1222,normalized,484,90,494,87,490,102,489,104,491,94,486,105,491,94,486,98
+Cuyahoga,386,CLEVELAND HEIGHTS -04-G,unofficial,Raw/Cuyahoga.csv,,1223,normalized,395,225,408,223,398,232,407,230,398,227,398,230,395,229,396,230
+Cuyahoga,387,CLEVELAND HEIGHTS -04-H,unofficial,Raw/Cuyahoga.csv,,1224,normalized,740,69,750,67,741,78,739,84,733,67,744,71,737,79,748,69
+Cuyahoga,388,CLEVELAND HEIGHTS -04-I,unofficial,Raw/Cuyahoga.csv,,1225,normalized,506,57,511,57,522,53,509,64,510,55,513,59,515,60,515,61
+Cuyahoga,389,CLEVELAND HEIGHTS -05-A,unofficial,Raw/Cuyahoga.csv,,1226,normalized,594,45,617,41,611,45,619,46,616,40,619,46,621,37,616,39
+Cuyahoga,390,CLEVELAND HEIGHTS -05-B,unofficial,Raw/Cuyahoga.csv,,1227,normalized,698,48,714,50,709,54,706,62,703,52,707,51,709,51,701,51
+Cuyahoga,391,CLEVELAND HEIGHTS -05-C,unofficial,Raw/Cuyahoga.csv,,1228,normalized,573,24,592,25,589,28,589,31,580,25,584,28,582,28,584,28
+Cuyahoga,392,CLEVELAND HEIGHTS -05-D,unofficial,Raw/Cuyahoga.csv,,1229,normalized,529,14,539,13,539,14,537,17,535,14,540,21,541,16,537,15
+Cuyahoga,393,CLEVELAND HEIGHTS -05-E,unofficial,Raw/Cuyahoga.csv,,1230,normalized,621,46,644,52,644,56,642,58,640,50,647,54,645,55,640,59
+Cuyahoga,394,CLEVELAND HEIGHTS -05-F,unofficial,Raw/Cuyahoga.csv,,1231,normalized,646,30,654,30,652,44,659,40,644,31,658,39,652,37,654,35
+Cuyahoga,395,CUYAHOGA HEIGHTS -00-A,unofficial,Raw/Cuyahoga.csv,,1569,normalized,103,118,113,112,95,130,93,134,103,116,95,126,97,120,94,127
+Cuyahoga,396,EAST CLEVELAND -02-A,unofficial,Raw/Cuyahoga.csv,,1570,normalized,255,3,257,6,264,4,262,7,263,3,259,5,254,6,256,4
+Cuyahoga,397,EAST CLEVELAND -02-B,unofficial,Raw/Cuyahoga.csv,,1571,normalized,197,3,207,7,212,5,218,2,207,3,208,3,209,3,213,3
+Cuyahoga,398,EAST CLEVELAND -02-C,unofficial,Raw/Cuyahoga.csv,,1572,normalized,133,6,136,7,139,10,140,10,138,5,143,5,142,6,140,8
+Cuyahoga,399,EAST CLEVELAND -02-D,unofficial,Raw/Cuyahoga.csv,,1573,normalized,135,2,142,2,142,1,142,2,133,1,137,2,140,1,136,4
+Cuyahoga,400,EAST CLEVELAND -03-A,unofficial,Raw/Cuyahoga.csv,,1574,normalized,169,9,165,10,167,10,168,10,162,11,164,9,165,10,164,11
+Cuyahoga,401,EAST CLEVELAND -03-B,unofficial,Raw/Cuyahoga.csv,,1575,normalized,209,7,205,11,211,11,220,7,212,7,216,7,210,10,211,12
+Cuyahoga,402,EAST CLEVELAND -03-C,unofficial,Raw/Cuyahoga.csv,,1576,normalized,304,9,306,13,300,19,310,14,297,15,297,15,294,18,303,15
+Cuyahoga,403,EAST CLEVELAND -03-D,unofficial,Raw/Cuyahoga.csv,,1577,normalized,192,5,198,9,205,8,209,4,207,2,208,5,209,3,209,3
+Cuyahoga,404,EAST CLEVELAND -03-E,unofficial,Raw/Cuyahoga.csv,,1578,normalized,179,4,180,10,183,10,180,12,184,8,183,10,182,10,177,13
+Cuyahoga,405,EAST CLEVELAND -04-A,unofficial,Raw/Cuyahoga.csv,,1579,normalized,149,2,148,2,152,3,148,6,145,3,150,4,148,3,150,1
+Cuyahoga,406,EAST CLEVELAND -04-B,unofficial,Raw/Cuyahoga.csv,,1580,normalized,217,3,224,5,224,6,223,9,219,3,226,3,223,4,220,5
+Cuyahoga,407,EAST CLEVELAND -04-C,unofficial,Raw/Cuyahoga.csv,,1581,normalized,160,3,174,4,167,4,168,7,171,1,167,5,168,5,166,5
+Cuyahoga,408,EAST CLEVELAND -04-D,unofficial,Raw/Cuyahoga.csv,,1582,normalized,443,23,444,19,455,27,454,30,449,20,453,28,447,28,453,23
+Cuyahoga,409,EAST CLEVELAND -04-E,unofficial,Raw/Cuyahoga.csv,,1583,normalized,143,4,149,5,159,5,159,3,151,5,156,7,158,5,156,4
+Cuyahoga,410,EAST CLEVELAND -04-F,unofficial,Raw/Cuyahoga.csv,,1584,normalized,196,3,202,3,201,3,204,4,202,3,200,5,200,3,202,4
+Cuyahoga,411,EUCLID -01-A,unofficial,Raw/Cuyahoga.csv,,1585;1587,boundary_overlap,732,47,739,53,751,53,745,62,743,51,741,59,740,54,746,50
+Cuyahoga,412,EUCLID -01-B,unofficial,Raw/Cuyahoga.csv,,1586;1587,boundary_overlap,594,53,615,50,618,53,610,59,614,47,618,52,609,56,601,61
+Cuyahoga,413,EUCLID -01-C,unofficial,Raw/Cuyahoga.csv,,1588;1589,boundary_overlap,380,20,391,20,395,19,393,20,397,16,391,19,384,24,385,22
+Cuyahoga,414,EUCLID -01-D,unofficial,Raw/Cuyahoga.csv,,1588;1589,boundary_overlap,374,21,376,18,383,21,381,23,379,19,386,18,380,19,373,21
+Cuyahoga,415,EUCLID -02-A,unofficial,Raw/Cuyahoga.csv,,1590;1594,boundary_overlap,654,108,678,114,670,123,674,121,669,110,672,119,668,116,663,120
+Cuyahoga,416,EUCLID -02-B,unofficial,Raw/Cuyahoga.csv,,1591,normalized,352,57,368,60,366,60,366,65,368,56,366,61,362,63,361,63
+Cuyahoga,417,EUCLID -02-C,unofficial,Raw/Cuyahoga.csv,,1592,normalized,427,66,429,69,415,84,421,83,427,60,430,69,426,71,420,78
+Cuyahoga,418,EUCLID -02-D,unofficial,Raw/Cuyahoga.csv,,1593,normalized,425,104,441,98,436,109,431,113,436,100,434,107,430,107,420,110
+Cuyahoga,419,EUCLID -03-A,unofficial,Raw/Cuyahoga.csv,,1594,normalized,403,41,414,42,413,48,405,55,408,46,415,48,411,47,410,48
+Cuyahoga,420,EUCLID -03-B,unofficial,Raw/Cuyahoga.csv,,1595;1596;1909,boundary_overlap,326,26,332,25,331,26,327,30,331,24,335,26,322,31,317,29
+Cuyahoga,421,EUCLID -03-C,unofficial,Raw/Cuyahoga.csv,,1596;1597,boundary_overlap,193,4,190,8,200,3,202,4,198,2,200,4,192,6,197,4
+Cuyahoga,422,EUCLID -03-D,unofficial,Raw/Cuyahoga.csv,,1598,renamed,247,27,249,30,256,34,255,37,253,30,257,32,254,35,258,31
+Cuyahoga,423,EUCLID -04-A,unofficial,Raw/Cuyahoga.csv,,1599;1603,boundary_overlap,537,159,546,148,537,172,510,195,538,157,526,169,532,167,532,166
+Cuyahoga,424,EUCLID -04-B,unofficial,Raw/Cuyahoga.csv,,1600;1603,boundary_overlap,455,73,474,68,479,74,464,91,467,72,478,71,465,77,467,78
+Cuyahoga,425,EUCLID -04-C,unofficial,Raw/Cuyahoga.csv,,1601;1602,boundary_overlap,435,80,441,86,439,89,446,83,442,78,437,87,437,82,440,83
+Cuyahoga,426,EUCLID -04-D,unofficial,Raw/Cuyahoga.csv,,1591;1600;1602,boundary_overlap,466,73,480,74,480,78,479,90,480,73,477,79,481,81,475,85
+Cuyahoga,427,EUCLID -05-A,unofficial,Raw/Cuyahoga.csv,,1604;1608,boundary_overlap,601,157,621,150,604,169,590,185,598,151,599,166,597,175,594,174
+Cuyahoga,428,EUCLID -05-B,unofficial,Raw/Cuyahoga.csv,,1604;1605,boundary_overlap,421,70,430,71,440,69,434,78,434,66,436,68,442,71,426,80
+Cuyahoga,429,EUCLID -05-C,unofficial,Raw/Cuyahoga.csv,,1606,normalized,414,63,419,71,426,74,429,73,424,58,430,65,428,68,424,67
+Cuyahoga,430,EUCLID -05-D,unofficial,Raw/Cuyahoga.csv,,1607;1608,boundary_overlap,576,151,592,152,573,163,562,181,576,146,574,159,574,157,572,159
+Cuyahoga,431,EUCLID -06-A,unofficial,Raw/Cuyahoga.csv,,1609;1610,boundary_overlap,471,176,478,174,458,201,454,204,472,175,463,192,462,193,461,196
+Cuyahoga,432,EUCLID -06-B,unofficial,Raw/Cuyahoga.csv,,1610;1612,boundary_overlap,486,138,494,138,500,141,492,152,488,130,491,143,501,136,491,145
+Cuyahoga,433,EUCLID -06-C,unofficial,Raw/Cuyahoga.csv,,1611;1613,boundary_overlap,473,123,481,123,471,145,468,149,479,126,467,142,467,140,466,140
+Cuyahoga,434,EUCLID -06-D,unofficial,Raw/Cuyahoga.csv,,1612;1613,boundary_overlap,452,94,459,94,461,98,459,106,449,104,459,100,451,99,442,104
+Cuyahoga,435,EUCLID -07-A,unofficial,Raw/Cuyahoga.csv,,1614,normalized,449,68,473,62,451,80,453,80,459,68,456,77,451,75,459,70
+Cuyahoga,436,EUCLID -07-B,unofficial,Raw/Cuyahoga.csv,,1615;1617,boundary_overlap,361,54,375,53,373,62,369,70,372,57,372,62,381,53,368,60
+Cuyahoga,437,EUCLID -07-C,unofficial,Raw/Cuyahoga.csv,,1616,normalized,322,18,329,20,327,23,326,25,325,21,331,21,320,24,321,22
+Cuyahoga,438,EUCLID -07-D,unofficial,Raw/Cuyahoga.csv,,1617;1618,boundary_overlap,388,54,403,48,409,50,398,62,405,48,404,53,407,49,403,52
+Cuyahoga,439,EUCLID -08-A,unofficial,Raw/Cuyahoga.csv,,1619;1622,boundary_overlap,349,53,361,53,359,55,359,63,357,51,363,56,360,54,354,56
+Cuyahoga,440,EUCLID -08-B,unofficial,Raw/Cuyahoga.csv,,1598;1620;1621,boundary_overlap,499,80,502,85,498,92,495,90,494,85,500,86,492,90,499,82
+Cuyahoga,441,EUCLID -08-C,unofficial,Raw/Cuyahoga.csv,,1620;1621;1622,boundary_overlap,445,64,458,64,452,69,449,71,451,63,448,68,443,65,444,67
+Cuyahoga,442,EUCLID -08-D,unofficial,Raw/Cuyahoga.csv,,1623,renamed,341,48,359,49,356,56,347,65,358,49,360,53,362,51,351,58
+Cuyahoga,443,FAIRVIEW PARK -01-A,unofficial,Raw/Cuyahoga.csv,,1566;1624,boundary_overlap,452,245,467,241,445,265,435,272,443,252,438,266,450,253,446,259
+Cuyahoga,444,FAIRVIEW PARK -01-B,unofficial,Raw/Cuyahoga.csv,,1556;1625,boundary_overlap,390,194,410,177,382,199,364,221,384,184,378,193,386,194,383,200
+Cuyahoga,445,FAIRVIEW PARK -01-C,unofficial,Raw/Cuyahoga.csv,,1626,normalized,312,102,326,97,301,117,301,120,306,99,306,111,307,110,313,106
+Cuyahoga,446,FAIRVIEW PARK -02-A,unofficial,Raw/Cuyahoga.csv,,1627,normalized,88,46,92,43,86,49,86,48,87,45,86,46,89,46,86,46
+Cuyahoga,447,FAIRVIEW PARK -02-B,unofficial,Raw/Cuyahoga.csv,,1628,normalized,411,206,427,197,413,218,398,235,414,193,403,218,408,215,413,211
+Cuyahoga,448,FAIRVIEW PARK -02-C,unofficial,Raw/Cuyahoga.csv,,1629,normalized,462,228,480,212,450,243,439,255,452,224,446,240,450,232,449,238
+Cuyahoga,449,FAIRVIEW PARK -03-A,unofficial,Raw/Cuyahoga.csv,,1630;1631,boundary_overlap,584,288,596,276,561,307,546,325,580,269,564,295,573,292,573,289
+Cuyahoga,450,FAIRVIEW PARK -03-B,unofficial,Raw/Cuyahoga.csv,,1631;1632,boundary_overlap,551,268,568,258,539,276,522,287,533,263,535,273,538,271,546,271
+Cuyahoga,451,FAIRVIEW PARK -04-A,unofficial,Raw/Cuyahoga.csv,,1633,normalized,540,238,564,235,539,263,530,273,537,237,540,256,535,261,539,258
+Cuyahoga,452,FAIRVIEW PARK -04-B,unofficial,Raw/Cuyahoga.csv,,1630;1634,boundary_overlap,571,214,581,216,560,246,544,257,563,225,558,240,565,231,551,250
+Cuyahoga,453,FAIRVIEW PARK -05-A,unofficial,Raw/Cuyahoga.csv,,1630;1631;1635,boundary_overlap,591,323,619,312,587,346,571,358,595,314,578,344,590,335,591,329
+Cuyahoga,454,FAIRVIEW PARK -05-B,unofficial,Raw/Cuyahoga.csv,,1635;1636,boundary_overlap,542,323,563,313,540,351,527,367,530,326,523,349,535,341,531,352
+Cuyahoga,455,GARFIELD HEIGHTS -01-A,unofficial,Raw/Cuyahoga.csv,,1637;1644,boundary_overlap,462,40,463,46,468,47,468,54,467,43,466,47,459,50,461,46
+Cuyahoga,456,GARFIELD HEIGHTS -01-B,unofficial,Raw/Cuyahoga.csv,,1638,normalized,358,7,364,10,367,11,373,10,367,9,372,8,366,8,368,5
+Cuyahoga,457,GARFIELD HEIGHTS -01-C,unofficial,Raw/Cuyahoga.csv,,1639,normalized,272,6,279,9,276,10,276,13,273,7,272,11,274,10,276,7
+Cuyahoga,458,GARFIELD HEIGHTS -02-A,unofficial,Raw/Cuyahoga.csv,,1640;1641,boundary_overlap,359,77,373,81,370,86,364,94,373,79,370,87,369,85,370,86
+Cuyahoga,459,GARFIELD HEIGHTS -02-B,unofficial,Raw/Cuyahoga.csv,,1641;1642;1650,boundary_overlap,391,101,398,107,405,104,407,109,409,96,410,106,411,99,402,108
+Cuyahoga,460,GARFIELD HEIGHTS -03-A,unofficial,Raw/Cuyahoga.csv,,1643,normalized,441,78,458,81,461,87,442,104,444,85,454,90,452,87,452,92
+Cuyahoga,461,GARFIELD HEIGHTS -03-B,unofficial,Raw/Cuyahoga.csv,,1644,normalized,392,77,413,70,411,83,405,90,410,72,412,84,412,79,407,82
+Cuyahoga,462,GARFIELD HEIGHTS -04-A,unofficial,Raw/Cuyahoga.csv,,1645;1646;1647,boundary_overlap,272,70,281,73,279,81,283,79,277,73,280,80,283,74,272,83
+Cuyahoga,463,GARFIELD HEIGHTS -04-B,unofficial,Raw/Cuyahoga.csv,,1645;1646,boundary_overlap,325,92,346,88,345,103,341,105,341,92,340,106,346,100,340,103
+Cuyahoga,464,GARFIELD HEIGHTS -04-C,unofficial,Raw/Cuyahoga.csv,,1647,normalized,390,90,394,91,390,100,397,102,395,87,393,95,398,91,398,88
+Cuyahoga,465,GARFIELD HEIGHTS -05-A,unofficial,Raw/Cuyahoga.csv,,1648;1650,boundary_overlap,379,98,385,96,383,108,371,117,375,96,380,108,383,101,383,100
+Cuyahoga,466,GARFIELD HEIGHTS -05-B,unofficial,Raw/Cuyahoga.csv,,1649;1653,boundary_overlap,319,59,326,59,327,65,317,76,328,61,327,65,323,68,321,70
+Cuyahoga,467,GARFIELD HEIGHTS -05-C,unofficial,Raw/Cuyahoga.csv,,1648;1649,boundary_overlap,388,87,394,83,390,95,397,92,393,83,393,86,393,81,397,83
+Cuyahoga,468,GARFIELD HEIGHTS -06-A,unofficial,Raw/Cuyahoga.csv,,1650,normalized,372,93,387,92,379,97,382,104,381,89,379,98,376,96,372,101
+Cuyahoga,469,GARFIELD HEIGHTS -06-B,unofficial,Raw/Cuyahoga.csv,,1651,normalized,342,96,364,94,357,113,363,107,349,97,356,111,357,107,357,104
+Cuyahoga,470,GARFIELD HEIGHTS -06-C,unofficial,Raw/Cuyahoga.csv,,1652,normalized,414,74,419,81,419,89,418,96,419,79,420,90,420,82,420,86
+Cuyahoga,471,GARFIELD HEIGHTS -07-A,unofficial,Raw/Cuyahoga.csv,,1653;1655,boundary_overlap,406,81,424,78,415,89,416,93,403,82,406,91,405,88,406,89
+Cuyahoga,472,GARFIELD HEIGHTS -07-B,unofficial,Raw/Cuyahoga.csv,,1654,normalized,358,101,361,101,354,106,353,113,356,99,356,103,361,99,355,109
+Cuyahoga,473,GARFIELD HEIGHTS -07-C,unofficial,Raw/Cuyahoga.csv,,1655,normalized,358,102,370,98,360,110,362,115,365,99,363,106,368,104,369,102
+Cuyahoga,474,GATES MILLS -00-A,unofficial,Raw/Cuyahoga.csv,,1656,normalized,350,299,365,281,338,309,325,310,339,292,329,308,344,291,344,287
+Cuyahoga,475,GATES MILLS -00-B,unofficial,Raw/Cuyahoga.csv,,1657,normalized,369,346,399,319,364,359,354,371,365,334,357,360,374,338,374,339
+Cuyahoga,476,GLENWILLOW -01-A,unofficial,Raw/Cuyahoga.csv,,1658,normalized,134,18,131,24,134,16,129,21,131,17,131,18,133,17,136,16
+Cuyahoga,477,GLENWILLOW -02-A,unofficial,Raw/Cuyahoga.csv,,1659,normalized,42,33,39,35,40,36,36,39,38,35,37,37,39,36,38,36
+Cuyahoga,478,GLENWILLOW -03-A,unofficial,Raw/Cuyahoga.csv,,1660,normalized,104,22,104,23,102,27,100,29,102,23,104,26,101,26,104,24
+Cuyahoga,479,HIGHLAND HEIGHTS -01-A,unofficial,Raw/Cuyahoga.csv,,1661,normalized,383,295,395,289,363,318,353,325,377,292,359,313,358,312,374,303
+Cuyahoga,480,HIGHLAND HEIGHTS -01-B,unofficial,Raw/Cuyahoga.csv,,1662,normalized,277,241,301,228,271,262,255,274,271,243,269,249,283,241,272,248
+Cuyahoga,481,HIGHLAND HEIGHTS -02-A,unofficial,Raw/Cuyahoga.csv,,1663,normalized,358,346,379,320,342,355,328,369,337,341,315,365,345,344,350,341
+Cuyahoga,482,HIGHLAND HEIGHTS -02-B,unofficial,Raw/Cuyahoga.csv,,1664,normalized,314,284,332,272,317,285,299,306,317,280,304,293,316,280,315,283
+Cuyahoga,483,HIGHLAND HEIGHTS -03-A,unofficial,Raw/Cuyahoga.csv,,1665,normalized,302,260,307,250,289,266,276,277,293,247,288,258,290,254,297,244
+Cuyahoga,484,HIGHLAND HEIGHTS -03-B,unofficial,Raw/Cuyahoga.csv,,1666,normalized,299,258,320,245,305,257,283,284,300,250,286,264,295,256,306,248
+Cuyahoga,485,HIGHLAND HEIGHTS -04-A,unofficial,Raw/Cuyahoga.csv,,1667,normalized,272,219,285,204,255,232,247,247,268,212,255,231,259,221,261,221
+Cuyahoga,486,HIGHLAND HEIGHTS -04-B,unofficial,Raw/Cuyahoga.csv,,1668,normalized,319,237,342,225,314,256,302,268,330,224,318,243,316,238,319,246
+Cuyahoga,487,HIGHLAND HILLS -00-A,unofficial,Raw/Cuyahoga.csv,,1669;1670,split_nodes,244,8,243,9,242,13,246,12,239,10,242,13,240,7,243,13
+Cuyahoga,488,HUNTING VALLEY -00-A,unofficial,Raw/Cuyahoga.csv,,1671,normalized,172,164,189,146,161,171,154,180,163,163,160,172,166,162,168,162
+Cuyahoga,489,INDEPENDENCE -00-A,unofficial,Raw/Cuyahoga.csv,,1672,normalized,340,432,347,417,308,447,305,461,327,417,307,433,308,428,314,427
+Cuyahoga,490,INDEPENDENCE -00-B,unofficial,Raw/Cuyahoga.csv,,1673,normalized,371,485,399,468,369,487,341,523,362,465,344,497,350,484,360,481
+Cuyahoga,491,INDEPENDENCE -00-C,unofficial,Raw/Cuyahoga.csv,,1674,normalized,376,450,400,436,356,472,341,484,355,446,342,464,362,448,358,450
+Cuyahoga,492,INDEPENDENCE -00-D,unofficial,Raw/Cuyahoga.csv,,1675,normalized,307,360,328,349,290,370,280,391,311,343,284,363,287,360,284,364
+Cuyahoga,493,INDEPENDENCE -00-E,unofficial,Raw/Cuyahoga.csv,,1676,normalized,440,430,459,420,398,463,393,473,411,424,399,438,413,433,416,433
+Cuyahoga,494,LAKEWOOD -01-A,unofficial,Raw/Cuyahoga.csv,,1566;1677;1929,boundary_overlap,473,127,487,122,467,138,457,150,466,126,463,132,472,125,470,124
+Cuyahoga,495,LAKEWOOD -01-B,unofficial,Raw/Cuyahoga.csv,,1678;1927,boundary_overlap,481,126,486,115,467,144,460,161,473,124,461,140,477,135,473,141
+Cuyahoga,496,LAKEWOOD -01-C,unofficial,Raw/Cuyahoga.csv,,1679,normalized,537,115,552,112,538,127,523,134,531,114,530,126,532,126,523,130
+Cuyahoga,497,LAKEWOOD -01-D,unofficial,Raw/Cuyahoga.csv,,1680,normalized,527,93,548,89,528,106,527,102,531,86,525,101,526,101,530,100
+Cuyahoga,498,LAKEWOOD -01-E,unofficial,Raw/Cuyahoga.csv,,1681,normalized,615,104,636,96,615,116,599,128,618,95,607,115,617,109,611,117
+Cuyahoga,499,LAKEWOOD -01-F,unofficial,Raw/Cuyahoga.csv,,1682,normalized,393,82,403,78,390,90,377,100,389,78,379,89,392,79,388,86
+Cuyahoga,500,LAKEWOOD -01-G,unofficial,Raw/Cuyahoga.csv,,1683,normalized,510,94,524,86,515,104,503,115,512,95,507,108,512,101,514,98
+Cuyahoga,501,LAKEWOOD -01-H,unofficial,Raw/Cuyahoga.csv,,1684,normalized,632,259,642,248,612,272,583,296,598,249,587,281,612,263,607,266
+Cuyahoga,502,LAKEWOOD -01-I,unofficial,Raw/Cuyahoga.csv,,1685,normalized,550,97,574,86,558,108,540,122,551,99,542,114,553,108,550,106
+Cuyahoga,503,LAKEWOOD -02-A,unofficial,Raw/Cuyahoga.csv,,1686,normalized,592,124,605,114,581,147,561,163,589,117,564,148,590,130,588,136
+Cuyahoga,504,LAKEWOOD -02-B,unofficial,Raw/Cuyahoga.csv,,1687,normalized,641,99,665,91,644,114,626,126,638,97,637,110,638,104,640,107
+Cuyahoga,505,LAKEWOOD -02-C,unofficial,Raw/Cuyahoga.csv,,1688,normalized,581,128,596,120,567,152,561,156,569,130,568,143,571,143,564,147
+Cuyahoga,506,LAKEWOOD -02-D,unofficial,Raw/Cuyahoga.csv,,1565;1689,boundary_overlap,536,111,560,104,539,121,533,129,543,106,541,117,537,119,538,122
+Cuyahoga,507,LAKEWOOD -02-E,unofficial,Raw/Cuyahoga.csv,,1690,normalized,646,132,656,126,635,152,618,162,639,124,626,147,635,139,633,146
+Cuyahoga,508,LAKEWOOD -02-F,unofficial,Raw/Cuyahoga.csv,,1691,normalized,601,131,613,126,606,143,579,163,594,123,581,154,594,146,591,149
+Cuyahoga,509,LAKEWOOD -02-G,unofficial,Raw/Cuyahoga.csv,,1692,normalized,467,112,490,103,467,125,461,133,460,113,453,135,462,124,465,124
+Cuyahoga,510,LAKEWOOD -02-H,unofficial,Raw/Cuyahoga.csv,,1693,normalized,509,92,525,93,518,98,507,109,510,86,509,105,520,92,514,100
+Cuyahoga,511,LAKEWOOD -02-I,unofficial,Raw/Cuyahoga.csv,,1694,normalized,471,86,500,80,480,101,475,109,478,86,483,95,479,94,482,93
+Cuyahoga,512,LAKEWOOD -03-A,unofficial,Raw/Cuyahoga.csv,,1686;1695,boundary_overlap,548,176,564,167,541,196,534,204,545,175,536,194,554,177,545,184
+Cuyahoga,513,LAKEWOOD -03-B,unofficial,Raw/Cuyahoga.csv,,1696,normalized,485,109,504,105,477,127,478,127,487,102,479,119,481,117,484,115
+Cuyahoga,514,LAKEWOOD -03-C,unofficial,Raw/Cuyahoga.csv,,1697,normalized,657,117,680,112,657,137,638,153,644,118,653,137,654,131,647,134
+Cuyahoga,515,LAKEWOOD -03-D,unofficial,Raw/Cuyahoga.csv,,1698,normalized,561,99,578,92,556,113,553,113,551,96,556,101,557,102,559,104
+Cuyahoga,516,LAKEWOOD -03-E,unofficial,Raw/Cuyahoga.csv,,1699,normalized,329,77,331,78,337,85,333,87,334,81,341,79,333,82,329,87
+Cuyahoga,517,LAKEWOOD -03-F,unofficial,Raw/Cuyahoga.csv,,1700,normalized,515,122,530,114,499,138,494,145,498,128,496,137,496,133,493,140
+Cuyahoga,518,LAKEWOOD -03-G,unofficial,Raw/Cuyahoga.csv,,1701,normalized,432,75,438,75,429,85,417,94,422,80,424,91,427,86,420,94
+Cuyahoga,519,LAKEWOOD -03-H,unofficial,Raw/Cuyahoga.csv,,1702,normalized,513,92,535,88,509,112,508,116,515,94,506,111,518,100,508,107
+Cuyahoga,520,LAKEWOOD -03-I,unofficial,Raw/Cuyahoga.csv,,1703,normalized,602,85,620,94,608,102,584,126,594,94,590,109,599,103,596,103
+Cuyahoga,521,LAKEWOOD -04-A,unofficial,Raw/Cuyahoga.csv,,1704,normalized,592,209,607,199,591,216,570,236,590,208,577,226,583,220,586,219
+Cuyahoga,522,LAKEWOOD -04-B,unofficial,Raw/Cuyahoga.csv,,1705,normalized,551,134,567,127,557,150,541,162,547,143,548,152,557,142,551,148
+Cuyahoga,523,LAKEWOOD -04-C,unofficial,Raw/Cuyahoga.csv,,1706,normalized,318,32,339,33,333,36,328,40,329,30,337,30,335,35,331,38
+Cuyahoga,524,LAKEWOOD -04-D,unofficial,Raw/Cuyahoga.csv,,1707,normalized,411,63,433,62,425,70,423,70,426,65,424,70,428,64,426,63
+Cuyahoga,525,LAKEWOOD -04-E,unofficial,Raw/Cuyahoga.csv,,1708,normalized,369,49,381,46,379,55,380,54,372,45,382,51,386,49,379,53
+Cuyahoga,526,LAKEWOOD -04-F,unofficial,Raw/Cuyahoga.csv,,1709,normalized,432,63,440,62,433,76,423,84,427,66,428,70,431,76,428,78
+Cuyahoga,527,LAKEWOOD -04-G,unofficial,Raw/Cuyahoga.csv,,1710,normalized,302,64,310,68,301,77,293,84,297,66,300,77,307,71,311,69
+Cuyahoga,528,LAKEWOOD -04-H,unofficial,Raw/Cuyahoga.csv,,1711,normalized,490,82,507,81,491,94,490,96,491,86,491,90,488,92,488,94
+Cuyahoga,529,LAKEWOOD -04-I,unofficial,Raw/Cuyahoga.csv,,1712,normalized,490,91,509,86,502,101,494,112,489,91,497,105,498,105,498,100
+Cuyahoga,530,LAKEWOOD -04-J,unofficial,Raw/Cuyahoga.csv,,1713,normalized,344,46,368,46,364,53,359,59,368,41,363,48,362,51,359,55
+Cuyahoga,531,LINNDALE -00-A,unofficial,Raw/Cuyahoga.csv,,1714,normalized,10,8,13,9,16,7,16,7,13,8,15,7,15,8,15,8
+Cuyahoga,532,LYNDHURST -01-A,unofficial,Raw/Cuyahoga.csv,,1715,normalized,371,134,386,123,361,147,357,152,369,133,363,143,371,138,371,134
+Cuyahoga,533,LYNDHURST -01-B,unofficial,Raw/Cuyahoga.csv,,1716,normalized,475,143,482,137,473,151,467,155,472,139,469,150,471,141,475,139
+Cuyahoga,534,LYNDHURST -01-C,unofficial,Raw/Cuyahoga.csv,,1717,normalized,493,202,496,203,490,215,470,240,494,198,481,214,491,209,491,214
+Cuyahoga,535,LYNDHURST -02-A,unofficial,Raw/Cuyahoga.csv,,1718,normalized,527,226,550,209,526,233,509,256,525,226,514,244,515,239,521,232
+Cuyahoga,536,LYNDHURST -02-B,unofficial,Raw/Cuyahoga.csv,,1719,normalized,537,247,555,238,532,271,513,288,541,245,531,261,534,257,521,265
+Cuyahoga,537,LYNDHURST -03-A,unofficial,Raw/Cuyahoga.csv,,1720,normalized,627,179,647,161,605,192,587,208,613,180,600,189,603,181,613,179
+Cuyahoga,538,LYNDHURST -03-B,unofficial,Raw/Cuyahoga.csv,,1721,normalized,466,156,481,151,456,176,439,190,460,164,456,170,455,172,448,176
+Cuyahoga,539,LYNDHURST -03-C,unofficial,Raw/Cuyahoga.csv,,1722,normalized,396,136,407,130,388,161,382,167,396,144,392,158,396,150,394,150
+Cuyahoga,540,LYNDHURST -04-A,unofficial,Raw/Cuyahoga.csv,,1723,normalized,418,121,420,125,413,135,412,141,416,123,410,135,417,125,412,130
+Cuyahoga,541,LYNDHURST -04-B,unofficial,Raw/Cuyahoga.csv,,1724,normalized,485,162,489,155,457,188,451,195,466,165,458,182,466,172,480,163
+Cuyahoga,542,LYNDHURST -04-C,unofficial,Raw/Cuyahoga.csv,,1725,normalized,491,173,513,167,496,177,471,203,492,172,478,191,485,184,483,186
+Cuyahoga,543,MAPLE HEIGHTS -01-A,unofficial,Raw/Cuyahoga.csv,,1726,normalized,561,62,576,68,573,68,582,72,574,64,573,69,581,63,577,71
+Cuyahoga,544,MAPLE HEIGHTS -01-B,unofficial,Raw/Cuyahoga.csv,,1727,normalized,552,101,559,99,552,111,554,114,561,94,554,107,552,101,554,101
+Cuyahoga,545,MAPLE HEIGHTS -02-A,unofficial,Raw/Cuyahoga.csv,,1728,normalized,521,68,538,69,520,83,529,81,535,68,532,78,527,74,529,71
+Cuyahoga,546,MAPLE HEIGHTS -02-B,unofficial,Raw/Cuyahoga.csv,,1729,normalized,472,46,484,48,479,51,485,50,472,49,483,52,478,48,476,50
+Cuyahoga,547,MAPLE HEIGHTS -03-A,unofficial,Raw/Cuyahoga.csv,,1730,normalized,459,75,474,67,466,88,477,80,473,73,468,78,473,79,474,77
+Cuyahoga,548,MAPLE HEIGHTS -03-B,unofficial,Raw/Cuyahoga.csv,,1731,normalized,372,61,385,57,379,68,387,66,378,63,382,67,374,65,376,68
+Cuyahoga,549,MAPLE HEIGHTS -04-A,unofficial,Raw/Cuyahoga.csv,,1732,normalized,324,24,333,28,338,28,345,28,332,26,339,29,338,30,337,31
+Cuyahoga,550,MAPLE HEIGHTS -04-B,unofficial,Raw/Cuyahoga.csv,,1733,normalized,324,17,336,15,337,14,337,17,326,17,331,17,338,15,334,16
+Cuyahoga,551,MAPLE HEIGHTS -04-C,unofficial,Raw/Cuyahoga.csv,,1734,normalized,306,21,311,24,314,23,319,23,312,21,317,24,315,22,311,26
+Cuyahoga,552,MAPLE HEIGHTS -05-A,unofficial,Raw/Cuyahoga.csv,,1735,normalized,427,42,445,43,454,44,446,48,438,44,452,44,445,43,443,47
+Cuyahoga,553,MAPLE HEIGHTS -05-B,unofficial,Raw/Cuyahoga.csv,,1736,normalized,313,33,331,25,322,37,332,36,332,29,330,34,327,31,327,33
+Cuyahoga,554,MAPLE HEIGHTS -06-A,unofficial,Raw/Cuyahoga.csv,,1737,normalized,510,27,515,33,530,38,517,45,519,31,531,33,525,35,509,43
+Cuyahoga,555,MAPLE HEIGHTS -06-B,unofficial,Raw/Cuyahoga.csv,,1738,normalized,452,22,461,22,459,34,460,30,468,24,465,28,461,29,468,25
+Cuyahoga,556,MAPLE HEIGHTS -07-A,unofficial,Raw/Cuyahoga.csv,,1739,normalized,417,24,421,25,429,29,419,35,424,21,428,28,428,25,423,31
+Cuyahoga,557,MAPLE HEIGHTS -07-B,unofficial,Raw/Cuyahoga.csv,,1740,normalized,356,22,373,18,375,23,371,28,376,18,376,21,370,24,375,21
+Cuyahoga,558,MAPLE HEIGHTS -07-C,unofficial,Raw/Cuyahoga.csv,,1741,normalized,401,17,421,14,417,19,403,24,415,14,417,17,413,19,412,20
+Cuyahoga,559,MAYFIELD HEIGHTS -00-A,unofficial,Raw/Cuyahoga.csv,,1742,normalized,312,180,331,169,318,189,312,192,322,169,314,189,307,183,317,177
+Cuyahoga,560,MAYFIELD HEIGHTS -00-B,unofficial,Raw/Cuyahoga.csv,,1743,normalized,432,212,437,200,432,213,413,230,426,205,416,218,419,218,422,214
+Cuyahoga,561,MAYFIELD HEIGHTS -00-C,unofficial,Raw/Cuyahoga.csv,,1744,normalized,466,215,485,214,462,240,452,249,463,216,467,229,465,227,459,236
+Cuyahoga,562,MAYFIELD HEIGHTS -00-D,unofficial,Raw/Cuyahoga.csv,,1745,normalized,368,220,385,220,377,222,362,241,373,218,375,225,367,227,374,213
+Cuyahoga,563,MAYFIELD HEIGHTS -00-E,unofficial,Raw/Cuyahoga.csv,,1746,normalized,470,154,489,146,479,159,467,174,480,151,471,162,480,155,486,151
+Cuyahoga,564,MAYFIELD HEIGHTS -00-F,unofficial,Raw/Cuyahoga.csv,,1746;1747,boundary_overlap,287,154,300,150,294,156,289,158,292,152,292,153,290,149,289,149
+Cuyahoga,565,MAYFIELD HEIGHTS -00-G,unofficial,Raw/Cuyahoga.csv,,1748,normalized,446,92,453,88,444,97,442,96,450,83,444,92,439,97,446,93
+Cuyahoga,566,MAYFIELD HEIGHTS -00-H,unofficial,Raw/Cuyahoga.csv,,1656;1749,boundary_overlap,277,98,290,94,268,109,263,111,271,98,278,97,271,99,270,100
+Cuyahoga,567,MAYFIELD HEIGHTS -00-I,unofficial,Raw/Cuyahoga.csv,,1750,normalized,384,223,387,218,367,231,363,237,362,217,356,232,366,223,363,226
+Cuyahoga,568,MAYFIELD HEIGHTS -00-J,unofficial,Raw/Cuyahoga.csv,,1751,normalized,320,30,342,37,342,38,340,37,337,34,343,37,344,37,343,36
+Cuyahoga,569,MAYFIELD HEIGHTS -00-K,unofficial,Raw/Cuyahoga.csv,,1752,normalized,473,259,485,258,476,275,463,293,483,257,469,276,471,267,478,258
+Cuyahoga,570,MAYFIELD HEIGHTS -00-L,unofficial,Raw/Cuyahoga.csv,,1753,normalized,495,258,503,252,482,267,471,278,480,259,478,268,478,261,481,262
+Cuyahoga,571,MAYFIELD HEIGHTS -00-M,unofficial,Raw/Cuyahoga.csv,,1754,normalized,390,168,397,163,381,176,367,192,384,170,372,182,380,173,392,166
+Cuyahoga,572,MAYFIELD VILLAGE -01-A,unofficial,Raw/Cuyahoga.csv,,1755,normalized,228,210,242,200,220,221,213,228,230,201,216,215,227,205,223,210
+Cuyahoga,573,MAYFIELD VILLAGE -02-A,unofficial,Raw/Cuyahoga.csv,,1756,normalized,287,214,291,205,281,222,281,225,280,211,282,217,284,215,284,216
+Cuyahoga,574,MAYFIELD VILLAGE -03-A,unofficial,Raw/Cuyahoga.csv,,1757,normalized,291,180,302,166,287,185,272,193,289,174,286,181,281,182,283,184
+Cuyahoga,575,MAYFIELD VILLAGE -04-A,unofficial,Raw/Cuyahoga.csv,,1758,normalized,233,125,231,124,219,138,214,143,226,123,218,136,220,133,223,131
+Cuyahoga,576,MIDDLEBURG HEIGHTS -01-A,unofficial,Raw/Cuyahoga.csv,,1759,normalized,454,324,481,311,462,349,435,363,457,328,450,346,453,330,456,340
+Cuyahoga,577,MIDDLEBURG HEIGHTS -01-B,unofficial,Raw/Cuyahoga.csv,,1760,normalized,189,138,191,137,185,158,179,164,192,138,191,151,186,154,190,148
+Cuyahoga,578,MIDDLEBURG HEIGHTS -01-C,unofficial,Raw/Cuyahoga.csv,,1761,normalized,426,294,445,279,422,310,412,319,434,282,426,297,436,289,426,299
+Cuyahoga,579,MIDDLEBURG HEIGHTS -02-A,unofficial,Raw/Cuyahoga.csv,,1762,normalized,341,222,365,218,343,245,326,254,339,227,344,236,343,232,341,235
+Cuyahoga,580,MIDDLEBURG HEIGHTS -02-B,unofficial,Raw/Cuyahoga.csv,,1763,normalized,306,230,332,209,310,242,296,252,316,218,307,232,314,225,310,231
+Cuyahoga,581,MIDDLEBURG HEIGHTS -02-C,unofficial,Raw/Cuyahoga.csv,,1764,normalized,248,188,254,181,248,200,242,208,247,183,247,195,248,188,251,186
+Cuyahoga,582,MIDDLEBURG HEIGHTS -03-A,unofficial,Raw/Cuyahoga.csv,,1765,normalized,292,265,305,260,290,272,277,290,289,258,292,268,288,267,284,278
+Cuyahoga,583,MIDDLEBURG HEIGHTS -03-B,unofficial,Raw/Cuyahoga.csv,,1766,normalized,333,274,358,260,342,280,329,289,346,262,336,278,337,275,339,278
+Cuyahoga,584,MIDDLEBURG HEIGHTS -03-C,unofficial,Raw/Cuyahoga.csv,,1767,normalized,320,293,335,288,317,313,307,324,321,298,320,307,317,303,318,307
+Cuyahoga,585,MIDDLEBURG HEIGHTS -04-A,unofficial,Raw/Cuyahoga.csv,,1768,normalized,425,369,448,356,417,395,398,411,426,370,418,384,419,384,422,375
+Cuyahoga,586,MIDDLEBURG HEIGHTS -04-B,unofficial,Raw/Cuyahoga.csv,,1769,normalized,354,344,371,337,343,362,331,384,342,346,351,355,347,351,340,362
+Cuyahoga,587,MORELAND HILLS -00-A,unofficial,Raw/Cuyahoga.csv,,1770,normalized,560,259,581,242,539,282,521,299,549,249,535,276,555,262,566,248
+Cuyahoga,588,MORELAND HILLS -00-B,unofficial,Raw/Cuyahoga.csv,,1771,normalized,517,235,546,211,513,233,485,268,503,233,497,240,516,222,514,228
+Cuyahoga,589,MORELAND HILLS -00-C,unofficial,Raw/Cuyahoga.csv,,1772,normalized,275,183,287,170,266,189,255,196,267,182,257,195,271,183,272,178
+Cuyahoga,590,NEWBURGH HEIGHTS -00-A,unofficial,Raw/Cuyahoga.csv,,1773,normalized,335,146,339,146,337,164,330,174,338,151,340,162,347,157,336,166
+Cuyahoga,591,NORTH OLMSTED -01-A,unofficial,Raw/Cuyahoga.csv,,1774;1775;1776,boundary_overlap,393,295,413,289,397,318,383,327,393,298,392,313,389,307,387,308
+Cuyahoga,592,NORTH OLMSTED -01-B,unofficial,Raw/Cuyahoga.csv,,1775;1777;1778,boundary_overlap,378,264,398,248,368,279,355,293,362,268,367,266,369,269,373,271
+Cuyahoga,593,NORTH OLMSTED -01-C,unofficial,Raw/Cuyahoga.csv,,1776;1778,boundary_overlap,465,287,483,271,463,299,447,310,467,284,461,287,470,277,472,272
+Cuyahoga,594,NORTH OLMSTED -01-D,unofficial,Raw/Cuyahoga.csv,,1774;1784,boundary_overlap,412,235,428,228,409,258,406,263,410,238,416,246,412,247,417,244
+Cuyahoga,595,NORTH OLMSTED -01-E,unofficial,Raw/Cuyahoga.csv,,1775;1778,boundary_overlap,417,218,447,199,419,227,404,244,420,211,410,230,410,225,407,227
+Cuyahoga,596,NORTH OLMSTED -02-A,unofficial,Raw/Cuyahoga.csv,,1779,normalized,428,256,442,249,416,273,403,294,421,249,417,262,422,268,410,280
+Cuyahoga,597,NORTH OLMSTED -02-B,unofficial,Raw/Cuyahoga.csv,,1779;1780,boundary_overlap,403,186,427,173,401,209,400,210,401,184,407,193,407,193,412,189
+Cuyahoga,598,NORTH OLMSTED -02-C,unofficial,Raw/Cuyahoga.csv,,1777;1781;1782,boundary_overlap,459,254,471,247,450,276,431,287,446,250,446,263,453,256,442,273
+Cuyahoga,599,NORTH OLMSTED -02-D,unofficial,Raw/Cuyahoga.csv,,1777;1782,boundary_overlap,447,268,468,261,454,277,450,283,446,273,446,276,445,277,459,270
+Cuyahoga,600,NORTH OLMSTED -02-E,unofficial,Raw/Cuyahoga.csv,,1777;1791,boundary_overlap,299,144,314,137,305,150,300,155,292,145,300,153,304,146,293,155
+Cuyahoga,601,NORTH OLMSTED -03-A,unofficial,Raw/Cuyahoga.csv,,1788;1789,boundary_overlap,355,237,362,226,350,251,335,264,349,232,341,249,344,246,346,245
+Cuyahoga,602,NORTH OLMSTED -03-B,unofficial,Raw/Cuyahoga.csv,,1785;1836,boundary_overlap,85,64,88,60,87,68,85,70,90,64,88,64,86,64,83,64
+Cuyahoga,603,NORTH OLMSTED -03-C,unofficial,Raw/Cuyahoga.csv,,1784;1786,boundary_overlap,462,323,479,310,453,348,426,364,449,323,439,350,446,336,455,326
+Cuyahoga,604,NORTH OLMSTED -03-D,unofficial,Raw/Cuyahoga.csv,,1786;1787,boundary_overlap,460,293,477,283,452,322,418,357,446,311,445,323,459,307,454,317
+Cuyahoga,605,NORTH OLMSTED -03-E,unofficial,Raw/Cuyahoga.csv,,1788;1794,boundary_overlap,386,235,398,238,389,259,374,265,387,239,378,262,389,249,392,249
+Cuyahoga,606,NORTH OLMSTED -03-F,unofficial,Raw/Cuyahoga.csv,,1787;1789,boundary_overlap,403,257,416,258,390,286,386,293,408,257,389,281,399,267,393,271
+Cuyahoga,607,NORTH OLMSTED -04-A,unofficial,Raw/Cuyahoga.csv,,1783;1790,boundary_overlap,466,222,475,212,456,240,437,254,450,217,454,230,447,237,454,232
+Cuyahoga,608,NORTH OLMSTED -04-B,unofficial,Raw/Cuyahoga.csv,,1780;1783;1790,boundary_overlap,382,183,393,183,376,206,373,210,383,189,377,203,383,197,381,202
+Cuyahoga,609,NORTH OLMSTED -04-C,unofficial,Raw/Cuyahoga.csv,,1791;1792,boundary_overlap,331,156,346,156,327,181,319,182,328,167,324,175,332,168,326,172
+Cuyahoga,610,NORTH OLMSTED -04-D,unofficial,Raw/Cuyahoga.csv,,1788;1793,boundary_overlap,368,276,379,269,358,286,350,297,364,273,358,288,362,280,355,287
+Cuyahoga,611,NORTH OLMSTED -04-E,unofficial,Raw/Cuyahoga.csv,,1792;1794,boundary_overlap,312,89,314,89,308,103,301,110,312,89,306,101,310,98,312,98
+Cuyahoga,612,NORTH RANDALL -00-A,unofficial,Raw/Cuyahoga.csv,,1795,combined_node,286,25,293,30,306,26,297,33,301,26,296,31,294,33,299,28
+Cuyahoga,613,NORTH ROYALTON -01-A,unofficial,Raw/Cuyahoga.csv,,1796,normalized,274,341,285,330,280,337,276,348,274,324,280,332,279,341,276,339
+Cuyahoga,614,NORTH ROYALTON -01-B,unofficial,Raw/Cuyahoga.csv,,1797,normalized,325,302,346,280,325,310,297,334,319,298,319,300,328,293,321,305
+Cuyahoga,615,NORTH ROYALTON -01-C,unofficial,Raw/Cuyahoga.csv,,1798,normalized,369,369,372,363,356,390,345,407,357,372,355,379,350,378,362,372
+Cuyahoga,616,NORTH ROYALTON -02-A,unofficial,Raw/Cuyahoga.csv,,1799,normalized,289,337,303,325,279,346,261,369,269,340,269,341,272,338,270,345
+Cuyahoga,617,NORTH ROYALTON -02-B,unofficial,Raw/Cuyahoga.csv,,1800,normalized,299,365,301,363,281,386,259,405,288,361,279,377,287,366,297,364
+Cuyahoga,618,NORTH ROYALTON -02-C,unofficial,Raw/Cuyahoga.csv,,1801,normalized,275,303,290,295,265,320,242,341,260,308,251,321,258,314,257,320
+Cuyahoga,619,NORTH ROYALTON -02-D,unofficial,Raw/Cuyahoga.csv,,1802,normalized,75,91,85,81,72,95,71,93,70,93,70,94,71,91,70,94
+Cuyahoga,620,NORTH ROYALTON -03-A,unofficial,Raw/Cuyahoga.csv,,1803,normalized,270,300,287,291,263,311,249,321,255,308,259,309,269,299,264,303
+Cuyahoga,621,NORTH ROYALTON -03-B,unofficial,Raw/Cuyahoga.csv,,1804,normalized,303,269,312,262,289,287,287,292,294,277,292,285,302,277,291,281
+Cuyahoga,622,NORTH ROYALTON -03-C,unofficial,Raw/Cuyahoga.csv,,1805,normalized,338,287,349,279,335,286,314,307,331,277,323,289,324,287,327,280
+Cuyahoga,623,NORTH ROYALTON -03-D,unofficial,Raw/Cuyahoga.csv,,1804;1806,boundary_overlap,261,196,266,194,254,210,254,213,257,196,262,200,256,202,255,204
+Cuyahoga,624,NORTH ROYALTON -04-A,unofficial,Raw/Cuyahoga.csv,,1807;1808,boundary_overlap,272,256,282,243,277,259,258,282,273,256,267,260,272,258,272,258
+Cuyahoga,625,NORTH ROYALTON -04-B,unofficial,Raw/Cuyahoga.csv,,1808,normalized,241,125,254,122,240,136,237,141,243,127,244,130,244,132,247,131
+Cuyahoga,626,NORTH ROYALTON -04-C,unofficial,Raw/Cuyahoga.csv,,1809,normalized,273,263,282,256,271,274,258,291,271,259,265,276,274,266,260,279
+Cuyahoga,627,NORTH ROYALTON -04-D,unofficial,Raw/Cuyahoga.csv,,1807;1808,boundary_overlap,275,257,284,250,265,275,254,288,267,258,262,276,263,267,270,257
+Cuyahoga,628,NORTH ROYALTON -05-A,unofficial,Raw/Cuyahoga.csv,,1810,normalized,264,161,279,155,268,167,257,178,262,161,261,167,265,161,263,163
+Cuyahoga,629,NORTH ROYALTON -05-B,unofficial,Raw/Cuyahoga.csv,,1811,normalized,267,241,289,230,259,259,258,267,270,244,264,253,266,245,272,247
+Cuyahoga,630,NORTH ROYALTON -05-C,unofficial,Raw/Cuyahoga.csv,,1812,normalized,299,222,313,210,314,224,297,237,307,220,307,227,307,226,306,227
+Cuyahoga,631,NORTH ROYALTON -05-D,unofficial,Raw/Cuyahoga.csv,,1811;1813,boundary_overlap,369,334,381,316,353,351,351,360,360,326,354,346,368,332,358,341
+Cuyahoga,632,NORTH ROYALTON -06-A,unofficial,Raw/Cuyahoga.csv,,1814;1816,boundary_overlap,317,272,328,264,310,290,306,299,318,268,315,279,305,291,312,287
+Cuyahoga,633,NORTH ROYALTON -06-B,unofficial,Raw/Cuyahoga.csv,,1815;1816,boundary_overlap,307,346,323,332,298,364,281,379,294,351,290,358,294,355,293,356
+Cuyahoga,634,NORTH ROYALTON -06-C,unofficial,Raw/Cuyahoga.csv,,1816;1817,boundary_overlap,307,406,329,385,294,428,280,446,301,403,298,423,306,403,290,426
+Cuyahoga,635,NORTH ROYALTON -06-D,unofficial,Raw/Cuyahoga.csv,,1817,normalized,261,350,276,330,265,355,244,373,265,342,256,359,259,352,260,351
+Cuyahoga,636,OAKWOOD -01-A,unofficial,Raw/Cuyahoga.csv,,1818,normalized,407,50,409,50,414,52,405,61,403,50,411,52,407,55,411,51
+Cuyahoga,637,OAKWOOD -02-A,unofficial,Raw/Cuyahoga.csv,,1819,normalized,422,16,429,16,431,17,434,16,425,13,432,14,425,19,428,18
+Cuyahoga,638,OAKWOOD -03-A,unofficial,Raw/Cuyahoga.csv,,1820,normalized,182,42,192,37,187,42,189,39,189,37,187,40,190,36,185,40
+Cuyahoga,639,OAKWOOD -04-A,unofficial,Raw/Cuyahoga.csv,,1821,normalized,134,84,139,83,134,93,139,91,136,89,139,87,138,90,143,84
+Cuyahoga,640,OAKWOOD -05-A,unofficial,Raw/Cuyahoga.csv,,1822,normalized,190,29,196,25,182,31,190,37,189,29,189,28,192,28,196,27
+Cuyahoga,641,OLMSTED FALLS -01-A,unofficial,Raw/Cuyahoga.csv,,1823,normalized,226,118,228,119,231,129,227,131,221,119,227,127,231,125,229,126
+Cuyahoga,642,OLMSTED FALLS -01-B,unofficial,Raw/Cuyahoga.csv,,1824,normalized,268,170,280,163,262,184,253,189,256,170,259,183,264,173,255,179
+Cuyahoga,643,OLMSTED FALLS -02-A,unofficial,Raw/Cuyahoga.csv,,1825;1826,split_nodes,309,208,322,201,315,216,305,231,310,199,311,213,315,215,311,219
+Cuyahoga,644,OLMSTED FALLS -02-B,unofficial,Raw/Cuyahoga.csv,,1827,normalized,371,254,383,248,358,269,353,275,367,255,360,263,358,258,361,258
+Cuyahoga,645,OLMSTED FALLS -03-A,unofficial,Raw/Cuyahoga.csv,,1828;1829,split_nodes,531,342,549,329,495,376,494,383,510,344,501,366,508,353,513,349
+Cuyahoga,646,OLMSTED FALLS -03-B,unofficial,Raw/Cuyahoga.csv,,1830,normalized,223,116,238,106,222,121,212,135,221,110,222,113,224,111,217,120
+Cuyahoga,647,OLMSTED FALLS -04-A,unofficial,Raw/Cuyahoga.csv,,1143;1831,boundary_overlap,292,135,298,136,286,148,264,167,283,137,278,151,289,139,287,138
+Cuyahoga,648,OLMSTED FALLS -04-B,unofficial,Raw/Cuyahoga.csv,,1832,normalized,386,250,392,249,380,272,353,296,381,255,387,262,381,264,373,268
+Cuyahoga,649,OLMSTED TOWNSHIP -00-A,unofficial,Raw/Cuyahoga.csv,,1833,normalized,413,391,422,381,388,428,384,435,410,391,396,412,402,404,407,400
+Cuyahoga,650,OLMSTED TOWNSHIP -00-B,unofficial,Raw/Cuyahoga.csv,,1825;1826,split_nodes,397,266,405,260,382,283,365,310,388,266,374,281,388,268,382,277
+Cuyahoga,651,OLMSTED TOWNSHIP -00-C,unofficial,Raw/Cuyahoga.csv,,1834,normalized,328,254,345,253,324,271,313,282,328,249,326,262,327,258,324,258
+Cuyahoga,652,OLMSTED TOWNSHIP -00-D,unofficial,Raw/Cuyahoga.csv,,1828;1829;1836,boundary_overlap,353,232,360,233,357,251,334,280,346,242,342,263,347,256,344,260
+Cuyahoga,653,OLMSTED TOWNSHIP -00-E,unofficial,Raw/Cuyahoga.csv,,1835;1836,boundary_overlap,426,311,440,301,407,345,409,344,417,309,397,347,406,331,408,328
+Cuyahoga,654,OLMSTED TOWNSHIP -00-F,unofficial,Raw/Cuyahoga.csv,,1836;1838,boundary_overlap,364,303,386,300,370,317,368,317,369,291,372,307,375,302,373,302
+Cuyahoga,655,OLMSTED TOWNSHIP -00-G,unofficial,Raw/Cuyahoga.csv,,1837,normalized,404,257,420,251,380,284,368,294,389,257,369,286,396,269,386,279
+Cuyahoga,656,OLMSTED TOWNSHIP -00-H,unofficial,Raw/Cuyahoga.csv,,1837;1838,boundary_overlap,454,300,469,291,439,316,419,337,438,300,422,318,432,308,427,316
+Cuyahoga,657,OLMSTED TOWNSHIP -00-I,unofficial,Raw/Cuyahoga.csv,,1786;1836;1839,boundary_overlap,333,187,349,183,328,205,317,216,323,185,322,201,327,194,325,194
+Cuyahoga,658,ORANGE -00-A,unofficial,Raw/Cuyahoga.csv,,1840,normalized,431,162,458,140,428,161,405,178,423,143,412,165,435,140,438,140
+Cuyahoga,659,ORANGE -00-B,unofficial,Raw/Cuyahoga.csv,,1841,normalized,449,133,462,122,437,144,426,150,431,139,426,142,431,135,434,135
+Cuyahoga,660,ORANGE -00-C,unofficial,Raw/Cuyahoga.csv,,1842,normalized,713,249,739,227,689,262,658,288,693,240,684,260,700,246,702,242
+Cuyahoga,661,PARMA -01-A,unofficial,Raw/Cuyahoga.csv,,1855,normalized,174,117,181,121,175,137,181,128,181,118,184,126,180,128,182,124
+Cuyahoga,662,PARMA -01-B,unofficial,Raw/Cuyahoga.csv,,1856,normalized,248,183,256,181,251,188,232,217,259,171,250,187,255,181,242,198
+Cuyahoga,663,PARMA -01-C,unofficial,Raw/Cuyahoga.csv,,1857,normalized,300,137,307,139,301,151,301,152,306,136,305,143,306,147,303,150
+Cuyahoga,664,PARMA -01-D,unofficial,Raw/Cuyahoga.csv,,1858,normalized,359,240,380,243,364,263,355,272,361,234,366,247,361,244,358,252
+Cuyahoga,665,PARMA -01-E,unofficial,Raw/Cuyahoga.csv,,1859,normalized,318,200,327,209,323,224,303,241,318,208,319,220,318,212,320,219
+Cuyahoga,666,PARMA -01-F,unofficial,Raw/Cuyahoga.csv,,1860,normalized,293,138,290,142,282,151,275,159,282,142,274,155,285,142,278,147
+Cuyahoga,667,PARMA -02-A,unofficial,Raw/Cuyahoga.csv,,1861,normalized,322,206,335,202,314,217,303,227,309,208,316,213,304,213,307,209
+Cuyahoga,668,PARMA -02-B,unofficial,Raw/Cuyahoga.csv,,1862,normalized,386,226,396,220,395,234,373,252,386,220,388,232,386,224,386,223
+Cuyahoga,669,PARMA -02-C,unofficial,Raw/Cuyahoga.csv,,1863,normalized,338,208,352,204,343,225,344,232,343,202,342,219,347,220,349,217
+Cuyahoga,670,PARMA -02-D,unofficial,Raw/Cuyahoga.csv,,1864,normalized,301,219,313,217,308,230,288,248,311,210,307,226,303,221,288,236
+Cuyahoga,671,PARMA -02-E,unofficial,Raw/Cuyahoga.csv,,1865,normalized,399,246,405,241,387,263,376,277,399,236,390,255,393,251,389,259
+Cuyahoga,672,PARMA -03-A,unofficial,Raw/Cuyahoga.csv,,1866;1869,boundary_overlap,309,208,306,217,309,230,290,251,307,214,303,230,308,216,298,229
+Cuyahoga,673,PARMA -03-B,unofficial,Raw/Cuyahoga.csv,,1867;1868,boundary_overlap,305,224,320,228,302,246,287,262,305,224,305,237,304,240,303,245
+Cuyahoga,674,PARMA -03-C,unofficial,Raw/Cuyahoga.csv,,1868;1871,boundary_overlap,341,205,351,202,341,221,326,240,338,203,344,211,344,210,340,214
+Cuyahoga,675,PARMA -03-D,unofficial,Raw/Cuyahoga.csv,,1869;1871,boundary_overlap,346,244,353,237,338,265,318,276,338,242,339,252,342,255,339,254
+Cuyahoga,676,PARMA -03-E,unofficial,Raw/Cuyahoga.csv,,1867;1870,boundary_overlap,302,232,320,225,309,250,295,259,306,229,309,241,308,235,311,244
+Cuyahoga,677,PARMA -04-A,unofficial,Raw/Cuyahoga.csv,,1872,normalized,335,154,350,148,350,167,340,174,343,148,343,168,347,164,343,164
+Cuyahoga,678,PARMA -04-B,unofficial,Raw/Cuyahoga.csv,,1873,normalized,299,198,306,203,304,216,292,229,303,198,301,209,308,205,301,215
+Cuyahoga,679,PARMA -04-C,unofficial,Raw/Cuyahoga.csv,,1874,normalized,346,161,371,153,346,180,343,180,351,160,346,170,346,173,352,169
+Cuyahoga,680,PARMA -04-D,unofficial,Raw/Cuyahoga.csv,,1875,normalized,335,215,340,215,341,223,332,230,338,212,327,224,336,218,329,226
+Cuyahoga,681,PARMA -04-E,unofficial,Raw/Cuyahoga.csv,,1876,normalized,328,203,340,213,326,230,318,237,328,208,325,225,323,225,327,216
+Cuyahoga,682,PARMA -05-A,unofficial,Raw/Cuyahoga.csv,,1877,normalized,322,277,341,267,315,290,299,306,315,271,314,287,318,273,317,285
+Cuyahoga,683,PARMA -05-B,unofficial,Raw/Cuyahoga.csv,,1878,normalized,340,272,358,268,337,286,325,299,335,271,333,282,326,281,340,272
+Cuyahoga,684,PARMA -05-C,unofficial,Raw/Cuyahoga.csv,,1879,normalized,305,317,321,298,300,316,288,332,306,306,298,307,301,301,300,312
+Cuyahoga,685,PARMA -05-D,unofficial,Raw/Cuyahoga.csv,,1880,normalized,276,281,294,259,276,283,266,299,275,267,269,280,271,272,266,276
+Cuyahoga,686,PARMA -05-E,unofficial,Raw/Cuyahoga.csv,,1881,normalized,312,297,313,292,303,305,289,319,310,293,302,300,308,284,301,291
+Cuyahoga,687,PARMA -05-F,unofficial,Raw/Cuyahoga.csv,,1882,combined_node,288,210,301,201,278,223,274,231,273,210,272,221,277,219,280,219
+Cuyahoga,688,PARMA -06-A,unofficial,Raw/Cuyahoga.csv,,1883,normalized,283,280,300,262,291,284,277,302,295,258,292,271,295,268,292,274
+Cuyahoga,689,PARMA -06-B,unofficial,Raw/Cuyahoga.csv,,1882;1884,boundary_overlap,331,321,338,314,321,339,309,353,326,314,327,323,330,314,328,321
+Cuyahoga,690,PARMA -06-C,unofficial,Raw/Cuyahoga.csv,,1885;1886,boundary_overlap,312,336,326,324,311,351,301,360,308,332,305,341,317,332,300,353
+Cuyahoga,691,PARMA -06-D,unofficial,Raw/Cuyahoga.csv,,1882;1887,boundary_overlap,340,299,352,302,337,326,330,333,342,295,334,312,344,300,343,306
+Cuyahoga,692,PARMA -06-E,unofficial,Raw/Cuyahoga.csv,,1882;1886;1887,boundary_overlap,355,334,362,327,337,349,325,366,334,335,341,341,346,335,339,339
+Cuyahoga,693,PARMA -07-A,unofficial,Raw/Cuyahoga.csv,,1888,normalized,303,322,321,312,288,350,288,352,296,329,294,343,305,322,297,326
+Cuyahoga,694,PARMA -07-B,unofficial,Raw/Cuyahoga.csv,,1889,normalized,268,270,285,266,277,276,257,302,264,273,268,279,272,275,272,279
+Cuyahoga,695,PARMA -07-C,unofficial,Raw/Cuyahoga.csv,,1877;1890,boundary_overlap,268,228,276,228,267,244,260,247,273,222,267,233,266,228,269,230
+Cuyahoga,696,PARMA -07-D,unofficial,Raw/Cuyahoga.csv,,1891,normalized,316,283,335,285,318,301,296,329,308,284,307,296,317,283,315,297
+Cuyahoga,697,PARMA -07-E,unofficial,Raw/Cuyahoga.csv,,1892,normalized,322,290,332,282,306,316,307,314,310,291,314,297,318,293,311,301
+Cuyahoga,698,PARMA -07-F,unofficial,Raw/Cuyahoga.csv,,1893,normalized,210,139,221,138,213,142,204,149,213,137,214,138,208,143,210,138
+Cuyahoga,699,PARMA -08-A,unofficial,Raw/Cuyahoga.csv,,1894,normalized,355,238,372,237,355,258,341,280,360,238,359,244,365,237,360,243
+Cuyahoga,700,PARMA -08-B,unofficial,Raw/Cuyahoga.csv,,1895,normalized,341,220,350,214,339,239,314,263,340,214,338,233,339,228,341,234
+Cuyahoga,701,PARMA -08-C,unofficial,Raw/Cuyahoga.csv,,1896,normalized,413,261,432,250,401,286,391,298,408,263,405,274,411,269,402,282
+Cuyahoga,702,PARMA -08-D,unofficial,Raw/Cuyahoga.csv,,1897,normalized,391,213,410,213,397,234,376,254,394,215,397,227,398,226,401,223
+Cuyahoga,703,PARMA -08-E,unofficial,Raw/Cuyahoga.csv,,1898,normalized,303,163,317,159,303,170,299,179,307,156,305,168,304,162,301,169
+Cuyahoga,704,PARMA -09-A,unofficial,Raw/Cuyahoga.csv,,1899;1902,boundary_overlap,345,261,361,265,351,277,334,296,356,263,347,277,355,267,345,277
+Cuyahoga,705,PARMA -09-B,unofficial,Raw/Cuyahoga.csv,,1900;1903,boundary_overlap,356,231,368,220,343,254,348,253,347,230,352,241,349,240,352,238
+Cuyahoga,706,PARMA -09-C,unofficial,Raw/Cuyahoga.csv,,1901;1902,boundary_overlap,345,277,357,281,352,294,333,313,350,268,355,288,358,277,350,284
+Cuyahoga,707,PARMA -09-D,unofficial,Raw/Cuyahoga.csv,,1903,split_precinct,389,306,409,288,391,328,378,340,385,304,387,317,390,318,387,320
+Cuyahoga,708,PARMA -09-E,unofficial,Raw/Cuyahoga.csv,,1874;1883;1903,boundary_overlap,325,342,335,336,337,353,316,371,327,342,332,348,332,340,327,353
+Cuyahoga,709,PARMA HEIGHTS -01-A,unofficial,Raw/Cuyahoga.csv,,1843,normalized,334,107,350,104,343,115,328,130,341,102,334,121,347,112,342,114
+Cuyahoga,710,PARMA HEIGHTS -01-B,unofficial,Raw/Cuyahoga.csv,,1844;1845,boundary_overlap,429,258,437,250,431,274,407,297,430,252,426,268,438,261,427,272
+Cuyahoga,711,PARMA HEIGHTS -01-C,unofficial,Raw/Cuyahoga.csv,,1845,normalized,364,199,374,198,370,211,363,222,371,197,371,212,365,209,371,206
+Cuyahoga,712,PARMA HEIGHTS -02-A,unofficial,Raw/Cuyahoga.csv,,1846,normalized,370,260,391,252,375,262,354,285,373,245,375,256,369,259,360,262
+Cuyahoga,713,PARMA HEIGHTS -02-B,unofficial,Raw/Cuyahoga.csv,,1847,normalized,336,295,367,267,333,304,333,306,338,280,335,290,343,282,345,283
+Cuyahoga,714,PARMA HEIGHTS -02-C,unofficial,Raw/Cuyahoga.csv,,1848,normalized,307,144,313,143,311,146,296,162,303,141,305,147,305,147,301,149
+Cuyahoga,715,PARMA HEIGHTS -03-A,unofficial,Raw/Cuyahoga.csv,,1849,normalized,362,255,370,246,351,273,347,272,355,242,355,260,353,261,354,254
+Cuyahoga,716,PARMA HEIGHTS -03-B,unofficial,Raw/Cuyahoga.csv,,1850;1854,boundary_overlap,388,296,401,290,383,306,366,328,403,282,379,309,389,293,380,302
+Cuyahoga,717,PARMA HEIGHTS -03-C,unofficial,Raw/Cuyahoga.csv,,1851,normalized,256,153,275,151,262,158,262,149,262,146,266,149,268,150,268,151
+Cuyahoga,718,PARMA HEIGHTS -04-A,unofficial,Raw/Cuyahoga.csv,,1852;1853,boundary_overlap,339,234,346,235,349,248,324,274,337,235,337,252,344,248,336,257
+Cuyahoga,719,PARMA HEIGHTS -04-B,unofficial,Raw/Cuyahoga.csv,,1843;1853,boundary_overlap,337,198,360,182,339,207,336,211,344,194,346,193,342,192,346,188
+Cuyahoga,720,PARMA HEIGHTS -04-C,unofficial,Raw/Cuyahoga.csv,,1854,normalized,344,263,361,261,343,277,340,284,350,255,346,267,349,258,341,269
+Cuyahoga,721,PEPPER PIKE -00-A,unofficial,Raw/Cuyahoga.csv,,1904,normalized,546,208,590,171,533,215,535,219,557,191,519,224,542,191,552,193
+Cuyahoga,722,PEPPER PIKE -00-B,unofficial,Raw/Cuyahoga.csv,,1905,normalized,480,224,495,209,473,227,451,249,476,207,452,243,488,211,483,216
+Cuyahoga,723,PEPPER PIKE -00-C,unofficial,Raw/Cuyahoga.csv,,1906,normalized,666,229,697,212,650,247,639,255,651,226,635,246,651,233,652,228
+Cuyahoga,724,PEPPER PIKE -00-D,unofficial,Raw/Cuyahoga.csv,,1907,normalized,530,280,559,259,522,298,482,332,503,287,491,309,524,285,526,286
+Cuyahoga,725,PEPPER PIKE -00-E,unofficial,Raw/Cuyahoga.csv,,1908,normalized,528,190,535,179,518,199,494,221,512,192,492,210,509,201,515,194
+Cuyahoga,726,RICHMOND HEIGHTS -01-A,unofficial,Raw/Cuyahoga.csv,,1909;1912,boundary_overlap,529,118,533,123,538,120,525,132,528,120,531,120,527,121,530,128
+Cuyahoga,727,RICHMOND HEIGHTS -01-B,unofficial,Raw/Cuyahoga.csv,,1909;1910,boundary_overlap,118,5,126,5,128,5,125,5,125,5,126,6,124,6,124,8
+Cuyahoga,728,RICHMOND HEIGHTS -02-A,unofficial,Raw/Cuyahoga.csv,,1911,normalized,309,66,309,68,321,68,312,74,317,64,315,72,318,65,311,68
+Cuyahoga,729,RICHMOND HEIGHTS -02-B,unofficial,Raw/Cuyahoga.csv,,1912,normalized,501,68,511,71,515,70,514,73,502,72,509,78,506,71,515,69
+Cuyahoga,730,RICHMOND HEIGHTS -03-A,unofficial,Raw/Cuyahoga.csv,,1913,combined_node,447,103,448,98,447,111,440,116,439,105,443,112,437,108,449,106
+Cuyahoga,731,RICHMOND HEIGHTS -03-B,unofficial,Raw/Cuyahoga.csv,,1914,normalized,456,73,461,75,461,77,454,83,459,77,451,78,451,78,456,75
+Cuyahoga,732,RICHMOND HEIGHTS -03-C,unofficial,Raw/Cuyahoga.csv,,1913,boundary_overlap,313,52,314,51,305,56,301,59,296,56,300,59,302,55,302,55
+Cuyahoga,733,RICHMOND HEIGHTS -04-A,unofficial,Raw/Cuyahoga.csv,,1915,normalized,712,103,725,103,711,116,694,124,702,112,705,121,699,117,706,112
+Cuyahoga,734,RICHMOND HEIGHTS -04-B,unofficial,Raw/Cuyahoga.csv,,1916,normalized,524,93,529,94,523,104,524,106,525,98,524,103,523,98,526,99
+Cuyahoga,735,ROCKY RIVER -01-A,unofficial,Raw/Cuyahoga.csv,,1917,normalized,440,275,460,256,420,294,412,300,427,267,416,286,430,277,434,281
+Cuyahoga,736,ROCKY RIVER -01-B,unofficial,Raw/Cuyahoga.csv,,1918,normalized,453,310,472,295,430,340,426,339,433,302,427,334,445,318,442,329
+Cuyahoga,737,ROCKY RIVER -01-C,unofficial,Raw/Cuyahoga.csv,,1919,normalized,348,215,354,201,331,235,329,241,338,217,329,232,340,228,340,228
+Cuyahoga,738,ROCKY RIVER -01-D,unofficial,Raw/Cuyahoga.csv,,1920,normalized,491,267,505,251,469,297,469,299,467,270,476,284,485,282,475,290
+Cuyahoga,739,ROCKY RIVER -02-A,unofficial,Raw/Cuyahoga.csv,,1629;1921,boundary_overlap,353,202,369,189,343,225,339,232,353,201,353,208,356,208,347,218
+Cuyahoga,740,ROCKY RIVER -02-B,unofficial,Raw/Cuyahoga.csv,,1922,normalized,492,224,507,217,469,250,464,252,474,229,471,240,476,233,471,242
+Cuyahoga,741,ROCKY RIVER -02-C,unofficial,Raw/Cuyahoga.csv,,1923,normalized,434,263,455,248,420,284,408,295,418,261,408,284,416,278,420,271
+Cuyahoga,742,ROCKY RIVER -02-D,unofficial,Raw/Cuyahoga.csv,,1924,normalized,412,219,416,208,405,226,395,241,410,211,404,225,402,225,403,227
+Cuyahoga,743,ROCKY RIVER -03-A,unofficial,Raw/Cuyahoga.csv,,1925,normalized,506,231,525,211,495,240,475,260,495,224,476,247,492,231,482,240
+Cuyahoga,744,ROCKY RIVER -03-B,unofficial,Raw/Cuyahoga.csv,,1926,normalized,416,154,428,149,404,169,387,186,410,157,402,167,408,158,401,169
+Cuyahoga,745,ROCKY RIVER -03-C,unofficial,Raw/Cuyahoga.csv,,1682;1927,boundary_overlap,444,189,454,181,429,206,424,213,422,197,422,205,427,200,421,207
+Cuyahoga,746,ROCKY RIVER -03-D,unofficial,Raw/Cuyahoga.csv,,1928,normalized,457,151,458,156,442,165,425,180,444,152,436,162,442,161,442,162
+Cuyahoga,747,ROCKY RIVER -04-A,unofficial,Raw/Cuyahoga.csv,,1677;1929,boundary_overlap,366,113,370,116,354,127,354,127,365,110,357,120,360,117,355,123
+Cuyahoga,748,ROCKY RIVER -04-B,unofficial,Raw/Cuyahoga.csv,,1930,normalized,384,177,393,178,373,193,371,196,377,176,373,189,384,185,384,186
+Cuyahoga,749,ROCKY RIVER -04-C,unofficial,Raw/Cuyahoga.csv,,1931,normalized,454,154,464,151,434,170,428,176,436,161,429,170,436,171,436,171
+Cuyahoga,750,ROCKY RIVER -04-D,unofficial,Raw/Cuyahoga.csv,,1932,normalized,525,239,539,229,513,255,494,275,512,246,512,250,515,247,509,257
+Cuyahoga,751,SEVEN HILLS -01-A,unofficial,Raw/Cuyahoga.csv,,1933,normalized,353,329,360,320,352,341,335,362,349,312,345,335,349,323,351,327
+Cuyahoga,752,SEVEN HILLS -01-B,unofficial,Raw/Cuyahoga.csv,,1934,normalized,468,295,484,280,445,323,423,348,461,297,446,315,455,308,442,317
+Cuyahoga,753,SEVEN HILLS -02-A,unofficial,Raw/Cuyahoga.csv,,1935,normalized,409,318,427,300,409,337,394,355,411,312,413,325,408,325,420,314
+Cuyahoga,754,SEVEN HILLS -02-B,unofficial,Raw/Cuyahoga.csv,,1936,normalized,419,328,438,309,405,351,394,363,412,325,400,342,412,327,412,326
+Cuyahoga,755,SEVEN HILLS -03-A,unofficial,Raw/Cuyahoga.csv,,1937,normalized,374,388,373,375,358,410,343,428,360,392,355,400,362,396,351,400
+Cuyahoga,756,SEVEN HILLS -03-B,unofficial,Raw/Cuyahoga.csv,,1938,normalized,383,321,395,320,378,343,358,372,373,325,370,345,377,334,372,340
+Cuyahoga,757,SEVEN HILLS -04-A,unofficial,Raw/Cuyahoga.csv,,1939,normalized,351,379,365,370,354,391,332,412,346,372,341,390,354,368,352,365
+Cuyahoga,758,SEVEN HILLS -04-B,unofficial,Raw/Cuyahoga.csv,,1940,normalized,375,309,372,308,361,327,347,339,372,305,363,315,361,314,349,329
+Cuyahoga,759,SHAKER HEIGHTS -00-A,unofficial,Raw/Cuyahoga.csv,,1941,normalized,456,39,470,30,465,43,469,45,466,37,467,42,465,44,470,37
+Cuyahoga,760,SHAKER HEIGHTS -00-B,unofficial,Raw/Cuyahoga.csv,,1942,normalized,593,105,617,84,585,113,569,122,582,105,579,108,589,102,589,103
+Cuyahoga,761,SHAKER HEIGHTS -00-C,unofficial,Raw/Cuyahoga.csv,,1943,normalized,752,83,764,75,742,91,744,94,748,81,746,88,756,79,759,79
+Cuyahoga,762,SHAKER HEIGHTS -00-D,unofficial,Raw/Cuyahoga.csv,,1944,normalized,753,50,763,47,754,56,741,65,743,55,748,58,754,50,750,51
+Cuyahoga,763,SHAKER HEIGHTS -00-E,unofficial,Raw/Cuyahoga.csv,,1945,normalized,597,39,609,38,598,49,588,59,594,41,595,50,602,45,597,48
+Cuyahoga,764,SHAKER HEIGHTS -00-F,unofficial,Raw/Cuyahoga.csv,,1946,normalized,385,12,391,19,388,17,386,22,396,12,390,14,386,17,384,19
+Cuyahoga,765,SHAKER HEIGHTS -00-G,unofficial,Raw/Cuyahoga.csv,,1947,normalized,492,11,499,12,500,19,501,17,492,13,501,17,500,14,500,17
+Cuyahoga,766,SHAKER HEIGHTS -00-H,unofficial,Raw/Cuyahoga.csv,,1948,normalized,639,17,654,19,649,24,645,26,647,19,649,22,652,21,650,27
+Cuyahoga,767,SHAKER HEIGHTS -00-I,unofficial,Raw/Cuyahoga.csv,,1949,normalized,668,78,678,75,660,87,654,95,656,79,645,97,658,87,655,88
+Cuyahoga,768,SHAKER HEIGHTS -00-J,unofficial,Raw/Cuyahoga.csv,,1950,normalized,706,88,725,87,712,94,701,106,707,84,701,95,714,88,705,94
+Cuyahoga,769,SHAKER HEIGHTS -00-K,unofficial,Raw/Cuyahoga.csv,,1951,normalized,592,34,609,39,606,41,600,47,604,34,606,43,597,43,598,43
+Cuyahoga,770,SHAKER HEIGHTS -00-L,unofficial,Raw/Cuyahoga.csv,,1952,normalized,630,39,646,35,639,43,635,45,636,38,636,44,636,40,639,40
+Cuyahoga,771,SHAKER HEIGHTS -00-M,unofficial,Raw/Cuyahoga.csv,,1953,normalized,664,48,667,45,655,57,654,61,657,46,650,61,656,52,654,52
+Cuyahoga,772,SHAKER HEIGHTS -00-N,unofficial,Raw/Cuyahoga.csv,,1954,normalized,480,34,479,33,487,41,483,44,480,35,480,42,486,37,485,36
+Cuyahoga,773,SHAKER HEIGHTS -00-O,unofficial,Raw/Cuyahoga.csv,,1955,normalized,697,78,710,64,693,79,690,82,695,70,695,75,698,79,697,79
+Cuyahoga,774,SHAKER HEIGHTS -00-P,unofficial,Raw/Cuyahoga.csv,,1956,normalized,467,144,482,130,459,148,444,165,448,146,446,160,450,152,452,152
+Cuyahoga,775,SHAKER HEIGHTS -00-Q,unofficial,Raw/Cuyahoga.csv,,1957,normalized,781,78,789,67,766,97,755,103,765,83,759,97,763,88,768,88
+Cuyahoga,776,SHAKER HEIGHTS -00-R,unofficial,Raw/Cuyahoga.csv,,1958,normalized,768,58,779,51,763,69,749,80,766,59,753,74,762,66,759,69
+Cuyahoga,777,SHAKER HEIGHTS -00-S,unofficial,Raw/Cuyahoga.csv,,1959,normalized,670,103,681,91,650,112,648,114,655,106,639,120,646,112,658,104
+Cuyahoga,778,SHAKER HEIGHTS -00-T,unofficial,Raw/Cuyahoga.csv,,1960,normalized,681,116,698,98,666,136,654,149,671,113,661,133,680,120,683,115
+Cuyahoga,779,SHAKER HEIGHTS -00-U,unofficial,Raw/Cuyahoga.csv,,1961,normalized,685,201,706,179,663,220,651,227,679,189,656,217,670,207,679,196
+Cuyahoga,780,SOLON -01-A,unofficial,Raw/Cuyahoga.csv,,1962,normalized,454,181,480,163,450,191,438,201,452,181,446,188,455,181,458,179
+Cuyahoga,781,SOLON -01-B,unofficial,Raw/Cuyahoga.csv,,1963,normalized,383,225,399,218,376,234,358,250,374,222,370,236,380,223,388,216
+Cuyahoga,782,SOLON -01-C,unofficial,Raw/Cuyahoga.csv,,1962;1963;1964;1967,boundary_overlap,365,137,374,132,350,156,343,164,351,137,349,155,355,143,352,149
+Cuyahoga,783,SOLON -02-A,unofficial,Raw/Cuyahoga.csv,,1964;1975,boundary_overlap,455,196,469,190,445,215,450,209,440,206,439,212,450,198,456,193
+Cuyahoga,784,SOLON -02-B,unofficial,Raw/Cuyahoga.csv,,1965,normalized,472,144,483,142,480,152,464,165,470,143,471,157,476,147,474,144
+Cuyahoga,785,SOLON -03-A,unofficial,Raw/Cuyahoga.csv,,1966;1974,boundary_overlap,615,252,632,245,603,270,594,282,606,249,597,263,612,249,611,250
+Cuyahoga,786,SOLON -03-B,unofficial,Raw/Cuyahoga.csv,,1966;1967,boundary_overlap,543,265,561,261,554,276,538,288,542,265,543,281,561,264,545,283
+Cuyahoga,787,SOLON -04-A,unofficial,Raw/Cuyahoga.csv,,1968,normalized,397,172,422,147,386,181,373,196,390,164,374,185,399,163,398,163
+Cuyahoga,788,SOLON -04-B,unofficial,Raw/Cuyahoga.csv,,1969,normalized,336,186,348,182,338,189,321,207,335,181,322,196,340,182,332,189
+Cuyahoga,789,SOLON -04-C,unofficial,Raw/Cuyahoga.csv,,1970;1974,boundary_overlap,509,270,525,254,498,280,484,293,497,261,487,274,499,265,501,264
+Cuyahoga,790,SOLON -05-A,unofficial,Raw/Cuyahoga.csv,,1971;1972,boundary_overlap,599,222,631,187,590,234,568,257,587,215,575,236,594,213,599,213
+Cuyahoga,791,SOLON -05-B,unofficial,Raw/Cuyahoga.csv,,1972;1976,boundary_overlap,562,245,577,235,554,253,548,260,565,232,551,251,551,247,556,245
+Cuyahoga,792,SOLON -05-C,unofficial,Raw/Cuyahoga.csv,,1971,split_precinct,145,52,143,50,141,53,136,59,138,54,138,55,141,53,143,52
+Cuyahoga,793,SOLON -06-A,unofficial,Raw/Cuyahoga.csv,,1973,normalized,590,168,597,162,565,195,558,195,575,174,561,191,575,181,587,170
+Cuyahoga,794,SOLON -06-B,unofficial,Raw/Cuyahoga.csv,,1974,normalized,275,122,293,113,282,118,262,142,272,120,277,118,285,117,283,117
+Cuyahoga,795,SOLON -06-C,unofficial,Raw/Cuyahoga.csv,,1973;1974,boundary_overlap,433,151,447,138,433,156,419,168,429,149,427,154,432,143,437,141
+Cuyahoga,796,SOLON -07-A,unofficial,Raw/Cuyahoga.csv,,1975;1976,boundary_overlap,497,242,528,227,501,253,478,276,491,242,489,257,488,256,492,245
+Cuyahoga,797,SOLON -07-B,unofficial,Raw/Cuyahoga.csv,,1973;1976,boundary_overlap,475,206,486,200,469,222,459,230,479,211,461,228,475,213,466,217
+Cuyahoga,798,SOUTH EUCLID -01-A,unofficial,Raw/Cuyahoga.csv,,1977,normalized,518,29,523,28,522,38,526,36,518,27,522,39,525,33,520,35
+Cuyahoga,799,SOUTH EUCLID -01-B,unofficial,Raw/Cuyahoga.csv,,1978,normalized,537,32,549,32,543,36,546,34,550,26,544,31,543,32,542,34
+Cuyahoga,800,SOUTH EUCLID -01-C,unofficial,Raw/Cuyahoga.csv,,1979,normalized,674,128,686,129,681,130,668,155,683,126,675,132,678,134,674,143
+Cuyahoga,801,SOUTH EUCLID -01-D,unofficial,Raw/Cuyahoga.csv,,1980,normalized,519,75,527,81,523,86,523,88,518,73,524,82,524,77,520,83
+Cuyahoga,802,SOUTH EUCLID -02-A,unofficial,Raw/Cuyahoga.csv,,1981,normalized,611,68,625,66,622,77,612,88,618,69,616,79,618,73,614,77
+Cuyahoga,803,SOUTH EUCLID -02-B,unofficial,Raw/Cuyahoga.csv,,1982,normalized,581,111,609,105,592,119,578,129,589,103,596,114,594,107,601,103
+Cuyahoga,804,SOUTH EUCLID -02-C,unofficial,Raw/Cuyahoga.csv,,1983,normalized,583,102,602,102,594,112,588,119,593,101,591,110,583,114,587,106
+Cuyahoga,805,SOUTH EUCLID -02-D,unofficial,Raw/Cuyahoga.csv,,1984,normalized,477,90,493,87,475,104,476,103,482,81,476,96,477,92,480,93
+Cuyahoga,806,SOUTH EUCLID -03-A,unofficial,Raw/Cuyahoga.csv,,1985,normalized,453,52,463,50,461,58,459,60,466,50,461,54,458,50,463,46
+Cuyahoga,807,SOUTH EUCLID -03-B,unofficial,Raw/Cuyahoga.csv,,1986,normalized,488,51,502,49,490,57,488,59,492,50,494,52,488,51,497,48
+Cuyahoga,808,SOUTH EUCLID -03-C,unofficial,Raw/Cuyahoga.csv,,1987,normalized,511,68,518,71,511,77,496,89,507,72,506,75,506,76,501,78
+Cuyahoga,809,SOUTH EUCLID -03-D,unofficial,Raw/Cuyahoga.csv,,1988,normalized,403,133,406,133,405,139,392,151,403,130,400,139,395,142,399,142
+Cuyahoga,810,SOUTH EUCLID -04-A,unofficial,Raw/Cuyahoga.csv,,1989;2024,boundary_overlap,525,52,540,58,541,59,531,72,541,57,546,59,541,57,533,61
+Cuyahoga,811,SOUTH EUCLID -04-B,unofficial,Raw/Cuyahoga.csv,,1990,normalized,367,40,375,44,374,44,366,50,365,41,376,43,375,41,375,42
+Cuyahoga,812,SOUTH EUCLID -04-C,unofficial,Raw/Cuyahoga.csv,,1991,normalized,374,34,382,35,374,38,373,39,378,34,373,39,373,36,370,38
+Cuyahoga,813,SOUTH EUCLID -04-D,unofficial,Raw/Cuyahoga.csv,,1992,normalized,467,148,477,140,459,160,457,159,458,150,457,157,458,148,462,145
+Cuyahoga,814,STRONGSVILLE -01-A,unofficial,Raw/Cuyahoga.csv,,1993,normalized,403,357,416,351,387,375,348,410,377,360,380,364,383,362,385,363
+Cuyahoga,815,STRONGSVILLE -01-B,unofficial,Raw/Cuyahoga.csv,,1994;1997,boundary_overlap,190,68,188,73,188,82,182,84,192,71,187,81,187,77,189,79
+Cuyahoga,816,STRONGSVILLE -01-C,unofficial,Raw/Cuyahoga.csv,,1995;1998,boundary_overlap,446,359,458,351,425,369,415,379,422,351,420,358,427,353,421,359
+Cuyahoga,817,STRONGSVILLE -01-D,unofficial,Raw/Cuyahoga.csv,,1996,normalized,386,313,417,295,365,331,359,346,380,304,358,337,372,307,381,303
+Cuyahoga,818,STRONGSVILLE -01-E,unofficial,Raw/Cuyahoga.csv,,1996;1997;1998,boundary_overlap,385,396,405,382,380,411,377,417,382,390,384,399,389,384,383,393
+Cuyahoga,819,STRONGSVILLE -01-F,unofficial,Raw/Cuyahoga.csv,,1998,normalized,201,359,215,352,197,378,195,374,202,362,196,369,206,359,205,360
+Cuyahoga,820,STRONGSVILLE -01-G,unofficial,Raw/Cuyahoga.csv,,1999,normalized,376,269,380,272,373,296,359,313,364,288,362,298,373,288,369,292
+Cuyahoga,821,STRONGSVILLE -01-H,unofficial,Raw/Cuyahoga.csv,,1997;1999,boundary_overlap,194,114,200,115,195,126,194,126,198,115,194,123,197,120,200,118
+Cuyahoga,822,STRONGSVILLE -02-A,unofficial,Raw/Cuyahoga.csv,,2000,normalized,384,292,404,279,362,315,341,338,363,299,348,318,356,309,359,308
+Cuyahoga,823,STRONGSVILLE -02-B,unofficial,Raw/Cuyahoga.csv,,2001,normalized,306,269,313,258,292,277,275,295,283,273,288,279,300,272,291,278
+Cuyahoga,824,STRONGSVILLE -02-C,unofficial,Raw/Cuyahoga.csv,,2002,normalized,353,309,372,296,349,321,342,338,350,304,346,315,352,299,348,303
+Cuyahoga,825,STRONGSVILLE -02-D,unofficial,Raw/Cuyahoga.csv,,2003,normalized,293,289,318,278,291,307,282,319,289,289,286,296,296,285,292,285
+Cuyahoga,826,STRONGSVILLE -02-E,unofficial,Raw/Cuyahoga.csv,,2004,normalized,202,186,216,174,199,188,194,190,207,164,205,172,204,174,203,176
+Cuyahoga,827,STRONGSVILLE -02-F,unofficial,Raw/Cuyahoga.csv,,2005,normalized,284,298,307,286,277,306,263,320,279,284,276,303,276,296,275,299
+Cuyahoga,828,STRONGSVILLE -02-G,unofficial,Raw/Cuyahoga.csv,,2006,normalized,366,292,390,284,361,318,343,336,362,287,350,307,373,298,368,306
+Cuyahoga,829,STRONGSVILLE -02-H,unofficial,Raw/Cuyahoga.csv,,2007,normalized,291,314,309,312,274,336,271,349,277,314,280,326,281,324,284,319
+Cuyahoga,830,STRONGSVILLE -02-I,unofficial,Raw/Cuyahoga.csv,,2008,normalized,415,342,429,332,388,361,369,382,409,336,381,353,391,345,395,348
+Cuyahoga,831,STRONGSVILLE -03-A,unofficial,Raw/Cuyahoga.csv,,2009;2010,boundary_overlap,413,302,434,289,417,311,401,326,415,302,404,313,416,298,418,294
+Cuyahoga,832,STRONGSVILLE -03-B,unofficial,Raw/Cuyahoga.csv,,2010,normalized,406,315,432,295,396,330,382,358,398,314,396,328,401,323,398,329
+Cuyahoga,833,STRONGSVILLE -03-C,unofficial,Raw/Cuyahoga.csv,,2011,normalized,450,374,462,354,435,386,424,401,440,355,430,378,437,369,432,377
+Cuyahoga,834,STRONGSVILLE -03-D,unofficial,Raw/Cuyahoga.csv,,2012;2013,boundary_overlap,356,396,379,368,346,411,330,419,347,388,354,389,356,385,353,390
+Cuyahoga,835,STRONGSVILLE -03-E,unofficial,Raw/Cuyahoga.csv,,2013,normalized,399,382,429,352,386,397,374,410,395,366,371,384,378,382,384,382
+Cuyahoga,836,STRONGSVILLE -03-F,unofficial,Raw/Cuyahoga.csv,,2011;2014,boundary_overlap,400,356,424,350,401,366,377,382,401,354,389,364,399,347,395,359
+Cuyahoga,837,STRONGSVILLE -03-G,unofficial,Raw/Cuyahoga.csv,,1146;2014;2015,boundary_overlap,361,285,379,272,344,304,331,328,343,280,338,297,352,277,338,302
+Cuyahoga,838,STRONGSVILLE -03-H,unofficial,Raw/Cuyahoga.csv,,2009;2012,boundary_overlap,332,290,360,280,318,309,312,315,323,288,317,299,324,296,322,300
+Cuyahoga,839,STRONGSVILLE -04-A,unofficial,Raw/Cuyahoga.csv,,2016,normalized,195,150,221,137,205,149,195,159,203,144,199,146,199,147,198,146
+Cuyahoga,840,STRONGSVILLE -04-B,unofficial,Raw/Cuyahoga.csv,,2017,normalized,415,455,416,445,389,470,383,490,387,447,386,460,400,446,400,455
+Cuyahoga,841,STRONGSVILLE -04-C,unofficial,Raw/Cuyahoga.csv,,2018,normalized,401,360,417,345,383,364,375,376,387,341,372,359,381,354,373,359
+Cuyahoga,842,STRONGSVILLE -04-D,unofficial,Raw/Cuyahoga.csv,,2019;2022,boundary_overlap,363,357,395,331,349,383,326,413,345,357,347,374,351,367,356,362
+Cuyahoga,843,STRONGSVILLE -04-E,unofficial,Raw/Cuyahoga.csv,,2018;2020,boundary_overlap,389,373,420,371,388,382,388,387,401,362,386,385,401,370,406,362
+Cuyahoga,844,STRONGSVILLE -04-F,unofficial,Raw/Cuyahoga.csv,,2020;2021,boundary_overlap,402,397,425,381,391,416,371,447,385,398,387,410,392,394,395,400
+Cuyahoga,845,STRONGSVILLE -04-G,unofficial,Raw/Cuyahoga.csv,,2020;2021;2022,boundary_overlap,347,331,378,316,343,355,327,366,352,325,339,346,343,337,349,330
+Cuyahoga,846,STRONGSVILLE -04-H,unofficial,Raw/Cuyahoga.csv,,2016,split_precinct,252,225,264,212,250,232,232,250,241,221,241,232,252,217,247,227
+Cuyahoga,847,UNIVERSITY HEIGHTS -00-A,unofficial,Raw/Cuyahoga.csv,,2023,normalized,499,38,516,34,515,44,513,44,505,39,515,39,512,44,506,46
+Cuyahoga,848,UNIVERSITY HEIGHTS -00-B,unofficial,Raw/Cuyahoga.csv,,2024,normalized,502,50,522,41,508,54,508,62,512,46,508,52,512,51,513,53
+Cuyahoga,849,UNIVERSITY HEIGHTS -00-C,unofficial,Raw/Cuyahoga.csv,,2025,normalized,552,65,558,66,550,78,547,80,553,66,558,70,558,68,557,70
+Cuyahoga,850,UNIVERSITY HEIGHTS -00-D,unofficial,Raw/Cuyahoga.csv,,2026;2027,split_nodes,651,135,669,123,654,142,641,154,650,134,643,145,650,141,655,136
+Cuyahoga,851,UNIVERSITY HEIGHTS -00-E,unofficial,Raw/Cuyahoga.csv,,2028,normalized,490,73,499,66,485,79,480,83,486,69,482,79,485,75,491,70
+Cuyahoga,852,UNIVERSITY HEIGHTS -00-F,unofficial,Raw/Cuyahoga.csv,,2029,normalized,347,119,369,105,356,122,346,129,349,121,348,124,355,116,357,111
+Cuyahoga,853,UNIVERSITY HEIGHTS -00-G,unofficial,Raw/Cuyahoga.csv,,2030,normalized,475,195,483,181,452,218,440,227,460,194,440,216,459,206,460,207
+Cuyahoga,854,UNIVERSITY HEIGHTS -00-H,unofficial,Raw/Cuyahoga.csv,,2031,normalized,200,523,209,509,196,520,187,525,198,507,189,522,192,518,198,511
+Cuyahoga,855,UNIVERSITY HEIGHTS -00-I,unofficial,Raw/Cuyahoga.csv,,2032,normalized,186,336,196,327,177,339,169,345,184,321,176,330,184,324,188,322
+Cuyahoga,856,VALLEY VIEW -00-A,unofficial,Raw/Cuyahoga.csv,,2033,normalized,181,273,186,275,179,283,170,294,179,267,174,276,181,270,183,269
+Cuyahoga,857,VALLEY VIEW -00-B,unofficial,Raw/Cuyahoga.csv,,2034,normalized,226,306,236,293,214,317,218,319,218,297,216,313,221,301,229,298
+Cuyahoga,858,WALTON HILLS -00-A,unofficial,Raw/Cuyahoga.csv,,2036,normalized,309,286,327,272,304,303,302,305,306,290,303,300,314,288,309,295
+Cuyahoga,859,WALTON HILLS -00-B,unofficial,Raw/Cuyahoga.csv,,2037,normalized,277,317,286,314,270,340,264,343,281,321,274,332,282,328,277,329
+Cuyahoga,860,WARRENSVILLE HTS -01-A,unofficial,Raw/Cuyahoga.csv,,2038,normalized,382,11,396,11,391,18,395,14,388,14,395,13,390,16,388,19
+Cuyahoga,861,WARRENSVILLE HTS -01-B,unofficial,Raw/Cuyahoga.csv,,2039,normalized,371,7,375,8,368,12,373,9,368,6,371,9,367,10,372,6
+Cuyahoga,862,WARRENSVILLE HTS -02-A,unofficial,Raw/Cuyahoga.csv,,2040,normalized,336,3,342,3,349,4,341,9,342,5,348,2,346,6,341,5
+Cuyahoga,863,WARRENSVILLE HTS -02-B,unofficial,Raw/Cuyahoga.csv,,2041,normalized,217,8,221,9,214,11,218,10,220,6,217,9,217,6,221,5
+Cuyahoga,864,WARRENSVILLE HTS -03-A,unofficial,Raw/Cuyahoga.csv,,1795,combined_node,422,7,435,11,437,14,437,13,436,11,441,12,434,14,434,8
+Cuyahoga,865,WARRENSVILLE HTS -03-B,unofficial,Raw/Cuyahoga.csv,,1238;1795,boundary_overlap,240,16,243,16,245,16,247,16,242,14,245,15,242,17,240,19
+Cuyahoga,866,WARRENSVILLE HTS -04-A,unofficial,Raw/Cuyahoga.csv,,2042,normalized,94,5,102,5,101,6,103,5,103,4,100,7,102,5,100,4
+Cuyahoga,867,WARRENSVILLE HTS -04-B,unofficial,Raw/Cuyahoga.csv,,1669;1670;2043,boundary_overlap,208,6,208,8,207,12,207,12,208,11,212,10,209,11,210,10
+Cuyahoga,868,WARRENSVILLE HTS -05-A,unofficial,Raw/Cuyahoga.csv,,2044,normalized,426,13,434,9,434,15,433,15,436,10,429,10,425,16,428,16
+Cuyahoga,869,WARRENSVILLE HTS -05-B,unofficial,Raw/Cuyahoga.csv,,2044;2045,boundary_overlap,295,13,300,11,298,16,298,17,295,14,297,14,301,14,300,14
+Cuyahoga,870,WARRENSVILLE HTS -06-A,unofficial,Raw/Cuyahoga.csv,,2046,normalized,522,23,524,24,527,29,537,29,529,21,538,23,533,23,523,30
+Cuyahoga,871,WARRENSVILLE HTS -07-A,unofficial,Raw/Cuyahoga.csv,,2047,normalized,165,15,163,18,170,17,169,16,172,16,168,18,167,15,169,17
+Cuyahoga,872,WARRENSVILLE HTS -07-B,unofficial,Raw/Cuyahoga.csv,,1842;2048,boundary_overlap,192,3,191,5,194,4,187,8,194,3,196,3,193,5,189,6
+Cuyahoga,873,WESTLAKE -01-A,unofficial,Raw/Cuyahoga.csv,,2049,normalized,484,347,509,319,471,361,458,374,476,335,461,364,474,355,475,354
+Cuyahoga,874,WESTLAKE -01-B,unofficial,Raw/Cuyahoga.csv,,2050;2053,boundary_overlap,413,232,424,234,415,250,382,273,408,235,404,252,407,246,407,252
+Cuyahoga,875,WESTLAKE -01-C,unofficial,Raw/Cuyahoga.csv,,2051,normalized,498,358,534,327,490,378,468,404,496,353,490,373,496,362,492,369
+Cuyahoga,876,WESTLAKE -01-D,unofficial,Raw/Cuyahoga.csv,,2052,normalized,363,298,384,287,350,315,342,330,353,306,349,306,352,300,352,303
+Cuyahoga,877,WESTLAKE -02-A,unofficial,Raw/Cuyahoga.csv,,2053;2054,boundary_overlap,368,235,378,231,350,266,326,284,352,240,345,265,343,266,360,251
+Cuyahoga,878,WESTLAKE -02-B,unofficial,Raw/Cuyahoga.csv,,2054;2056;2061,boundary_overlap,418,315,443,305,404,331,389,349,413,312,396,327,415,312,409,320
+Cuyahoga,879,WESTLAKE -02-C,unofficial,Raw/Cuyahoga.csv,,2050;2055,boundary_overlap,401,242,411,238,389,266,388,270,394,242,387,263,387,257,392,254
+Cuyahoga,880,WESTLAKE -02-D,unofficial,Raw/Cuyahoga.csv,,2054;2056,boundary_overlap,367,277,383,265,357,294,342,308,351,278,348,292,354,282,351,290
+Cuyahoga,881,WESTLAKE -03-A,unofficial,Raw/Cuyahoga.csv,,2057;2058,boundary_overlap,447,271,466,259,433,289,414,303,425,275,419,295,440,275,436,282
+Cuyahoga,882,WESTLAKE -03-B,unofficial,Raw/Cuyahoga.csv,,2058,normalized,319,120,326,121,326,125,316,134,320,120,327,121,315,131,324,125
+Cuyahoga,883,WESTLAKE -03-C,unofficial,Raw/Cuyahoga.csv,,2059;2066,boundary_overlap,425,311,427,316,412,330,405,340,414,313,402,335,418,319,419,322
+Cuyahoga,884,WESTLAKE -03-D,unofficial,Raw/Cuyahoga.csv,,2058;2060,boundary_overlap,292,88,297,91,296,94,283,110,288,92,292,97,295,97,293,99
+Cuyahoga,885,WESTLAKE -04-A,unofficial,Raw/Cuyahoga.csv,,2061;2063,boundary_overlap,365,235,389,223,365,254,349,268,360,238,357,251,372,239,362,252
+Cuyahoga,886,WESTLAKE -04-B,unofficial,Raw/Cuyahoga.csv,,2062,normalized,421,287,427,277,404,307,381,323,404,290,397,308,402,293,391,303
+Cuyahoga,887,WESTLAKE -04-C,unofficial,Raw/Cuyahoga.csv,,2063;2072,boundary_overlap,469,285,475,279,440,314,432,315,453,285,442,303,455,288,460,290
+Cuyahoga,888,WESTLAKE -04-D,unofficial,Raw/Cuyahoga.csv,,2064,normalized,408,207,422,203,411,220,391,239,404,209,405,219,417,199,403,219
+Cuyahoga,889,WESTLAKE -05-A,unofficial,Raw/Cuyahoga.csv,,2065;2066,boundary_overlap,365,190,374,187,352,204,348,205,360,184,358,191,347,199,354,199
+Cuyahoga,890,WESTLAKE -05-B,unofficial,Raw/Cuyahoga.csv,,2065;2066;2071,boundary_overlap,305,232,317,227,296,249,288,260,305,229,296,244,300,241,304,238
+Cuyahoga,891,WESTLAKE -05-C,unofficial,Raw/Cuyahoga.csv,,2060;2067,boundary_overlap,423,298,425,299,399,321,395,332,400,304,402,310,403,306,407,302
+Cuyahoga,892,WESTLAKE -05-D,unofficial,Raw/Cuyahoga.csv,,2068,normalized,438,236,458,221,431,245,410,262,426,232,417,247,422,239,426,240
+Cuyahoga,893,WESTLAKE -06-A,unofficial,Raw/Cuyahoga.csv,,2069,normalized,310,258,319,247,290,272,271,287,302,254,275,281,284,266,292,258
+Cuyahoga,894,WESTLAKE -06-B,unofficial,Raw/Cuyahoga.csv,,2064;2070,boundary_overlap,432,320,456,312,425,344,414,356,420,330,415,346,431,329,432,331
+Cuyahoga,895,WESTLAKE -06-C,unofficial,Raw/Cuyahoga.csv,,2066;2071,boundary_overlap,427,345,440,333,421,351,400,378,425,338,408,356,413,349,410,352
+Cuyahoga,896,WESTLAKE -06-D,unofficial,Raw/Cuyahoga.csv,,2070;2072,boundary_overlap,387,349,399,325,375,356,358,372,374,343,369,351,370,346,371,350
+Cuyahoga,897,WOODMERE -00-A,unofficial,Raw/Cuyahoga.csv,,2073,normalized,249,22,248,21,244,27,238,33,249,24,248,27,248,26,251,24

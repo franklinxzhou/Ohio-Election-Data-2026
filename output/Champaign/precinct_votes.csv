@@ -1,0 +1,32 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Champaign,0001,URBANA 1-A,official,Raw/Champaign.pdf,"1,3-9",701,combined_node,129,140,133,142,128,166,123,172,124,155,127,167,128,167,128,165
+Champaign,0002,URBANA 1-B,official,Raw/Champaign.pdf,"1,3-9",711,exact,208,197,218,194,205,226,209,220,197,209,209,222,212,220,214,217
+Champaign,0003,URBANA 2-A,official,Raw/Champaign.pdf,"1,3-9",701,combined_node,295,263,320,262,297,328,304,316,299,291,300,314,313,307,307,314
+Champaign,0004,URBANA 2-B,official,Raw/Champaign.pdf,"1,3-9",701,combined_node,266,398,281,390,254,442,243,457,251,423,249,441,255,437,259,425
+Champaign,0005,URBANA 3-A,official,Raw/Champaign.pdf,"1,3-9",712,exact,257,250,263,260,243,315,245,316,247,278,250,308,249,305,259,299
+Champaign,0006,URBANA 3-B,official,Raw/Champaign.pdf,"1,3-9",713,exact,235,257,241,259,227,295,218,298,223,273,225,286,228,284,229,282
+Champaign,0007,URBANA 4-A,official,Raw/Champaign.pdf,"1,3-9",707,combined_node,144,235,152,249,147,280,144,282,144,265,145,278,151,276,155,272
+Champaign,0008,URBANA 4-B,official,Raw/Champaign.pdf,"1,3-9",714,exact,150,167,150,180,153,198,154,201,146,189,158,193,154,198,154,192
+Champaign,0009,ADAMS,official,Raw/Champaign.pdf,"1,3-9",694,normalized,76,312,79,314,61,356,69,348,60,333,61,354,67,345,67,345
+Champaign,0010,CONCORD,official,Raw/Champaign.pdf,"1,3-9",695,normalized,174,427,189,418,165,486,164,482,166,459,164,479,166,474,174,470
+Champaign,0011,MECHANICSBURG,official,Raw/Champaign.pdf,"1,3-9",703,normalized,201,309,214,298,201,344,199,340,197,321,202,342,207,337,203,344
+Champaign,0012,GOSHEN NORTH,official,Raw/Champaign.pdf,"1,3-9",696,split_precinct,88,269,94,282,86,296,85,296,84,286,84,295,85,297,86,294
+Champaign,0013,GOSHEN SOUTH,official,Raw/Champaign.pdf,"1,3-9",696,split_precinct,97,323,104,321,94,359,89,365,96,345,94,354,90,360,99,350
+Champaign,0014,HARRISON,official,Raw/Champaign.pdf,"1,3-9",697,normalized,67,282,67,284,68,298,68,304,61,296,66,305,65,302,69,298
+Champaign,0015,JACKSON WEST,official,Raw/Champaign.pdf,"1,3-9",699,normalized,119,359,125,356,119,394,117,395,117,378,116,392,119,390,121,388
+Champaign,0016,JACKSON EAST,official,Raw/Champaign.pdf,"1,3-9",698,normalized,92,376,95,384,89,419,90,419,90,403,90,418,98,408,97,411
+Champaign,0017,ST PARIS,official,Raw/Champaign.pdf,"1,3-9",708,normalized,200,362,208,369,199,423,203,416,193,393,193,423,197,417,208,405
+Champaign,0018,JOHNSON,official,Raw/Champaign.pdf,"1,3-9",700,normalized,154,512,161,523,147,570,151,565,147,552,154,559,155,558,158,555
+Champaign,0019,MAD RIVER A,official,Raw/Champaign.pdf,"1,3-9",701,combined_node,33,85,33,89,29,94,31,93,29,94,30,93,31,93,30,92
+Champaign,0020,MAD RIVER B,official,Raw/Champaign.pdf,"1,3-9",702,normalized,124,271,129,268,111,313,115,309,108,290,113,302,110,307,117,301
+Champaign,0021,MAD RIVER C,official,Raw/Champaign.pdf,"1,3-9",,unmatched,238,505,244,505,219,572,217,577,226,544,232,557,233,557,236,551
+Champaign,0022,NORTH LEWISBURG,official,Raw/Champaign.pdf,"1,3-9",704,normalized,166,340,184,338,169,385,159,398,175,362,164,391,170,381,170,385
+Champaign,0023,RUSH,official,Raw/Champaign.pdf,"1,3-9",705,normalized,83,312,94,310,80,341,74,347,77,324,78,337,80,335,83,334
+Champaign,0024,SALEM NORTH,official,Raw/Champaign.pdf,"1,3-9",706,normalized,127,377,127,383,107,422,106,427,104,402,108,418,119,408,115,404
+Champaign,0025,SALEM SOUTH,official,Raw/Champaign.pdf,"1,3-9",707,combined_node,142,323,162,317,139,370,144,368,142,345,142,364,144,365,152,359
+Champaign,0026,UNION NORTH,official,Raw/Champaign.pdf,"1,3-9",709,normalized,161,368,175,359,150,405,152,403,168,374,156,397,159,391,162,388
+Champaign,0027,UNION SOUTH,official,Raw/Champaign.pdf,"1,3-9",710,normalized,120,297,127,299,118,330,117,330,117,319,119,328,117,328,120,326
+Champaign,0028,URBANA NORTH,official,Raw/Champaign.pdf,"1,3-9",701,combined_node,162,423,165,420,139,478,134,483,135,450,135,470,138,467,136,464
+Champaign,0029,URBANA SOUTH,official,Raw/Champaign.pdf,"1,3-9",715,normalized,221,390,228,398,204,459,210,456,209,427,212,447,207,458,222,439
+Champaign,0030,WAYNE NORTH,official,Raw/Champaign.pdf,"1,3-9",716,split_precinct,69,251,82,252,70,275,65,274,64,269,70,273,66,277,65,277
+Champaign,0031,WAYNE SOUTH,official,Raw/Champaign.pdf,"1,3-9",716,split_precinct,102,322,105,324,95,350,92,352,102,333,98,343,101,339,108,335

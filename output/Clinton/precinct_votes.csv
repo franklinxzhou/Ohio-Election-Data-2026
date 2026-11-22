@@ -1,0 +1,37 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Clinton,01,WILMINGTON 1-A,official,Raw/Clinton.pdf,1,975,exact,166,179,175,175,175,199,170,202,166,188,174,199,171,198,172,196
+Clinton,02,WILMINGTON 1-B,official,Raw/Clinton.pdf,3,976,exact,182,259,183,262,167,300,165,301,166,286,165,294,167,296,176,287
+Clinton,03,WILMINGTON 2-A,official,Raw/Clinton.pdf,5,968,combined_node,97,128,101,128,94,150,95,146,97,142,93,149,96,146,94,146
+Clinton,04,WILMINGTON 2-B,official,Raw/Clinton.pdf,7,968,combined_node,147,165,158,161,150,181,143,188,145,174,149,184,151,181,152,176
+Clinton,05,WILMINGTON 3-A,official,Raw/Clinton.pdf,9,977,exact,139,166,146,167,134,186,137,183,133,175,133,181,133,184,135,181
+Clinton,06,WILMINGTON 3-B,official,Raw/Clinton.pdf,11,968,combined_node,115,174,127,182,123,195,117,202,120,192,120,197,122,195,124,195
+Clinton,07,WILMINGTON 3-C,official,Raw/Clinton.pdf,"13,14",978,exact,128,226,126,249,126,269,120,274,121,257,123,267,121,270,133,255
+Clinton,08,WILMINGTON 4-A,official,Raw/Clinton.pdf,"15,16",979,exact,149,144,155,143,145,176,144,179,139,166,150,172,154,168,151,172
+Clinton,09,WILMINGTON 4-B,official,Raw/Clinton.pdf,"17,18",980,exact,193,301,201,315,174,345,178,346,178,330,176,344,181,347,187,342
+Clinton,10,WILMINGTON 4-C,official,Raw/Clinton.pdf,"19,20",969,combined_node,171,244,176,245,163,267,159,278,165,260,164,268,170,261,168,262
+Clinton,11,ADAMS A,official,Raw/Clinton.pdf,"21,22",951,exact,120,374,127,373,119,398,106,408,110,386,113,401,120,394,117,398
+Clinton,12,ADAMS B,official,Raw/Clinton.pdf,"23,24",952,exact,131,367,142,374,126,404,130,397,126,383,124,403,123,400,134,390
+Clinton,13,CHESTER A,official,Raw/Clinton.pdf,25,956,exact,180,438,191,435,172,468,173,468,170,446,176,464,180,461,181,456
+Clinton,14,CHESTER B,official,Raw/Clinton.pdf,"26,27",957,exact,117,296,120,296,101,320,106,314,104,305,103,317,110,312,111,310
+Clinton,15,CLARK,official,Raw/Clinton.pdf,"28,29",958,exact,172,518,180,535,165,586,174,572,161,555,171,575,171,574,172,576
+Clinton,16,NEW VIENNA,official,Raw/Clinton.pdf,"30,31",962,exact,89,247,93,262,86,279,86,277,85,260,89,274,89,271,92,268
+Clinton,17,GREEN,official,Raw/Clinton.pdf,"32,33",959,exact,155,432,161,439,145,480,146,477,146,457,145,478,149,473,153,463
+Clinton,18,JEFFERSON,official,Raw/Clinton.pdf,"34,35",960,exact,68,365,76,379,75,409,75,412,70,391,78,400,76,405,73,407
+Clinton,19,LIBERTY,official,Raw/Clinton.pdf,"36,37",961,exact,91,337,92,353,78,372,83,362,83,359,79,367,79,370,83,366
+Clinton,20,BLANCHESTER A,official,Raw/Clinton.pdf,38,953,exact,103,263,112,274,106,291,100,298,107,276,113,283,114,290,109,286
+Clinton,21,BLANCHESTER B,official,Raw/Clinton.pdf,40,954,combined_node,76,157,82,164,72,184,74,182,74,174,73,183,76,178,81,174
+Clinton,22,BLANCHESTER C,official,Raw/Clinton.pdf,"41,42",955,exact,122,411,127,429,125,469,127,462,126,442,134,457,132,459,131,456
+Clinton,23,MARION,official,Raw/Clinton.pdf,"43,44",954,combined_node,116,431,125,441,114,466,119,463,113,448,113,462,119,463,116,459
+Clinton,24,SABINA A,official,Raw/Clinton.pdf,"45,46",964,exact,110,258,122,269,120,291,122,283,112,275,118,289,118,291,120,286
+Clinton,25,SABINA B,official,Raw/Clinton.pdf,"47,48",965,exact,90,145,96,149,88,169,92,168,91,154,88,168,89,167,93,166
+Clinton,26,RICHLAND,official,Raw/Clinton.pdf,"49,50",963,exact,78,295,92,296,85,318,77,318,80,301,76,320,75,323,81,314
+Clinton,27,UNION NORTH A,official,Raw/Clinton.pdf,"51,52",966,exact,141,335,146,331,137,352,137,349,137,342,134,351,138,350,141,350
+Clinton,28,UNION NORTH B,official,Raw/Clinton.pdf,53,967,exact,111,247,125,242,109,269,113,265,111,255,114,261,110,269,115,266
+Clinton,29,UNION SOUTH A,official,Raw/Clinton.pdf,"54,55",968,combined_node,57,170,70,166,64,184,60,187,64,175,65,183,60,186,68,181
+Clinton,30,UNION SOUTH B,official,Raw/Clinton.pdf,"56,57",969,combined_node,122,281,117,285,108,314,105,317,111,298,115,305,111,310,112,309
+Clinton,31,VERNON A,official,Raw/Clinton.pdf,"58,59",970,exact,133,390,141,399,134,429,132,430,137,405,142,418,139,423,141,419
+Clinton,32,VERNON B,official,Raw/Clinton.pdf,"60,61",971,exact,115,435,122,437,111,475,114,472,106,459,113,470,117,469,122,464
+Clinton,33,WASHINGTON A,official,Raw/Clinton.pdf,62,972,exact,103,290,101,303,93,328,95,327,97,313,91,330,98,324,100,325
+Clinton,34,WASHINGTON B,official,Raw/Clinton.pdf,"63,64",973,exact,128,324,125,336,111,381,116,369,114,359,112,375,116,371,126,365
+Clinton,35,WAYNE,official,Raw/Clinton.pdf,"65,66",974,exact,47,227,59,218,40,248,43,240,44,238,39,248,44,242,46,240
+Clinton,36,WILSON,official,Raw/Clinton.pdf,"67,68",981,exact,34,131,32,138,29,151,27,151,26,147,30,149,30,149,27,151

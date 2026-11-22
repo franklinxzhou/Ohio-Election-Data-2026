@@ -1,0 +1,29 @@
+Clinton County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Clinton.pdf, official precinct canvass dated November 17, 2026.
+  The PDF pages below contain the statewide vote counts for each precinct.
+  Countywide candidate controls appear under All Precincts on pp. 69-70.
+  https://www.boe.ohio.gov/clinton/election-info/election-results
+  OH_pct20.json, nodes[].ORIG_NAME for historical graph membership.
+
+Combined graph node 954
+  21 BLANCHESTER B (p. 40)
+  23 MARION (pp. 43-44)
+  ORIG_NAME = BLANCHESTER B_CLINTON,MARION_CLINTON
+
+Combined graph node 968
+  29 UNION SOUTH A (pp. 54-55)
+  03 WILMINGTON 2-A (p. 5)
+  04 WILMINGTON 2-B (p. 7)
+  06 WILMINGTON 3-B (p. 11)
+  ORIG_NAME = UNION SOUTH A_CLINTON,WILMINGTON 2-A_CLINTON,WILMINGTON 2-B_CLINTON,WILMINGTON 3-B_CLINTON
+
+Combined graph node 969
+  30 UNION SOUTH B (pp. 56-57)
+  10 WILMINGTON 4-C (pp. 19-20)
+  ORIG_NAME = UNION SOUTH B_CLINTON,WILMINGTON 4-C_CLINTON
+
+Each precinct keeps its own vote row. The crosswalk follows the names
+recorded in the graph and canvass. Boundary continuity was not assessed.
