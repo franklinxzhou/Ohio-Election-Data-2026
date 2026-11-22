@@ -1,0 +1,27 @@
+Madison County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Madison.pdf, Madison County's Official Results, precinct group detail
+  dated November 17, 2026. CSV references are physical PDF pages.
+  https://www.boe.ohio.gov/madison/c/elecres/20261103precinct.pdf
+  Official countywide summary, pp. 2-3:
+  https://www.boe.ohio.gov/madison/c/elecres/20261103results.pdf
+  OH_pct20.json, nodes[].ORIG_NAME for historical graph membership.
+
+Combined graph nodes
+  5070: 0014 W Jefferson A, 0015 West Jefferson B,
+    0016 Jefferson Twp A, and 0017 Jefferson Township B.
+  5071: 0001 London 1-A, 0003 London 2, 0005 London 4, and 0007 Union.
+  These precincts keep separate canvass vote rows.
+
+Label variants
+  Monroe/Pike matches MONROE / PIKE (5074).
+  W Jefferson A matches WEST JEFFERSON A (part of 5070).
+  Jefferson Township B matches JEFFERSON TWP B (part of 5070).
+  Paint/Range/Stokes matches PAINT / RANGE / STOKES (5077).
+  Mt. Sterling matches MT STERLING (5075).
+
+The 24 canvass precincts link by name to 18 graph nodes. The name
+crosswalk identifies no canvass precinct merges or splits.
+Exact boundary continuity remains unverified.

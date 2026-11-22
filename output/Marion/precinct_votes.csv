@@ -1,0 +1,46 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Marion,001,Marion 1-A,official,Raw/Marion.pdf,"1,7,13,19,25,31,37,49",5297;5298;5304,merged_precinct,187,202,201,197,203,225,207,221,201,212,201,228,202,226,203,224
+Marion,002,Marion 1-B,official,Raw/Marion.pdf,"1,7,13,19,25,31,37,49",5297;5298;5305,merged_precinct,213,236,233,226,224,262,217,271,226,245,229,257,231,253,234,250
+Marion,003,Marion 2-A,official,Raw/Marion.pdf,"1,7,13,19,25,31,37,49",5297;5298,split_nodes,147,101,147,107,154,121,150,125,139,120,152,122,149,126,154,122
+Marion,004,Marion 2-B,official,Raw/Marion.pdf,"1,7,13,19,25,31,37,49",5297;5298;5306,boundary_overlap,89,79,102,80,98,100,96,101,96,88,102,96,101,95,97,100
+Marion,005,Marion 3-A,official,Raw/Marion.pdf,"1,7,13,19,25,31,37,49",5307;5308;5330,boundary_overlap,154,174,160,190,149,226,151,224,150,201,157,215,157,217,158,215
+Marion,006,Marion 3-B,official,Raw/Marion.pdf,"1,7,13,19,25,31,37,49",5309;5310,merged_precinct,120,142,132,142,124,163,129,155,122,152,125,161,131,158,128,161
+Marion,007,Marion 3-C,official,Raw/Marion.pdf,"1,7,13,19,25,31,37,49",5311;5312;5313,boundary_overlap,206,299,211,305,200,340,204,340,203,318,201,342,212,329,206,335
+Marion,008,Marion 4-A,official,Raw/Marion.pdf,"2,8,14,20,26,32,38,50",5314;5315,merged_precinct,129,75,135,80,129,104,127,105,128,96,130,101,133,100,132,100
+Marion,009,Marion 4-B,official,Raw/Marion.pdf,"2,8,14,20,26,32,38,50",5316,split_precinct,81,113,93,112,95,122,95,123,84,121,93,124,94,123,89,127
+Marion,010,Marion 4-C,official,Raw/Marion.pdf,"2,8,14,20,26,32,38,50",5317,split_precinct,182,204,199,201,192,229,182,235,189,212,194,220,195,225,199,220
+Marion,011,Marion 4-D,official,Raw/Marion.pdf,"2,8,14,20,26,32,38,50",5318,boundary_overlap,145,163,154,161,162,186,165,181,162,170,164,180,169,177,165,178
+Marion,012,Marion 5-A,official,Raw/Marion.pdf,"2,8,14,20,26,32,38,50",5297;5298,boundary_overlap,155,156,169,155,175,173,175,175,167,168,173,179,176,177,174,179
+Marion,013,Marion 5-B,official,Raw/Marion.pdf,"2,8,14,20,26,32,38,50",5320;5325,boundary_overlap,208,208,226,205,216,240,212,245,202,228,213,243,221,238,214,242
+Marion,014,Marion 5-C,official,Raw/Marion.pdf,"2,8,14,20,26,32,38,50",5319,exact,80,89,87,96,87,114,89,112,81,106,84,115,87,114,87,111
+Marion,015,Marion 5-D,official,Raw/Marion.pdf,"2,8,14,20,26,32,38,50",5321;5322,merged_precinct,251,177,261,174,249,198,250,196,250,182,243,204,253,190,253,192
+Marion,016,Marion 6-A,official,Raw/Marion.pdf,"3,9,15,21,27,33,39,51",5323,boundary_overlap,279,330,283,322,270,359,264,365,272,340,267,358,273,356,278,350
+Marion,017,Marion 6-B,official,Raw/Marion.pdf,"3,9,15,21,27,33,39,51",5323;5324,boundary_overlap,239,326,262,308,241,361,235,366,245,343,237,363,247,351,248,350
+Marion,018,Marion 6-C,official,Raw/Marion.pdf,"3,9,15,21,27,33,39,51",5297;5298;5325,boundary_overlap,93,110,96,109,98,119,95,123,93,115,97,121,95,121,98,119
+Marion,019,Marion 6-D,official,Raw/Marion.pdf,"3,9,15,21,27,33,39,51",5297;5298,renamed,242,254,264,251,245,285,235,292,246,265,237,288,244,285,255,275
+Marion,020,Marion 6-E,official,Raw/Marion.pdf,"3,9,15,21,27,33,39,51",5323;5326,merged_precinct,273,310,287,301,263,339,255,349,262,330,258,345,266,338,278,323
+Marion,021,Marion 6-F,official,Raw/Marion.pdf,"3,9,15,21,27,33,39,51",5323,boundary_overlap,85,72,95,74,91,83,91,82,92,75,93,81,89,83,95,77
+Marion,022,Big Island Township,official,Raw/Marion.pdf,"3,9,15,21,27,33,39,51",5291;5292,merged_precinct,121,345,150,328,133,369,129,373,128,353,127,373,131,368,127,374
+Marion,023,Bowling Green Township,official,Raw/Marion.pdf,"3,9,15,21,27,33,39,51",5292,renamed,50,145,54,147,54,167,55,166,55,152,54,165,53,167,53,166
+Marion,024,Claridon Township A,official,Raw/Marion.pdf,"4,10,16,22,28,34,40,52",5293;5294,merged_precinct,119,316,128,320,120,350,120,354,113,340,125,347,124,349,120,350
+Marion,025,Claridon Township B,official,Raw/Marion.pdf,"4,10,16,22,28,34,40,52",5295,normalized,239,488,258,480,239,529,233,535,235,506,242,523,242,522,246,517
+Marion,026,Grand Salt,official,Raw/Marion.pdf,"4,10,16,22,28,34,40,52",5300,exact,101,287,111,281,101,314,98,312,101,293,106,307,104,312,107,308
+Marion,027,Grand Prairie Township,official,Raw/Marion.pdf,"4,10,16,22,28,34,40,52",5296;5297;5298;5299,merged_precinct,189,418,198,412,175,477,173,478,183,451,176,470,195,455,198,451
+Marion,028,Green Camp Township,official,Raw/Marion.pdf,"4,10,16,22,28,34,40,52",5301;5302,merged_precinct,116,291,130,284,115,329,106,339,107,314,114,328,111,331,122,322
+Marion,029,Marion Township A,official,Raw/Marion.pdf,"4,10,16,22,28,34,40,52",5297;5298,split_nodes,155,191,172,193,159,212,157,216,164,197,166,203,169,201,167,206
+Marion,030,Marion Township B,official,Raw/Marion.pdf,"4,10,16,22,28,34,40,52",5295;5327,boundary_overlap,193,226,191,224,183,246,178,252,189,230,179,247,190,235,192,232
+Marion,031,Marion Township C,official,Raw/Marion.pdf,"4,10,16,22,28,34,40,52",5295;5328;5329,boundary_overlap,175,321,195,315,176,348,165,356,176,331,174,345,183,332,179,339
+Marion,032,Marion Township D,official,Raw/Marion.pdf,"5,11,17,23,29,35,41,53",5323,boundary_overlap,272,341,286,339,262,378,254,384,270,352,262,375,271,364,264,369
+Marion,033,Marion Township E,official,Raw/Marion.pdf,"5,11,17,23,29,35,41,53",5297;5298,renamed,198,354,214,359,207,399,208,399,203,373,208,398,207,395,211,390
+Marion,034,Marion Township F,official,Raw/Marion.pdf,"5,11,17,23,29,35,41,53",5297;5298;5330,merged_precinct,123,224,126,222,129,250,127,251,123,238,128,250,135,242,130,247
+Marion,035,Montgomery Township,official,Raw/Marion.pdf,"5,11,17,23,29,35,41,53",5303,renamed,123,478,136,473,121,524,128,517,128,498,127,517,125,516,142,501
+Marion,036,Pleasant Township A,official,Raw/Marion.pdf,"5,11,17,23,29,35,41,53",5331,combined_node,170,371,193,350,171,393,159,406,173,376,171,391,175,383,183,377
+Marion,037,Pleasant Township B,official,Raw/Marion.pdf,"5,11,17,23,29,35,41,53",5332;5333,merged_precinct,200,485,224,477,195,539,187,546,197,494,195,529,193,533,202,524
+Marion,038,Pleasant Township C,official,Raw/Marion.pdf,"5,11,17,23,29,35,41,53",5334;5335,merged_precinct,208,463,233,442,188,504,188,497,203,466,189,500,197,496,202,488
+Marion,039,Pleasant Township D,official,Raw/Marion.pdf,"5,11,17,23,29,35,41,53",5331,renamed,112,222,122,227,111,249,113,249,114,231,114,243,119,241,117,243
+Marion,040,Prospect Village,official,Raw/Marion.pdf,"6,12,18,24,30,36,42,54",5336;5337,boundary_overlap,123,262,135,264,133,292,124,293,127,259,133,285,132,285,133,284
+Marion,041,Prospect Township,official,Raw/Marion.pdf,"6,12,18,24,30,36,42,54",5336,normalized,109,305,113,299,98,332,98,334,107,312,102,330,103,327,110,320
+Marion,042,Richland Township A,official,Raw/Marion.pdf,"6,12,18,24,30,36,42,54",5338,normalized,118,262,124,246,118,282,113,284,110,268,112,287,120,279,121,276
+Marion,043,Richland Township B,official,Raw/Marion.pdf,"6,12,18,24,30,36,42,54",5339,normalized,151,344,165,331,144,377,145,379,145,366,137,383,145,379,152,372
+Marion,044,Scott Tully,official,Raw/Marion.pdf,"6,12,18,24,30,36,42,54",5340,exact,117,398,115,402,106,430,110,429,110,411,105,433,110,424,114,423
+Marion,045,Waldo Township,official,Raw/Marion.pdf,"6,12,18,24,30,36,42,54",5341,renamed,158,331,167,333,146,378,137,389,151,352,149,374,150,373,148,372

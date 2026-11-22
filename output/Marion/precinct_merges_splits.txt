@@ -1,0 +1,82 @@
+Marion County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Marion.pdf, official precinct canvass dated November 13, 2026.
+  The CSV sums Election Day, Absentee, Early Vote, and Provisional.
+  https://www.boe.ohio.gov/marion/election-info/election-results
+  Official countywide summary, pp. 1-2:
+  https://www.boe.ohio.gov/marion/c/elecres/20261103results.pdf
+  Current precinct names and layout references:
+  https://www.boe.ohio.gov/marion/c/upload/CityofMarionMap.pdf
+  https://www.boe.ohio.gov/marion/c/upload/MarionCountyMap.pdf
+  Geometry proxy: the 2024 Ohio precinct shapefile archived by
+  21MetcalfJ. All 45 Marion names agree with the 2026 canvass after
+  standardizing Township and the PRECINCT prefix. The 2024 geometry
+  may miss changes to boundaries since that election.
+  https://github.com/21MetcalfJ/2024Precincts/tree/main/states/Ohio
+  https://raw.githubusercontent.com/21MetcalfJ/2024Precincts/main/states/Ohio/OH24.zip
+  Census 2020 TIGERweb Voting Districts, Marion County, Ohio (39101):
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  Query: where=STATE='39' AND COUNTY='101', outFields=BASENAME,GEOID,
+  outSR=5070, f=geojson.
+  OH_pct20.json, nodes[].ORIG_NAME for historical membership.
+
+Method
+  The two polygon layers were intersected in EPSG:5070. The percentages
+  below are shares of mapped 2024 precinct area. Links retain each 2020
+  precinct covering at least 2% of that area, or whose historical area
+  is at least 95% contained. Green Camp Village is fully contained in
+  current Green Camp Township and accounts for 1.38% of its mapped area.
+  The 2026 canvass reports the village levy under that township (p. 125).
+  A merged_precinct covers at least 95% of each listed predecessor.
+  Other multi-precinct links
+  are marked boundary_overlap. Groups repeated across graph nodes keep
+  all applicable node IDs. Votes stay on their 2026 canvass rows.
+
+Precinct crosswalk
+001 Marion 1-A | merged_precinct | 5297;5298;5304 | MARION 1-C (56.93%); MARION 1-A (42.70%)
+002 Marion 1-B | merged_precinct | 5297;5298;5305 | MARION 1-D (94.10%); MARION 1-E (4.30%)
+003 Marion 2-A | split_nodes | 5297;5298 | MARION 2-A (99.03%)
+004 Marion 2-B | boundary_overlap | 5297;5298;5306 | MARION 2-C (96.43%); MARION TWP K (3.40%)
+005 Marion 3-A | boundary_overlap | 5307;5308;5330 | MARION 3-B (69.00%); MARION 3-A (25.40%); MARION TWP J (4.14%)
+006 Marion 3-B | merged_precinct | 5309;5310 | MARION 3-D (53.52%); MARION 3-C (44.95%)
+007 Marion 3-C | boundary_overlap | 5311;5312;5313 | MARION 3-F (44.81%); MARION 3-G (35.80%); MARION 3-E (17.02%)
+008 Marion 4-A | merged_precinct | 5314;5315 | MARION 4-A (55.50%); MARION 4-B (43.51%)
+009 Marion 4-B | split_precinct | 5316 | MARION 4-C (99.17%)
+010 Marion 4-C | split_precinct | 5317 | MARION 4-E (99.75%)
+011 Marion 4-D | boundary_overlap | 5318 | MARION 4-F (97.92%)
+012 Marion 5-A | boundary_overlap | 5297;5298 | MARION 5-A (97.55%); MARION TWP H (2.17%)
+013 Marion 5-B | boundary_overlap | 5320;5325 | MARION 5-E (90.39%); MARION 6-D (8.37%)
+014 Marion 5-C | exact | 5319 | MARION 5-C (99.12%)
+015 Marion 5-D | merged_precinct | 5321;5322 | MARION 5-G (66.50%); MARION 5-H (32.85%)
+016 Marion 6-A | boundary_overlap | 5323 | MARION 6-A (96.61%); MARION TWP E (2.77%)
+017 Marion 6-B | boundary_overlap | 5323;5324 | MARION 6-C (53.92%); MARION 6-B (43.11%); MARION TWP F (2.30%)
+018 Marion 6-C | boundary_overlap | 5297;5298;5325 | MARION 6-D (97.00%); MARION 6-E (2.29%)
+019 Marion 6-D | renamed | 5297;5298 | MARION 6-E (98.67%)
+020 Marion 6-E | merged_precinct | 5323;5326 | MARION 6-H (71.57%); MARION 6-G (26.75%)
+021 Marion 6-F | boundary_overlap | 5323 | MARION 6-I (95.80%); MARION TWP E (3.40%)
+022 Big Island Township | merged_precinct | 5291;5292 | BIG ISLAND B (69.61%); BIG ISLAND A (30.36%)
+023 Bowling Green Township | renamed | 5292 | NEW BLOOMINGTON (99.81%)
+024 Claridon Township A | merged_precinct | 5293;5294 | CLARIDON TWP A (97.04%); CALEDONIA VILL (2.50%)
+025 Claridon Township B | normalized | 5295 | CLARIDON TWP B (99.85%)
+026 Grand Salt | exact | 5300 | GRAND SALT (99.95%)
+027 Grand Prairie Township | merged_precinct | 5296;5297;5298;5299 | GRAND PRAIRIE B (41.84%); GRAND PRAIRIE A (36.06%); GRAND PRAIRIE C (21.97%)
+028 Green Camp Township | merged_precinct | 5301;5302 | GREEN CAMP TWP (98.25%); GREEN CAMP VILLAGE (1.38%)
+029 Marion Township A | split_nodes | 5297;5298 | MARION TWP A (99.58%)
+030 Marion Township B | boundary_overlap | 5295;5327 | MARION TWP B (94.81%); CLARIDON TWP B (4.82%)
+031 Marion Township C | boundary_overlap | 5295;5328;5329 | MARION TWP C (59.61%); MARION TWP D (36.95%); CLARIDON TWP B (2.57%)
+032 Marion Township D | boundary_overlap | 5323 | MARION TWP F (67.70%); MARION TWP E (29.44%)
+033 Marion Township E | renamed | 5297;5298 | MARION TWP H (98.03%)
+034 Marion Township F | merged_precinct | 5297;5298;5330 | MARION TWP K (53.62%); MARION TWP J (45.62%)
+035 Montgomery Township | renamed | 5303 | LARUE (98.29%)
+036 Pleasant Township A | combined_node | 5331 | PLEASANT TWP A (99.06%)
+037 Pleasant Township B | merged_precinct | 5332;5333 | PLEASANT TWP B (56.02%); PLEASANT TWP C (42.56%)
+038 Pleasant Township C | merged_precinct | 5334;5335 | PLEASANT TWP E (83.99%); PLEASANT TWP D (14.94%)
+039 Pleasant Township D | renamed | 5331 | PLEASANT TWP F (99.70%)
+040 Prospect Village | boundary_overlap | 5336;5337 | PROSPECT VILLAGE (94.65%); PROSPECT TWP (5.35%)
+041 Prospect Township | normalized | 5336 | PROSPECT TWP (99.57%)
+042 Richland Township A | normalized | 5338 | RICHLAND TWP A (99.50%)
+043 Richland Township B | normalized | 5339 | RICHLAND TWP B (99.94%)
+044 Scott Tully | exact | 5340 | SCOTT TULLY (99.88%)
+045 Waldo Township | renamed | 5341 | WALDO (99.57%)

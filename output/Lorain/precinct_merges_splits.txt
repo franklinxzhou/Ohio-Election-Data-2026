@@ -1,0 +1,123 @@
+Lorain County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Lorain.pdf, official Precinct Canvass dated November 16, 2026.
+  CSV page references are physical PDF pages. The report gives names
+  without precinct codes, so the code field is blank.
+  https://www.voteloraincountyohio.gov/_files/ugd/2568d0_d1ecc7c9dc304038ac65319fd603cd68.pdf
+  Official countywide summary, pp. 1-2:
+  https://www.voteloraincountyohio.gov/_files/ugd/2568d0_96e38e17a7454e5e9516563c0ae71996.pdf
+  Current precinct polygons from the LorainCounty.com election map:
+  https://election.loraincounty.com/map/precincts.geojson?v=2026-11-05
+  Board of Elections precinct maps:
+  https://www.voteloraincountyohio.gov/maps
+  Census 2020 TIGERweb Voting Districts, Lorain County, Ohio (39093):
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  Query: where=STATE='39' AND COUNTY='093', outFields=BASENAME,GEOID,
+  outSR=5070, f=geojson.
+  OH_pct20.json, nodes[].ORIG_NAME for historical graph membership.
+
+Crosswalk
+  The map has a polygon for each of the 210 canvass names. Its
+  Brighton and Brownhelm polygon labels are transposed. The township
+  maps and Census locations identify Brighton inland and Brownhelm
+  to the north. The script corrects the two geometry labels.
+  https://www.voteloraincountyohio.gov/_files/ugd/2568d0_8bb2ab3c93d44ce68f7d4d4f9d33448d.pdf
+  https://www.voteloraincountyohio.gov/_files/ugd/2568d0_c1e13431e62b4a3ca99097504bd109f2.pdf
+  https://www2.census.gov/geo/pvs/bas/bas24maps/st39_oh/cou/c39093_lorain/BAS24C23909300000.pdf
+  SHEF LAKE matches SHEF. LAKE. The Census names for Camden and
+  Sheffield Township have a PRECINCT prefix omitted by the graph.
+  Old district 4753 (VOTING DISTRICTS NOT DEFINED) is excluded.
+  Both current Henrietta rows link to old HENRIETTA TWP. North
+  Ridgeville 2-E and 2-F come from former 1-D. Wellington Village
+  East and West both overlap former Wellington Village South.
+  Mixed overlaps in LaGrange, Avon, Eaton and other areas are listed
+  below. The mapped shares describe geography, with small overlaps
+  potentially reflecting differences between sources.
+
+Shared and split graph nodes
+  4577-4579: AMHERST CITY 3-B, AMHERST TWP #1, CARLISLE TWP #3,
+    ELYRIA CITY 6-A, 6-B, 6-D and ELYRIA TWP #2.
+  4615: BROWNHELM TWP and VERMILION CITY 3-A/5-A.
+  4617-4618: CARLISLE TWP #1, EATON TWP #1, ELYRIA CITY 3-A and 3-D.
+  4619-4620: CARLISLE TWP #2 and ELYRIA CITY 5-D.
+  4635: ELYRIA CITY 2-C and ELYRIA TWP #1.
+  4654: GRAFTON TWP #1 and GRAFTON VILL #1/#2.
+  Groups repeated for different House districts retain all graph IDs.
+
+Method
+  The 2026 and 2020 polygons were intersected in EPSG:5070. The
+  records below include every named 2020 precinct covering at least
+  2% of the current precinct's mapped area where the retained names
+  differ from a one-to-one name match. A sole different predecessor
+  covering at least 98% of the current polygon is marked renamed if
+  the overlap also covers 98% of the predecessor, or split_precinct
+  otherwise. Votes stay on their current canvass rows.
+
+Mapped crosswalk exceptions
+AMHERST CITY 3-A | boundary_overlap | 4573;4576;4581 | AMHERST CITY 3-A (66.56%); AMHERST CITY 2-A (18.82%); AMHERST CITY 4-B (14.51%)
+AVON CITY 1-D | split_precinct | 4589 | AVON CITY 1-E (99.67%)
+AVON CITY 2-D | boundary_overlap | 4586;4594 | AVON CITY 3-B (73.50%); AVON CITY 1-B (26.47%)
+AVON CITY 3-A | boundary_overlap | 4593;4595 | AVON CITY 3-A (89.77%); AVON CITY 3-C (10.16%)
+AVON CITY 3-B | boundary_overlap | 4588;4594 | AVON CITY 1-D (83.48%); AVON CITY 3-B (16.49%)
+AVON CITY 3-D | split_precinct | 4588 | AVON CITY 1-D (99.93%)
+AVON CITY 4-A | boundary_overlap | 4596;4597 | AVON CITY 4-A (90.71%); AVON CITY 4-B (8.87%)
+AVON CITY 4-B | boundary_overlap | 4596;4597 | AVON CITY 4-B (79.09%); AVON CITY 4-A (20.83%)
+AVON LAKE CITY 1-B | boundary_overlap | 4600;4603 | AVON LAKE CITY 1-B (84.83%); AVON LAKE CITY 2-A (15.11%)
+AVON LAKE CITY 1-E | split_precinct | 4600 | AVON LAKE CITY 1-B (99.69%)
+AVON LAKE CITY 2-E | split_precinct | 4605 | AVON LAKE CITY 2-C (98.52%)
+AVON LAKE CITY 3-A | boundary_overlap | 4604;4607 | AVON LAKE CITY 3-A (86.32%); AVON LAKE CITY 2-B (13.56%)
+AVON LAKE CITY 3-D | boundary_overlap | 4607;4611;4612 | AVON LAKE CITY 3-A (53.96%); AVON LAKE CITY 4-B (27.18%); AVON LAKE CITY 4-C (18.73%)
+AVON LAKE CITY 4-B | boundary_overlap | 4611;4613 | AVON LAKE CITY 4-B (89.03%); AVON LAKE CITY 4-D (10.87%)
+COLUMBIA TWP #5 | split_precinct | 4624 | COLUMBIA TWP #2 (99.49%)
+COLUMBIA TWP #6 | boundary_overlap | 4623;4624 | COLUMBIA TWP #2 (55.71%); COLUMBIA TWP #1 (44.29%)
+EATON TWP #4 | boundary_overlap | 4617;4618;4627;4628 | EATON TWP #2 (41.00%); EATON TWP #1 (35.35%); EATON TWP #3 (23.64%)
+EATON TWP #5 | split_precinct | 4627 | EATON TWP #2 (99.42%)
+ELYRIA CITY 1-D | boundary_overlap | 4632;4637 | ELYRIA CITY 1-D (90.60%); ELYRIA CITY 3-B (9.19%)
+ELYRIA CITY 2-A | boundary_overlap | 4633;4645 | ELYRIA CITY 2-A (82.05%); ELYRIA CITY 5-A (17.87%)
+ELYRIA CITY 2-C | boundary_overlap | 4635 | ELYRIA CITY 2-C (95.79%); ELYRIA TWP #1 (4.11%)
+ELYRIA CITY 3-A | boundary_overlap | 4617;4618;4719 | ELYRIA CITY 3-A (95.89%); N. RIDGEVILLE 3-H (2.15%)
+ELYRIA CITY 3-B | boundary_overlap | 4617;4618 | ELYRIA CITY 3-A (94.65%); CARLISLE TWP #1 (2.44%); EATON TWP #1 (2.07%)
+ELYRIA CITY 3-C | boundary_overlap | 4637;4638 | ELYRIA CITY 3-C (64.17%); ELYRIA CITY 3-B (35.69%)
+ELYRIA CITY 3-E | boundary_overlap | 4617;4618;4639 | ELYRIA CITY 3-E (96.31%); CARLISLE TWP #1 (3.46%)
+ELYRIA CITY 5-A | boundary_overlap | 4631;4645 | ELYRIA CITY 5-A (97.33%); ELYRIA CITY 1-C (2.20%)
+ELYRIA CITY 5-B | boundary_overlap | 4619;4620;4646 | ELYRIA CITY 5-B (90.55%); CARLISLE TWP #2 (9.40%)
+ELYRIA CITY 6-C | boundary_overlap | 4645;4648 | ELYRIA CITY 6-C (92.73%); ELYRIA CITY 5-A (4.52%)
+ELYRIA CITY 6-D | boundary_overlap | 4577;4578;4579 | ELYRIA CITY 6-D (93.78%); ELYRIA TWP #2 (6.17%)
+GRAFTON VILL #1/#2 | boundary_overlap | 4654;4656 | GRAFTON VILL #1/#2 (74.26%); GRAFTON VILL #3/#4 (15.93%); GRAFTON TWP #1 (7.34%)
+GRAFTON VILL #3/#4 | boundary_overlap | 4627;4656 | GRAFTON VILL #3/#4 (95.53%); EATON TWP #2 (2.62%)
+HENRIETTA TWP #1 | split_precinct | 4657 | HENRIETTA TWP (99.81%)
+HENRIETTA TWP #2 | split_precinct | 4657 | HENRIETTA TWP (99.67%)
+LAGRANGE VILL NORTH | boundary_overlap | 4660;4661 | LAGRANGE VILL (88.52%); LAGRANGE TWP #2 (11.48%)
+LAGRANGE VILL SOUTH | boundary_overlap | 4660;4661 | LAGRANGE VILL (96.38%); LAGRANGE TWP #2 (2.57%)
+LORAIN CITY 1-F | boundary_overlap | 4666;4672 | LORAIN CITY 1-E (73.18%); LORAIN CITY 2-F (26.69%)
+LORAIN CITY 2-B | boundary_overlap | 4668;4693 | LORAIN CITY 2-B (79.26%); LORAIN CITY 7-B (20.66%)
+LORAIN CITY 2-C | boundary_overlap | 4668;4669;4694 | LORAIN CITY 2-C (69.18%); LORAIN CITY 7-C (20.84%); LORAIN CITY 2-B (9.87%)
+LORAIN CITY 2-E | boundary_overlap | 4666;4671;4672 | LORAIN CITY 2-E (47.60%); LORAIN CITY 1-E (19.46%); LORAIN CITY 2-F (5.77%)
+LORAIN CITY 3-B | boundary_overlap | 4674;4694 | LORAIN CITY 3-B (82.65%); LORAIN CITY 7-C (17.27%)
+LORAIN CITY 3-E | boundary_overlap | 4677;4681 | LORAIN CITY 3-E (97.94%); LORAIN CITY 4-D (2.03%)
+LORAIN CITY 3-F | boundary_overlap | 4677;4679;4699;4700 | LORAIN CITY 8-D (70.89%); LORAIN CITY 3-E (17.04%); LORAIN CITY 4-B (7.38%); LORAIN CITY 8-C (4.64%)
+LORAIN CITY 4-B | boundary_overlap | 4679;4700 | LORAIN CITY 4-B (81.45%); LORAIN CITY 8-D (17.97%)
+LORAIN CITY 5-A | boundary_overlap | 4676;4684 | LORAIN CITY 5-A (89.36%); LORAIN CITY 3-D (9.29%)
+LORAIN CITY 5-B | boundary_overlap | 4675;4676;4685 | LORAIN CITY 5-B (85.68%); LORAIN CITY 3-C (10.57%); LORAIN CITY 3-D (3.51%)
+LORAIN CITY 6-A | boundary_overlap | 4688;4749 | LORAIN CITY 6-A (87.09%); SHEFFIELD VILL #3 (12.49%)
+LORAIN CITY 7-B | boundary_overlap | 4668;4693 | LORAIN CITY 7-B (78.80%); LORAIN CITY 2-B (21.16%)
+LORAIN CITY 7-D | boundary_overlap | 4692;4695 | LORAIN CITY 7-D (97.96%); LORAIN CITY 7-A (2.00%)
+LORAIN CITY 7-F | boundary_overlap | 4692;4698 | LORAIN CITY 8-B (50.62%); LORAIN CITY 7-A (49.17%)
+LORAIN CITY 7-G | boundary_overlap | 4692;4698 | LORAIN CITY 8-B (92.60%); LORAIN CITY 7-A (7.40%)
+LORAIN CITY 8-B | boundary_overlap | 4698;4699;4700 | LORAIN CITY 8-B (65.06%); LORAIN CITY 8-D (18.00%); LORAIN CITY 8-C (16.85%)
+LORAIN CITY 8-C | boundary_overlap | 4698;4699;4700 | LORAIN CITY 8-C (73.57%); LORAIN CITY 8-B (17.69%); LORAIN CITY 8-D (8.73%)
+LORAIN CITY 8-D | boundary_overlap | 4580;4697;4702 | LORAIN CITY 8-F (89.73%); LORAIN CITY 8-A (6.98%); AMHERST CITY 4-A (3.26%)
+LORAIN CITY 8-E | boundary_overlap | 4697;4701 | LORAIN CITY 8-E (71.08%); LORAIN CITY 8-A (28.87%)
+N. RIDGEVILLE 1-D | split_precinct | 4707 | N. RIDGEVILLE 1-E (99.87%)
+N. RIDGEVILLE 2-E | split_precinct | 4706 | N. RIDGEVILLE 1-D (99.91%)
+N. RIDGEVILLE 2-F | split_precinct | 4706 | N. RIDGEVILLE 1-D (99.95%)
+N. RIDGEVILLE 3-C | split_precinct | 4719 | N. RIDGEVILLE 3-H (99.89%)
+N. RIDGEVILLE 4-G | renamed | 4714 | N. RIDGEVILLE 3-C (98.87%)
+OBERLIN CITY #1 | boundary_overlap | 4726;4727 | OBERLIN CITY #1 (97.12%); NEW RUSSIA TWP (2.84%)
+OBERLIN CITY #5 | boundary_overlap | 4731;4736 | OBERLIN CITY #5 (80.47%); PITTSFIELD TWP (18.84%)
+SHEF LAKE CITY 2-A | boundary_overlap | 4740;4741 | SHEF. LAKE CITY 2-A (96.96%); SHEF. LAKE CITY 1-A (2.85%)
+SHEFFIELD TWP EAST | boundary_overlap | 4688;4744 | SHEFFIELD TWP EAST (92.80%); LORAIN CITY 6-A (4.96%)
+WELLINGTON VILL EAST | split_precinct | 4756 | WELLINGTON VILL SOUTH (99.90%)
+WELLINGTON VILL WEST | boundary_overlap | 4754;4756 | WELLINGTON VILL SOUTH (97.61%); WELLINGTON TWP (2.38%)
