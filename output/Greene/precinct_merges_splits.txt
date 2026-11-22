@@ -1,0 +1,95 @@
+Greene County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Greene.xlsx, unofficial precinct results, contest worksheets 1-8.
+  The CSV separates the leading three-digit precinct code from the
+  name exactly as shown in the workbook's Precinct column.
+  https://www.boe.ohio.gov/greene/election-info/election-results/
+  The Board's results index labels its link Official Canvas Results.
+  The linked November 20 report identifies its data as UNOFFICIAL
+  RESULTS, and its countywide candidate totals match the workbook.
+  https://app.enhancedvoting.com/results/public/greene-county-oh/2026NovemberGeneral
+  The workbook's Governor and Senate contest columns account for 144
+  and 89 fewer ballots than the turnout sheet, respectively. These
+  gaps equal the invalid write-ins shown in the detailed public report.
+  https://app.enhancedvoting.com/results/public/greene-county-oh/elections/2026NovemberGeneral
+
+  Current polygons: Greene County GIS Voting Precincts layer 0,
+  queried with where=1=1, outFields=PRECINCT, outSR=5070, f=geojson.
+  https://gis.greenecountyohio.gov/webgis2/rest/services/BOE/VotingPrecincts/MapServer/0
+  Historical polygons: Census 2020 Voting Districts, state 39 and
+  county 057, outFields=BASENAME,GEOID, outSR=5070, and f=geojson.
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  OH_pct20.json, nodes[].ORIG_NAME and ENACTED_LOWER.
+
+Crosswalk method
+  The GIS PRECINCT field joins to the workbook code with leading zeroes
+  restored. Precinct polygons are intersected with historical districts
+  in equal-area EPSG:5070. Each retained historical district covers
+  at least 2% of the current precinct. Shares describe current area.
+  The same-code match applies when it is the sole retained historical
+  district. Graph labels store codes last and abbreviate some names.
+  The four Census SUGARCREEK labels with a leading PRECINCT use the
+  corresponding graph names without that prefix.
+
+  A different single predecessor is renamed when the footprints
+  overlap by at least 98% in both directions. It is split_precinct
+  when the historical district covers at least 98% of the current
+  precinct and the current precinct covers less than 98% of the
+  historical one. Other changed links use boundary_overlap. Each
+  precinct retains its full vote counts on its own row.
+
+Historical graph groups
+  Memberships are from ORIG_NAME. HD labels are from ENACTED_LOWER.
+  The crosswalk links all relevant graph IDs where a historical group
+  spans multiple nodes. The area shares describe whole Census districts.
+  3163 (HD70): BATH TWP 275, BATH TWP 276, FAIRBORN 225
+  3164 (HD70): BATH TWP 277, FAIRBORN 226
+  3166 (HD70): BEAVERCREEK 001, BEAVERCREEK 023, BEAVERCREEK 039, BEAVERCREEK 092, FAIRBORN 214
+  3204 (HD70): BEAVERCREEK 090, SUGARCREEK 151
+  3219 (HD71): CEDAR TWP 411, CEDAR VLG 406
+  3228 (HD70): FAIRBORN 208, FAIRBORN 210, FAIRBORN 211
+  3245 (HD71): MIAMI TWP 455, MIAMI TWP 456, YEL SPG VLG 440
+  3281 (HD71): XENIA CITY 320, XENIA TWP 352, XENIA TWP 353, XENIA TWP 358
+  3285 (HD70), 3286 (HD71): XENIA TWP 351
+  3289 (HD71): XENIA TWP 356, XENIA TWP 357
+
+Boundary overlap records
+Code and precinct | Status | Graph IDs | Historical precincts and area shares
+001 BEAVERCREEK | boundary_overlap | 3166 | BEAVERCREEK 001 (39057029AAA) 79.016%; BEAVERCREEK 092 (39057029AGS) 20.409%
+007 BEAVERCREEK | boundary_overlap | 3171;3172 | BEAVERCREEK 007 (39057029ACO) 92.872%; BEAVERCREEK 006 (39057029ACD) 5.793%
+009 BEAVERCREEK | boundary_overlap | 3174;3175 | BEAVERCREEK 009 (39057029ACQ) 96.791%; BEAVERCREEK 010 (39057029AAB) 3.183%
+012 BEAVERCREEK | boundary_overlap | 3177;3182 | BEAVERCREEK 012 (39057029AAD) 91.946%; BEAVERCREEK 017 (39057029AAI) 7.965%
+013 BEAVERCREEK | boundary_overlap | 3176;3178;3202 | BEAVERCREEK 013 (39057029AAE) 92.096%; BEAVERCREEK 011 (39057029AAC) 4.425%; BEAVERCREEK 038 (39057029ABG) 2.359%
+023 BEAVERCREEK | boundary_overlap | 3166;3188 | BEAVERCREEK 023 (39057029AAP) 91.517%; BEAVERCREEK 024 (39057029AAQ) 7.815%
+029 BEAVERCREEK | boundary_overlap | 3193;3196 | BEAVERCREEK 029 (39057029AAV) 94.299%; BEAVERCREEK 032 (39057029AAZ) 5.517%
+032 BEAVERCREEK | boundary_overlap | 3196;3207 | BEAVERCREEK 032 (39057029AAZ) 83.239%; BEAVERCREEK 094 (39057029AIZ) 13.348%
+034 BEAVERCREEK | boundary_overlap | 3198;3200 | BEAVERCREEK 034 (39057029ABB) 95.885%; BEAVERCREEK 036 (39057029ABD) 4.067%
+038 BEAVERCREEK | boundary_overlap | 3178;3202 | BEAVERCREEK 038 (39057029ABG) 96.288%; BEAVERCREEK 013 (39057029AAE) 2.721%
+041 BEAVERCREEK | split_precinct | 3166 | BEAVERCREEK 039 (39057029AJB) 99.555%
+152 SUGARCREEK | boundary_overlap | 3256;3257;3260 | SUGARCREEK 152 (39057029AIF) 91.531%; SUGARCREEK 156 (39057029AJA) 4.865%; SUGARCREEK 153 (39057029AIG) 2.294%
+157 SUGARCREEK | split_precinct | 3260 | SUGARCREEK 156 (39057029AJA) 99.830%
+158 SUGARCREEK | split_precinct | 3260 | SUGARCREEK 156 (39057029AJA) 99.304%
+204 FAIRBORN | boundary_overlap | 3223;3224 | FAIRBORN 204 (39057029ADI) 88.652%; FAIRBORN 203 (39057029ADH) 10.837%
+205 FAIRBORN | boundary_overlap | 3223;3225 | FAIRBORN 205 (39057029ADJ) 95.849%; FAIRBORN 203 (39057029ADH) 2.600%
+208 FAIRBORN | boundary_overlap | 3228;3241 | FAIRBORN 208 (39057029ADM) 86.846%; FAIRBORN 224 (39057029AEC) 11.615%
+209 FAIRBORN | boundary_overlap | 3225;3229 | FAIRBORN 209 (39057029ADN) 94.395%; FAIRBORN 205 (39057029ADJ) 3.902%
+212 FAIRBORN | boundary_overlap | 3164;3230 | FAIRBORN 212 (39057029ADQ) 95.601%; FAIRBORN 226 (39057029AIX) 4.268%
+214 FAIRBORN | boundary_overlap | 3164;3166;3232 | FAIRBORN 214 (39057029ADS) 74.354%; FAIRBORN 226 (39057029AIX) 18.742%; FAIRBORN 215 (39057029ADT) 6.545%
+218 FAIRBORN | boundary_overlap | 3235;3241 | FAIRBORN 218 (39057029ADW) 84.501%; FAIRBORN 224 (39057029AEC) 15.224%
+223 FAIRBORN | boundary_overlap | 3240;3241 | FAIRBORN 223 (39057029AEB) 91.772%; FAIRBORN 224 (39057029AEC) 7.868%
+227 FAIRBORN | split_precinct | 3164 | FAIRBORN 226 (39057029AIX) 99.987%
+228 FAIRBVK | split_precinct | 3164 | FAIRBORN 226 (39057029AIX) 99.543%
+276 BATH TWP | boundary_overlap | 3163 | BATH TWP 276 (39057029AGK) 79.298%; BATH TWP 275 (39057029AGJ) 20.156%
+303 XENIA CITY | boundary_overlap | 3264;3265 | XENIA CITY 303 (39057029AFB) 93.208%; XENIA CITY 304 (39057029AFC) 5.413%
+307 XENIA CITY | boundary_overlap | 3267;3268 | XENIA CITY 307 (39057029AFF) 91.233%; XENIA CITY 306 (39057029AFE) 7.790%
+308 XENIA CITY | boundary_overlap | 3269;3289 | XENIA CITY 308 (39057029AFG) 96.554%; XENIA TWP 357 (39057029AIQ) 2.743%
+309 XENIA CITY | boundary_overlap | 3269;3270 | XENIA CITY 309 (39057029AFH) 92.167%; XENIA CITY 308 (39057029AFG) 7.779%
+315 XENIA CITY | boundary_overlap | 3276;3287;3288 | XENIA CITY 315 (39057029AFN) 65.045%; XENIA TWP 354 (39057029AIN) 19.445%; XENIA TWP 355 (39057029AIO) 13.235%
+316 XENIA CITY | boundary_overlap | 3277;3288 | XENIA CITY 316 (39057029AFO) 70.909%; XENIA TWP 355 (39057029AIO) 28.817%
+323 XENIA CITY | boundary_overlap | 3283;3284 | XENIA CITY 323 (39057029AJD) 87.739%; XENIA CITY 322 (39057029AIW) 12.126%
+358 XENIA TWP | boundary_overlap | 3281 | XENIA TWP 358 (39057029AIR) 97.769%; XENIA TWP 353 (39057029AIM) 2.004%
+421 JAMESTOWN VILLAGE | boundary_overlap | 3243;3250 | JAMESTOWN V 421 (39057029AHY) 71.324%; SILVERCREEK 425 (39057029AHV) 28.633%
+440 YELLOW SPRINGS VILLAGE | boundary_overlap | 3245;3290 | YEL SPG VLG 440 (39057029AHH) 81.246%; MIAMI TWP 456 (39057029AHG) 13.299%; YEL SPG VLG 441 (39057029AHI) 5.401%
+443 YELLOW SPRINGS VILLAGE | boundary_overlap | 3245;3291;3292 | YEL SPG VLG 442 (39057029AHJ) 55.261%; YEL SPG VLG 443 (39057029AHK) 40.692%; MIAMI TWP 456 (39057029AHG) 3.863%

@@ -1,0 +1,30 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Fulton,,AMBOY/METAMORA,unofficial,Raw/Fulton.xlsx,,3043,exact,292,449,315,429,275,509,281,508,289,459,283,494,283,494,291,481
+Fulton,,CHESTERFIELD,unofficial,Raw/Fulton.xlsx,,3046,exact,95,265,104,262,95,291,87,298,90,278,95,285,91,287,99,287
+Fulton,,WAUSEON ONE,unofficial,Raw/Fulton.xlsx,,3062,exact,172,354,191,352,165,402,166,407,172,372,170,393,170,399,175,386
+Fulton,,WAUSEON TWO,unofficial,Raw/Fulton.xlsx,,3063,exact,188,347,215,324,183,377,173,388,179,350,186,372,186,371,192,368
+Fulton,,WAUSEON THREE,unofficial,Raw/Fulton.xlsx,,3047,combined_node,193,225,196,228,193,262,186,265,185,242,189,263,193,253,201,247
+Fulton,,WAUSEON FOUR,unofficial,Raw/Fulton.xlsx,,3061,exact,146,221,149,219,138,249,141,248,139,232,148,240,145,244,141,244
+Fulton,,WAUSEON FIVE,unofficial,Raw/Fulton.xlsx,,3047,combined_node,310,372,330,371,302,422,288,431,296,399,297,415,300,414,306,414
+Fulton,,CLINTON EAST,unofficial,Raw/Fulton.xlsx,,3047,combined_node,132,388,132,373,117,413,110,429,113,401,114,421,114,420,119,413
+Fulton,,PETTISVILLE,unofficial,Raw/Fulton.xlsx,,3055,exact,210,594,220,598,193,647,192,649,192,624,190,648,192,646,204,635
+Fulton,,DOVER,unofficial,Raw/Fulton.xlsx,,3050,exact,188,494,204,488,188,531,185,533,181,504,190,529,196,522,205,512
+Fulton,,FRANKLIN,unofficial,Raw/Fulton.xlsx,,3051,exact,58,220,68,219,58,242,59,238,59,231,59,239,58,238,62,233
+Fulton,,FULTON,unofficial,Raw/Fulton.xlsx,,3052,combined_node,214,396,218,392,204,444,202,445,205,406,213,423,218,426,219,423
+Fulton,,ARCHBOLD ONE,unofficial,Raw/Fulton.xlsx,,3044,combined_node,192,434,212,425,181,468,179,469,187,443,185,466,193,459,196,455
+Fulton,,ARCHBOLD TWO,unofficial,Raw/Fulton.xlsx,,3044,combined_node,190,449,218,427,165,488,165,491,167,465,173,478,176,479,175,478
+Fulton,,ARCHBOLD THREE,unofficial,Raw/Fulton.xlsx,,3045,exact,168,364,193,342,175,391,170,400,167,376,177,389,179,386,175,388
+Fulton,,GERMAN,unofficial,Raw/Fulton.xlsx,,3053,exact,135,451,154,433,128,469,118,481,121,460,129,467,124,476,130,468
+Fulton,,GORHAM/FAYETTE,unofficial,Raw/Fulton.xlsx,,3054,exact,183,465,208,436,187,497,184,500,184,473,189,493,191,487,202,479
+Fulton,,PIKE,unofficial,Raw/Fulton.xlsx,,3056,exact,244,517,245,512,228,571,222,576,218,544,236,566,232,568,237,564
+Fulton,,ROYALTON/LYONS,unofficial,Raw/Fulton.xlsx,,3057,exact,207,415,226,406,198,460,187,471,188,430,201,451,205,449,202,455
+Fulton,,SWANTON FULTON,unofficial,Raw/Fulton.xlsx,,3052,combined_node,315,389,338,374,315,423,307,431,318,400,319,417,326,410,319,419
+Fulton,,SWANTON SWANCREEK,unofficial,Raw/Fulton.xlsx,,3058,combined_node,310,367,328,340,303,405,308,403,309,372,307,398,314,396,323,385
+Fulton,,SWANCREEK EAST ONE,unofficial,Raw/Fulton.xlsx,,3058,combined_node,225,306,236,295,226,324,218,332,218,315,218,326,233,317,232,317
+Fulton,,SWANCREEK EAST TWO,unofficial,Raw/Fulton.xlsx,,3059,exact,282,386,295,374,277,416,266,427,274,391,273,413,276,414,286,402
+Fulton,,SWANCREEK WEST,unofficial,Raw/Fulton.xlsx,,3048,combined_node,297,427,298,437,292,486,290,482,287,454,293,481,308,469,301,477
+Fulton,,SWANCREEK LIBERTY CENTER,unofficial,Raw/Fulton.xlsx,,3060,exact,185,359,203,346,187,383,182,390,180,362,191,378,187,383,190,376
+Fulton,,DELTA ONE,unofficial,Raw/Fulton.xlsx,,3048,combined_node,137,150,150,141,140,169,135,170,139,154,141,166,143,165,143,164
+Fulton,,DELTA TWO,unofficial,Raw/Fulton.xlsx,,3047,combined_node,160,161,175,153,162,188,159,188,157,175,159,190,160,187,165,186
+Fulton,,DELTA THREE,unofficial,Raw/Fulton.xlsx,,3049,exact,194,256,215,247,203,292,204,293,202,265,208,283,204,287,211,280
+Fulton,,YORK,unofficial,Raw/Fulton.xlsx,,3047,combined_node,170,514,184,498,167,548,156,559,161,532,165,549,166,546,187,531

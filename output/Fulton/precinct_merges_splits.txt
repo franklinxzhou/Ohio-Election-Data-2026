@@ -1,0 +1,41 @@
+Fulton County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Fulton.xlsx, unofficial precinct export. Sheets 2-9 contain
+  statewide vote counts and countywide Total: rows. The report gives
+  precinct names without separate codes.
+  https://www.boe.ohio.gov/fulton/election-info/election-results
+  https://results.enr.clarityelections.com/OH/Fulton/127571/
+  OH_pct20.json, nodes[].ORIG_NAME for historical graph membership.
+
+Combined graph node 3044
+  ARCHBOLD ONE (sheet 2, row 16)
+  ARCHBOLD TWO (sheet 2, row 17)
+  ORIG_NAME = ARCHBOLD ONE_FULTON,ARCHBOLD TWO_FULTON
+
+Combined graph node 3047
+  CLINTON EAST (sheet 2, row 11)
+  DELTA TWO (sheet 2, row 30)
+  WAUSEON FIVE (sheet 2, row 10)
+  WAUSEON THREE (sheet 2, row 8)
+  YORK (sheet 2, row 32)
+  ORIG_NAME = CLINTON EAST_FULTON,DELTA TWO_FULTON,WAUSEON FIVE_FULTON,WAUSEON THREE_FULTON,YORK_FULTON
+
+Combined graph node 3048
+  DELTA ONE (sheet 2, row 29)
+  SWANCREEK WEST (sheet 2, row 27)
+  ORIG_NAME = DELTA ONE_FULTON,SWANCREEK WEST_FULTON
+
+Combined graph node 3052
+  FULTON (sheet 2, row 15)
+  SWANTON FULTON (sheet 2, row 23)
+  ORIG_NAME = FULTON_FULTON,SWANTON FULTON_FULTON
+
+Combined graph node 3058
+  SWANCREEK EAST ONE (sheet 2, row 25)
+  SWANTON SWANCREEK (sheet 2, row 24)
+  ORIG_NAME = SWANCREEK EAST ONE_FULTON,SWANTON SWANCREEK_FULTON
+
+Each precinct retains its own vote row. The crosswalk follows
+precinct names. Boundary continuity was not assessed.

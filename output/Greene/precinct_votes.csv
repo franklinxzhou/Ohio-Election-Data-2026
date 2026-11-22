@@ -1,0 +1,152 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Greene,001,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3166,boundary_overlap,425,286,439,281,421,320,410,329,417,293,422,313,422,314,425,313
+Greene,002,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3167,normalized,497,321,511,302,488,354,475,360,475,329,476,358,493,347,495,346
+Greene,003,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3168,normalized,315,242,336,227,318,271,312,275,313,246,320,265,325,261,326,260
+Greene,004,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3169,normalized,202,242,214,229,204,252,203,255,202,243,201,258,206,252,206,253
+Greene,005,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3170,normalized,200,251,214,236,196,267,189,275,197,249,201,261,199,267,195,271
+Greene,006,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3171,normalized,359,461,376,443,357,491,346,502,355,469,358,489,356,492,356,493
+Greene,007,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3171;3172,boundary_overlap,233,222,243,219,224,255,225,255,218,240,220,254,229,245,223,252
+Greene,008,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3173,normalized,211,269,226,258,214,290,209,298,205,272,219,285,221,283,222,283
+Greene,009,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3174;3175,boundary_overlap,227,274,236,265,215,295,211,296,215,270,216,290,222,286,222,287
+Greene,010,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3175,normalized,238,258,257,238,240,278,234,283,233,263,237,276,236,274,242,269
+Greene,011,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3176,normalized,372,336,386,326,369,358,358,368,362,338,369,356,366,359,375,351
+Greene,012,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3177;3182,boundary_overlap,235,256,246,257,233,282,226,282,234,264,230,275,235,276,235,276
+Greene,013,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3176;3178;3202,boundary_overlap,194,263,203,247,181,287,182,284,180,269,182,283,185,283,188,281
+Greene,014,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3179,normalized,227,364,246,343,224,381,219,390,222,360,224,372,223,378,230,374
+Greene,015,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3180,normalized,311,333,316,327,297,363,296,365,298,342,301,355,301,357,301,357
+Greene,016,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3181,normalized,206,242,220,240,204,262,202,271,204,252,201,269,214,257,208,261
+Greene,017,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3182,normalized,254,341,266,330,252,358,246,361,254,343,252,355,252,358,259,353
+Greene,018,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3183,normalized,226,301,235,291,218,317,207,326,214,302,211,320,223,311,218,312
+Greene,019,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3184,normalized,289,364,303,340,269,394,273,393,275,375,279,381,271,387,286,379
+Greene,020,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3185,normalized,221,286,227,274,214,305,216,303,218,286,219,302,219,303,224,299
+Greene,021,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3186,normalized,341,199,360,195,341,219,338,224,338,199,336,222,337,222,349,214
+Greene,022,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3187,normalized,495,398,526,377,499,425,482,433,490,399,499,419,508,415,506,416
+Greene,023,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3166;3188,boundary_overlap,332,386,341,385,333,413,317,430,326,398,325,420,334,416,328,423
+Greene,024,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3188,normalized,320,411,337,399,319,436,304,450,309,422,316,434,325,430,318,438
+Greene,025,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3189,normalized,201,228,208,214,204,233,199,236,202,223,202,232,207,227,205,232
+Greene,026,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3190,normalized,213,267,216,276,207,292,201,293,201,280,209,286,204,289,206,288
+Greene,027,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3191,normalized,136,207,140,202,135,217,136,214,140,208,138,212,136,214,138,215
+Greene,028,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3192,normalized,202,229,214,217,204,245,198,251,200,233,196,250,204,247,208,241
+Greene,029,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3193;3196,boundary_overlap,179,254,197,245,176,274,165,285,176,260,178,267,175,269,175,269
+Greene,030,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3194,normalized,253,177,258,172,242,206,246,204,244,187,241,201,251,196,247,202
+Greene,031,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3195,normalized,230,279,243,268,213,306,206,313,208,293,213,302,219,299,223,293
+Greene,032,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3196;3207,boundary_overlap,280,355,298,341,280,387,272,391,273,357,277,383,286,375,286,375
+Greene,033,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3197,normalized,281,340,292,330,277,359,266,375,268,347,269,364,275,355,284,354
+Greene,034,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3198;3200,boundary_overlap,293,336,303,331,285,365,274,375,285,342,282,362,296,350,286,360
+Greene,035,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3199,normalized,192,245,203,232,182,257,185,254,187,241,185,255,191,252,193,248
+Greene,036,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3200,normalized,337,396,348,393,324,434,319,442,323,407,326,433,335,425,335,429
+Greene,037,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3201,normalized,221,296,227,278,209,315,206,318,206,303,201,318,210,314,210,313
+Greene,038,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3178;3202,boundary_overlap,83,109,83,113,82,122,81,124,79,115,79,123,85,118,82,122
+Greene,039,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3166,combined_node,300,192,333,174,308,209,296,217,298,194,300,209,305,210,310,204
+Greene,040,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3203,normalized,300,384,315,378,287,413,285,420,292,389,293,407,296,407,290,412
+Greene,041,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3166,split_precinct,315,284,328,265,311,297,305,306,313,284,306,301,318,290,319,291
+Greene,090,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3204,combined_node,193,219,209,210,190,235,184,241,193,219,194,231,196,230,195,230
+Greene,091,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3205,normalized,311,367,323,359,297,406,296,406,293,377,297,394,316,380,316,382
+Greene,092,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3166,combined_node,578,730,599,719,552,790,536,807,555,752,553,791,564,786,576,776
+Greene,093,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3206,normalized,539,730,572,701,522,768,519,773,522,744,512,777,527,764,534,754
+Greene,094,BEAVERCREEK,unofficial,Raw/Greene.xlsx,,3207,normalized,453,665,473,634,442,697,428,706,433,671,431,699,453,682,463,673
+Greene,100,BELLBROOK,unofficial,Raw/Greene.xlsx,,3208,normalized,224,230,234,226,228,249,218,256,222,239,226,246,227,246,229,248
+Greene,101,BELLBROOK,unofficial,Raw/Greene.xlsx,,3209,normalized,392,478,429,445,373,514,371,514,378,485,372,511,383,500,384,504
+Greene,102,BELLBROOK,unofficial,Raw/Greene.xlsx,,3210,normalized,226,294,243,288,219,318,212,325,219,303,217,320,224,316,225,316
+Greene,103,BELLBROOK,unofficial,Raw/Greene.xlsx,,3211,normalized,212,258,224,258,212,284,209,281,208,270,220,271,214,276,213,278
+Greene,104,BELLBROOK,unofficial,Raw/Greene.xlsx,,3212,normalized,188,236,195,234,180,260,175,264,181,245,177,256,179,255,186,248
+Greene,105,BELLBROOK,unofficial,Raw/Greene.xlsx,,3213,normalized,254,239,271,227,252,255,244,264,245,247,250,257,252,257,255,258
+Greene,106,BELLBROOK,unofficial,Raw/Greene.xlsx,,3214,normalized,168,188,177,178,163,205,156,211,165,190,161,204,165,201,167,201
+Greene,150,SUGARCREEK,unofficial,Raw/Greene.xlsx,,3255,normalized,387,276,393,275,379,308,380,305,375,288,380,300,381,300,390,295
+Greene,151,SUGARCREEK,unofficial,Raw/Greene.xlsx,,3204,combined_node,760,860,807,817,739,906,731,905,743,850,731,894,748,886,762,875
+Greene,152,SUGARCREEK,unofficial,Raw/Greene.xlsx,,3256;3257;3260,boundary_overlap,397,621,429,587,384,657,372,666,371,639,372,660,384,653,393,645
+Greene,153,SUGARCREEK,unofficial,Raw/Greene.xlsx,,3257,normalized,199,365,206,355,192,379,180,390,189,362,191,378,204,366,206,364
+Greene,154,SUGARCREEK,unofficial,Raw/Greene.xlsx,,3258,normalized,127,200,131,199,124,211,121,214,120,202,122,214,121,214,127,209
+Greene,155,SUGARCREEK,unofficial,Raw/Greene.xlsx,,3259,normalized,226,479,237,459,211,512,212,510,214,484,216,503,225,499,229,495
+Greene,156,SUGARCREEK,unofficial,Raw/Greene.xlsx,,3260,normalized,185,322,201,306,180,336,172,344,176,331,174,339,176,338,177,339
+Greene,157,SUGARCREEK,unofficial,Raw/Greene.xlsx,,3260,split_precinct,70,132,71,131,64,141,61,144,66,133,58,144,62,141,64,141
+Greene,158,SUGARCREEK,unofficial,Raw/Greene.xlsx,,3260,split_precinct,197,237,211,227,197,250,199,251,198,238,201,249,200,251,201,248
+Greene,201,FAIRBORN,unofficial,Raw/Greene.xlsx,,3221,normalized,241,152,245,153,238,169,232,177,236,160,238,172,239,170,242,167
+Greene,202,FAIRBORN,unofficial,Raw/Greene.xlsx,,3222,normalized,164,155,176,155,175,172,174,174,170,167,173,175,174,175,176,173
+Greene,203,FAIRBORN,unofficial,Raw/Greene.xlsx,,3223,normalized,152,137,156,138,154,150,147,157,151,143,157,146,157,145,152,151
+Greene,204,FAIRBORN,unofficial,Raw/Greene.xlsx,,3223;3224,boundary_overlap,163,185,166,183,160,202,157,204,161,188,162,193,159,197,167,191
+Greene,205,FAIRBORN,unofficial,Raw/Greene.xlsx,,3223;3225,boundary_overlap,401,536,434,509,395,564,385,576,392,532,395,561,408,554,416,547
+Greene,206,FAIRBORN,unofficial,Raw/Greene.xlsx,,3226,normalized,244,217,255,205,252,226,245,231,247,213,251,224,255,220,253,222
+Greene,207,FAIRBORN,unofficial,Raw/Greene.xlsx,,3227,normalized,192,151,202,156,196,167,196,168,187,159,191,171,200,163,201,162
+Greene,208,FAIRBORN,unofficial,Raw/Greene.xlsx,,3228;3241,boundary_overlap,157,122,160,124,159,141,161,142,159,134,163,139,165,139,161,143
+Greene,209,FAIRBORN,unofficial,Raw/Greene.xlsx,,3225;3229,boundary_overlap,230,285,237,273,240,296,238,302,230,294,238,302,241,298,241,298
+Greene,210,FAIRBORN,unofficial,Raw/Greene.xlsx,,3228,combined_node,163,111,162,119,161,124,158,127,160,119,165,117,158,125,155,130
+Greene,211,FAIRBORN,unofficial,Raw/Greene.xlsx,,3228,combined_node,147,178,157,171,160,184,157,188,155,178,157,189,156,189,160,187
+Greene,212,FAIRBORN,unofficial,Raw/Greene.xlsx,,3164;3230,boundary_overlap,203,319,218,311,209,333,206,333,209,319,213,322,205,332,212,328
+Greene,213,FAIRBORN,unofficial,Raw/Greene.xlsx,,3231,normalized,190,250,202,241,188,264,185,269,183,258,191,262,187,266,194,262
+Greene,214,FAIRBORN,unofficial,Raw/Greene.xlsx,,3164;3166;3232,boundary_overlap,226,164,235,157,220,183,218,183,213,175,222,176,218,180,225,177
+Greene,215,FAIRBORN,unofficial,Raw/Greene.xlsx,,3232,normalized,241,235,240,236,240,253,224,265,239,241,236,256,241,249,247,243
+Greene,216,FAIRBORN,unofficial,Raw/Greene.xlsx,,3233,normalized,168,169,175,161,170,177,170,177,168,173,170,180,175,175,175,174
+Greene,217,FAIRBORN,unofficial,Raw/Greene.xlsx,,3234,normalized,186,212,189,206,182,238,176,240,178,224,183,234,186,233,184,237
+Greene,218,FAIRBORN,unofficial,Raw/Greene.xlsx,,3235;3241,boundary_overlap,120,84,125,84,129,94,130,96,128,88,128,99,133,93,131,94
+Greene,219,FAIRBORN,unofficial,Raw/Greene.xlsx,,3236,normalized,148,73,160,70,162,82,161,83,158,78,165,80,168,75,168,76
+Greene,220,FAIRBORN,unofficial,Raw/Greene.xlsx,,3237,normalized,187,115,201,112,197,129,193,136,192,116,203,127,203,127,201,130
+Greene,221,FAIRBORN,unofficial,Raw/Greene.xlsx,,3238,normalized,172,122,187,114,181,132,177,134,173,128,182,132,183,130,185,129
+Greene,222,FAIRBORN,unofficial,Raw/Greene.xlsx,,3239,normalized,175,71,184,76,185,86,190,83,177,78,186,86,191,81,195,78
+Greene,223,FAIRBORN,unofficial,Raw/Greene.xlsx,,3240;3241,boundary_overlap,118,91,124,95,123,102,118,109,117,94,127,100,125,104,127,103
+Greene,224,FAIRBORN,unofficial,Raw/Greene.xlsx,,3241,normalized,545,241,576,230,561,265,561,269,554,245,562,263,569,254,565,262
+Greene,225,FAIRBORN,unofficial,Raw/Greene.xlsx,,3163,combined_node,146,187,163,174,152,198,149,203,150,187,154,197,151,201,157,195
+Greene,226,FAIRBORN,unofficial,Raw/Greene.xlsx,,3164,combined_node,422,326,434,326,425,349,420,354,412,339,420,351,429,350,432,349
+Greene,227,FAIRBORN,unofficial,Raw/Greene.xlsx,,3164,split_precinct,372,297,379,304,370,317,365,323,369,300,371,317,374,315,379,310
+Greene,228,FAIRBVK,unofficial,Raw/Greene.xlsx,,3164,split_precinct,160,195,173,179,148,216,151,215,154,199,152,216,163,203,161,207
+Greene,275,BATH TWP,unofficial,Raw/Greene.xlsx,,3163,combined_node,114,63,115,65,121,67,118,70,113,63,122,65,117,71,118,70
+Greene,276,BATH TWP,unofficial,Raw/Greene.xlsx,,3163,boundary_overlap,160,282,173,271,155,292,149,299,155,284,151,294,158,291,156,292
+Greene,277,BATH TWP,unofficial,Raw/Greene.xlsx,,3164,combined_node,200,304,211,302,199,326,193,330,201,308,196,324,201,323,209,318
+Greene,278,BATH TWP,unofficial,Raw/Greene.xlsx,,3165,normalized,144,217,152,209,151,227,146,232,146,222,149,230,148,234,145,235
+Greene,300,XENIA CITY,unofficial,Raw/Greene.xlsx,,3261,normalized,96,124,109,120,101,138,95,140,102,126,104,132,105,134,107,131
+Greene,301,XENIA CITY,unofficial,Raw/Greene.xlsx,,3262,normalized,158,154,162,151,154,174,159,172,157,165,157,169,161,167,157,172
+Greene,302,XENIA CITY,unofficial,Raw/Greene.xlsx,,3263,normalized,123,93,126,94,121,112,114,120,115,106,119,114,118,115,117,116
+Greene,303,XENIA CITY,unofficial,Raw/Greene.xlsx,,3264;3265,boundary_overlap,140,170,155,163,151,195,141,199,140,179,145,199,153,194,154,191
+Greene,304,XENIA CITY,unofficial,Raw/Greene.xlsx,,3265,normalized,117,149,125,146,116,162,113,168,118,153,123,159,117,165,122,160
+Greene,305,XENIA CITY,unofficial,Raw/Greene.xlsx,,3266,normalized,148,187,159,179,155,196,153,195,146,190,147,201,149,202,152,199
+Greene,306,XENIA CITY,unofficial,Raw/Greene.xlsx,,3267,normalized,140,174,141,170,129,198,131,198,135,186,132,198,136,192,140,188
+Greene,307,XENIA CITY,unofficial,Raw/Greene.xlsx,,3267;3268,boundary_overlap,103,173,114,174,108,186,107,188,106,182,107,185,112,187,109,188
+Greene,308,XENIA CITY,unofficial,Raw/Greene.xlsx,,3269;3289,boundary_overlap,192,394,204,380,196,409,194,410,194,395,197,408,198,410,200,409
+Greene,309,XENIA CITY,unofficial,Raw/Greene.xlsx,,3269;3270,boundary_overlap,137,182,145,175,141,195,137,200,137,189,147,188,146,192,141,197
+Greene,310,XENIA CITY,unofficial,Raw/Greene.xlsx,,3271,normalized,129,179,141,173,134,193,137,194,129,184,137,188,138,190,143,187
+Greene,311,XENIA CITY,unofficial,Raw/Greene.xlsx,,3272,normalized,151,244,158,238,156,253,149,258,154,242,153,256,157,253,159,251
+Greene,312,XENIA CITY,unofficial,Raw/Greene.xlsx,,3273,normalized,143,220,155,219,149,232,144,237,142,226,142,239,150,230,154,228
+Greene,313,XENIA CITY,unofficial,Raw/Greene.xlsx,,3274,normalized,122,126,124,136,117,153,121,150,120,139,123,147,125,147,118,152
+Greene,314,XENIA CITY,unofficial,Raw/Greene.xlsx,,3275,normalized,173,229,186,220,170,253,173,251,164,239,175,251,173,254,175,253
+Greene,315,XENIA CITY,unofficial,Raw/Greene.xlsx,,3276;3287;3288,boundary_overlap,133,117,141,109,139,132,138,133,139,119,143,129,144,125,143,130
+Greene,316,XENIA CITY,unofficial,Raw/Greene.xlsx,,3277;3288,boundary_overlap,123,23,127,25,130,30,131,29,130,24,132,28,131,28,134,26
+Greene,317,XENIA CITY,unofficial,Raw/Greene.xlsx,,3278,normalized,162,217,164,220,155,241,157,239,153,225,158,237,159,237,164,233
+Greene,318,XENIA CITY,unofficial,Raw/Greene.xlsx,,3279,normalized,154,87,162,84,164,96,164,95,161,88,162,95,161,99,170,87
+Greene,319,XENIA CITY,unofficial,Raw/Greene.xlsx,,3280,normalized,141,183,142,186,148,197,148,197,145,187,149,196,151,196,149,199
+Greene,320,XENIA CITY,unofficial,Raw/Greene.xlsx,,3281,combined_node,253,354,261,349,243,382,241,387,246,358,246,375,246,378,250,375
+Greene,321,XENIA CITY,unofficial,Raw/Greene.xlsx,,3282,normalized,187,317,200,306,185,341,183,340,182,332,181,337,187,334,186,334
+Greene,322,XENIA CITY,unofficial,Raw/Greene.xlsx,,3283,normalized,285,448,294,445,286,468,282,471,279,452,287,467,288,468,292,463
+Greene,323,XENIA CITY,unofficial,Raw/Greene.xlsx,,3283;3284,boundary_overlap,111,177,114,170,111,187,111,189,114,177,115,182,117,182,113,186
+Greene,351,XENIA TWP,unofficial,Raw/Greene.xlsx,,3285;3286,split_nodes,139,246,144,245,134,267,134,266,135,258,140,258,133,268,142,259
+Greene,352,XENIA TWP,unofficial,Raw/Greene.xlsx,,3281,combined_node,112,216,114,216,103,236,100,242,102,224,106,234,106,234,106,234
+Greene,353,XENIA TWP,unofficial,Raw/Greene.xlsx,,3281,combined_node,136,81,138,78,138,87,138,87,137,82,139,85,138,86,141,83
+Greene,354,XENIA TWP,unofficial,Raw/Greene.xlsx,,3287,normalized,18,23,18,24,19,23,19,23,19,23,19,23,19,23,19,23
+Greene,355,XENIA TWP,unofficial,Raw/Greene.xlsx,,3288,normalized,96,106,98,99,93,111,95,113,90,108,93,111,94,112,95,111
+Greene,356,XENIA TWP,unofficial,Raw/Greene.xlsx,,3289,combined_node,151,370,159,355,145,391,137,399,139,384,141,391,141,393,145,393
+Greene,357,XENIA TWP,unofficial,Raw/Greene.xlsx,,3289,combined_node,106,321,106,322,101,341,96,349,98,334,96,350,98,350,103,345
+Greene,358,XENIA TWP,unofficial,Raw/Greene.xlsx,,3281,boundary_overlap,122,235,133,222,119,250,114,255,118,243,125,244,119,250,127,242
+Greene,400,BOWERSVILLE VILLAGE,unofficial,Raw/Greene.xlsx,,3215,normalized,11,46,12,48,10,52,10,52,10,50,10,51,11,52,10,53
+Greene,401,JEFFERSON TWP,unofficial,Raw/Greene.xlsx,,3244,normalized,48,323,52,320,51,334,48,338,50,331,49,339,50,338,48,338
+Greene,405,CEDARVILLE VILLAGE,unofficial,Raw/Greene.xlsx,,3220,normalized,30,186,40,173,25,200,26,198,23,192,27,194,28,197,25,198
+Greene,406,CEDARVILLE VILLAGE,unofficial,Raw/Greene.xlsx,,3219,combined_node,85,325,95,308,85,344,81,348,84,331,84,343,87,342,88,341
+Greene,410,CEDAR TWP,unofficial,Raw/Greene.xlsx,,3218,normalized,114,378,127,362,108,401,112,398,111,389,107,405,110,403,113,400
+Greene,411,CEDAR TWP,unofficial,Raw/Greene.xlsx,,3219,combined_node,64,344,78,329,59,370,63,368,62,359,65,364,58,374,60,370
+Greene,420,JAMESTOWN VILLAGE,unofficial,Raw/Greene.xlsx,,3242,normalized,130,251,142,232,130,273,130,276,125,260,131,272,138,267,137,268
+Greene,421,JAMESTOWN VILLAGE,unofficial,Raw/Greene.xlsx,,3243;3250,boundary_overlap,74,168,81,163,77,183,76,185,75,171,81,181,81,176,78,183
+Greene,425,SILVERCREEK,unofficial,Raw/Greene.xlsx,,3250,normalized,61,212,60,212,65,219,61,222,56,213,60,219,65,217,64,219
+Greene,426,SILVERCREEK,unofficial,Raw/Greene.xlsx,,3251,normalized,120,330,129,319,114,361,115,357,110,349,115,357,121,353,118,357
+Greene,430,SPRING VALLEY VILLAGE,unofficial,Raw/Greene.xlsx,,3254,normalized,50,119,60,112,54,129,56,128,55,122,54,126,54,127,56,127
+Greene,435,SPRING VALLEY TWP,unofficial,Raw/Greene.xlsx,,3252,normalized,180,400,190,395,174,427,167,431,167,419,171,427,171,429,175,425
+Greene,436,SPRING VALLEY TWP,unofficial,Raw/Greene.xlsx,,3253,normalized,155,433,162,423,144,473,146,472,154,446,152,459,149,459,159,454
+Greene,440,YELLOW SPRINGS VILLAGE,unofficial,Raw/Greene.xlsx,,3245;3290,boundary_overlap,694,43,719,40,710,56,707,59,705,45,715,48,721,49,717,51
+Greene,441,YELLOW SPRINGS VILLAGE,unofficial,Raw/Greene.xlsx,,3290,normalized,502,31,522,32,518,37,520,36,512,36,516,40,518,37,518,38
+Greene,442,YELLOW SPRINGS VILLAGE,unofficial,Raw/Greene.xlsx,,3291,normalized,490,22,499,24,501,28,501,26,494,25,501,29,505,25,502,28
+Greene,443,YELLOW SPRINGS VILLAGE,unofficial,Raw/Greene.xlsx,,3245;3291;3292,boundary_overlap,589,28,593,26,593,34,590,38,588,24,592,35,596,33,596,34
+Greene,455,MIAMI TWP,unofficial,Raw/Greene.xlsx,,3245,combined_node,164,205,171,200,163,216,160,220,159,209,163,215,161,216,166,212
+Greene,456,MIAMI TWP,unofficial,Raw/Greene.xlsx,,3245,combined_node,287,114,295,107,292,122,288,126,292,114,296,119,293,122,294,122
+Greene,460,CAESARSCREEK TWP,unofficial,Raw/Greene.xlsx,,3216,normalized,32,130,33,130,30,136,30,137,31,132,29,135,28,136,30,134
+Greene,461,CAESARSCREEK TWP,unofficial,Raw/Greene.xlsx,,3217,normalized,89,344,96,342,84,363,77,374,77,363,80,366,83,364,88,359
+Greene,465,NEW JASPER TWP,unofficial,Raw/Greene.xlsx,,3246,normalized,66,233,70,231,58,257,57,258,62,240,58,253,63,250,62,251
+Greene,466,NEW JASPER TWP,unofficial,Raw/Greene.xlsx,,3247,normalized,113,443,119,445,110,465,104,468,108,448,105,465,110,465,114,461
+Greene,467,NEW JASPER TWP,unofficial,Raw/Greene.xlsx,,3248,normalized,89,310,93,307,86,331,85,332,85,315,91,329,88,330,85,334
+Greene,475,ROSS TWP,unofficial,Raw/Greene.xlsx,,3249,normalized,72,283,82,280,68,304,70,304,66,296,72,301,70,304,74,299

@@ -1,0 +1,125 @@
+Hamilton County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Hamilton.xlsx, unofficial precinct workbook, statewide contest
+  sheets 2-9. Candidate Total Votes and countywide Total: rows are
+  available in each sheet. The CSV keeps the leading four-digit code.
+  https://votehamiltoncountyohio.gov/results/
+  Countywide election-night control report, titled Unofficial Results:
+  https://votehamiltoncountyohio.gov/wp-content/uploads/2026/11/Cumulative-FINAL.pdf
+
+  Current polygons: Hamilton County Voter Precincts layer 41, queried
+  with where=1=1, outFields=PRECINCT, outSR=5070, and f=geojson.
+  https://services.arcgis.com/JyZag7oO4NteHGiq/ArcGIS/rest/services/Open_Data_Feature_Collection/FeatureServer/41
+  Historical polygons: Census Voting Districts 2020, state 39, county
+  061, queried with outFields=BASENAME,GEOID, outSR=5070, and f=geojson.
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  OH_pct20.json, nodes[].ORIG_NAME and ENACTED_LOWER.
+
+Crosswalk method
+  GIS PRECINCT codes join to the workbook's four-digit identifiers.
+  Polygon intersections use equal-area EPSG:5070. A historical
+  district is retained when it covers at least 2% of a current
+  precinct's mapped area. Shares describe current area.
+  If the sole retained district has the expected name, the crosswalk
+  uses that name after expanding abbreviations in the extractor.
+  The workbook's HARR 76xx codes are Harrison Township and 34xx
+  codes are Harrison City. A different single predecessor is renamed
+  when both footprints overlap by at least 98%. It is split_precinct
+  when the old district covers at least 98% of the current precinct
+  and the current precinct covers less than 98% of the old district.
+  The other changes use boundary_overlap. Votes stay on their
+  original precinct rows.
+
+Historical graph groups
+  Memberships are from ORIG_NAME. HD labels are from ENACTED_LOWER.
+  Where a historical group spans several graph nodes, the crosswalk
+  carries all relevant node IDs. Areas describe whole Census districts.
+  3346 (HD27), 3347 (HD26): ANDERSON I, COLUMBIA G
+  3357 (HD27), 3358 (HD26): ANDERSON S
+  3383 (HD27), 3384 (HD26): CINCINNATI 1-B
+  3442 (HD30), 3443 (HD24): CINCINNATI 19-B, DELHI E
+  3444 (HD30), 3445 (HD24): CINCINNATI 19-C
+  3464 (HD24): CINCINNATI 21-B, CINCINNATI 21-E
+  3510 (HD24): CINCINNATI 26-B, CINCINNATI 26-M
+  3577 (HD29): COLERAIN BB, COLERAIN F
+  3583 (HD28), 3584 (HD29): COLERAIN EE, SPRINGFIELD T
+  3616 (HD27), 3617 (HD26): COLUMBIA D
+  3624 (HD27), 3625 (HD26): COLUMBIA L, INDIAN HILL F
+  3627 (HD29): CROSBY B, HARR TWP BB, HARRISON A, HARRISON F
+  3632 (HD30), 3633 (HD24): DELHI A
+  3641 (HD30): DELHI J, DELHI N
+  3652 (HD28), 3653 (HD27): EVENDALE B, READING 2-B
+  3659 (HD28): FOREST PARK D, SPRINGDALE F
+  3686 (HD30): GREEN G, GREEN QQ
+  3718 (HD29): HARR TWP AA, HARR TWP CC, HARRISON C, HARRISON D, HARRISON E
+  3796 (HD28): SHARONVILLE 1-A, SHARONVILLE 1-B
+  3803 (HD27), 3804 (HD26): SILVERTON B
+  3805 (HD28), 3806 (HD27): SILVERTON C
+  3814 (HD28): SPRINGFIELD AA, SPRINGFIELD D
+  3816 (HD27), 3817 (HD29): SPRINGFIELD BB, SPRINGFIELD F, SPRINGFIELD X
+  3835 (HD27), 3836 (HD29): SPRINGFIELD V
+  3859 (HD28): SYMMES B, SYMMES G
+
+Boundary overlap records
+Code and precinct | Status | Graph IDs | Historical precincts and area shares
+0107 CIN 1-G | boundary_overlap | 3385;3389 | CINCINNATI 1-G (39061031ABH) 63.138%; CINCINNATI 1-C (39061031ABD) 36.862%
+0204 CIN 2-D | boundary_overlap | 3448;3450 | CINCINNATI 2-D (39061031ACC) 86.498%; CINCINNATI 2-B (39061031ACA) 13.497%
+0205 CIN 2-E | boundary_overlap | 3451;3456 | CINCINNATI 2-E (39061031ACD) 93.934%; CINCINNATI 2-J (39061031ACI) 6.065%
+0207 CIN 2-G | boundary_overlap | 3449;3453 | CINCINNATI 2-G (39061031ACF) 63.391%; CINCINNATI 2-C (39061031ACB) 36.608%
+0301 CIN 3-A | boundary_overlap | 3527;3530 | CINCINNATI 3-A (39061031ACZ) 87.855%; CINCINNATI 3-D (39061031ADC) 12.145%
+0505 CIN 5-E | boundary_overlap | 3544;3548 | CINCINNATI 5-E (39061031AEJ) 79.088%; CINCINNATI 5-I (39061031AEN) 20.912%
+0602 CIN 6-B | boundary_overlap | 3549;3550 | CINCINNATI 6-B (39061031AFB) 87.538%; CINCINNATI 6-A (39061031AFA) 12.461%
+0603 CIN 6-C | boundary_overlap | 3551;3552 | CINCINNATI 6-C (39061031AFC) 92.021%; CINCINNATI 6-D (39061031AFD) 7.979%
+0903 CIN 9-C | boundary_overlap | 3570;3571 | CINCINNATI 9-C (39061031AGP) 89.587%; CINCINNATI 9-B (39061031AGO) 10.413%
+1202 CIN 12-B | boundary_overlap | 3404;3405;3407 | CINCINNATI 12-B (39061031AHP) 81.224%; CINCINNATI 12-C (39061031AHQ) 15.771%; CINCINNATI 12-E (39061031BQJ) 3.005%
+1409 CIN 14-I | boundary_overlap | 3424;3788 | CINCINNATI 14-I (39061031AJA) 97.891%; NORWOOD 4-C (39061031AVJ) 2.109%
+1506 CIN 15-F | boundary_overlap | 3425;3430 | CINCINNATI 15-F (39061031AJS) 59.452%; CINCINNATI 15-A (39061031AJN) 39.539%
+1903 CIN 19-C | boundary_overlap | 3444;3445;3446 | CINCINNATI 19-C (39061031AKY) 96.441%; CINCINNATI 19-D (39061031AKZ) 3.536%
+2303 CIN 23-C | boundary_overlap | 3472;3473 | CINCINNATI 23-C (39061031AMK) 76.987%; CINCINNATI 23-D (39061031AMM) 23.013%
+2404 CIN 24-D | boundary_overlap | 3491;3494 | CINCINNATI 24-D (39061031ANT) 95.834%; CINCINNATI 24-G (39061031ANW) 4.057%
+2504 CIN 25-D | boundary_overlap | 3500;3632;3633 | CINCINNATI 25-D (39061031AON) 81.964%; DELHI A (39061031BDZ) 18.036%
+2510 CIN 25-J | boundary_overlap | 3504;3506 | CINCINNATI 25-J (39061031AOT) 97.053%; CINCINNATI 25-H (39061031AOR) 2.947%
+2511 CIN 25-K | boundary_overlap | 3500;3507 | CINCINNATI 25-K (39061031AOU) 71.131%; CINCINNATI 25-D (39061031AON) 28.869%
+2811 BLUE 1-A | boundary_overlap | 3367;3368 | BLUE ASH 1-A (39061031AAA) 76.326%; BLUE ASH 1-B (39061031AAB) 23.673%
+2812 BLUE 1-B | boundary_overlap | 3368;3369 | BLUE ASH 1-B (39061031AAB) 77.833%; BLUE ASH 2-A (39061031AAD) 21.547%
+2823 BLUE 2-C | boundary_overlap | 3371;3372 | BLUE ASH 2-C (39061031AAF) 68.276%; BLUE ASH 3-A (39061031AAG) 31.723%
+2831 BLUE 3-A | boundary_overlap | 3372;3373 | BLUE ASH 3-A (39061031AAG) 57.049%; BLUE ASH 3-B (39061031AAH) 42.950%
+2832 BLUE 3-B | boundary_overlap | 3373;3374 | BLUE ASH 3-B (39061031AAH) 87.235%; BLUE ASH 4-A (39061031AAK) 12.765%
+2841 BLUE 4-A | boundary_overlap | 3374;3375 | BLUE ASH 4-B (39061031BQO) 64.380%; BLUE ASH 4-A (39061031AAK) 35.620%
+2842 BLUE 4-B | boundary_overlap | 3369;3373;3375 | BLUE ASH 2-A (39061031AAD) 68.580%; BLUE ASH 3-B (39061031AAH) 17.496%; BLUE ASH 4-B (39061031BQO) 13.924%
+2852 BLUE 5-B | boundary_overlap | 3374;3377 | BLUE ASH 5-B (39061031AAN) 94.122%; BLUE ASH 4-A (39061031AAK) 5.878%
+3403 HARR C | boundary_overlap | 3718 | HARRISON C (39061031BJG) 92.302%; HARRISON E (39061031BJI) 6.997%
+3404 HARR D | boundary_overlap | 3718 | HARRISON D (39061031BJH) 92.664%; HARR TWP CC (39061031BJB) 7.336%
+3407 HARR G | split_precinct | 3627 | HARRISON F (39061031BJJ) 99.984%
+3901 MILF A | boundary_overlap | 3621;3623;3721 | COLUMBIA K (39061031BDQ) 65.063%; COLUMBIA I (39061031BDO) 29.502%; INDIAN HILL B (39061031ASH) 4.985%
+4002 MONT B | boundary_overlap | 3754;3755 | MONTGOMERY B (39061031ATO) 97.653%; MONTGOMERY A (39061031ATN) 2.329%
+4931 SHAR 3-A | boundary_overlap | 3797;3798 | SHARONVILLE 3-A (39061031AWZ) 91.785%; SHARONVILLE 2-A (39061031AWW) 8.215%
+4932 SHAR 3-B | boundary_overlap | 3796;3798;3799 | SHARONVILLE 3-B (39061031AXA) 85.590%; SHARONVILLE 3-A (39061031AWZ) 9.536%; SHARONVILLE 1-B (39061031AWU) 4.874%
+4941 SHAR 4-A | boundary_overlap | 3798;3800;3801 | SHARONVILLE 4-A (39061031AXD) 81.199%; SHARONVILLE 4-B (39061031AXE) 11.390%; SHARONVILLE 3-A (39061031AWZ) 7.411%
+4942 SHAR 4-B | boundary_overlap | 3799;3801 | SHARONVILLE 4-B (39061031AXE) 51.612%; SHARONVILLE 3-B (39061031AXA) 48.388%
+5203 SPDALE C | boundary_overlap | 3809;3811 | SPRINGDALE C (39061031AXS) 89.741%; SPRINGDALE E (39061031AXU) 10.258%
+5302 WYOM B | boundary_overlap | 3877;3880 | WYOMING B (39061031AYE) 93.086%; WYOMING E (39061031AYH) 6.914%
+5303 WYOM C | boundary_overlap | 3876;3877;3878 | WYOMING C (39061031AYF) 86.360%; WYOMING B (39061031AYE) 6.973%; WYOMING A (39061031AYD) 6.667%
+5612 AND L | boundary_overlap | 3348;3350 | ANDERSON L (39061031AZQ) 72.187%; ANDERSON J (39061031AZM) 27.813%
+5621 AND U | boundary_overlap | 3355;3360 | ANDERSON U (39061031BAI) 89.351%; ANDERSON Q (39061031BAA) 10.649%
+5919 COLE S | boundary_overlap | 3590;3605 | COLERAIN S (39061031BCQ) 59.575%; COLERAIN H (39061031BBP) 40.423%
+6201 COLUM A | boundary_overlap | 3613;3743 | COLUMBIA A (39061031BDG) 96.463%; MADEIRA H (39061031ATG) 3.537%
+6209 COLUM I | renamed | 3624;3625 | COLUMBIA L (39061031BDR) 99.995%
+6402 CROSB B | boundary_overlap | 3626;3627 | CROSBY B (39061031BDX) 95.885%; CROSBY A (39061031BDW) 4.105%
+6512 DELHI L | boundary_overlap | 3637;3643 | DELHI L (39061031BEU) 82.083%; DELHI F (39061031BEJ) 17.917%
+6803 EVEN C | boundary_overlap | 3651;3654 | EVENDALE C (39061031BFP) 77.256%; EVENDALE A (39061031BFN) 22.744%
+7301 GREEN A | boundary_overlap | 3674;3712 | GREEN A (39061031BGI) 97.559%; GREEN X (39061031BIT) 2.440%
+7342 GREEN PP | boundary_overlap | 3703;3714 | GREEN PP (39061031BIC) 92.996%; GREEN Z (39061031BIX) 6.988%
+7702 LIN HT B | boundary_overlap | 3652;3653;3726 | LINCOLN HGTS B (39061031BOQ) 97.470%; EVENDALE B (39061031BFO) 2.528%
+8001 MARMT A | boundary_overlap | 3744;3745 | MARIEMONT A (39061031BJS) 95.134%; MARIEMONT B (39061031BJT) 4.866%
+8221 CLEVE A | boundary_overlap | 3573;3871 | CLEVES A (39061031BKB) 92.214%; WHITEWATER A (39061031BOH) 7.785%
+8222 CLEVE B | boundary_overlap | 3574;3747 | CLEVES B (39061031BKC) 95.916%; MIAMI TWP B (39061031BKE) 4.083%
+8302 MIAMI B | boundary_overlap | 3747;3749 | MIAMI TWP B (39061031BKE) 86.248%; MIAMI TWP D (39061031BKG) 13.751%
+8307 MIAMI G | boundary_overlap | 3747;3752 | MIAMI TWP G (39061031BKJ) 78.605%; MIAMI TWP B (39061031BKE) 21.395%
+8309 MIAMI I | split_precinct | 3747 | MIAMI TWP B (39061031BKE) 99.999%
+8715 SPFLD O | boundary_overlap | 3821;3829 | SPRINGFIELD O (39061031BLO) 54.493%; SPRINGFIELD G (39061031BKY) 45.505%
+8721 SPFLD U | boundary_overlap | 3834;3835;3836 | SPRINGFIELD U (39061031BMA) 94.231%; SPRINGFIELD V (39061031BMC) 5.769%
+8908 SYCAM H | boundary_overlap | 3805;3806;3851 | SYCAMORE H (39061031BMT) 96.024%; SILVERTON C (39061031AXK) 3.975%
+8912 SYCAM L | boundary_overlap | 3846;3855 | SYCAMORE L (39061031BMX) 97.314%; SYCAMORE C (39061031BMO) 2.686%

@@ -1,0 +1,24 @@
+Guernsey County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Guernsey.pdf, official Statement of Votes Cast, November 12, 2026.
+  Precinct codes and names are on pp. 1-6. The statewide precinct
+  returns and countywide totals appear on paired panels in pp. 7-118.
+  CENTER A keeps the four-digit source code 0014 printed on p. 3.
+  https://boe.guernseycounty.gov/documents/guernsey-county-official-november-3-2026-general-election-sovc-report/
+  OH_pct20.json, nodes[].ORIG_NAME.
+
+Combined graph node 3299
+  003 CAMBRIDGE 2-A and 004 CAMBRIDGE 2-B
+      (pp. 7, 8, 21, 35, 49, 50, 63, 77, 91, 105)
+  013 CAMBRIDGE C (pp. 11, 12, 25, 39, 53, 54, 67, 81, 95, 109)
+  ORIG_NAME = CAMBRIDGE 2-A_GUERNSEY,CAMBRIDGE 2-B_GUERNSEY,CAMBRIDGE C_GUERNSEY
+
+Historical precinct split across graph nodes
+  025 MONROE/WHEELING (pp. 15, 16, 29, 43, 57, 58, 71, 85, 99, 113)
+  links to node 3317 (HD95) and node 3318 (HD97). Both have ORIG_NAME
+  MONROE/WHEELING_GUERNSEY. Districts are from ENACTED_LOWER.
+
+Each precinct retains its own vote row. The crosswalk follows the
+published precinct names. Boundary continuity was not assessed.

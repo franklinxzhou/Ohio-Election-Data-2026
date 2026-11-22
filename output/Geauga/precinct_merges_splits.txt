@@ -1,0 +1,50 @@
+Geauga County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Geauga.pdf, official canvass generated November 19 at 1:05 p.m.
+  Statewide precinct counts are on PDF pp. 5-20. Countywide Totals
+  are on pp. 10, 15, and 20. The vote tables supply names without codes.
+  https://www.boe.ohio.gov/geauga/c/elecres/20261103precinct.pdf
+  OH_pct20.json, nodes[].ORIG_NAME for historical precinct membership.
+
+Bainbridge Township split
+  BAINBRIDGE TOWNSHIP J (pp. 6, 11, 16) links to 3094, 3096, and
+  3098 as boundary_overlap. These are historical 007 BAINBRIDGE TWP B,
+  009 BAINBRIDGE TWP D, and 011 BAINBRIDGE TWP F. Current B, D, and F
+  retain their individual graph links as split_precinct.
+  The January 8, 2026 board minutes, PDF p. 2, approve precinct J.
+  A county elections employee identified B, D, and F as the
+  contributing precincts in the February 12 report.
+  https://www.boe.ohio.gov/geauga/c/pdfs/minutes/2026/01082026MeetingMinutes.pdf
+  https://www.geaugamapleleaf.com/news/chardon-bainbridge-voting-precincts-adjusted/
+
+Chardon City changes
+  CHARDON CITY C (pp. 6, 12, 17) links to 3107 and 3108 as
+  boundary_overlap. CHARDON CITY D (pp. 7, 12, 17) links to 3108 as
+  split_precinct. The January 8 board minutes, PDF p. 2, approve
+  moving part of D into C.
+  Node 3107 also links to CHARDON CITY B (pp. 6, 12, 17), the other
+  member of its historical combined group.
+  3107 ORIG_NAME = 020 CHARDON CITY B_GEAUGA,021 CHARDON CITY C_GEAUGA
+  3108 ORIG_NAME = 022 CHARDON CITY D_GEAUGA
+  https://www.boe.ohio.gov/geauga/c/pdfs/minutes/2026/01082026MeetingMinutes.pdf
+
+Aquilla Village label change
+  CLARIDON TOWNSHIP D (pp. 8, 13, 18) links to node 3122 as renamed.
+  The March 3, 2025 board minutes, PDF p. 5, designate the former
+  Aquilla Village precinct as Claridon Township Precinct D.
+  ORIG_NAME = 036 AQUILLA VILLAGE_GEAUGA
+  https://www.boe.ohio.gov/geauga/c/pdfs/minutes/2025/03032025MeetingMinutes.pdf
+
+Combined graph node 3132
+  MIDDLEFIELD VILLAGE A (pp. 8, 13, 18)
+  MIDDLEFIELD VILLAGE B (pp. 8, 13, 18)
+  MIDDLEFIELD TOWNSHIP A (pp. 8, 13, 19)
+  ORIG_NAME = 046 MIDDLEFIELD VILL A_GEAUGA,047 MIDDLEFIELD VILL B_GEAUGA,048 MIDDLEFIELD TWP A_GEAUGA
+
+The changes above link the documented predecessors by name. The county
+2026 GIS endpoint returned HTTP 403, so overlap shares and other
+boundary changes could not be assessed. Each precinct keeps its own
+vote row.
+  https://gcgis.geauga.oh.gov/arcgis/rest/services/Voting_Precincts/MapServer/0

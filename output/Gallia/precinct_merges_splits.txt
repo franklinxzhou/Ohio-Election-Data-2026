@@ -1,0 +1,31 @@
+Gallia County graph notes
+November 3, 2026 general election
+
+Sources
+  Raw/Gallia.pdf, scanned official Group Detail Report dated November 15.
+  Its four pages cover precinct turnout by ballot mode for 26 precincts.
+  The county's posted precinct-detail link points to a four-page scan.
+  https://www.boe.ohio.gov/gallia/c/elecres/20261103precinct.pdf
+  OH_pct20.json, nodes[].ORIG_NAME.
+
+Countywide vote source
+  The countywide CSV uses the November 3, 2026 General Unofficial
+  Canvass published by the Ohio Secretary of State. Its Gallia row
+  is on row 31 in Statewide Offices, Supreme Court, and U.S. Congress.
+  https://liveresults.ohiosos.gov/Api/v1/download?filename=GeneralElectionXlsFile
+  The county Board of Elections cumulative PDF returned HTTP 403.
+  https://www.boe.ohio.gov/gallia/c/elecres/20261103results.pdf
+
+Combined graph node 3067
+  020 Centerville Pct (turnout PDF p. 3)
+  021 Raccoon Township (p. 3)
+  ORIG_NAME = CENTERVILLE PRECINCT_GALLIA,RACCOON TOWNSHIP_GALLIA
+
+Combined graph node 3070
+  001 Gallipolis City 1 (turnout PDF p. 1)
+  007 Gallipolis Twp (p. 1)
+  ORIG_NAME = GALLIPOLIS CITY 1_GALLIA,GALLIPOLIS TOWNSHIP_GALLIA
+
+The turnout labels link by name after expanding Twp and Pct.
+Boundary continuity was not assessed. Countywide candidate votes
+are reported in aggregate and have no precinct or graph allocation.
