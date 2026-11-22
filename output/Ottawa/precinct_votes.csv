@@ -1,0 +1,37 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Ottawa,,Port Clinton 1A,official,Raw/Ottawa.pdf,"1,2,3",6015,combined_node,274,193,284,187,273,213,272,212,269,199,271,214,274,209,273,214
+Ottawa,,Port Clinton 2A,official,Raw/Ottawa.pdf,"7,8,9",6035,exact,309,284,325,276,307,305,305,315,294,299,311,299,313,302,301,313
+Ottawa,,Port Clinton 3A,official,Raw/Ottawa.pdf,"13,14,15",6036,exact,245,222,256,224,250,242,248,244,244,232,255,233,255,236,253,237
+Ottawa,,Port Clinton 4A,official,Raw/Ottawa.pdf,"19,20,21",6037,exact,254,196,273,192,260,227,260,227,258,212,265,224,264,221,256,230
+Ottawa,,Allen 2,official,Raw/Ottawa.pdf,"25,26,27",6012,exact,238,376,244,371,233,408,230,411,224,392,236,402,234,406,235,403
+Ottawa,,Allen 3,official,Raw/Ottawa.pdf,"32,33,34",6013,exact,207,211,217,199,212,219,196,232,204,215,209,224,209,221,214,217
+Ottawa,,Allen 4,official,Raw/Ottawa.pdf,"38,39,40",6014,exact,279,320,290,306,271,344,258,360,262,321,263,348,279,342,273,345
+Ottawa,,Bay 1,official,Raw/Ottawa.pdf,"44,45,46",6015,combined_node,236,288,241,295,228,316,223,325,226,311,235,309,238,310,230,313
+Ottawa,,Benton 2,official,Raw/Ottawa.pdf,"50,51,52",6016,exact,198,329,225,314,205,349,201,351,196,335,195,356,209,344,208,346
+Ottawa,,Benton 3,official,Raw/Ottawa.pdf,"56,57,58",6017,exact,207,358,221,344,211,387,207,393,198,370,214,380,220,375,225,373
+Ottawa,,Carroll 1,official,Raw/Ottawa.pdf,"62,63,64",6018,exact,215,298,234,283,212,328,213,327,221,297,215,324,219,315,231,308
+Ottawa,,Carroll 2,official,Raw/Ottawa.pdf,"68,69,70",6019,exact,171,272,186,265,176,283,163,291,171,280,173,281,174,278,172,280
+Ottawa,,Catawba Island 1,official,Raw/Ottawa.pdf,"74,75,76",6020,exact,145,242,146,239,138,246,133,256,136,243,136,248,146,235,139,246
+Ottawa,,Catawba Island 2,official,Raw/Ottawa.pdf,"80,81,82",6021,exact,226,456,249,435,221,466,205,483,221,458,213,470,213,471,217,472
+Ottawa,,Catawba Island 3,official,Raw/Ottawa.pdf,"86,87,88",6022,exact,308,511,331,494,291,554,291,545,289,538,293,548,296,550,294,547
+Ottawa,,Catawba Island 4,official,Raw/Ottawa.pdf,"92,93,94",6023,exact,236,360,250,350,220,389,216,393,221,375,225,381,238,368,235,375
+Ottawa,,Clay 1,official,Raw/Ottawa.pdf,"98,99,100",6024,combined_node,226,211,232,208,214,240,219,243,214,229,220,234,226,235,233,227
+Ottawa,,Clay 2,official,Raw/Ottawa.pdf,"105,106,107",6025,normalized,166,191,177,192,170,208,162,219,167,200,174,208,172,206,178,199
+Ottawa,,Clay 3,official,Raw/Ottawa.pdf,"112,113,114",6026,exact,214,327,230,313,208,362,203,367,195,341,203,364,213,355,215,357
+Ottawa,,Clay 4,official,Raw/Ottawa.pdf,"119,120,121",6024,combined_node,265,285,282,280,267,307,259,318,260,301,264,315,266,309,274,302
+Ottawa,,Danbury 1,official,Raw/Ottawa.pdf,"126,127,128",6027,normalized,279,317,287,308,268,335,256,345,273,321,275,323,274,325,269,328
+Ottawa,,Danbury 2,official,Raw/Ottawa.pdf,"132,133,134",6028,exact,290,295,305,278,292,306,268,328,274,302,286,307,284,310,289,306
+Ottawa,,Danbury 3,official,Raw/Ottawa.pdf,"138,139,140",6029,exact,203,339,219,333,199,362,193,362,201,345,201,351,207,350,212,347
+Ottawa,,Danbury 4,official,Raw/Ottawa.pdf,"144,145,146",6030,exact,214,313,228,298,221,313,208,331,210,314,210,320,221,311,218,314
+Ottawa,,Danbury 5,official,Raw/Ottawa.pdf,"150,151,152",6031,exact,266,431,289,413,263,446,252,461,254,439,264,437,260,441,260,445
+Ottawa,,Erie 1,official,Raw/Ottawa.pdf,"156,157,158",6032,exact,159,259,170,248,162,270,160,271,159,262,166,268,168,268,167,268
+Ottawa,,Harris 1,official,Raw/Ottawa.pdf,"162,163,164",6033,normalized,302,304,314,299,288,339,287,342,291,310,290,334,300,330,309,318
+Ottawa,,Harris 3,official,Raw/Ottawa.pdf,"168,169,170",6034,combined_node,150,237,158,227,145,257,142,261,134,250,141,258,146,252,149,253
+Ottawa,,Harris 4,official,Raw/Ottawa.pdf,"174,175,176",6034,combined_node,114,225,109,230,102,255,106,256,98,240,109,251,108,253,105,254
+Ottawa,,Portage 1,official,Raw/Ottawa.pdf,"180,181,182",6038,combined_node,201,348,213,336,202,367,190,378,195,354,200,368,205,364,201,370
+Ottawa,,Put-In-Bay 1,official,Raw/Ottawa.pdf,"186,187,188",6038,combined_node,239,232,252,219,226,251,220,255,232,232,231,240,228,243,231,244
+Ottawa,,Salem 1,official,Raw/Ottawa.pdf,"192,193,194",6039,combined_node,163,219,170,208,159,236,144,250,148,235,156,235,150,239,166,225
+Ottawa,,Salem 2,official,Raw/Ottawa.pdf,"198,199,200",6040,normalized,189,162,194,165,182,191,183,189,185,168,182,189,195,179,192,181
+Ottawa,,Salem 3,official,Raw/Ottawa.pdf,"204,205,206",6039,combined_node,148,196,150,186,146,216,139,218,136,207,146,209,149,213,155,207
+Ottawa,,Salem 4,official,Raw/Ottawa.pdf,"210,211,212",6039,combined_node,253,306,270,303,234,353,240,351,230,335,234,351,249,340,259,331
+Ottawa,,Salem 5,official,Raw/Ottawa.pdf,"216,217,218",6041,exact,214,330,230,314,216,346,204,361,195,330,212,346,221,337,226,340

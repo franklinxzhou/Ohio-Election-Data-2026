@@ -1,0 +1,21 @@
+Morrow County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Morrow.pdf, Statement of Votes Cast, Official Canvass,
+  November 17, 2026 at 10:39 AM. Statewide tables on pp. 2–13.
+  https://boe.morrowcountyohio.gov/new_page/index.php
+  https://boe.morrowcountyohio.gov/2026/2026%20Genral%20Election%20SOVC%20Report.pdf?t=202611171154150
+  OH_pct20.json, MORROW nodes and ORIG_NAME membership.
+
+Graph node 5908 includes Cardington Township and Cardington Village
+East. The canvass reports Cardington Twp and Cardington Vlg E separately.
+Both retain their own vote rows. Cardington Village West is node 5909.
+
+The other 31 precinct names link one-to-one to graph nodes. Name
+matching expands Vlg to Village and, for Bennington, Chester, and
+Congress townships, E and W to East and West. The CSV preserves
+the canvass spellings. The source prints precinct names only.
+
+The name-based crosswalk identifies no additional mergers or splits.
+Boundary continuity was not assessed.

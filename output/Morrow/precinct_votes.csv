@@ -1,0 +1,34 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Morrow,,Bennington Twp E,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5905,normalized,170,502,189,504,177,534,173,541,176,510,177,527,171,530,184,517
+Morrow,,Bennington Twp W,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5906,normalized,213,414,222,413,200,455,196,458,198,437,207,448,213,442,205,447
+Morrow,,Canaan Twp,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5907,exact,82,286,87,287,83,314,78,320,77,297,78,316,77,318,79,316
+Morrow,,Cardington Vlg E,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5908,combined_node,112,227,122,227,114,252,114,253,109,240,119,246,118,247,115,252
+Morrow,,Cardington Vlg W,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5909,normalized,117,173,119,184,112,206,111,204,105,194,113,203,112,204,122,192
+Morrow,,Cardington Twp,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5908,combined_node,149,301,168,299,145,345,143,348,149,327,152,338,152,332,163,326
+Morrow,,Chester Twp E,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5910,normalized,89,280,92,282,87,305,88,303,89,287,91,293,93,294,90,297
+Morrow,,Chester Twp W,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5911,normalized,99,253,108,260,94,281,95,283,102,263,101,273,105,270,104,271
+Morrow,,Congress Twp E,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5912,normalized,109,373,118,367,98,411,104,405,103,397,99,401,106,395,118,386
+Morrow,,Congress Twp W,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5913,normalized,282,552,310,533,285,586,289,586,287,553,286,580,290,573,293,572
+Morrow,,Franklin Twp,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5915,exact,127,453,142,454,137,493,136,505,132,476,132,502,135,497,150,485
+Morrow,,Edison Vlg,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5914,normalized,50,87,52,85,46,96,48,98,47,93,49,95,49,94,50,94
+Morrow,,Mt Gilead Vlg E,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5923,normalized,84,136,87,136,81,156,82,158,79,144,84,149,86,147,85,147
+Morrow,,Mt Gilead Vlg N,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5925,normalized,96,157,98,164,94,173,92,176,88,176,90,177,90,177,93,177
+Morrow,,Mt Gilead VLG NW,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5924,normalized,152,191,161,192,145,223,149,226,144,210,145,224,150,221,152,216
+Morrow,,Mt Gilead Vlg SW,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5926,normalized,74,121,76,130,76,138,74,139,69,133,70,138,74,140,77,140
+Morrow,,Gilead Twp NE,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5916,exact,62,214,67,209,65,223,62,225,60,216,62,222,63,221,64,221
+Morrow,,Gilead Twp SE,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5917,exact,108,242,113,243,98,265,96,269,107,247,103,259,97,264,107,257
+Morrow,,Gilead Twp W,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5918,exact,68,234,74,233,64,253,62,255,69,237,69,246,64,248,76,238
+Morrow,,Harmony Twp N,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5919,exact,113,323,125,313,109,351,113,348,113,333,115,342,119,343,123,338
+Morrow,,Harmony Twp S,official,Raw/Morrow.pdf,"2,4,6,8,10,12",5920,exact,166,417,183,419,165,466,170,464,165,428,164,467,167,459,180,446
+Morrow,,Lincoln Twp E,official,Raw/Morrow.pdf,"3,4,6,8,10,12",5921,exact,114,196,112,200,112,223,110,226,106,210,114,220,112,223,116,218
+Morrow,,Lincoln Twp W,official,Raw/Morrow.pdf,"3,4,6,8,10,12",5922,exact,115,314,112,323,106,353,110,347,116,329,108,346,115,339,113,341
+Morrow,,N Bloomfield Twp E,official,Raw/Morrow.pdf,"3,4,6,8,10,12",5927,exact,92,305,105,301,98,325,91,333,89,319,92,328,92,324,94,323
+Morrow,,N Bloomfield Twp W,official,Raw/Morrow.pdf,"3,4,6,8,10,12",5928,exact,78,247,84,244,78,264,78,263,76,252,77,263,74,261,83,253
+Morrow,,Perry Twp N,official,Raw/Morrow.pdf,"3,4,6,8,10,12",5929,exact,55,239,57,246,55,259,55,260,55,248,55,258,61,251,57,257
+Morrow,,Perry Twp S,official,Raw/Morrow.pdf,"3,4,6,8,10,12",5930,exact,33,146,33,141,32,157,34,156,32,150,33,155,31,156,37,153
+Morrow,,Peru Twp,official,Raw/Morrow.pdf,"3,4,6,8,10,12",5931,exact,199,464,217,447,187,502,189,506,191,479,190,494,202,489,207,482
+Morrow,,S Bloomfield Twp E,official,Raw/Morrow.pdf,"3,4,6,8,10,12",5932,exact,104,328,110,330,104,349,101,353,103,340,105,351,106,346,105,347
+Morrow,,S Bloomfield Twp W,official,Raw/Morrow.pdf,"3,4,6,8,10,12",5933,exact,120,260,132,250,119,275,117,277,122,262,120,272,117,275,127,267
+Morrow,,Troy Twp,official,Raw/Morrow.pdf,"3,5,7,9,11,13",5934,exact,107,357,120,351,113,379,114,378,110,373,115,378,114,380,119,373
+Morrow,,Washington Twp,official,Raw/Morrow.pdf,"3,5,7,9,11,13",5935,exact,117,309,134,310,118,354,111,362,115,327,120,346,117,348,127,339
+Morrow,,Westfield Twp,official,Raw/Morrow.pdf,"3,5,7,9,11,13",5936,exact,142,364,149,353,136,398,128,407,138,373,131,397,128,395,128,392

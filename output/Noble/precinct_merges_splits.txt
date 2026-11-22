@@ -1,0 +1,21 @@
+Noble County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Noble.pdf, official Precinct Summary – Group Detail,
+  November 12, 2026 at 4:52 PM. The CSV cites the physical PDF pages.
+  https://www.boe.ohio.gov/noble/election-info/election-results/
+  Official countywide canvass, November 12, 2026 at 4:31 PM, pp. 2–3.
+  https://www.boe.ohio.gov/noble/c/elecres/20261103results.pdf
+  OH_pct20.json, NOBLE nodes and ORIG_NAME membership.
+
+Three pairs of precincts share a graph node. Each precinct retains
+its own row and vote totals in the CSV.
+
+  5996 | 7 Ava/Belle Valley       | 2 Brookfield/Noble
+  5999 | 11 Caldwell One/Two     | 8 Maple Heights
+  6009 | 9 Olive/Dexter City 1    | 18 Sharon
+
+The other 13 precincts link one-to-one to graph nodes. The
+name-based crosswalk identifies no additional mergers or splits.
+Boundary continuity was not assessed.

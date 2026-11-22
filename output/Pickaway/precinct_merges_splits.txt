@@ -1,0 +1,97 @@
+Pickaway County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Pickaway.xlsx, Enhanced Voting precinct export, contest sheets 1–8.
+  The county's November 19, 2026 6:46 PM results snapshot is labeled unofficial.
+  https://app.enhancedvoting.com/results/public/pickaway-county-oh/GE2026_20261028170048
+  County Board of Elections notice of 2026 precinct changes.
+  https://www.boe.ohio.gov/pickaway/
+  County GIS voting map and county and city polygon layers.
+  https://experience.arcgis.com/experience/fb56277afaf6412c9c348fda6c95f73c
+  https://services6.arcgis.com/FhJ42byMw3LmPYCN/ArcGIS/rest/services/Precincts_Pickaway_County/FeatureServer/0
+  https://services6.arcgis.com/FhJ42byMw3LmPYCN/ArcGIS/rest/services/2022_Voting/FeatureServer/4
+  Query both layers with where=1=1, outFields=*, outSR=5070, f=geojson.
+  Census 2020 TIGERweb Voting Districts, Pickaway County (39129).
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  Query with where=STATE='39' AND COUNTY='129', outFields=BASENAME,GEOID,
+  outSR=5070, f=geojson. OH_pct20.json supplies graph membership.
+
+Boundary method
+  The county layer excludes the City of Circleville, so the city layer
+  supplies precincts 1–9. Polygon parts with the same name are dissolved.
+  Keep overlaps covering at least 2% of the current area or 95% of the
+  former area, plus predecessors explicitly named in the county notice.
+  These are polygon area shares. Small changes may reflect map offsets.
+  The workbook's precinct labels and unallocated vote counts are preserved.
+  For XLSX provenance, source_pages lists workbook sheet names.
+
+Documented changes
+  Former Ashville-North was divided into Northeast and Northwest along
+  Long Street. Both rows link to node 6089. The Northwest polygon
+  also overlaps former Harrison Township (6088).
+  Former Commercial Point East is now Central. Central also took Walker
+  Point from Scioto South. The new Commercial Point East contains Foxfire,
+  formerly in Scioto North. Commercial Point West took Chestnut Commons
+  from Scioto North. The graph already groups former Commercial Point East,
+  Commercial Point West, and Scioto North in 6101. Central also links to
+  Scioto South's 6116.
+
+Changes inferred from the polygon overlay
+  Former South Bloomfield (6117) is divided among South Bloomfield
+  North, South, and West. West also overlaps former Harrison Township
+  (6088), which accounts for 21.70% of its current polygon.
+
+Shared groups in the 2020 graph
+  6088 | Ashville-East, Harrison Township
+  6093 | Circleville 1-C, Circleville 2-B, Circleville-North,
+         Washington-Central, Washington-North
+  6101 | Commercial Point East, Commercial Point West, Scioto-North
+
+Crosswalk rows
+ASHVILLE-EAST | boundary_overlap | 6088 | ASHVILLE-EAST (82.34% current / 99.95% former); HARRISON TOWNSHIP (17.18% current / 0.40% former)
+ASHVILLE-NORTHEAST | split_precinct | 6089 | ASHVILLE-NORTH (98.53% current / 60.02% former)
+ASHVILLE-NORTHWEST | boundary_overlap | 6088;6089 | ASHVILLE-NORTH (70.27% current / 39.88% former); HARRISON TOWNSHIP (29.72% current / 0.54% former)
+ASHVILLE-WEST | boundary_overlap | 6088;6090 | ASHVILLE-WEST (96.75% current / 99.13% former); HARRISON TOWNSHIP (3.25% current / 0.17% former)
+CIRCLEVILLE 1-A | exact | 6091 | CIRCLEVILLE 1-A (99.79% current / 99.76% former)
+CIRCLEVILLE 1-B | exact | 6092 | CIRCLEVILLE 1-B (99.73% current / 99.73% former)
+CIRCLEVILLE 1-C | combined_node | 6093 | CIRCLEVILLE 1-C (99.59% current / 99.54% former)
+CIRCLEVILLE 2-A | exact | 6094 | CIRCLEVILLE 2-A (99.73% current / 99.74% former)
+CIRCLEVILLE 2-B | combined_node | 6093 | CIRCLEVILLE 2-B (99.83% current / 99.66% former)
+CIRCLEVILLE 3-A | exact | 6095 | CIRCLEVILLE 3-A (99.66% current / 98.86% former)
+CIRCLEVILLE 3-B | exact | 6096 | CIRCLEVILLE 3-B (99.68% current / 97.21% former)
+CIRCLEVILLE 4-A | exact | 6097 | CIRCLEVILLE 4-A (99.28% current / 99.48% former)
+CIRCLEVILLE 4-B | exact | 6098 | CIRCLEVILLE 4-B (99.47% current / 99.69% former)
+CIRCLEVILLE-NORTH | combined_node | 6093 | CIRCLEVILLE-NORTH (99.74% current / 98.86% former)
+CIRCLEVILLE-NORTHWEST | exact | 6099 | CIRCLEVILLE-NORTHWEST (98.34% current / 99.23% former)
+CIRCLEVILLE-SOUTH | exact | 6100 | CIRCLEVILLE-SOUTH (98.51% current / 99.41% former)
+COMMERCIAL POINT CENTRAL | boundary_overlap | 6101;6116 | COMMERCIAL POINT EAST (86.32% current / 99.55% former); SCIOTO-SOUTH (13.54% current / 0.41% former)
+COMMERCIAL POINT-EAST | split_precinct | 6101 | SCIOTO-NORTH (99.79% current / 2.68% former)
+COMMERCIAL POINT-WEST | boundary_overlap | 6101 | COMMERCIAL POINT WEST (86.94% current / 99.80% former); SCIOTO-NORTH (13.06% current / 0.45% former)
+DARBY CLARKS LAKE | exact | 6102 | DARBY CLARKS LAKE (99.84% current / 99.86% former)
+DARBY-NORTH | exact | 6103 | DARBY-NORTH (99.16% current / 99.20% former)
+DARBY-SOUTH | exact | 6104 | DARBY-SOUTH (99.24% current / 99.51% former)
+DARBYVILLE/MUHLENBERG | normalized | 6105 | DARBYVILLE MUHLENBERG (98.32% current / 98.97% former)
+DEERCREEK/WILLIAMSPORT | normalized | 6106 | DEERCREEK / WILLIAMSPORT (99.80% current / 99.69% former)
+HARRISON TOWNSHIP | combined_node | 6088 | HARRISON TOWNSHIP (99.61% current / 96.32% former)
+JACKSON TOWNSHIP | exact | 6107 | JACKSON TOWNSHIP (98.79% current / 99.46% former)
+MADISON TOWNSHIP | exact | 6108 | MADISON TOWNSHIP (99.98% current / 99.76% former)
+MONROE TOWNSHIP | exact | 6109 | MONROE TOWNSHIP (99.34% current / 99.07% former)
+PERRY/NEW HOLLAND | exact | 6110 | PERRY/NEW HOLLAND (99.21% current / 99.56% former)
+PICKAWAY-EAST | exact | 6111 | PICKAWAY-EAST (99.95% current / 99.90% former)
+PICKAWAY-WEST | exact | 6112 | PICKAWAY-WEST (99.79% current / 99.87% former)
+SALTCREEK-NORTH/TARLTON | exact | 6113 | SALTCREEK-NORTH/TARLTON (99.77% current / 99.98% former)
+SALTCREEK-SOUTH | exact | 6114 | SALTCREEK-SOUTH (99.87% current / 99.95% former)
+SCIOTO-NORTH | combined_node | 6101 | SCIOTO-NORTH (99.95% current / 96.24% former)
+SCIOTO-NORTHEAST | boundary_overlap | 6088;6115 | SCIOTO-NORTHEAST (96.21% current / 99.23% former); HARRISON TOWNSHIP (3.69% current / 0.55% former)
+SCIOTO-SOUTH | exact | 6116 | SCIOTO-SOUTH (99.07% current / 98.37% former)
+SOUTH BLOOMFIELD-NORTH | split_precinct | 6117 | SOUTH BLOOMFIELD (99.62% current / 49.94% former)
+SOUTH BLOOMFIELD-SOUTH | split_precinct | 6117 | SOUTH BLOOMFIELD (99.91% current / 43.27% former)
+SOUTH BLOOMFIELD-WEST | boundary_overlap | 6088;6117 | SOUTH BLOOMFIELD (78.30% current / 6.35% former); HARRISON TOWNSHIP (21.70% current / 0.32% former)
+SOUTHERN POINT | exact | 6118 | SOUTHERN POINT (99.63% current / 94.47% former)
+WALNUT-EAST | exact | 6119 | WALNUT-EAST (99.92% current / 99.98% former)
+WALNUT-WEST | exact | 6120 | WALNUT-WEST (99.70% current / 99.56% former)
+WASHINGTON-CENTRAL | combined_node | 6093 | WASHINGTON-CENTRAL (99.42% current / 99.93% former)
+WASHINGTON-NORTH | combined_node | 6093 | WASHINGTON-NORTH (99.85% current / 99.77% former)
+WASHINGTON-SOUTH | exact | 6121 | WASHINGTON-SOUTH (99.87% current / 99.94% former)
+WAYNE TOWNSHIP | exact | 6122 | WAYNE TOWNSHIP (99.92% current / 99.17% former)

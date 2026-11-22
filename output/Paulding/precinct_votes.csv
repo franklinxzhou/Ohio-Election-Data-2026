@@ -1,0 +1,17 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Paulding,,AUGLAIZE TWP,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6043,exact,146,316,158,306,147,348,150,343,147,331,147,349,151,349,154,347
+Paulding,,BENTON TWP,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6044,exact,82,300,92,303,84,330,88,325,83,322,85,326,86,325,88,321
+Paulding,,BLUE CREEK TWP,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6045,exact,60,172,67,173,59,185,60,186,58,184,59,185,61,183,62,180
+Paulding,,BROWN TWP,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6046,exact,131,449,138,463,140,505,143,501,132,486,143,496,141,495,145,491
+Paulding,,CARRYALL TWP,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6047,exact,150,368,159,369,149,388,148,392,154,383,153,388,150,388,151,388
+Paulding,,ANTWERP VILLAGE,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6042,exact,202,331,223,336,221,352,221,352,209,346,220,351,217,352,220,349
+Paulding,,CRANE TWP & CECIL,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6048,exact,93,329,106,327,96,353,101,348,100,340,98,349,106,344,101,349
+Paulding,,EMERALD TWP,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6049,exact,97,199,105,192,104,209,104,209,95,200,109,203,103,209,111,197
+Paulding,,HARRISON TWP,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6050,exact,137,314,137,332,143,349,143,346,141,332,144,346,144,344,147,341
+Paulding,,JACKSON TWP & BROUGHTON,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6051,combined_node,82,308,86,303,89,333,94,326,76,312,90,324,92,327,95,324
+Paulding,,LATTY TWP & GROVER HILL,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6052,exact,54,228,68,225,56,249,66,240,67,225,59,247,63,241,66,238
+Paulding,,PAULDING TWP & LATTY,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6053,combined_node,98,353,107,352,100,382,106,370,102,361,103,369,101,367,107,362
+Paulding,,PAULDING VILLAGE 1,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6054,exact,139,260,154,259,137,282,144,279,137,267,136,282,140,281,139,278
+Paulding,,PAULDING VILLAGE 2,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6053,combined_node,125,182,126,180,132,192,135,193,128,190,136,190,138,190,136,192
+Paulding,,PAULDING VILLAGE 3,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6051,combined_node,106,181,117,181,103,197,112,189,110,185,107,193,112,189,114,184
+Paulding,,WASHINGTON TWP,official,Raw/Paulding.pdf,"2,3,4,5,6,7",6055,exact,41,200,48,193,53,208,51,210,49,200,50,211,49,211,53,206

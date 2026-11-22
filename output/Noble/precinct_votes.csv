@@ -1,0 +1,20 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Noble,1,Beaver,official,Raw/Noble.pdf,"1,2,3",5997,exact,44,137,47,131,42,146,38,147,45,142,42,150,41,150,45,145
+Noble,2,Brookfield/Noble,official,Raw/Noble.pdf,"7,8,9",5996,combined_node,81,341,82,347,83,367,86,369,88,358,87,366,89,359,97,353
+Noble,3,Buffalo/Seneca,official,Raw/Noble.pdf,"13,14,15",5998,exact,102,399,107,387,102,411,96,414,100,404,103,404,110,400,114,391
+Noble,4,Center East/Sarahsville,official,Raw/Noble.pdf,"19,20,21",6001,exact,38,202,37,213,39,212,45,209,44,210,40,216,48,209,50,209
+Noble,5,Center West,official,Raw/Noble.pdf,"25,26,27",6002,exact,47,158,49,157,42,171,42,169,45,162,44,168,50,159,46,163
+Noble,6,Marion/Summerfield,official,Raw/Noble.pdf,"31,32,33",6008,exact,39,145,42,145,43,149,40,151,43,144,42,148,40,152,40,151
+Noble,7,Ava/Belle Valley,official,Raw/Noble.pdf,"37,38,39",5996,combined_node,41,98,46,99,43,111,42,112,45,108,46,109,44,112,46,109
+Noble,8,Maple Heights,official,Raw/Noble.pdf,"43,44,45",5999,combined_node,66,182,65,182,65,193,57,198,62,194,60,203,59,202,63,195
+Noble,9,Olive/Dexter City 1,official,Raw/Noble.pdf,"49,50,51",6009,combined_node,100,229,107,220,91,251,99,244,98,238,99,246,96,246,100,241
+Noble,10,Dudley,official,Raw/Noble.pdf,"55,56,57",6003,exact,51,157,54,153,50,165,47,170,54,156,49,165,52,160,53,160
+Noble,11,Caldwell One/Two,official,Raw/Noble.pdf,"61,62,63",5999,combined_node,122,223,131,222,119,246,118,245,129,231,120,249,128,240,134,231
+Noble,12,Caldwell Three/Four,official,Raw/Noble.pdf,"67,68,69",6000,exact,92,151,102,152,92,175,93,174,95,162,95,176,98,171,101,170
+Noble,13,Wayne,official,Raw/Noble.pdf,"73,74,75",6011,exact,70,151,66,153,67,167,65,166,64,157,67,166,67,165,67,165
+Noble,14,Enoch,official,Raw/Noble.pdf,"79,80,81",6005,exact,45,134,52,142,46,147,44,152,54,143,47,151,46,154,53,147
+Noble,15,Elk,official,Raw/Noble.pdf,"85,86,87",6004,exact,13,81,13,79,15,85,16,82,16,86,17,87,13,89,16,86
+Noble,16,Jackson/Dexter City 2,official,Raw/Noble.pdf,"91,92,93",6006,exact,25,123,33,124,27,141,26,141,30,130,30,143,29,143,31,140
+Noble,17,Jefferson/Dexter City 3,official,Raw/Noble.pdf,"97,98,99",6007,exact,17,52,19,50,20,51,19,54,18,54,18,54,18,54,20,51
+Noble,18,Sharon,official,Raw/Noble.pdf,"103,104,105",6009,combined_node,31,103,31,99,29,107,29,108,27,105,28,112,31,108,32,106
+Noble,19,Stock,official,Raw/Noble.pdf,"109,110,111",6010,exact,28,64,36,66,28,75,31,71,29,71,26,74,29,70,38,61

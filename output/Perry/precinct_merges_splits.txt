@@ -1,0 +1,36 @@
+Perry County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Perry.pdf, Statement of Votes Cast, November 17, 2026 at 11:29 AM.
+  https://www.boe.ohio.gov/perry/election-info/election-results
+  Official countywide canvass, November 17, 2026 at 11:26 AM, pp. 1–3.
+  https://www.boe.ohio.gov/perry/c/elecres/20261103results.pdf
+  Board of Elections May 2026 ballot notice, revised March 19, pp. 6–9,
+  links precinct codes 0001–0033 to names. The CSV keeps the two-digit
+  codes printed in the November canvass.
+  https://www.boe.ohio.gov/perry/c/upload/FWAB_05May46Day.pdf
+  2020 official SOVC, pp. 1 and 3–4, gives historical codes and
+  presidential vote totals. OH_pct20.json gives graph membership
+  and 2020 presidential counts.
+  https://www.boe.ohio.gov/perry/c/elecres/20201103precinct.pdf
+
+Shared node 6063 contains both 13 Hopewell E/Glenford and 14 Hopewell W.
+The 2020 graph already combines these precincts. Their 2026 votes
+remain on separate rows.
+
+Graph names that differ materially from the 2026 precinct key
+  05 Bearfield  | 6056 | BEARFIELD EAST/WEST
+  06 Clayton    | 6081 | REDFIELD/REHOBOTH
+  07 Coal       | 6074 | NEW STRAITSVILLE/COAL
+  11 Harrison S | 6068 | MCLUNEY
+  12 Harrison N | 6061 | HARRISON
+  20 Monroe     | 6058 | CORNING/RENDVILLE/MONROE
+  24 Somerset   | 6083 | SOMERSET NORTH/SOUTH
+  28 Saltlick   | 6062 | HEMLOCK/SHAWNEE/SALTLICK
+
+Historical presidential totals support the aliases. For example, 11HARS
+has 104 Democratic and 306 Republican votes in the 2020 SOVC, matching
+MCLUNEY. 12HARN has 88 and 312, matching HARRISON. 06CLAY has 163 and
+539, matching REDFIELD/REHOBOTH. The name and code crosswalk identifies
+no additional mergers or splits. Boundary continuity was not assessed.

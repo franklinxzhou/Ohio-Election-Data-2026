@@ -1,0 +1,22 @@
+Paulding County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Paulding.pdf, final official canvass (Custom Table Report –
+  By Contest), November 17, 2026 at 10:30 AM. Statewide races on pp. 2–7.
+  https://www.boe.ohio.gov/paulding/election-info/election-results/
+  Final official countywide Election Summary with Group Detail,
+  November 17, 2026 at 10:15 AM, pp. 2–4.
+  https://www.boe.ohio.gov/paulding/c/elecres/20261103results.pdf
+  OH_pct20.json, PAULDING nodes and ORIG_NAME membership.
+
+Two pairs of precincts share graph nodes. The canvass reports the
+four precincts separately, and each retains its own vote row.
+
+  6051 | JACKSON TWP & BROUGHTON | PAULDING VILLAGE 3
+  6053 | PAULDING TWP & LATTY    | PAULDING VILLAGE 2
+
+The graph spells PAULDING TWP & LATTY as PAULDING TWP & LATTY VILLAGE.
+The other 12 precincts map one-to-one to graph nodes. The name-based
+crosswalk found no additional mergers or splits. Boundary continuity
+was not assessed.

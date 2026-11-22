@@ -1,0 +1,34 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Perry,01,New Lexington A/B,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6070,exact,61,106,61,106,65,122,64,122,55,118,63,124,66,120,68,119
+Perry,02,New Lexington C/E/F,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6071,exact,97,144,117,145,99,172,106,166,108,150,101,171,99,168,106,164
+Perry,03,New Lexington D,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6072,exact,91,109,90,108,81,129,88,125,99,101,85,127,83,123,88,118
+Perry,04,New Lexington G/H/I,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6073,exact,186,232,197,239,180,272,182,271,184,250,187,267,187,262,186,263
+Perry,05,Bearfield,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6056,normalized,99,402,118,393,109,419,107,419,109,405,107,424,108,423,122,406
+Perry,06,Clayton,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6081,normalized,142,352,161,338,146,370,145,374,143,358,145,373,150,363,148,365
+Perry,07,Coal,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6074,normalized,79,154,102,149,89,169,88,174,89,167,86,177,97,165,96,166
+Perry,08,Crooksville A/B/C/D,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6059,exact,119,197,126,198,123,215,108,230,123,206,121,216,126,208,130,205
+Perry,09,Crooksville E/F,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6060,exact,80,99,94,96,89,109,87,114,89,105,89,112,89,111,94,104
+Perry,10,Roseville,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6082,exact,68,114,70,117,66,132,64,133,68,129,68,132,69,131,76,124
+Perry,11,Harrison S,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6068,normalized,112,182,125,179,105,206,101,206,109,194,108,203,112,195,115,194
+Perry,12,Harrison N,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6061,normalized,78,196,83,194,81,219,80,218,83,202,79,219,81,214,87,208
+Perry,13,Hopewell E/Glenford,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6063,combined_node,99,343,113,334,98,371,98,372,106,342,104,362,102,362,105,364
+Perry,14,Hopewell W,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6063,combined_node,146,429,169,412,154,444,152,443,153,425,147,442,156,435,164,430
+Perry,15,Junction City,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6066,exact,74,121,75,116,70,136,73,131,70,124,70,136,76,132,76,131
+Perry,16,Jackson E,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6064,normalized,107,285,114,286,104,314,104,313,106,297,106,309,105,311,112,304
+Perry,17,Jackson W,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6065,normalized,99,270,108,272,99,299,96,304,101,287,99,300,102,296,106,294
+Perry,18,Madison,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6067,exact,92,312,100,311,91,332,83,339,89,321,88,331,90,333,92,332
+Perry,19,Monday Creek,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6069,exact,54,209,58,208,54,216,54,216,51,213,54,217,54,211,55,212
+Perry,20,Monroe,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6058,normalized,134,235,149,225,130,261,130,260,133,240,124,266,133,253,138,250
+Perry,21,Pike S,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6075,normalized,109,212,119,219,104,238,98,244,107,229,103,241,104,235,113,229
+Perry,22,Pike W,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6076,normalized,207,362,223,348,199,407,195,412,206,374,202,404,208,393,213,392
+Perry,23,Pleasant,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6077,exact,101,235,111,226,95,256,97,252,105,240,96,252,102,249,110,241
+Perry,24,Somerset,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6083,normalized,188,286,203,278,196,317,180,334,187,302,187,325,189,317,195,309
+Perry,25,Reading E,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6078,normalized,101,256,109,250,95,281,93,282,103,258,97,275,95,272,100,267
+Perry,26,Reading N,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6079,normalized,105,263,110,258,91,292,93,290,94,276,89,290,95,288,97,287
+Perry,27,Reading S,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6080,normalized,111,372,119,376,114,395,116,393,114,370,116,386,114,389,121,384
+Perry,28,Saltlick,official,Raw/Perry.pdf,"3,4,7,11,15,16,19,23,27,31",6062,normalized,141,177,142,182,130,209,128,214,132,198,130,206,131,206,137,200
+Perry,29,Thornville,official,Raw/Perry.pdf,"5,6,9,13,17,18,21,25,29,33",6087,exact,159,295,179,274,151,319,145,325,162,293,146,316,156,312,162,306
+Perry,30,Thorn W,official,Raw/Perry.pdf,"5,6,9,13,17,18,21,25,29,33",6086,normalized,90,174,97,169,89,193,83,197,88,179,88,192,83,194,90,192
+Perry,31,Thorn E,official,Raw/Perry.pdf,"5,6,9,13,17,18,21,25,29,33",6084,normalized,108,323,114,324,102,357,102,354,103,339,106,348,103,351,107,353
+Perry,32,Thorn S,official,Raw/Perry.pdf,"5,6,9,13,17,18,21,25,29,33",6085,normalized,82,202,82,200,77,218,74,225,78,214,77,222,80,220,81,218
+Perry,33,Buckeye Lake,official,Raw/Perry.pdf,"5,6,9,13,17,18,21,25,29,33",6057,exact,180,461,177,470,165,488,164,490,167,473,167,486,174,477,175,478

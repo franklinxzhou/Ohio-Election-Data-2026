@@ -1,0 +1,28 @@
+Ottawa County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Ottawa.pdf, official Precinct Summary – Group Detail,
+  November 16, 2026 at 10:10 AM. The CSV cites physical PDF pages.
+  https://boe.ottawa.oh.gov/current-results/
+  Official countywide canvass, November 16, 2026 at 10:09 AM.
+  https://boe.ottawa.oh.gov/wp-content/uploads/2026/11/Election-Summary.pdf
+  Ottawa County Board of Elections polling locations and precinct maps.
+  https://boe.ottawa.oh.gov/polling-locations/
+  OH_pct20.json, OTTAWA nodes and ORIG_NAME membership.
+
+The 36 canvass precincts map by name to 30 graph nodes. The canvass
+uses shorter names for graph labels with parenthetical qualifiers
+such as (PCS), (Genoa), (Woodmore), or (Oak Harbor).
+
+Shared graph nodes
+  6015 | Bay 1, Port Clinton 1A
+  6024 | Clay 1, Clay 4
+  6034 | Harris 3, Harris 4
+  6038 | Portage 1, Put-In-Bay 1
+  6039 | Salem 1, Salem 3, Salem 4
+
+Node 6038 also contains the graph source label VOTING DISTRICTS NOT
+DEFINED, which has no canvass vote row. All 36 reported precincts
+retain their own votes. There are no additional merges or splits
+identified by name. Boundary continuity was not assessed.
