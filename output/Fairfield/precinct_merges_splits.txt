@@ -1,0 +1,80 @@
+Fairfield County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Fairfield.pdf, Official Canvass Statement of Votes Cast,
+  November 11, 2026 at 9:07 a.m. Statewide tables are on pp. 5-48.
+  The report prints precinct codes as labels, so the CSV retains
+  them in both the code and name fields.
+  https://www.boe.ohio.gov/fairfield/c/elecres/20261103SOVC.pdf
+
+  Current polygons: Fairfield County Auditor Voting Precincts
+  shapefile, updated November 17, 2026.
+  https://www.co.fairfield.oh.us/gis/Fairfield_Data/Precincts.zip
+  Historical polygons: Census 2020 Voting Districts, state 39 and
+  county 045, queried with outFields=BASENAME,GEOID, outSR=5070,
+  and f=geojson.
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  OH_pct20.json, nodes[].ORIG_NAME and ENACTED_LOWER.
+
+Crosswalk method
+  Shapefile ALLCAPS codes were matched to the canvass. Lancaster
+  ward codes receive LAN- and Lithopolis split codes are grouped
+  by the LIV-A or LIV-B prefix. All pieces are unioned by code.
+  Intersections use equal-area EPSG:5070. A historical district
+  is retained when it covers at least 2% of a current precinct.
+  The same-name match applies when it is the sole retained historical
+  district, after expanding the report's precinct abbreviations.
+  A changed single predecessor is recorded as renamed when both
+  footprints overlap by at least 98%, or split_precinct when the
+  old district covers at least 98% of the current precinct and
+  the current precinct covers less than 98% of the old district.
+  The remaining changes use boundary_overlap. Votes remain on their
+  original precinct rows.
+
+Historical graph groups
+  These memberships are from ORIG_NAME. HD labels are from
+  ENACTED_LOWER. Where a historical group spans several nodes,
+  the crosswalk links the relevant node IDs.
+  2324 (HD73): BALTIMORE VILLAGE B, LIBERTY C
+  2329 (HD69), 2330 (HD73): BLOOM A, BLOOM B, LITHOPOLIS VILLAGE, VIOLET D
+  2337 (HD73): COLUMBUS CITY A, COLUMBUS CITY E
+  2358 (HD73): LANCASTER CITY 3-A, PLEASANT E
+  2359 (HD73): LANCASTER CITY 3-B, LANCASTER CITY 3-D
+  2364 (HD73): LANCASTER CITY 4-C, PLEASANT D
+  2380 (HD73): PICKERINGTON CITY C, PICKERINGTON CITY F, PICKERINGTON CITY L, VIOLET B, VIOLET C
+  2382 (HD73): PICKERINGTON CITY E, VIOLET H
+  2388 (HD73): PICKERINGTON CITY M, VIOLET L
+  2400 (HD73): VIOLET F, VIOLET Q
+
+Boundary overlap records
+Precinct | Status | Graph IDs | Historical precincts and area shares
+BA-B | boundary_overlap | 2324 | BALTIMORE VILLAGE B (39045023ACS) 88.968%; LIBERTY C (39045023ACP) 11.018%
+CL-A | boundary_overlap | 2335;2336 | CLEARCREEK A (39045023ACB) 89.846%; CLEARCREEK B (39045023ACC) 10.008%
+COL-F | boundary_overlap | 2340;2341 | COLUMBUS CITY F (39045023AFF) 79.144%; COLUMBUS CITY D (39045023AEQ) 20.719%
+LAN-1A | boundary_overlap | 2370 | LANCASTER CITY 6-A (39045023AAY) 97.349%
+LAN-1E | boundary_overlap | 2345;2353 | LANCASTER CITY 1-E (39045023AFB) 90.193%; GREENFIELD D (39045023ACI) 8.340%
+LAN-2A | boundary_overlap | 2343;2354 | LANCASTER CITY 2-A (39045023AAF) 80.444%; GREENFIELD B (39045023ACG) 19.283%
+LAN-2B | boundary_overlap | 2354;2355 | LANCASTER CITY 2-B (39045023AAG) 92.302%; LANCASTER CITY 2-A (39045023AAF) 7.673%
+LAN-2C | boundary_overlap | 2342;2343;2356 | LANCASTER CITY 2-C (39045023AAH) 90.171%; GREENFIELD A (39045023ACF) 6.524%; GREENFIELD B (39045023ACG) 2.840%
+LAN-3B | boundary_overlap | 2355;2359 | LANCASTER CITY 3-B (39045023AAM) 65.158%; LANCASTER CITY 2-B (39045023AAG) 34.658%
+LAN-3C | boundary_overlap | 2355;2360 | LANCASTER CITY 3-C (39045023AAN) 65.889%; LANCASTER CITY 2-B (39045023AAG) 33.974%
+LAN-4B | boundary_overlap | 2358;2363 | LANCASTER CITY 4-B (39045023AAQ) 92.529%; PLEASANT E (39045023ADA) 7.375%
+LAN-5D | boundary_overlap | 2369;2373 | LANCASTER CITY 5-D (39045023AAX) 85.456%; LANCASTER CITY 6-D (39045023AFD) 13.779%
+LAN-6A | boundary_overlap | 2349;2350 | LANCASTER CITY 1-A (39045023AAA) 93.000%; LANCASTER CITY 1-B (39045023AAB) 6.834%
+LAN-6B | boundary_overlap | 2370;2371 | LANCASTER CITY 6-B (39045023AAZ) 82.105%; LANCASTER CITY 6-A (39045023AAY) 17.818%
+LIV-A | boundary_overlap | 2329;2330 | LITHOPOLIS VILLAGE (39045023ACA) 93.655%; BLOOM A (39045023ABT) 6.273%
+LIV-B | split_precinct | 2329;2330 | LITHOPOLIS VILLAGE (39045023ACA) 99.305%
+PIC-D | boundary_overlap | 2380;2381 | PICKERINGTON CITY F (39045023ABH) 54.169%; PICKERINGTON CITY D (39045023ABF) 24.699%; VIOLET B (39045023ADL) 17.910%; VIOLET C (39045023ADM) 3.217%
+PIC-G | boundary_overlap | 2383;2387 | PICKERINGTON CITY G (39045023ABI) 92.483%; PICKERINGTON CITY K (39045023AEV) 6.537%
+PIC-L | boundary_overlap | 2380 | PICKERINGTON CITY C (39045023ABE) 51.885%; PICKERINGTON CITY L (39045023AEW) 48.070%
+PIC-O | boundary_overlap | 2387;2390 | PICKERINGTON CITY O (39045023AFE) 90.631%; PICKERINGTON CITY K (39045023AEV) 9.338%
+PIC-P | boundary_overlap | 2388;2400 | PICKERINGTON CITY M (39045023AEX) 60.098%; VIOLET Q (39045023AEN) 39.497%
+PIC-Q | split_precinct | 2380 | PICKERINGTON CITY L (39045023AEW) 99.618%
+PL-F | boundary_overlap | 2391;2392 | PLEASANT A (39045023ACW) 62.582%; PLEASANT B (39045023ACX) 37.281%
+VI-B | boundary_overlap | 2380 | VIOLET B (39045023ADL) 86.854%; VIOLET C (39045023ADM) 13.105%
+VI-D | boundary_overlap | 2329;2330;2380 | VIOLET D (39045023ADN) 82.753%; VIOLET B (39045023ADL) 17.100%
+VI-G | boundary_overlap | 2400;2401 | VIOLET G (39045023ADQ) 52.240%; VIOLET Q (39045023AEN) 46.911%
+VI-I | boundary_overlap | 2402;2403 | VIOLET I (39045023ADS) 85.946%; VIOLET J (39045023ADT) 14.047%
+VI-M | boundary_overlap | 2380;2405 | VIOLET B (39045023ADL) 50.190%; VIOLET M (39045023ADW) 45.746%; VIOLET C (39045023ADM) 2.496%
+VI-P | boundary_overlap | 2401;2408 | VIOLET P (39045023ADZ) 87.718%; VIOLET G (39045023ADQ) 12.267%

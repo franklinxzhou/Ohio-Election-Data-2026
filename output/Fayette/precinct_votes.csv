@@ -1,0 +1,26 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Fayette,0001,Washington 1B,official,Raw/Fayette.pdf,2-7,2414,combined_node,160,199,178,184,165,205,164,208,163,198,168,205,162,206,167,201
+Fayette,0002,Washington 1C,official,Raw/Fayette.pdf,2-7,2414,combined_node,152,194,165,188,157,218,149,231,151,202,155,224,162,212,160,215
+Fayette,0003,Washington 2A,official,Raw/Fayette.pdf,2-7,2415,normalized,67,107,70,104,69,114,71,111,67,112,68,115,70,113,69,114
+Fayette,0004,Washington 2D,official,Raw/Fayette.pdf,2-7,2416,normalized,112,172,119,169,110,193,104,193,112,175,112,183,113,180,115,181
+Fayette,0005,Washington 3A,official,Raw/Fayette.pdf,2-7,2414,combined_node,114,192,116,200,109,217,106,220,108,205,114,212,112,215,111,211
+Fayette,0006,Washington 3D,official,Raw/Fayette.pdf,2-7,2414,combined_node,143,337,153,327,141,355,131,365,138,350,140,353,141,352,137,353
+Fayette,0007,Washington 3F,official,Raw/Fayette.pdf,2-7,2414,combined_node,188,455,206,435,173,500,178,499,178,472,173,499,170,493,180,488
+Fayette,0008,Washington 4A,official,Raw/Fayette.pdf,2-7,2417,normalized,164,361,176,364,162,386,156,395,169,371,164,385,159,385,169,380
+Fayette,0009,Washington 4B,official,Raw/Fayette.pdf,2-7,2414,combined_node,124,219,130,223,118,250,123,250,120,233,117,250,123,245,127,241
+Fayette,0010,Washington 4C,official,Raw/Fayette.pdf,2-7,2414,combined_node,96,150,103,142,96,164,96,160,97,148,100,158,96,157,97,162
+Fayette,0011,Washington 4D,official,Raw/Fayette.pdf,2-7,2414,combined_node,67,110,73,114,64,131,66,132,67,121,65,133,67,127,72,120
+Fayette,0012,Concord/Green,official,Raw/Fayette.pdf,2-7,2419,exact,96,383,106,392,90,426,95,420,89,409,86,426,93,420,93,420
+Fayette,0013,Jasper,official,Raw/Fayette.pdf,2-7,2420,exact,55,199,58,189,49,221,53,218,50,202,56,214,50,218,48,218
+Fayette,0014,Jeffersonville,official,Raw/Fayette.pdf,2-7,2423,exact,93,133,92,138,97,148,95,149,99,138,97,150,96,151,102,143
+Fayette,0015,Jefferson North,official,Raw/Fayette.pdf,2-7,2421,exact,35,183,44,181,29,197,32,196,33,191,29,199,32,198,37,188
+Fayette,0016,Jefferson South,official,Raw/Fayette.pdf,2-7,2422,exact,79,227,85,219,74,236,72,240,78,223,70,241,71,236,79,229
+Fayette,0017,Madison,official,Raw/Fayette.pdf,2-7,2424,exact,80,329,87,316,78,347,79,348,85,332,79,343,81,341,79,346
+Fayette,0018,Marion,official,Raw/Fayette.pdf,2-7,2425,exact,83,218,90,219,81,232,74,239,78,226,80,230,76,233,79,232
+Fayette,0019,Bloomingburg,official,Raw/Fayette.pdf,2-7,2418,exact,71,130,66,129,68,149,62,153,67,141,66,148,70,147,78,140
+Fayette,0020,Paint,official,Raw/Fayette.pdf,2-7,2426,exact,80,261,84,259,75,278,77,280,76,270,84,270,82,270,81,273
+Fayette,0021,Perry,official,Raw/Fayette.pdf,2-7,2427,exact,95,307,100,300,80,335,83,329,82,321,80,335,81,331,84,327
+Fayette,0022,Union East,official,Raw/Fayette.pdf,2-7,2414,combined_node,53,185,58,188,53,197,51,201,52,188,53,196,56,192,58,192
+Fayette,0023,Union North,official,Raw/Fayette.pdf,2-7,2428,exact,104,222,117,210,99,239,102,239,103,231,102,237,104,235,110,231
+Fayette,0024,Union South/West,official,Raw/Fayette.pdf,2-7,2414,combined_node,128,464,135,459,118,491,120,496,120,485,117,499,124,489,123,489
+Fayette,0025,Wayne,official,Raw/Fayette.pdf,2-7,2429,exact,97,417,109,410,103,445,98,450,102,426,105,439,101,441,108,438

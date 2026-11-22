@@ -1,0 +1,26 @@
+Fayette County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Fayette.pdf, scanned official Canvass Report (SOVC), generated
+  November 17, 2026 at 10:10 a.m. Precinct codes and names are on
+  page 1. Statewide precinct counts and county totals are on pp. 2-7.
+  https://www.boe.ohio.gov/fayette/c/elecres/20261103precinct.pdf
+  OH_pct20.json, nodes[].ORIG_NAME for historical graph membership.
+
+Combined graph node 2414 (all listed precincts use pp. 2-7)
+  0001 Washington 1B
+  0002 Washington 1C
+  0005 Washington 3A
+  0006 Washington 3D
+  0007 Washington 3F
+  0009 Washington 4B
+  0010 Washington 4C
+  0011 Washington 4D
+  0022 Union East
+  0024 Union South/West
+  ORIG_NAME = 1B_FAYETTE,1C_FAYETTE,3A_FAYETTE,3D_FAYETTE,3F_FAYETTE,4B_FAYETTE,4C_FAYETTE,4D_FAYETTE,UNION EAST_FAYETTE,UNION SOUTH/WEST_FAYETTE
+
+The graph drops the Washington prefix from the city precinct labels.
+Each precinct retains its own row. The crosswalk uses precinct names.
+Boundary continuity was not assessed.

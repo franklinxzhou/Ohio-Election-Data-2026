@@ -1,0 +1,110 @@
+Delaware County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Delaware.txt, November 3 numbered key canvass, run at 10:33 p.m.
+  The county lists this edition with its unofficial canvass. The
+  statewide precinct returns and repeated countywide control totals
+  are on report pages 6-45. The CSV uses the printed three-digit code.
+  https://vote.delawarecountyohio.gov/
+  https://vote.delawarecountyohio.gov/wp-content/uploads/2026/11/Number_Key_Canvass_421.txt
+  https://vote.delawarecountyohio.gov/event/official-canvass-continued/
+
+  Current polygons: Delaware County Precincts layer 0, queried with
+  where=1=1, outFields=precinctid,name, outSR=5070, and f=geojson.
+  https://services2.arcgis.com/ziXVKVy3BiopMCCU/ArcGIS/rest/services/Precincts/FeatureServer/0
+  Historical polygons: 2020 Census Voting Districts, state 39 and
+  county 041, outFields=BASENAME,GEOID, outSR=5070, and f=geojson.
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  OH_pct20.json, nodes[].ORIG_NAME and ENACTED_LOWER.
+
+Crosswalk method
+  Current polygons were joined with the five-digit report key and
+  intersected with Census districts in equal-area EPSG:5070.
+  Historical districts covering at least 2% of a current precinct
+  are retained. Each share is a percentage of current precinct area.
+  The same-name match applies when it is the sole retained historical
+  district, allowing the canvass's CITY qualifier and matching the
+  distinct Delaware A/B labels to Delaware TWP A/B.
+  A different single predecessor is recorded as renamed when both
+  footprints overlap by at least 98%, or split_precinct when the
+  historical district covers at least 98% of the current precinct
+  and the current precinct covers less than 98% of the historical
+  one. The other changed links use boundary_overlap.
+  Each current precinct keeps a separate row with its full vote counts.
+
+Historical graph groups
+  These groups come from ORIG_NAME. HD labels are from ENACTED_LOWER.
+  Historical polygons represent entire Census districts. Overlaps
+  with a district split across graph nodes link to the relevant group
+  of graph IDs without estimating shares for its individual pieces.
+  2142 (HD61): ASHLEY, OXFORD
+  2143 (HD61): BERKSHIRE A, SUNBURY C
+  2144 (HD60), 2145 (HD61): BERKSHIRE B, BERKSHIRE C, BERLIN B, BERLIN F, SUNBURY A
+  2146 (HD61): BERKSHIRE D, BERKSHIRE E, GALENA
+  2147 (HD60), 2148 (HD61): BERLIN A, BROWN, CONCORD D, DELAWARE 1-A, DELAWARE 1-C, DELAWARE 1-E, DELAWARE 1-G, DELAWARE 2-A, DELAWARE 2-D, DELAWARE 2-F, DELAWARE 2-G, DELAWARE 3-A, DELAWARE 3-C, DELAWARE 3-D, DELAWARE 3-E, DELAWARE 4-A, DELAWARE 4-B, DELAWARE 4-C, DELAWARE 4-F, DELAWARE 4-G, DELAWARE TWP A, DELAWARE TWP B, SCIOTO A, TROY A, TROY B
+  2149 (HD60), 2150 (HD61): BERLIN C, DELAWARE 3-F
+  2156 (HD60), 2157 (HD61): COLUMBUS D, GENOA K, ORANGE D, ORANGE K, WESTERVILLE A, WESTERVILLE G, WESTERVILLE I
+  2158 (HD60): COLUMBUS E, ORANGE U
+  2166 (HD60): CONCORD G, LIBERTY A, LIBERTY L, POWELL H, POWELL I, POWELL J, POWELL K
+  2167 (HD60): CONCORD H, SHAWNEE HILLS
+  2177 (HD60), 2178 (HD61): DELAWARE 3-G, LIBERTY C, LIBERTY M
+  2190 (HD61): GENOA E, GENOA R
+  2218 (HD60): LIBERTY K, POWELL G
+
+Boundary overlap records
+Code and precinct | Status | Graph IDs | Historical precincts and area shares
+004 Berkshire C | boundary_overlap | 2144;2145 | BERKSHIRE C (39041021AGD) 92.559%; BERKSHIRE B (39041021ABJ) 7.113%
+005 Berkshire D | boundary_overlap | 2144;2145;2146 | BERKSHIRE D (39041021AGF) 93.025%; BERKSHIRE B (39041021ABJ) 6.779%
+010 Berlin D | boundary_overlap | 2151;2152 | BERLIN D (39041021AEN) 97.698%; BERLIN E (39041021AFC) 2.286%
+012 Berlin F | boundary_overlap | 2144;2145;2147;2148 | BERLIN F (39041021AGL) 61.411%; BERLIN A (39041021ABN) 38.561%
+013 Berlin G | split_precinct | 2147;2148 | BERLIN A (39041021ABN) 98.703%
+015 Columbus City A | boundary_overlap | 2153;2156;2157 | COLUMBUS D (39041021AEV) 65.940%; COLUMBUS A (39041021AAA) 33.608%
+018 Columbus City D | boundary_overlap | 2154;2158;2160 | COLUMBUS B (39041021AEC) 56.448%; COLUMBUS G (39041021AGE) 32.809%; COLUMBUS E (39041021AFN) 10.738%
+019 Columbus City E | boundary_overlap | 2155;2158 | COLUMBUS E (39041021AFN) 69.634%; COLUMBUS C (39041021AEH) 18.124%; ORANGE U (39041021AGO) 12.241%
+021 Columbus City G | boundary_overlap | 2156;2157;2160 | COLUMBUS D (39041021AEV) 76.081%; COLUMBUS G (39041021AGE) 23.721%
+031 Concord J | boundary_overlap | 2168;2169 | CONCORD J (39041021AGM) 83.141%; CONCORD I (39041021AFX) 16.178%
+032 Concord K | boundary_overlap | 2161;2163 | CONCORD C (39041021ABU) 75.119%; CONCORD A (39041021ABS) 24.773%
+037 Delaware City 1-C | boundary_overlap | 2147;2148 | DELAWARE 1-C (39041021AAD) 92.214%; DELAWARE 2-D (39041021AAL) 7.627%
+039 Delaware City 1-E | boundary_overlap | 2147;2148 | DELAWARE 1-E (39041021AAF) 93.120%; TROY A (39041021ADW) 5.790%
+040 Delaware City 1-F | boundary_overlap | 2147;2148;2172 | DELAWARE 1-F (39041021AAG) 64.365%; DELAWARE 4-A (39041021AAR) 27.775%; DELAWARE 4-B (39041021AAS) 7.691%
+041 Delaware City 1-G | boundary_overlap | 2147;2148 | DELAWARE TWP A (39041021ABX) 57.816%; DELAWARE 1-G (39041021AAH) 42.068%
+042 Delaware City 1-H | boundary_overlap | 2147;2148;2173 | DELAWARE 2-A (39041021AAI) 37.213%; DELAWARE 2-B (39041021AAJ) 33.911%; DELAWARE 2-F (39041021AET) 28.694%
+043 Delaware City 2-A | boundary_overlap | 2147;2148;2173 | DELAWARE 2-A (39041021AAI) 74.995%; DELAWARE 2-B (39041021AAJ) 24.998%
+044 Delaware City 2-B | boundary_overlap | 2147;2148;2173 | DELAWARE 2-A (39041021AAI) 55.166%; DELAWARE 2-B (39041021AAJ) 44.804%
+046 Delaware City 2-D | boundary_overlap | 2147;2148;2176 | DELAWARE 2-D (39041021AAL) 79.753%; DELAWARE TWP A (39041021ABX) 10.771%; CONCORD D (39041021ABV) 3.432%; DELAWARE 3-D (39041021AAP) 3.365%; DELAWARE 3-B (39041021AAN) 2.495%
+048 Delaware City 2-F | boundary_overlap | 2147;2148 | DELAWARE 2-F (39041021AET) 68.963%; DELAWARE TWP A (39041021ABX) 31.017%
+050 Delaware City 2-H | boundary_overlap | 2147;2148 | DELAWARE 2-G (39041021AFB) 80.063%; DELAWARE TWP A (39041021ABX) 19.867%
+051 Delaware City 2-I | boundary_overlap | 2147;2148;2173 | DELAWARE 2-B (39041021AAJ) 55.720%; DELAWARE 2-G (39041021AFB) 44.274%
+052 Delaware City 3-A | boundary_overlap | 2147;2148;2179 | DELAWARE 3-H (39041021AGN) 65.459%; BERLIN A (39041021ABN) 34.446%
+054 Delaware City 3-C | boundary_overlap | 2147;2148 | DELAWARE 3-C (39041021AAO) 95.362%; DELAWARE 3-A (39041021AAM) 4.515%
+057 Delaware City 3-F | boundary_overlap | 2147;2148;2149;2150 | DELAWARE 3-F (39041021AFE) 68.572%; BERLIN C (39041021ABP) 27.085%; BERLIN A (39041021ABN) 4.339%
+059 Delaware City 3-H | boundary_overlap | 2147;2148 | DELAWARE 3-E (39041021AAQ) 77.062%; DELAWARE TWP B (39041021ABY) 22.839%
+060 Delaware City 3-I | boundary_overlap | 2147;2148;2149;2150 | DELAWARE 3-F (39041021AFE) 82.600%; DELAWARE TWP B (39041021ABY) 15.867%
+062 Delaware City 4-B | boundary_overlap | 2147;2148 | DELAWARE 4-B (39041021AAS) 78.599%; DELAWARE 2-D (39041021AAL) 21.288%
+064 Delaware City 4-D | boundary_overlap | 2147;2148;2180 | DELAWARE 4-D (39041021AAU) 97.675%; DELAWARE 4-C (39041021AAT) 2.231%
+065 Delaware City 4-E | boundary_overlap | 2147;2148;2181 | BROWN (39041021ABQ) 42.466%; DELAWARE 4-E (39041021AAV) 37.583%; DELAWARE TWP A (39041021ABX) 19.949%
+067 Delaware City 4-G | boundary_overlap | 2147;2148 | DELAWARE 4-G (39041021AGI) 74.081%; BROWN (39041021ABQ) 20.509%; DELAWARE TWP A (39041021ABX) 5.384%
+068 Delaware City 4-H | split_precinct | 2147;2148 | DELAWARE 3-A (39041021AAM) 99.753%
+069 Delaware City 4-I | split_precinct | 2147;2148 | DELAWARE 4-F (39041021AAW) 99.926%
+074 Galena | boundary_overlap | 2146 | GALENA (39041021ABH) 82.963%; BERKSHIRE E (39041021AGG) 16.559%
+094 Genoa T | boundary_overlap | 2200;2203 | GENOA T (39041021AGH) 71.561%; GENOA P (39041021AFF) 28.391%
+101 Liberty A | boundary_overlap | 2166;2219 | LIBERTY A (39041021ACN) 79.516%; LIBERTY N (39041021AGK) 20.196%
+107 Liberty G | boundary_overlap | 2214;2215 | LIBERTY G (39041021ACT) 77.908%; LIBERTY H (39041021ACU) 22.053%
+109 Liberty I | boundary_overlap | 2166;2216 | LIBERTY I (39041021AEG) 75.706%; LIBERTY A (39041021ACN) 24.243%
+115 Liberty O | boundary_overlap | 2213;2214;2218 | LIBERTY F (39041021ACS) 57.853%; LIBERTY G (39041021ACT) 38.363%; LIBERTY K (39041021AEQ) 3.079%
+116 Liberty P | split_precinct | 2219 | LIBERTY N (39041021AGK) 98.399%
+123 Orange F | boundary_overlap | 2225;2234;2237 | ORANGE S (39041021AGB) 74.404%; ORANGE F (39041021ADG) 22.351%; ORANGE P (39041021AFR) 3.238%
+126 Orange I | boundary_overlap | 2225;2228 | ORANGE I (39041021ADZ) 75.263%; ORANGE F (39041021ADG) 24.418%
+133 Orange P | boundary_overlap | 2228;2234 | ORANGE P (39041021AFR) 96.194%; ORANGE I (39041021ADZ) 3.677%
+135 Orange R | boundary_overlap | 2230;2236 | ORANGE R (39041021AGA) 55.170%; ORANGE L (39041021AER) 44.410%
+139 Orange V | split_precinct | 2221 | ORANGE A (39041021ADB) 98.911%
+140 Orange W | split_precinct | 2237 | ORANGE S (39041021AGB) 99.884%
+141 Ostrander | boundary_overlap | 2239;2249 | OSTRANDER (39041021ADQ) 88.699%; SCIOTO B (39041021ADS) 11.301%
+154 Powell City J | boundary_overlap | 2166;2219 | POWELL J (39041021AFU) 92.801%; LIBERTY N (39041021AGK) 4.865%
+155 Powell City K | boundary_overlap | 2166;2219 | POWELL K (39041021AGQ) 79.511%; LIBERTY N (39041021AGK) 9.562%; LIBERTY A (39041021ACN) 8.652%
+156 Powell City L | split_precinct | 2166 | POWELL J (39041021AFU) 99.854%
+161 Sunbury City A | boundary_overlap | 2144;2145 | SUNBURY A (39041021ABK) 86.628%; BERKSHIRE B (39041021ABJ) 8.452%; BERLIN F (39041021AGL) 4.685%
+162 Sunbury City B | boundary_overlap | 2146;2250;2254 | TRENTON B (39041021ADV) 72.341%; SUNBURY B (39041021ABL) 17.698%; BERKSHIRE E (39041021AGG) 9.958%
+165 Sunbury City E | boundary_overlap | 2144;2145;2251 | SUNBURY A (39041021ABK) 73.038%; SUNBURY D (39041021AFI) 26.688%
+166 Sunbury City F | split_precinct | 2250 | SUNBURY B (39041021ABL) 99.979%

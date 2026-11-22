@@ -1,0 +1,38 @@
+Erie County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Erie.pdf, official precinct canvass dated November 16, 2026.
+  The CSV cites the pages with statewide votes. County polling-place
+  listings also identify the shortened names by precinct code.
+  https://www.boe.ohio.gov/erie/c/elecres/20261103precinct.pdf
+  https://www.boe.ohio.gov/erie/c/polls/pollplaces.pdf
+  OH_pct20.json, nodes[].ORIG_NAME for historical membership.
+
+Combined graph node 2270
+  0002 HUR B (pp. 8,9,10,11)
+  0010 SAN D (pp. 67,68,69,70)
+  ORIG_NAME = HUR B_ERIE,SAN D_ERIE,VOTING DISTRICTS NOT DEFINED_ERIE
+
+Combined graph node 2277
+  0040 HUR TWP #3 (pp. 308,309,310,311)
+  0050 PER TWP #3 (pp. 384,385,386,387)
+  ORIG_NAME = HURON TWP #3_ERIE,PERKINS TWP #3_ERIE
+
+  VOTING DISTRICTS NOT DEFINED in node 2270 is a historical label
+  without a separately reported 2026 precinct row.
+
+Label differences
+  BER VILL = BERLIN HEIGHTS VILLAGE
+  KI VILL = KELLEYS ISLAND VILLAGE
+  BV VILL = BAY VIEW VILLAGE
+  CAST VILL = CASTALIA VILLAGE
+  MIL VILL = MILAN VILL
+
+  Township abbreviations expand as follows: BER = BERLIN,
+  FLO = FLORENCE, GRO = GROTON, HUR = HURON, MAR = MARGARETTA,
+  MIL = MILAN, OX = OXFORD, PER = PERKINS, VER = VERMILION.
+  VER also expands to VERMILION for the five city ward precincts.
+
+The graph crosswalk uses the precinct labels. Boundary continuity was
+not assessed. Each precinct retains its own vote row.
