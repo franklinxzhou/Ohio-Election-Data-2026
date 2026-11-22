@@ -1,0 +1,34 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Defiance,001,DEFIANCE CITY 1-C,official,Raw/Defiance.pdf,"1,5,9,13,17,21,25,29",2116,exact,295,354,308,346,280,398,283,393,285,378,287,388,282,393,286,388
+Defiance,002,DEFIANCE CITY 1-E,official,Raw/Defiance.pdf,"1,5,9,13,17,21,25,29",2117,exact,259,351,261,350,248,377,248,375,248,359,256,366,252,372,259,368
+Defiance,003,DEFIANCE CITY 1-H,official,Raw/Defiance.pdf,"1,5,9,13,17,21,25,29",2118,exact,236,238,251,236,241,259,244,261,239,254,245,256,240,262,255,245
+Defiance,004,DEFIANCE CITY 2-A,official,Raw/Defiance.pdf,"1,5,9,13,17,21,25,29",2119,exact,194,169,210,162,201,184,201,185,201,165,209,173,205,183,214,170
+Defiance,005,DEFIANCE CITY 2-C,official,Raw/Defiance.pdf,"1,5,9,13,17,21,25,29",2120,exact,159,149,168,151,161,178,167,173,160,163,170,169,164,177,169,169
+Defiance,006,DEFIANCE CITY 2-D,official,Raw/Defiance.pdf,"1,5,9,13,17,21,25,29",2121,exact,321,294,344,286,332,317,323,329,325,297,326,316,341,307,337,308
+Defiance,007,DEFIANCE CITY 3-B,official,Raw/Defiance.pdf,"1,5,9,13,17,21,25,29",2122,combined_node,227,303,247,308,237,338,234,346,219,334,238,339,236,335,239,335
+Defiance,008,DEFIANCE CITY 3-C,official,Raw/Defiance.pdf,"1,5,9,13,17,21,25,29",2123,exact,134,151,141,153,138,179,139,176,139,163,144,173,142,175,145,171
+Defiance,009,DEFIANCE CITY 3-D,official,Raw/Defiance.pdf,"1,5,9,13,17,21,25,29",2124,combined_node,256,411,271,404,246,441,251,439,240,426,248,436,244,441,249,438
+Defiance,010,DEFIANCE CITY 4-A,official,Raw/Defiance.pdf,"2,6,10,14,18,22,26,30",2125,exact,176,190,186,205,194,220,183,226,181,212,183,224,188,220,193,219
+Defiance,011,DEFIANCE CITY 4-C,official,Raw/Defiance.pdf,"2,6,10,14,18,22,26,30",2124,combined_node,184,230,189,233,195,247,183,261,183,239,185,255,197,246,193,247
+Defiance,012,DEFIANCE CITY 4-D,official,Raw/Defiance.pdf,"2,6,10,14,18,22,26,30",2124,combined_node,164,197,176,193,167,218,174,209,173,196,175,204,176,205,174,206
+Defiance,013,ADAMS TWP,official,Raw/Defiance.pdf,"2,6,10,14,18,22,26,30",2115,exact,114,326,124,321,95,365,101,363,101,343,105,356,95,359,105,354
+Defiance,014,DEFIANCE TWP A,official,Raw/Defiance.pdf,"2,6,10,14,18,22,26,30",2126,exact,72,179,72,177,77,189,74,192,74,188,73,195,80,188,75,193
+Defiance,015,DEFIANCE TWP B,official,Raw/Defiance.pdf,"2,6,10,14,18,22,26,30",2127,exact,156,331,164,329,159,356,157,358,159,335,159,351,160,356,164,353
+Defiance,016,DELAWARE TWP,official,Raw/Defiance.pdf,"2,6,10,14,18,22,26,30",2128,exact,142,370,159,360,139,410,145,403,138,388,137,409,139,409,152,397
+Defiance,017,FARMER TWP,official,Raw/Defiance.pdf,"2,6,10,14,18,22,26,30",2129,exact,74,294,92,286,84,321,84,322,82,300,85,314,83,316,87,313
+Defiance,018,HICKSVILLE TWP,official,Raw/Defiance.pdf,"2,6,10,14,18,22,26,30",2130,exact,116,484,125,478,119,510,125,504,121,489,125,504,127,504,128,502
+Defiance,019,HICKSVILLE VILLAGE A,official,Raw/Defiance.pdf,"2,6,10,14,18,22,26,30",2131,exact,97,156,108,161,107,172,118,157,108,155,110,165,110,169,112,168
+Defiance,020,HICKSVILLE VILLAGE B,official,Raw/Defiance.pdf,"3,7,11,15,19,23,27,31",2132,exact,95,206,106,213,101,232,91,243,93,226,92,241,98,236,97,234
+Defiance,021,HICKSVILLE VILLAGE C,official,Raw/Defiance.pdf,"3,7,11,15,19,23,27,31",2133,exact,100,214,100,219,103,236,106,235,104,221,99,238,103,235,101,234
+Defiance,022,HIGHLAND TWP A,official,Raw/Defiance.pdf,"3,7,11,15,19,23,27,31",2124,combined_node,144,278,146,285,150,293,147,295,144,293,146,294,152,292,152,290
+Defiance,023,HIGHLAND TWP B,official,Raw/Defiance.pdf,"3,7,11,15,19,23,27,31",2134,exact,155,347,180,330,161,364,156,375,155,360,158,367,156,370,159,369
+Defiance,024,MARK TWP,official,Raw/Defiance.pdf,"3,7,11,15,19,23,27,31",2135,exact,81,219,91,208,78,233,80,232,76,222,81,226,81,230,82,231
+Defiance,025,MILFORD TWP,official,Raw/Defiance.pdf,"3,7,11,15,19,23,27,31",2136,exact,82,295,92,288,81,318,81,317,80,307,80,317,79,320,79,318
+Defiance,026,NEY VILLAGE,official,Raw/Defiance.pdf,"3,7,11,15,19,23,27,31",2137,exact,39,60,43,60,42,65,42,65,40,65,39,66,41,65,42,64
+Defiance,027,NOBLE TWP A,official,Raw/Defiance.pdf,"3,7,11,15,19,23,27,31",2122,combined_node,174,241,189,234,176,267,181,264,170,259,177,265,180,263,186,262
+Defiance,028,NOBLE TWP B,official,Raw/Defiance.pdf,"3,7,11,15,19,23,27,31",2138,exact,191,362,205,360,178,406,175,406,185,375,180,400,186,396,191,388
+Defiance,029,NORTH RICHLAND TWP,official,Raw/Defiance.pdf,"3,7,11,15,19,23,27,31",2124,combined_node,107,173,124,158,104,189,106,186,101,180,101,190,101,190,109,182
+Defiance,030,SHERWOOD VILLAGE,official,Raw/Defiance.pdf,"4,8,12,16,20,24,28,32",2139,exact,79,155,93,150,87,171,79,180,74,164,82,174,86,171,82,176
+Defiance,031,SOUTH RICHLAND TWP,official,Raw/Defiance.pdf,"4,8,12,16,20,24,28,32",2124,combined_node,62,183,74,173,63,197,64,196,60,191,58,197,60,196,66,191
+Defiance,032,TIFFIN TWP,official,Raw/Defiance.pdf,"4,8,12,16,20,24,28,32",2140,exact,205,404,221,405,197,472,200,463,197,439,197,457,203,457,212,451
+Defiance,033,WASHINGTON TWP,official,Raw/Defiance.pdf,"4,8,12,16,20,24,28,32",2141,exact,135,357,139,354,126,388,132,378,129,373,132,380,131,381,141,368

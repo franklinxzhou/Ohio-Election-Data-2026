@@ -1,0 +1,26 @@
+Defiance County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Defiance.pdf, Official Canvass Statement of Votes Cast, November 12,
+  2026. Precinct vote counts sum the Normal, Absentee, and Provisional
+  rows. The countywide Total rows are on pp. 4, 8, 12, 16, 20, 24, 28, 32.
+  https://www.boe.ohio.gov/defiance/c/elecres/20261103precinct.pdf
+  OH_pct20.json, nodes[].ORIG_NAME for historical precinct membership.
+
+Combined graph node 2122
+  007 DEFIANCE CITY 3-B (pp. 1,5,9,13,17,21,25,29)
+  027 NOBLE TWP A (pp. 3,7,11,15,19,23,27,31)
+  ORIG_NAME = DEFIANCE CITY 3-B_DEFIANCE,NOBLE TWP A_DEFIANCE
+
+Combined graph node 2124
+  009 DEFIANCE CITY 3-D (pp. 1,5,9,13,17,21,25,29)
+  011 DEFIANCE CITY 4-C (pp. 2,6,10,14,18,22,26,30)
+  012 DEFIANCE CITY 4-D (pp. 2,6,10,14,18,22,26,30)
+  022 HIGHLAND TWP A (pp. 3,7,11,15,19,23,27,31)
+  029 NORTH RICHLAND TWP (pp. 3,7,11,15,19,23,27,31)
+  031 SOUTH RICHLAND TWP (pp. 4,8,12,16,20,24,28,32)
+  ORIG_NAME = DEFIANCE CITY 3-D_DEFIANCE,DEFIANCE CITY 4-C_DEFIANCE,DEFIANCE CITY 4-D_DEFIANCE,HIGHLAND TWP A_DEFIANCE,NORTH RICHLAND TWP_DEFIANCE,SOUTH RICHLAND TWP_DEFIANCE
+
+Each precinct keeps its own vote row. The crosswalk follows precinct
+names. Boundary continuity was not assessed.
