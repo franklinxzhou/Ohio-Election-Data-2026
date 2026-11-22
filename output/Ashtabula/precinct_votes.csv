@@ -1,0 +1,105 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Ashtabula,001,Ashtabula City 1A,official,Raw/Ashtabula.pdf,1-3,140,combined_node,278,187,283,184,274,205,271,219,269,201,272,210,281,205,275,209
+Ashtabula,002,Ashtabula City 1B,official,Raw/Ashtabula.pdf,8-10,141,normalized,212,150,209,150,199,171,207,172,206,158,205,169,211,165,208,169
+Ashtabula,003,Ashtabula City 1C,official,Raw/Ashtabula.pdf,15-17,142,normalized,219,109,210,114,219,120,204,143,211,111,222,120,212,132,220,127
+Ashtabula,004,Ashtabula City 1D,official,Raw/Ashtabula.pdf,22-24,143,normalized,156,78,153,84,159,87,154,98,149,90,156,92,160,93,158,91
+Ashtabula,005,Ashtabula City 2A,official,Raw/Ashtabula.pdf,29-31,144,normalized,215,117,208,109,212,120,213,129,210,118,215,121,213,126,212,125
+Ashtabula,006,Ashtabula City 2B,official,Raw/Ashtabula.pdf,36-38,145,normalized,205,128,214,124,212,139,210,152,208,130,210,146,210,150,215,146
+Ashtabula,007,Ashtabula City 2C,official,Raw/Ashtabula.pdf,43-45,146,normalized,115,70,116,69,111,70,112,78,117,73,114,75,114,72,111,78
+Ashtabula,008,Ashtabula City 2D,official,Raw/Ashtabula.pdf,50-52,147,normalized,80,51,86,43,81,57,85,60,83,56,87,57,88,57,88,57
+Ashtabula,009,Ashtabula City 3A,official,Raw/Ashtabula.pdf,57-59,148,normalized,45,12,42,16,44,18,40,22,42,16,43,18,46,16,47,15
+Ashtabula,010,Ashtabula City 3B,official,Raw/Ashtabula.pdf,64-66,149,normalized,53,41,50,38,51,42,53,44,54,43,57,41,58,41,55,43
+Ashtabula,011,Ashtabula City 3C,official,Raw/Ashtabula.pdf,71-73,150,normalized,78,47,74,51,77,54,77,55,73,52,79,53,78,54,77,55
+Ashtabula,012,Ashtabula City 3D,official,Raw/Ashtabula.pdf,78-80,151,normalized,90,25,90,25,90,28,93,26,92,25,89,28,95,25,89,29
+Ashtabula,013,Ashtabula City 4A,official,Raw/Ashtabula.pdf,85-87,152,normalized,63,39,62,35,61,42,67,42,64,39,66,41,67,40,66,41
+Ashtabula,014,Ashtabula City 4B,official,Raw/Ashtabula.pdf,92-94,153,normalized,86,53,85,48,79,52,84,56,87,51,87,54,89,51,86,53
+Ashtabula,015,Ashtabula City 4C,official,Raw/Ashtabula.pdf,99-101,154,normalized,120,68,128,70,124,78,126,80,123,73,131,71,128,77,130,73
+Ashtabula,016,Ashtabula City 4D,official,Raw/Ashtabula.pdf,106-108,155,normalized,186,143,188,148,175,170,185,167,183,157,179,168,190,163,186,165
+Ashtabula,017,Ashtabula City 5A,official,Raw/Ashtabula.pdf,113-115,156,normalized,61,40,61,42,64,45,66,47,62,48,67,47,65,49,68,46
+Ashtabula,018,Ashtabula City 5B,official,Raw/Ashtabula.pdf,120-122,157,normalized,65,30,62,31,63,37,65,37,64,35,65,37,65,35,64,37
+Ashtabula,019,Ashtabula City 5C,official,Raw/Ashtabula.pdf,127-129,158,normalized,145,138,144,132,146,148,144,156,148,137,149,148,151,150,150,150
+Ashtabula,020,Ashtabula City 5D,official,Raw/Ashtabula.pdf,134-136,159,normalized,83,48,89,50,86,56,95,56,93,52,89,57,96,54,93,56
+Ashtabula,021,Conneaut City 1A,official,Raw/Ashtabula.pdf,141-143,170,normalized,94,82,101,76,97,86,98,91,100,81,102,86,103,86,102,85
+Ashtabula,022,Conneaut City 1B,official,Raw/Ashtabula.pdf,148-150,171,normalized,79,121,83,118,79,126,78,132,79,119,77,122,83,124,73,133
+Ashtabula,023,Conneaut City 1C,official,Raw/Ashtabula.pdf,155-157,172,normalized,172,127,181,116,174,140,176,147,170,143,173,146,176,146,179,142
+Ashtabula,024,Conneaut City 2A,official,Raw/Ashtabula.pdf,162-164,173,normalized,167,146,181,144,163,171,165,175,165,163,161,173,171,170,169,171
+Ashtabula,025,Conneaut City 2B,official,Raw/Ashtabula.pdf,169-171,174,normalized,244,175,254,169,240,207,238,218,239,191,242,203,248,202,241,212
+Ashtabula,026,Conneaut City 2C,official,Raw/Ashtabula.pdf,176-178,175,normalized,158,210,159,208,156,221,152,235,155,221,158,224,159,225,158,224
+Ashtabula,027,Conneaut City 3A,official,Raw/Ashtabula.pdf,183-185,176,normalized,102,113,106,110,103,125,103,128,101,120,105,120,107,120,109,118
+Ashtabula,028,Conneaut City 3B,official,Raw/Ashtabula.pdf,190-192,177,normalized,143,153,145,146,144,160,145,163,147,153,148,157,155,156,157,152
+Ashtabula,029,Conneaut City 3C,official,Raw/Ashtabula.pdf,197-199,178,normalized,146,100,150,93,139,107,137,113,145,101,145,107,142,110,142,110
+Ashtabula,030,Conneaut City 3D,official,Raw/Ashtabula.pdf,204-206,179,normalized,141,115,140,116,141,127,141,129,142,118,140,126,140,128,139,128
+Ashtabula,031,Conneaut City 4A,official,Raw/Ashtabula.pdf,211-213,180,normalized,84,70,88,76,82,89,80,95,84,83,89,85,85,90,84,90
+Ashtabula,032,Conneaut City 4B,official,Raw/Ashtabula.pdf,218-220,181,normalized,190,114,184,114,183,128,190,133,189,122,189,128,189,131,193,127
+Ashtabula,033,Conneaut City 4C,official,Raw/Ashtabula.pdf,225-227,182,normalized,54,43,55,43,49,57,51,58,53,47,52,55,50,60,51,58
+Ashtabula,034,Geneva City 1,official,Raw/Ashtabula.pdf,232-234,186,normalized,177,113,190,108,174,129,171,136,178,122,181,122,179,126,181,126
+Ashtabula,035,Geneva City 2,official,Raw/Ashtabula.pdf,239-241,187,normalized,205,210,220,212,210,246,208,252,207,241,209,246,217,241,212,243
+Ashtabula,036,Geneva City 3,official,Raw/Ashtabula.pdf,246-248,188,normalized,114,113,117,117,122,121,115,130,116,121,120,120,123,124,114,134
+Ashtabula,037,Geneva City 4,official,Raw/Ashtabula.pdf,253-255,189,normalized,79,105,83,101,84,114,81,121,78,115,81,113,85,115,84,116
+Ashtabula,038,Geneva City 5,official,Raw/Ashtabula.pdf,260-262,190,normalized,65,83,71,86,70,86,67,93,64,91,69,87,66,91,67,87
+Ashtabula,039,Geneva City 6,official,Raw/Ashtabula.pdf,267-269,191,normalized,151,159,152,152,150,169,154,175,150,164,155,171,160,170,160,169
+Ashtabula,040,Geneva City 7,official,Raw/Ashtabula.pdf,274-276,192;193,split_nodes,173,122,177,124,165,143,166,146,169,132,167,139,174,135,167,139
+Ashtabula,041,Andover Village,official,Raw/Ashtabula.pdf,281-283,139,exact,125,224,134,205,119,242,119,250,121,240,127,237,126,241,124,239
+Ashtabula,042,Andover Township 1,official,Raw/Ashtabula.pdf,288-290,138,combined_node,131,240,137,232,131,263,128,272,133,255,136,263,133,268,138,260
+Ashtabula,043,Andover Township 2,official,Raw/Ashtabula.pdf,295-297,138,combined_node,89,135,90,132,77,152,84,156,82,150,82,152,84,153,88,147
+Ashtabula,044,Ashtabula Township 1,official,Raw/Ashtabula.pdf,302-304,160,normalized,141,125,146,124,145,134,141,144,145,133,142,139,148,138,146,140
+Ashtabula,045,Ashtabula Township 2,official,Raw/Ashtabula.pdf,310-312,161,normalized,195,237,213,227,193,263,198,266,198,248,205,253,203,259,207,254
+Ashtabula,046,Ashtabula Township 3,official,Raw/Ashtabula.pdf,318-320,162,normalized,67,84,67,81,68,86,68,91,72,85,68,88,73,86,70,87
+Ashtabula,047,Ashtabula Township 4,official,Raw/Ashtabula.pdf,326-328,163,normalized,209,161,214,158,206,183,203,190,200,179,205,183,201,187,209,181
+Ashtabula,048,Ashtabula Township 5,official,Raw/Ashtabula.pdf,334-336,164,normalized,131,146,136,145,128,156,127,163,130,150,127,157,135,154,130,159
+Ashtabula,049,Ashtabula Township 6,official,Raw/Ashtabula.pdf,342-344,165,normalized,107,156,112,152,105,173,106,176,106,169,113,164,115,171,109,174
+Ashtabula,050,Austinburg Township 1,official,Raw/Ashtabula.pdf,350-352,166,normalized,198,344,206,335,187,370,176,389,186,357,182,369,188,364,190,365
+Ashtabula,051,Austinburg Township 2,official,Raw/Ashtabula.pdf,358-360,167,normalized,193,252,200,257,183,284,181,293,188,273,189,275,182,286,181,287
+Ashtabula,052,Cherry Valley Township,official,Raw/Ashtabula.pdf,366-368,168,normalized,79,146,81,149,80,167,76,174,76,169,79,170,77,173,82,168
+Ashtabula,053,Colebrook Township,official,Raw/Ashtabula.pdf,373-375,169,normalized,93,183,109,175,92,199,86,208,95,192,90,198,95,199,94,200
+Ashtabula,054,Denmark Township,official,Raw/Ashtabula.pdf,380-382,183,normalized,87,165,86,160,84,182,79,192,81,177,81,187,83,185,85,182
+Ashtabula,055,Dorset Township,official,Raw/Ashtabula.pdf,387-389,184,normalized,91,191,99,187,89,214,88,223,83,211,95,209,95,213,87,218
+Ashtabula,056,Geneva on the Lake Village,official,Raw/Ashtabula.pdf,394-396,185,normalized,148,154,151,151,146,171,150,176,147,161,151,174,146,179,159,169
+Ashtabula,057,Geneva Township 1,official,Raw/Ashtabula.pdf,401-403,194;195,split_nodes,230,303,234,310,226,335,226,351,223,325,229,336,224,343,239,327
+Ashtabula,058,Geneva Township 2,official,Raw/Ashtabula.pdf,409-411,196,normalized,115,193,117,191,105,211,113,212,107,197,109,203,114,204,115,201
+Ashtabula,059,Geneva Township 3,official,Raw/Ashtabula.pdf,417-419,197,normalized,93,111,93,117,88,127,88,133,89,121,89,122,91,121,93,122
+Ashtabula,060,Harpersfield Township 1,official,Raw/Ashtabula.pdf,425-427,198,normalized,166,245,179,232,163,264,160,273,159,254,161,259,168,263,164,265
+Ashtabula,061,Harpersfield Township 2,official,Raw/Ashtabula.pdf,432-434,199;200,split_nodes,166,243,170,242,151,269,150,272,150,262,151,264,162,263,156,268
+Ashtabula,062,Harpersfield Township 3,official,Raw/Ashtabula.pdf,439-441,201,normalized,162,215,175,206,161,232,161,237,162,224,163,231,164,229,168,225
+Ashtabula,063,Hartsgrove Township,official,Raw/Ashtabula.pdf,446-448,202,normalized,148,356,153,356,146,379,136,393,133,369,136,382,142,383,143,382
+Ashtabula,064,Jefferson Village 1,official,Raw/Ashtabula.pdf,453-455,203,normalized,97,143,99,137,103,156,90,173,98,152,93,164,99,163,99,162
+Ashtabula,065,Jefferson Village 2,official,Raw/Ashtabula.pdf,461-463,204,normalized,232,280,254,266,233,309,235,321,245,292,240,308,243,307,247,306
+Ashtabula,066,Jefferson Village 3,official,Raw/Ashtabula.pdf,469-471,205,normalized,170,210,172,207,154,237,155,247,168,222,168,223,166,229,166,231
+Ashtabula,067,Jefferson Township 1,official,Raw/Ashtabula.pdf,477-479,207,combined_node,88,159,92,156,87,177,89,181,86,165,91,177,89,181,92,177
+Ashtabula,068,Jefferson Township 2,official,Raw/Ashtabula.pdf,484-486,207,combined_node,80,157,85,153,70,174,73,172,68,164,69,173,79,164,73,169
+Ashtabula,069,Jefferson Township 3,official,Raw/Ashtabula.pdf,491-493,206,normalized,115,196,124,182,99,222,105,227,109,212,107,219,112,219,110,218
+Ashtabula,070,Kingsville Township 1,official,Raw/Ashtabula.pdf,498-500,208,normalized,132,197,135,194,128,211,128,227,129,209,129,214,131,221,134,219
+Ashtabula,071,Kingsville Township 2,official,Raw/Ashtabula.pdf,505-507,209,normalized,148,214,155,209,151,235,146,247,145,231,155,233,155,235,148,242
+Ashtabula,072,Lenox Township 1,official,Raw/Ashtabula.pdf,512-514,210,normalized,80,197,88,199,82,217,80,225,78,212,84,215,82,223,83,223
+Ashtabula,073,Lenox Township 2,official,Raw/Ashtabula.pdf,519-521,211,normalized,83,178,95,170,87,183,91,190,86,179,86,188,88,188,87,189
+Ashtabula,074,Monroe Township 1,official,Raw/Ashtabula.pdf,526-528,212,normalized,137,263,151,253,140,283,137,296,137,283,137,289,138,289,149,281
+Ashtabula,075,Monroe Township 2,official,Raw/Ashtabula.pdf,533-535,213,normalized,89,258,92,249,90,281,95,288,89,273,102,274,101,277,100,280
+Ashtabula,076,Rock Creek Village,official,Raw/Ashtabula.pdf,540-542,225,exact,89,102,89,101,91,118,85,129,85,118,89,122,93,119,90,122
+Ashtabula,077,Morgan Township,official,Raw/Ashtabula.pdf,547-549,214,normalized,124,209,132,208,117,237,115,241,118,228,121,231,122,234,121,236
+Ashtabula,078,New Lyme Township,official,Raw/Ashtabula.pdf,554-556,218,normalized,131,250,145,246,128,272,132,280,131,264,139,265,141,264,135,270
+Ashtabula,079,North Kingsville Village 1,official,Raw/Ashtabula.pdf,561-563,215,normalized,223,216,231,203,208,229,206,247,207,226,214,226,225,220,225,219
+Ashtabula,080,North Kingsville Village 2,official,Raw/Ashtabula.pdf,568-570,216,normalized,253,276,261,265,246,304,251,313,246,298,250,309,258,305,257,305
+Ashtabula,081,North Kingsville Village 3,official,Raw/Ashtabula.pdf,575-577,217,normalized,84,106,84,105,85,112,83,118,87,109,86,115,86,115,85,117
+Ashtabula,082,Orwell Village,official,Raw/Ashtabula.pdf,582-584,219,combined_node,165,225,177,216,163,242,172,253,171,233,167,244,174,246,174,245
+Ashtabula,083,Orwell Township,official,Raw/Ashtabula.pdf,589-591,219,combined_node,116,232,121,225,114,252,113,258,116,242,118,250,117,251,119,245
+Ashtabula,084,Pierpont Township,official,Raw/Ashtabula.pdf,596-598,220,normalized,144,218,142,218,131,240,131,248,131,226,139,232,138,237,134,242
+Ashtabula,085,Plymouth Township 1,official,Raw/Ashtabula.pdf,603-605,221,normalized,141,178,141,184,139,200,134,209,137,196,143,195,141,202,138,203
+Ashtabula,086,Plymouth Township 2,official,Raw/Ashtabula.pdf,610-612,222,normalized,218,308,218,302,222,334,212,352,217,330,228,329,224,335,221,341
+Ashtabula,087,Richmond Township,official,Raw/Ashtabula.pdf,617-619,223,normalized,91,197,103,195,89,225,83,235,83,215,89,221,88,226,92,222
+Ashtabula,088,Roaming Shores Village,official,Raw/Ashtabula.pdf,624-626,224,exact,255,446,270,437,241,480,240,497,247,461,252,474,258,467,249,477
+Ashtabula,089,Rome Township,official,Raw/Ashtabula.pdf,631-633,226,normalized,108,198,109,207,105,228,99,240,109,214,108,228,105,234,107,229
+Ashtabula,090,Saybrook Township 1,official,Raw/Ashtabula.pdf,638-640,227,normalized,94,162,101,150,88,176,92,177,85,171,93,171,92,172,89,175
+Ashtabula,091,Saybrook Township 2,official,Raw/Ashtabula.pdf,645-647,228,normalized,141,139,142,136,136,154,140,159,133,148,141,146,145,150,142,153
+Ashtabula,092,Saybrook Township 3,official,Raw/Ashtabula.pdf,652-654,229,normalized,174,159,189,146,167,172,165,185,180,157,177,169,174,173,172,178
+Ashtabula,093,Saybrook Township 4,official,Raw/Ashtabula.pdf,659-661,230,normalized,168,188,170,179,164,198,164,209,171,196,169,198,173,195,175,195
+Ashtabula,094,Saybrook Township 5,official,Raw/Ashtabula.pdf,666-668,231,normalized,219,211,228,192,212,220,216,232,212,221,215,221,218,223,217,225
+Ashtabula,095,Saybrook Township 6,official,Raw/Ashtabula.pdf,673-675,140,combined_node,278,193,289,181,270,206,269,215,278,194,273,205,281,201,278,203
+Ashtabula,096,Saybrook Township 7,official,Raw/Ashtabula.pdf,680-682,232,normalized,95,150,97,147,86,164,86,171,86,159,92,161,86,166,89,165
+Ashtabula,097,Saybrook Township 8,official,Raw/Ashtabula.pdf,687-689,233,normalized,125,103,129,101,127,109,121,118,122,105,127,104,127,110,124,113
+Ashtabula,098,Sheffield Township 1,official,Raw/Ashtabula.pdf,694-696,234,normalized,89,162,89,157,84,175,88,178,86,170,87,178,87,180,91,173
+Ashtabula,099,Sheffield Township 2,official,Raw/Ashtabula.pdf,701-703,235,normalized,103,209,114,205,99,234,107,241,95,232,105,237,109,233,108,233
+Ashtabula,100,Trumbull Township,official,Raw/Ashtabula.pdf,708-710,236,normalized,162,454,182,439,169,468,162,484,168,450,169,470,163,475,173,467
+Ashtabula,101,Wayne Township,official,Raw/Ashtabula.pdf,716-718,238,normalized,71,126,69,125,63,143,63,141,60,139,64,141,64,144,64,143
+Ashtabula,102,Williamsfield Township 1,official,Raw/Ashtabula.pdf,723-725,240,normalized,59,139,63,136,59,148,56,155,60,145,59,149,55,153,58,152
+Ashtabula,103,Williamsfield Township 2,official,Raw/Ashtabula.pdf,730-732,241,normalized,94,181,105,173,97,192,96,202,93,193,96,197,97,201,99,198
+Ashtabula,104,Windsor Township,official,Raw/Ashtabula.pdf,737-739,239,normalized,147,259,147,259,139,283,135,298,139,277,144,282,138,289,139,291

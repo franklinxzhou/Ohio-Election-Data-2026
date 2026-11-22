@@ -1,0 +1,27 @@
+Allen County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+Raw/Allen.pdf, official precinct canvass. Page numbers below are PDF pages.
+OH_pct20.json, nodes[].ORIG_NAME for the graph membership.
+
+Combined graph node 21
+  0030 Elida A (pp. 139-141)
+  0032 American A (pp. 147-149)
+  ORIG_NAME = AMERICAN A_ALLEN,ELIDA A_ALLEN
+
+Combined graph node 32
+  0043 American L (pp. 191-193)
+  0074 Shawnee B (pp. 318-320)
+  ORIG_NAME = AMERICAN L_ALLEN,SHAWNEE B_ALLEN
+
+Combined graph node 50
+  0002 Delphos 1B (pp. 5-7)
+  0060 Marion B (pp. 259-261)
+  ORIG_NAME = DELPHOS 1B_ALLEN,MARION B_ALLEN
+
+Combined graph node 85
+  0065 Perry B (pp. 280-282)
+  0076 Shawnee D (pp. 326-328)
+  0084 Shawnee L (pp. 358-360)
+  ORIG_NAME = PERRY B_ALLEN,SHAWNEE D_ALLEN,SHAWNEE L_ALLEN

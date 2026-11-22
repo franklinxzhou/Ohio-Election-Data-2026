@@ -1,0 +1,51 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Athens,0001,"Athens Ward 1, Precinct 1",official,Raw/Athens.pdf,1-3,247;248,split_nodes,466,83,493,71,484,86,473,96,477,82,481,87,480,87,480,85
+Athens,0002,"Athens Ward 1, Precinct 2",official,Raw/Athens.pdf,6-8,249,normalized,292,15,296,16,294,26,296,25,296,15,295,21,294,23,297,19
+Athens,0003,"Athens Ward 1, Precinct 3",official,Raw/Athens.pdf,11-13,247;248,split_nodes,272,25,294,23,286,32,282,33,279,23,286,26,281,32,283,29
+Athens,0004,"Athens Ward 1, Precinct 4",official,Raw/Athens.pdf,16-18,250;251,merged_precinct,246,21,265,21,259,26,249,34,247,21,246,32,255,29,248,37
+Athens,0005,"Athens Ward 2, Precinct 1",official,Raw/Athens.pdf,21-23,252;256,merged_precinct,285,19,299,16,283,25,283,23,280,15,283,21,285,24,289,18
+Athens,0006,"Athens Ward 2, Precinct 2",official,Raw/Athens.pdf,26-28,253;254,merged_precinct,476,94,498,92,491,107,486,114,485,99,487,110,495,107,492,106
+Athens,0007,"Athens Ward 2, Precinct 3",official,Raw/Athens.pdf,31-33,255,renamed,473,92,486,81,463,108,465,107,477,81,469,105,482,86,480,86
+Athens,0008,"Athens Ward 3, Precinct 1",official,Raw/Athens.pdf,36-38,257;259,merged_precinct,231,16,245,13,231,23,224,26,232,12,226,22,235,18,235,16
+Athens,0009,"Athens Ward 3, Precinct 2",official,Raw/Athens.pdf,41-43,258,normalized,166,8,171,9,156,12,153,17,154,7,158,12,155,14,160,10
+Athens,0010,"Athens Ward 3, Precinct 3",official,Raw/Athens.pdf,46-48,260,renamed,309,30,322,26,313,33,310,33,302,35,317,31,312,33,314,32
+Athens,0011,"Athens Ward 3, Precinct 4",official,Raw/Athens.pdf,51-53,261,renamed,419,29,432,30,426,38,427,37,421,31,424,42,426,37,427,38
+Athens,0012,"Athens Ward 3, Precinct 5",official,Raw/Athens.pdf,56-58,262,renamed,361,36,365,33,358,43,357,41,361,36,353,48,364,35,359,38
+Athens,0013,"Athens Ward 4, Precinct 1",official,Raw/Athens.pdf,61-63,263,combined_node,404,69,410,65,400,82,400,84,405,71,399,87,399,81,407,75
+Athens,0014,"Athens Ward 4, Precinct 2",official,Raw/Athens.pdf,66-68,247;248,split_nodes,387,35,398,34,390,49,385,54,396,37,390,52,392,47,387,50
+Athens,0015,"Athens Ward 4, Precinct 3",official,Raw/Athens.pdf,71-73,264,normalized,253,16,265,15,267,16,263,16,260,14,264,16,263,16,265,16
+Athens,0016,"Athens Ward 4, Precinct 4",official,Raw/Athens.pdf,76-78,265,normalized,238,7,256,8,247,13,243,14,239,9,244,12,245,15,248,12
+Athens,0017,"Athens Ward 4, Precinct 5",official,Raw/Athens.pdf,81-83,266,normalized,230,14,240,12,228,21,228,20,228,13,230,19,228,21,230,17
+Athens,0018,Nelsonville 1,official,Raw/Athens.pdf,86-88,278,exact,143,110,153,103,144,125,145,123,141,123,150,118,141,126,148,120
+Athens,0019,Nelsonville 2,official,Raw/Athens.pdf,91-93,279,exact,117,61,124,54,113,74,117,71,118,62,122,68,120,67,123,67
+Athens,0020,Nelsonville 3,official,Raw/Athens.pdf,96-98,280,exact,118,94,121,92,119,105,113,113,115,104,118,105,115,107,113,109
+Athens,0021,Nelsonville 4,official,Raw/Athens.pdf,101-103,268,combined_node,138,106,157,95,150,110,153,107,150,98,155,107,153,108,156,105
+Athens,0022,Alexander East,official,Raw/Athens.pdf,106-108,243,exact,360,403,398,393,365,434,364,434,363,393,366,443,373,417,379,411
+Athens,0023,Alexander West,official,Raw/Athens.pdf,111-113,244,exact,243,212,260,205,239,233,237,238,245,219,241,231,237,227,242,222
+Athens,0024,Amesville Village,official,Raw/Athens.pdf,116-118,246,normalized,54,28,55,26,52,29,51,32,49,29,48,33,52,29,53,29
+Athens,0025,Ames Township,official,Raw/Athens.pdf,121-123,245,exact,307,167,320,163,311,180,314,183,304,171,309,183,313,176,312,176
+Athens,0026,Athens Baker,official,Raw/Athens.pdf,126-128,247;248,split_nodes,573,231,585,228,567,264,563,273,573,249,564,271,575,261,573,261
+Athens,0027,Athens South,official,Raw/Athens.pdf,131-133,247;248,split_nodes,643,193,655,184,640,215,634,222,640,192,641,218,638,212,648,204
+Athens,0028,Plains 1,official,Raw/Athens.pdf,136-138,247;248,split_nodes,333,147,348,139,343,165,349,158,341,150,341,166,350,157,345,161
+Athens,0029,Plains 2,official,Raw/Athens.pdf,141-143,282,exact,454,226,464,223,452,253,447,256,456,231,440,263,450,253,454,245
+Athens,0030,Bern Township,official,Raw/Athens.pdf,146-148,267,exact,131,67,136,64,130,77,129,80,125,75,127,80,130,76,128,77
+Athens,0031,Canaan Township,official,Raw/Athens.pdf,151-153,263,combined_node,530,191,553,184,533,217,525,225,528,192,533,220,538,209,541,205
+Athens,0032,Carthage Township,official,Raw/Athens.pdf,156-158,269,exact,179,345,188,352,175,409,178,407,180,367,175,410,185,395,186,385
+Athens,0033,Chauncey Village,official,Raw/Athens.pdf,161-163,270,normalized,116,84,117,87,114,102,115,101,115,88,113,106,114,99,116,95
+Athens,0034,Dover East,official,Raw/Athens.pdf,166-168,277;284,merged_precinct,332,193,348,191,333,218,332,220,340,198,334,224,337,209,339,208
+Athens,0035,Dover West,official,Raw/Athens.pdf,171-173,271,renamed,253,103,262,96,252,121,254,122,251,108,246,132,249,121,249,123
+Athens,0036,Albany Village,official,Raw/Athens.pdf,176-178,242,exact,179,172,204,166,185,195,176,206,184,184,176,212,179,195,183,193
+Athens,0037,Lee Township,official,Raw/Athens.pdf,181-183,275,exact,413,510,462,513,418,560,411,574,422,520,402,593,420,553,424,543
+Athens,0038,Lodi Township,official,Raw/Athens.pdf,186-188,276,exact,336,319,349,320,341,347,346,348,333,330,336,367,340,355,350,337
+Athens,0039,Rome Township,official,Raw/Athens.pdf,192-194,283,exact,237,219,250,223,251,240,245,247,245,230,244,251,252,241,257,236
+Athens,0040,Glouster Village,official,Raw/Athens.pdf,197-199,273,exact,241,158,256,166,253,186,244,193,250,170,246,191,263,169,256,173
+Athens,0041,Jacksonville Village,official,Raw/Athens.pdf,202-204,274,normalized,84,48,86,51,86,57,87,59,87,56,79,67,88,57,87,56
+Athens,0042,Trimble Village,official,Raw/Athens.pdf,207-209,286,exact,41,42,42,42,36,49,37,49,38,44,38,47,36,48,38,46
+Athens,0043,Trimble Township,official,Raw/Athens.pdf,212-214,285,exact,280,288,306,291,286,324,292,316,293,289,280,333,294,312,306,300
+Athens,0044,Coolville Village,official,Raw/Athens.pdf,217-219,272,exact,45,100,47,103,45,108,42,110,49,103,41,111,47,106,46,106
+Athens,0045,Troy East,official,Raw/Athens.pdf,222-224,287,exact,132,280,138,286,136,312,138,313,137,300,142,308,139,313,139,309
+Athens,0046,Troy West,official,Raw/Athens.pdf,227-229,288,exact,65,194,67,190,67,217,69,216,65,207,62,225,69,214,70,214
+Athens,0047,New Marshfield,official,Raw/Athens.pdf,232-234,281,exact,260,185,278,185,262,209,262,209,265,195,260,216,264,202,270,196
+Athens,0048,Waterloo,official,Raw/Athens.pdf,237-239,289,exact,231,201,245,204,236,230,230,232,228,218,233,232,234,225,242,213
+Athens,0049,Buchtel Village,official,Raw/Athens.pdf,242-244,268,combined_node,98,79,110,71,103,81,109,80,104,76,92,91,108,77,107,78
+Athens,0050,York Township,official,Raw/Athens.pdf,247-249,268,combined_node,277,303,300,278,262,337,265,339,287,302,282,324,276,322,280,314

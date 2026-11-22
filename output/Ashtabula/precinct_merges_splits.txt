@@ -1,0 +1,37 @@
+Ashtabula County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+Raw/Ashtabula.pdf, official precinct canvass. Page numbers below are PDF pages.
+OH_pct20.json, nodes[].ORIG_NAME and nodes[].ENACTED_LOWER for the graph
+membership and House district assignments below.
+
+Combined graph node 138
+  042 Andover Township 1 (pp. 288-290)
+  043 Andover Township 2 (pp. 295-297)
+  ORIG_NAME = ANDOVER TWP. 1_ASHTABULA,ANDOVER TWP. 2_ASHTABULA
+
+Combined graph node 140
+  001 Ashtabula City 1A (pp. 1-3)
+  095 Saybrook Township 6 (pp. 673-675)
+  ORIG_NAME = ASHTABULA 1-A_ASHTABULA,SAYBROOK TWP. 6_ASHTABULA
+
+Combined graph node 207
+  067 Jefferson Township 1 (pp. 477-479)
+  068 Jefferson Township 2 (pp. 484-486)
+  ORIG_NAME = JEFFERSON TWP. 1_ASHTABULA,JEFFERSON TWP. 2_ASHTABULA
+
+Combined graph node 219
+  082 Orwell Village (pp. 582-584)
+  083 Orwell Township (pp. 589-591)
+  ORIG_NAME = ORWELL TWP._ASHTABULA,ORWELL VILLAGE_ASHTABULA
+
+Split graph nodes
+  040 Geneva City 7 (pp. 274-276) links to 192 (HD65) and 193 (HD99).
+  Shared ORIG_NAME = GENEVA 7_ASHTABULA
+
+  057 Geneva Township 1 (pp. 401-403) links to 194 (HD65) and 195 (HD99).
+  Shared ORIG_NAME = GENEVA TWP. 1_ASHTABULA
+
+  061 Harpersfield Township 2 (pp. 432-434) links to 199 (HD65) and 200 (HD99).
+  Shared ORIG_NAME = HARPERSFLD TWP 2_ASHTABULA

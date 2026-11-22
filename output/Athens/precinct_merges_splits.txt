@@ -1,0 +1,62 @@
+Athens County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+Raw/Athens.pdf, official precinct canvass. Page numbers below are PDF pages.
+OH_pct20.json, nodes[].ORIG_NAME and nodes[].ENACTED_LOWER for the graph
+membership and House district assignments below. Historical names omit the
+graph's _ATHENS suffix for readability.
+Athens County Board of Elections, December 17, 2025 minutes, pp. 1 and 4,
+Motion 2025:12:05 and Attachment 2, document the 2026 precinct changes.
+https://www.boe.ohio.gov/athens/c/pdfs/minutes/2025/121725MINUTES.pdf#page=4
+Athens County precinct and polling-place list, updated August 15, 2026,
+supplies the current precinct codes.
+https://www.boe.ohio.gov/athens/c/upload/ELECTION_PollingLocations.pdf
+
+Whole-precinct mergers approved for 2026
+  0004 Athens Ward 1, Precinct 4 (pp. 16-18) combines former Athens 1-4
+  (node 250) and Athens 1-5 (251).
+  0005 Athens Ward 2, Precinct 1 (pp. 21-23) combines former Athens 2-1
+  (252) and Athens 2-5 (256).
+  0006 Athens Ward 2, Precinct 2 (pp. 26-28) combines former Athens 2-2
+  (253) and Athens 2-3 (254).
+  0008 Athens Ward 3, Precinct 1 (pp. 36-38) combines former Athens 3-1
+  (257) and Athens 3-3 (259).
+  0034 Dover East (pp. 166-168) combines former Millfield (277) and
+  Sugar Creek (284).
+
+Former Athens East split for 2026
+  0027 Athens South (pp. 131-133) absorbed the Richland Fire District
+  portion of Athens East. 0028 Plains 1 (pp. 136-138) absorbed the Plains
+  Fire District portion. Former Athens East, Athens South, and Plains 1
+  all belong to the historical graph group represented by nodes 247 and 248.
+
+Combined graph nodes
+  Node 263 holds 0013 Athens Ward 4, Precinct 1 (pp. 61-63) and
+  0031 Canaan Township (pp. 151-153).
+  ORIG_NAME = ATHENS 4-1_ATHENS,CANAAN TOWNSHIP_ATHENS
+
+  Node 268 holds 0021 Nelsonville 4 (pp. 101-103), 0049 Buchtel Village
+  (pp. 242-244), and 0050 York Township (pp. 247-249).
+  ORIG_NAME = BUCHTEL VLG_ATHENS,NELSONVILLE 4_ATHENS,YORK TOWNSHIP_ATHENS
+
+Historical group split across graph nodes 247 (HD94) and 248 (HD95)
+  Both nodes list the same seven former precincts in ORIG_NAME.
+  ATHENS 1-1, ATHENS 1-3, ATHENS 4-2, ATHENS BAKER, ATHENS EAST,
+  ATHENS SOUTH, PLAINS 1
+
+  Six current rows link to that historical group as a whole.
+  0001 Athens Ward 1, Precinct 1 (pp. 1-3)
+  0003 Athens Ward 1, Precinct 3 (pp. 11-13)
+  0014 Athens Ward 4, Precinct 2 (pp. 66-68)
+  0026 Athens Baker (pp. 126-128)
+  0027 Athens South (pp. 131-133)
+  0028 Plains 1 (pp. 136-138)
+  The CSV keeps a single set of vote totals per reported precinct.
+
+Related 2026 renamings
+  0007 Athens Ward 2, Precinct 3 (pp. 31-33) was Athens 2-4 (node 255).
+  0010 Athens Ward 3, Precinct 3 (pp. 46-48) was Athens 3-4 (260).
+  0011 Athens Ward 3, Precinct 4 (pp. 51-53) was Athens 3-5 (261).
+  0012 Athens Ward 3, Precinct 5 (pp. 56-58) was Athens 3-6 (262).
+  0035 Dover West (pp. 171-173) was Circle Hill (271).

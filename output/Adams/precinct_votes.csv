@@ -1,0 +1,22 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Adams,01,BRATTON TOWNSHIP,official,Raw/Adams.pdf,1-4,0,exact,107,393,118,395,108,434,110,433,108,414,117,420,109,429,113,423
+Adams,02,LOCUST GROVE,official,Raw/Adams.pdf,11-14,5,exact,85,317,86,318,78,345,74,345,81,328,80,338,80,341,85,336
+Adams,03,PEEBLES VILLAGE,official,Raw/Adams.pdf,21-24,10,exact,126,300,138,307,122,344,123,338,119,322,127,332,122,339,132,324
+Adams,04,MEIGS TOWNSHIP,official,Raw/Adams.pdf,31-34,7,exact,141,560,148,561,138,607,143,605,139,587,143,595,141,603,147,594
+Adams,05,OLIVER TOWNSHIP,official,Raw/Adams.pdf,41-44,9,exact,82,256,80,253,75,274,73,279,74,264,79,265,74,278,73,279
+Adams,06,GREEN TOWNSHIP,official,Raw/Adams.pdf,51-54,2,exact,56,114,59,113,57,122,57,119,54,120,58,119,56,117,58,115
+Adams,07,MANCHESTER UNITED TOWNSHIP,official,Raw/Adams.pdf,61-64,6,exact,113,239,121,244,121,268,115,273,113,261,114,273,121,270,125,263
+Adams,08,MONROE TOWNSHIP,official,Raw/Adams.pdf,71-74,8,exact,59,168,67,156,67,176,63,183,66,164,71,172,67,177,68,178
+Adams,09,SPRIGG TOWNSHIP,official,Raw/Adams.pdf,81-84,13,exact,166,395,178,415,161,471,159,475,157,437,163,467,163,469,159,467
+Adams,10,SEAMAN VILLAGE,official,Raw/Adams.pdf,91-94,12,exact,50,182,53,187,52,208,49,209,56,192,52,205,43,213,57,199
+Adams,11,SCOTT TOWNSHIP,official,Raw/Adams.pdf,101-104,11,exact,83,353,81,356,73,400,76,396,71,378,78,381,72,394,79,384
+Adams,12,WAYNE TOWNSHIP,official,Raw/Adams.pdf,111-114,15,exact,80,361,98,350,80,400,82,401,82,378,86,393,85,395,88,388
+Adams,13,WINCHESTER VILLAGE,official,Raw/Adams.pdf,121-124,18,exact,72,223,76,222,73,245,73,244,69,233,71,243,68,249,71,243
+Adams,14,WINCHESTER TOWNSHIP,official,Raw/Adams.pdf,131-134,17,exact,100,375,109,362,98,406,101,405,105,390,102,401,95,403,101,397
+Adams,15,BRUSH CREEK TOWNSHIP,official,Raw/Adams.pdf,141-144,1,exact,83,251,90,257,78,286,80,286,85,277,80,279,75,287,89,272
+Adams,16,JEFFERSON TOWNSHIP,official,Raw/Adams.pdf,151-154,3,exact,64,157,65,161,59,175,64,174,60,167,64,170,64,170,64,172
+Adams,17,LIBERTY TOWNSHIP,official,Raw/Adams.pdf,161-164,4,exact,167,475,182,479,149,551,155,541,162,519,158,532,154,543,161,537
+Adams,18,WEST UNION A,official,Raw/Adams.pdf,171-174,14,combined_node,148,239,165,225,152,265,151,268,144,255,150,265,149,266,153,262
+Adams,19,WEST UNION B,official,Raw/Adams.pdf,181-184,16,exact,131,245,140,244,117,277,130,270,120,265,126,271,124,274,130,268
+Adams,20,TIFFIN EAST,official,Raw/Adams.pdf,191-194,14,combined_node,117,281,134,279,111,321,114,325,111,306,112,320,116,318,109,325
+Adams,21,TIFFIN WEST,official,Raw/Adams.pdf,201-204,14,combined_node,114,300,128,299,108,341,111,338,109,320,117,330,108,341,111,335

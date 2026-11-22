@@ -1,0 +1,40 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Ashland,01,Ashland City 1-A,official,Raw/Ashland.pdf,1;8;15;22;29;36;43;57,102,exact,226,354,222,368,211,391,209,396,207,390,214,393,218,387,216,387
+Ashland,02,Ashland City 1-B,official,Raw/Ashland.pdf,1;8;15;22;29;36;43;57,103,combined_node,265,336,272,330,248,370,255,370,255,346,260,359,262,362,261,353
+Ashland,03,Ashland City 1-C,official,Raw/Ashland.pdf,1;8;15;22;29;36;43;57,104,exact,243,446,254,442,238,475,240,483,227,471,229,481,236,478,233,475
+Ashland,04,Ashland City 1-D,official,Raw/Ashland.pdf,1;8;15;22;29;36;43;57,105,exact,156,328,178,305,150,352,149,352,150,343,155,347,152,348,151,351
+Ashland,05,Ashland City 2-A,official,Raw/Ashland.pdf,1;8;15;22;29;36;43;57,106,exact,168,252,189,254,176,291,176,288,168,262,175,282,174,289,176,285
+Ashland,06,Ashland City 2-B,official,Raw/Ashland.pdf,1;8;15;22;29;36;43;57,107,combined_node,233,319,247,322,231,343,218,359,219,341,224,346,224,347,236,338
+Ashland,07,Ashland City 2-C,official,Raw/Ashland.pdf,1;8;15;22;29;36;43;57,107,combined_node,229,334,247,318,213,368,207,375,219,347,207,370,222,359,227,354
+Ashland,08,Ashland City 3-A,official,Raw/Ashland.pdf,2;9;16;23;30;37;44;58,108,exact,182,174,185,181,183,200,179,209,178,189,177,205,187,197,180,203
+Ashland,09,Ashland City 3-B,official,Raw/Ashland.pdf,2;9;16;23;30;37;44;58,109,exact,213,268,226,266,207,295,208,298,199,283,206,295,210,294,218,287
+Ashland,10,Ashland City 3-C,official,Raw/Ashland.pdf,2;9;16;23;30;37;44;58,110,exact,236,333,257,327,233,365,235,371,232,349,239,360,234,368,227,372
+Ashland,11,Ashland City 3-D,official,Raw/Ashland.pdf,2;9;16;23;30;37;44;58,111,exact,112,119,116,124,113,130,112,131,108,124,114,126,113,131,111,134
+Ashland,12,Ashland City 4-A,official,Raw/Ashland.pdf,2;9;16;23;30;37;44;58,112,exact,127,199,130,201,127,218,121,224,123,213,128,218,124,220,128,217
+Ashland,13,Ashland City 4-B,official,Raw/Ashland.pdf,2;9;16;23;30;37;44;58,113,exact,84,99,86,102,87,115,89,114,87,100,90,111,91,110,89,113
+Ashland,14,Ashland City 4-C,official,Raw/Ashland.pdf,2;9;16;23;30;37;44;58,114,combined_node,126,231,137,229,140,255,142,251,139,238,139,253,139,253,139,253
+Ashland,15,Clear Creek,official,Raw/Ashland.pdf,2;9;16;23;30;37;44;58,115,exact,162,505,185,497,161,548,159,556,161,524,163,546,163,545,166,540
+Ashland,16,Loudonville 1,official,Raw/Ashland.pdf,3;10;17;24;31;38;45;59,122,normalized,257,466,285,459,257,529,252,540,256,489,260,524,261,525,265,516
+Ashland,17,Green 1,official,Raw/Ashland.pdf,3;10;17;24;31;38;45;59,116,normalized,190,410,202,406,184,466,175,477,183,447,188,459,181,463,188,457
+Ashland,18,Green 2,official,Raw/Ashland.pdf,3;10;17;24;31;38;45;59,117,normalized,119,282,131,279,110,312,113,309,111,287,119,299,114,307,111,310
+Ashland,19,Loudonville 2,official,Raw/Ashland.pdf,3;10;17;24;31;38;45;59,123,normalized,190,400,211,399,189,449,186,456,186,413,191,442,201,437,198,439
+Ashland,20,Jackson 1,official,Raw/Ashland.pdf,3;10;17;24;31;38;45;59,118,normalized,210,420,228,417,226,448,217,464,227,427,232,441,233,443,230,447
+Ashland,21,Jackson 2,official,Raw/Ashland.pdf,3;10;17;24;31;38;45;59,119,normalized,179,500,188,514,174,561,175,564,170,529,180,550,180,550,182,543
+Ashland,22,Lake,official,Raw/Ashland.pdf,3;10;17;24;31;38;45;59,121,normalized,73,186,87,174,79,199,80,198,75,187,78,198,76,201,80,196
+Ashland,23,Mifflin,official,Raw/Ashland.pdf,3;10;17;24;31;38;45;59,124,normalized,141,380,142,390,138,416,131,420,135,404,137,413,140,413,143,410
+Ashland,24,Milton 1,official,Raw/Ashland.pdf,4;11;18;25;32;39;46;60,125,normalized,76,206,77,209,67,235,74,228,68,224,69,230,73,228,70,229
+Ashland,25,Milton 3,official,Raw/Ashland.pdf,4;11;18;25;32;39;46;60,126,normalized,158,517,162,534,145,556,139,568,138,548,140,556,146,557,153,551
+Ashland,26,Jeromesville,official,Raw/Ashland.pdf,4;11;18;25;32;39;46;60,120,exact,58,80,61,84,56,94,55,95,57,87,58,91,58,92,61,90
+Ashland,27,Mohican,official,Raw/Ashland.pdf,4;11;18;25;32;39;46;60,127,normalized,144,454,160,454,144,509,140,517,142,487,142,511,147,507,147,504
+Ashland,28,Montgomery 1,official,Raw/Ashland.pdf,4;11;18;25;32;39;46;60,128,normalized,103,287,99,283,91,308,93,306,88,290,94,304,91,304,95,299
+Ashland,29,Montgomery 2,official,Raw/Ashland.pdf,4;11;18;25;32;39;46;60,114,combined_node,109,364,115,362,114,393,103,404,107,384,106,399,109,398,112,392
+Ashland,30,Montgomery 3,official,Raw/Ashland.pdf,4;11;18;25;32;39;46;60,103,combined_node,81,310,91,311,85,325,80,329,76,315,86,320,86,323,84,323
+Ashland,31,Orange 1,official,Raw/Ashland.pdf,4;11;18;25;32;39;46;60,129,normalized,157,403,170,404,159,443,151,456,150,431,150,448,158,443,156,447
+Ashland,32,Orange 2,official,Raw/Ashland.pdf,6;13;20;27;34;41;48;62,130,normalized,96,255,105,247,100,280,97,285,96,269,95,285,96,285,94,284
+Ashland,33,Perry,official,Raw/Ashland.pdf,6;13;20;27;34;41;48;62,131,normalized,161,593,168,590,155,640,153,641,146,621,148,643,152,642,156,641
+Ashland,34,Ruggles,official,Raw/Ashland.pdf,6;13;20;27;34;41;48;62,132,normalized,86,263,92,262,89,290,88,296,89,276,90,288,89,288,91,286
+Ashland,35,Sullivan 1,official,Raw/Ashland.pdf,6;13;20;27;34;41;48;62,133,normalized,107,351,114,347,108,380,108,380,110,362,110,372,112,371,114,369
+Ashland,36,Sullivan 2,official,Raw/Ashland.pdf,6;13;20;27;34;41;48;62,134,normalized,101,289,110,282,98,310,99,312,98,296,103,303,101,305,95,312
+Ashland,37,Troy,official,Raw/Ashland.pdf,6;13;20;27;34;41;48;62,135,normalized,90,318,100,327,95,354,98,350,91,341,101,345,98,347,102,341
+Ashland,38,Vermillion 1,official,Raw/Ashland.pdf,6;13;20;27;34;41;48;62,136,normalized,117,369,135,354,119,391,121,388,118,381,123,387,126,384,121,387
+Ashland,39,Vermillion 2,official,Raw/Ashland.pdf,6;13;20;27;34;41;48;62,137,normalized,165,455,180,447,150,489,145,497,142,475,146,493,149,488,150,488

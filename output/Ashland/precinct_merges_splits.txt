@@ -1,0 +1,21 @@
+Ashland County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+Raw/Ashland.pdf, official precinct canvass. Page numbers below are PDF pages.
+OH_pct20.json, nodes[].ORIG_NAME for the graph membership.
+
+Combined graph node 103
+  02 Ashland City 1-B (pp. 1, 8, 15, 22, 29, 36, 43, 57)
+  30 Montgomery 3 (pp. 4, 11, 18, 25, 32, 39, 46, 60)
+  ORIG_NAME = ASHLAND CITY 1-B_ASHLAND,MONTGOMERY TWP #3_ASHLAND
+
+Combined graph node 107
+  06 Ashland City 2-B (pp. 1, 8, 15, 22, 29, 36, 43, 57)
+  07 Ashland City 2-C (pp. 1, 8, 15, 22, 29, 36, 43, 57)
+  ORIG_NAME = ASHLAND CITY 2-B_ASHLAND,ASHLAND CITY 2-C_ASHLAND
+
+Combined graph node 114
+  14 Ashland City 4-C (pp. 2, 9, 16, 23, 30, 37, 44, 58)
+  29 Montgomery 2 (pp. 4, 11, 18, 25, 32, 39, 46, 60)
+  ORIG_NAME = ASHLAND CITY 4-C_ASHLAND,MONTGOMERY TWP #2_ASHLAND

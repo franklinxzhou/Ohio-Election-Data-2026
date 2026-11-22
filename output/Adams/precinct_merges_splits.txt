@@ -1,0 +1,12 @@
+Adams County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+Raw/Adams.pdf, official precinct canvass. Page numbers below are PDF pages.
+OH_pct20.json, nodes[].ORIG_NAME for the graph membership.
+
+Combined graph node 14
+  18 West Union A (pp. 171-174)
+  20 Tiffin East (pp. 191-194)
+  21 Tiffin West (pp. 201-204)
+  ORIG_NAME = TIFFIN EAST_ADAMS,TIFFIN WEST_ADAMS,WEST UNION A_ADAMS
