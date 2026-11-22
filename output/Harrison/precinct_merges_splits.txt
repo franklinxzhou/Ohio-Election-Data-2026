@@ -1,0 +1,20 @@
+Harrison County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Harrison.pdf, official Statement of Votes Cast, November 13, 2026.
+  Precinct codes and names are on pp. 1-3. Statewide votes and countywide
+  controls appear on pp. 5-68.
+  https://www.boe.ohio.gov/harrison/c/elecres/20261103precinct.pdf
+  OH_pct20.json, nodes[].ORIG_NAME.
+
+All 16 precinct labels match individually to the 2020 graph.
+The name-based crosswalk does not assess boundary continuity.
+
+Countywide reconciliation
+  The canvass lists one ballot in a separate Cumulative reporting
+  group. That group has no precinct code and is excluded from the
+  precinct CSV. Use the precinct-only County - Total before the group
+  for reconciliation. The later County - Total includes the group.
+  The CSV uses published precinct Total rows and leaves withheld
+  ballot-mode values unused.

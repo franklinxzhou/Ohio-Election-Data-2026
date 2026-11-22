@@ -1,0 +1,25 @@
+Hardin County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Hardin.pdf, official Statement of Votes Cast, November 17, 2026.
+  Precinct names are on pp. 1-5. Statewide votes and county controls are
+  on pp. 6-85. The report supplies names without separate precinct codes.
+  https://www.boe.ohio.gov/hardin/election-info/election-results
+  OH_pct20.json, nodes[].ORIG_NAME.
+
+Combined graph node 3942
+  KENTON 1 (pp. 6, 7, 16, 26, 36, 37, 46, 56, 66, 76)
+  PLEASANT (pp. 12, 13, 22, 32, 42, 43, 52, 62, 72, 82)
+  ORIG_NAME = KENTON 1_HARDIN,PLEASANT_HARDIN
+
+Label matches
+  ALGER/MCGUFFEY/MARION links to ALGER / MCGUFFY / MARION (3935).
+  DUDLEY links to DUDLEY TWP (3938).
+  DUNKIRK/BLANCHARD links to DUNKIRK / BLANCHARD (3939).
+  FOREST/JACKSON links to FOREST / JACKSON (3940).
+  MT VICTORY/RIDGEWAY/HALE links to MOUNT VICTORY / RIDGEWAY / HALE (3949).
+  The source wraps MT onto its own line, which the CSV joins to the label.
+
+Each precinct retains its own vote row. The crosswalk follows the
+precinct labels. Boundary continuity was not assessed.

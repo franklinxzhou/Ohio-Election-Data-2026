@@ -1,0 +1,24 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Henry,1.0,NAPOLEON CITY,official,Raw/Henry.pdf,"1,2",3980,exact,157,176,158,175,154,197,151,201,153,177,155,187,150,191,163,181
+Henry,2.0,NAPOLEON CITY,official,Raw/Henry.pdf,"5,6",3981,exact,150,177,167,178,150,199,144,208,151,186,158,189,161,190,151,196
+Henry,3.0,NAPOLEON CITY,official,Raw/Henry.pdf,"9,10",3982,exact,273,358,291,365,255,415,257,411,258,385,262,402,266,397,274,392
+Henry,4.0,NAPOLEON CITY,official,Raw/Henry.pdf,"13,14",3983,combined_node,271,371,279,372,273,399,266,414,267,381,275,398,281,388,267,402
+Henry,5.0,NAPOLEON CITY,official,Raw/Henry.pdf,"17,18",3984,exact,204,344,216,339,199,370,203,364,199,344,202,361,203,364,210,356
+Henry,6.0,NAPOLEON CITY,official,Raw/Henry.pdf,"21,22",3985,exact,192,344,213,329,191,360,184,366,184,350,192,353,194,353,192,355
+Henry,7.0,DESHLER VILLAGE,official,Raw/Henry.pdf,"25,26",3970,exact,157,348,166,342,150,380,150,376,153,355,149,374,160,364,162,363
+Henry,8.0,BARTLOW TWP,official,Raw/Henry.pdf,"29,30",3969,exact,53,207,54,210,55,212,52,218,54,208,54,210,53,208,53,210
+Henry,9.0,MCCLURE/DAM TWP,official,Raw/Henry.pdf,"33,34",3979,normalized,232,426,253,426,230,477,224,486,222,446,240,467,230,478,247,461
+Henry,10.0,FLORIDA/FLAT TWP,official,Raw/Henry.pdf,"37,38",3971,normalized,177,346,194,334,164,382,162,380,170,351,165,370,172,361,167,370
+Henry,11.0,FREEDOM TWP,official,Raw/Henry.pdf,"41,42",3972,exact,113,301,128,288,104,322,107,322,103,312,102,321,105,320,114,307
+Henry,12.0,HARRISON TWP,official,Raw/Henry.pdf,"45,46",3974,exact,131,304,142,298,123,342,124,343,124,322,129,331,122,338,128,337
+Henry,13.0,LIB CENTER VILL,official,Raw/Henry.pdf,"49,50",3976,normalized,114,245,122,247,125,270,120,279,116,253,127,266,124,269,134,261
+Henry,14.0,LIBERTY TWP,official,Raw/Henry.pdf,"53,54",3977,exact,164,427,175,422,161,456,154,469,151,442,165,443,161,447,170,444
+Henry,15.0,HAMLER/MARION TWP,official,Raw/Henry.pdf,"57,58",3973,normalized,143,358,147,367,133,403,137,391,136,389,135,396,133,398,145,389
+Henry,16.0,MALINTA/MONROE TWP,official,Raw/Henry.pdf,"61,62",3978,normalized,132,306,139,307,120,341,118,347,117,326,120,339,124,333,126,328
+Henry,17.0,NAPOLEON EAST TWP,official,Raw/Henry.pdf,"65,66",3983,combined_node,84,179,93,179,84,190,82,192,83,182,79,192,82,191,88,185
+Henry,18.0,NAPOLEON WEST TWP,official,Raw/Henry.pdf,"69,70",3986,exact,78,314,85,312,74,335,75,336,77,322,79,325,82,328,83,326
+Henry,19.0,HOL/PLEAS TWP,official,Raw/Henry.pdf,"73,74",3975,normalized,155,179,163,183,152,211,153,207,150,196,149,208,160,200,155,206
+Henry,20.0,NEW BAR/PLEAS TWP,official,Raw/Henry.pdf,"77,78",3987,normalized,98,287,117,276,97,310,94,315,98,296,103,304,105,302,103,305
+Henry,21.0,RICHFIELD TWP,official,Raw/Henry.pdf,"81,82",3988,exact,53,223,62,212,47,238,48,240,50,224,45,239,49,233,52,229
+Henry,22.0,RIDGEVILLE TWP,official,Raw/Henry.pdf,"85,86",3989,exact,102,363,120,357,109,386,103,391,98,374,107,382,106,389,108,386
+Henry,23.0,WASHINGTON TWP,official,Raw/Henry.pdf,"89,90",3990,exact,226,554,240,549,220,600,219,596,217,563,220,586,222,580,225,579

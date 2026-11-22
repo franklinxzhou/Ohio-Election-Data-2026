@@ -1,0 +1,22 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Hardin,,KENTON 1,official,Raw/Hardin.pdf,"6,7,16,26,36,37,46,56,66,76",3942,combined_node,140,246,148,253,146,293,141,294,140,278,146,286,149,284,149,287
+Hardin,,KENTON 2,official,Raw/Hardin.pdf,"6,7,16,26,36,37,46,56,66,76",3943,exact,242,419,252,402,226,474,223,480,218,458,236,456,230,467,233,463
+Hardin,,KENTON 3,official,Raw/Hardin.pdf,"6,7,16,26,36,37,46,56,66,76",3944,exact,194,274,204,289,194,328,193,330,192,310,191,328,196,324,200,316
+Hardin,,KENTON 4,official,Raw/Hardin.pdf,"6,7,16,26,36,37,46,56,66,76",3945,exact,88,158,92,172,82,194,83,193,84,182,90,184,88,188,89,186
+Hardin,,DUNKIRK/BLANCHARD,official,Raw/Hardin.pdf,"8,9,18,28,38,39,48,58,68,78",3939,normalized,98,339,122,330,94,384,100,379,94,372,102,372,103,373,100,374
+Hardin,,BUCK,official,Raw/Hardin.pdf,"8,9,18,28,38,39,48,58,68,78",3936,exact,65,190,74,194,62,215,61,219,60,213,57,219,60,216,61,218
+Hardin,,CESSNA,official,Raw/Hardin.pdf,"8,9,18,28,38,39,48,58,68,78",3937,exact,51,143,58,145,46,169,46,169,47,163,51,159,54,155,56,156
+Hardin,,DUDLEY,official,Raw/Hardin.pdf,"8,9,18,28,38,39,48,58,68,78",3938,normalized,60,229,71,226,62,249,57,255,58,245,65,247,60,253,59,253
+Hardin,,GOSHEN,official,Raw/Hardin.pdf,"8,9,18,28,38,39,48,58,68,78",3941,exact,46,171,56,168,44,190,44,192,46,180,49,185,53,181,52,183
+Hardin,,MT VICTORY/RIDGEWAY/HALE,official,Raw/Hardin.pdf,"10,11,20,30,40,41,50,60,70,80",3949,normalized,136,344,146,337,121,386,119,387,128,366,134,369,131,373,130,370
+Hardin,,FOREST/JACKSON,official,Raw/Hardin.pdf,"10,11,20,30,40,41,50,60,70,80",3940,normalized,169,392,183,411,165,462,164,465,165,449,171,450,170,457,169,456
+Hardin,,ADA NORTH,official,Raw/Hardin.pdf,"10,11,20,30,40,41,50,60,70,80",3933,exact,227,273,237,273,220,332,215,333,215,310,227,318,229,318,231,318
+Hardin,,ADA SOUTH,official,Raw/Hardin.pdf,"10,11,20,30,40,41,50,60,70,80",3934,exact,258,308,263,298,238,360,234,361,237,337,244,348,248,345,251,338
+Hardin,,LIBERTY,official,Raw/Hardin.pdf,"10,11,20,30,40,41,50,60,70,80",3946,exact,173,559,192,544,176,589,169,592,163,581,174,583,170,588,174,582
+Hardin,,LYNN,official,Raw/Hardin.pdf,"12,13,22,32,42,43,52,62,72,82",3947,exact,46,146,56,142,48,160,43,164,43,160,51,156,48,159,47,160
+Hardin,,ALGER/MCGUFFEY/MARION,official,Raw/Hardin.pdf,"12,13,22,32,42,43,52,62,72,82",3935,normalized,162,464,174,472,154,530,162,524,154,510,167,512,170,513,172,509
+Hardin,,MCDONALD,official,Raw/Hardin.pdf,"12,13,22,32,42,43,52,62,72,82",3948,exact,58,279,61,276,59,297,56,301,59,294,62,295,57,299,62,292
+Hardin,,PLEASANT,official,Raw/Hardin.pdf,"12,13,22,32,42,43,52,62,72,82",3942,combined_node,178,446,195,431,171,487,169,486,161,478,175,478,170,477,172,481
+Hardin,,ROUNDHEAD,official,Raw/Hardin.pdf,"12,13,22,32,42,43,52,62,72,82",3950,exact,48,177,55,172,47,189,47,188,45,185,45,189,46,188,46,188
+Hardin,,TAYLOR CREEK,official,Raw/Hardin.pdf,"14,15,24,34,44,45,54,64,74,84",3951,exact,52,172,55,171,54,185,51,188,53,179,54,185,56,183,53,185
+Hardin,,WASHINGTON,official,Raw/Hardin.pdf,"14,15,24,34,44,45,54,64,74,84",3952,exact,56,220,62,215,49,243,46,243,51,233,51,238,52,240,54,235

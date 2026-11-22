@@ -1,0 +1,17 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Harrison,001,ARCHER TWP,official,Raw/Harrison.pdf,"5,6,13,21,29,30,37,45,53,61",3953,exact,20,98,20,104,19,110,19,110,19,107,20,109,21,109,21,109
+Harrison,002,ATHENS TWP/VIL,official,Raw/Harrison.pdf,"5,6,13,21,29,30,37,45,53,61",3954,exact,52,111,58,107,59,121,57,124,62,113,62,116,65,115,65,114
+Harrison,003,CADIZ TWP/VIL NE,official,Raw/Harrison.pdf,"5,6,13,21,29,30,37,45,53,61",3955,exact,164,303,179,291,169,341,158,350,165,334,169,341,167,340,176,332
+Harrison,004,CADIZ VIL SW,official,Raw/Harrison.pdf,"5,6,13,21,29,30,37,45,53,61",3956,exact,219,309,226,328,225,350,219,364,230,336,222,350,225,349,233,342
+Harrison,005,FRANKLIN TWP/VIL,official,Raw/Harrison.pdf,"5,6,13,21,29,30,37,45,53,61",3957,exact,70,159,73,163,73,172,68,178,71,167,70,176,69,174,75,166
+Harrison,006,FREEPORT TWP/VIL,official,Raw/Harrison.pdf,"7,8,15,23,31,32,39,47,55,63",3958,exact,71,168,78,167,77,187,69,196,77,185,71,193,77,187,83,183
+Harrison,007,GERMAN TWP,official,Raw/Harrison.pdf,"7,8,15,23,31,32,39,47,55,63",3959,exact,68,165,77,160,66,176,68,178,66,170,65,179,68,173,70,170
+Harrison,008,GREEN TWP/VIL,official,Raw/Harrison.pdf,"7,8,15,23,31,32,39,47,55,63",3960,exact,210,387,215,386,207,436,194,449,208,422,199,437,205,434,213,429
+Harrison,009,MONROE TWP/VIL,official,Raw/Harrison.pdf,"7,8,15,23,31,32,39,47,55,63",3961,exact,77,237,75,239,74,264,70,269,69,247,72,264,75,263,78,259
+Harrison,010,MOOREFIELD TWP,official,Raw/Harrison.pdf,"7,8,15,23,31,32,39,47,55,63",3962,exact,26,132,26,138,25,139,29,136,26,135,25,138,26,139,27,138
+Harrison,011,NORTH TWP/VIL,official,Raw/Harrison.pdf,"7,8,15,23,31,32,39,47,55,63",3963,exact,128,252,129,272,129,306,128,308,118,289,123,310,129,308,139,295
+Harrison,012,NOTTINGHAM TWP,official,Raw/Harrison.pdf,"9,10,17,25,33,34,41,49,57,65",3964,exact,30,101,31,98,28,106,25,110,27,102,28,104,30,99,30,102
+Harrison,013,RUMLEY TWP/VIL,official,Raw/Harrison.pdf,"9,10,17,25,33,34,41,49,57,65",3965,exact,81,263,80,270,82,306,82,308,84,291,82,303,83,304,88,298
+Harrison,014,SHORTCREEK TWP/VIL,official,Raw/Harrison.pdf,"9,10,17,25,33,34,41,49,57,65",3966,exact,118,262,125,264,116,291,124,289,120,276,123,285,121,287,132,273
+Harrison,015,STOCK TWP,official,Raw/Harrison.pdf,"9,10,17,25,33,34,41,49,57,65",3967,exact,57,123,58,122,52,138,57,135,58,121,57,131,55,135,56,136
+Harrison,016,WASHINGTON TWP,official,Raw/Harrison.pdf,"9,10,17,25,33,34,41,49,57,65",3968,exact,55,102,57,107,53,123,53,125,51,113,54,122,53,120,53,122

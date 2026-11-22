@@ -1,0 +1,27 @@
+Henry County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Henry.pdf, official precinct results. The CSV retains the decimal
+  precinct code printed in each report heading and cites the vote pages.
+  https://www.henrycountyohio.gov/420/2026-November-General-Election
+  Countywide official summary:
+  https://henrycountyohio.gov/DocumentCenter/View/4553/SUMMARY-PDF
+  OH_pct20.json, nodes[].ORIG_NAME for historical precinct membership.
+
+Combined graph node 3983
+  ORIG_NAME = NAPOLEON CITY 4.0_HENRY,NAPOLEON EAST TWP 17.0_HENRY
+  4.0 NAPOLEON CITY (pp. 13,14)
+  17.0 NAPOLEON EAST TWP (pp. 65,66)
+
+Labels differing at the same precinct code
+  9.0 MCCLURE/DAM TWP (pp. 33,34) links to MCCLURE VILL (3979).
+  10.0 FLORIDA/FLAT TWP (pp. 37,38) links to FLORIDA VILL (3971).
+  13.0 LIB CENTER VILL (pp. 49,50) links to LIBERTY CENTER VILLAGE (3976).
+  15.0 HAMLER/MARION TWP (pp. 57,58) links to HAMLER VILL (3973).
+  16.0 MALINTA/MONROE TWP (pp. 61,62) links to MALINTA VILL MONROE TWP (3978).
+  19.0 HOL/PLEAS TWP (pp. 73,74) links to HOLGATE VILLAGE (3975).
+  20.0 NEW BAR/PLEAS TWP (pp. 77,78) links to PLEASANT TWP (3987).
+
+Each precinct retains its own vote row. The crosswalk follows the
+printed precinct codes. Boundary continuity was not assessed.

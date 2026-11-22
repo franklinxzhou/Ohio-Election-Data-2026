@@ -1,0 +1,42 @@
+Hocking County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Hocking.xlsx, Precinct Results and Summary Results worksheets.
+  The county's 2026 election results page labels this release unofficial.
+  https://www.boe.ohio.gov/hocking/election-info/election-results
+  https://app.enhancedvoting.com/results/public/hocking-county-oh/elections/2026NovemberGeneralElection
+  OH_pct20.json, nodes[].ORIG_NAME for 2020 graph membership.
+  Hocking County Map Department voting precinct shapefile, dated 2026-08-27.
+  https://hocking.oh.gov/PublicMaps/index.php?dir=GIS+SHAPEFILES%2FVOTING+PRECINCTS
+  Census 2020 TIGERweb Voting Districts, Ohio, Hocking County (39073).
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+
+Merged precinct
+  19 WARD links to CARBON HILL (4020) and MURRAY CITY (4033).
+  The county map covers 99.33% of the old CARBON HILL area and 99.50%
+  of the old MURRAY CITY area. The two precincts were reported separately
+  in the 2019 official results (p. 38). The 2023 official results list
+  the Murray City village levy under WARD (p. 68).
+  https://www.boe.ohio.gov/hocking/c/elecres/20191105precinct.pdf
+  https://www.boe.ohio.gov/hocking/c/elecres/20231107precinct.pdf
+
+Boundary overlaps
+  The county and Census polygons were intersected in EPSG:5070. Each
+  percentage below is the share of the 2026 precinct's mapped area.
+  Graph links retain 2020 precincts covering at least 2% of that area.
+  02 LOGAN 2: LOGAN 2 (4029, 82.31%) and LOGAN 4 (4031, 14.15%).
+  03 LOGAN 3: FALLS 3 (4023, 4.76%) and LOGAN 3 (4030, 95.24%).
+  04 LOGAN 4: LOGAN 2 (4029, 2.57%), LOGAN 3 (4030, 10.46%),
+    and LOGAN 4 (4031, 85.13%). These shares describe mapped area;
+    some small overlaps may reflect differences between the map sources.
+
+Combined graph node
+  07 FALLS 2 and 14 MARION 2 each have their own canvass row and
+  share graph node 4022 (FALLS 2_HOCKING,MARION 2_HOCKING).
+
+Label variant
+  17 SALTCREEK links to SALT CREEK (4036).
+
+The CSV retains votes on each canvass precinct row. The mapped area
+percentages are used for graph links only.

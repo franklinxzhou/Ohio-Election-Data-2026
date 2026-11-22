@@ -1,0 +1,38 @@
+Highland County graph notes
+November 3, 2026 general election
+
+Sources
+  Raw/Highland.pdf, unofficial Statement of Ballots Cast generated
+  November 4, 2026 at 00:23:24. Pages 1-4 report turnout by precinct.
+  https://www.boe.ohio.gov/highland/c/elecres/20261103precinct.pdf
+  OH_pct20.json, nodes[].ORIG_NAME.
+
+Countywide vote source
+  Ohio Secretary of State, November 3, 2026 General Unofficial Canvass.
+  The Highland row is 40 on Statewide Offices, Supreme Court, and
+  U.S. Congress. The precinct turnout report gives no candidate counts.
+  https://liveresults.ohiosos.gov/Api/v1/download?filename=GeneralElectionXlsFile
+
+Combined graph nodes (labels and source pages refer to the turnout report)
+  Node 3997
+    01 GREENFIELD N (p. 1)
+    66 MADISON (p. 3)
+    ORIG_NAME = GREENFIELD N_HIGHLAND,MADISON_HIGHLAND
+  Node 4001
+    19 HILLSBORO 2 NW (p. 1)
+    62 LIBERTY NW (p. 3)
+    ORIG_NAME = HILLSBORO NW_HIGHLAND,LIBERTY NW_HIGHLAND
+  Node 4002
+    23 HILLSBORO 3 SE (p. 1)
+    63 LIBERTY S (p. 3)
+    ORIG_NAME = HILLSBORO SE_HIGHLAND,LIBERTY S_HIGHLAND
+
+Hillsboro label equivalents (turnout PDF p. 1)
+  HILLSBORO 1 NE links to HILLSBORO NE (node 4000).
+  HILLSBORO 2 NW links to HILLSBORO NW (node 4001).
+  HILLSBORO 3 SE links to HILLSBORO SE (node 4002).
+  HILLSBORO 4 SWA links to HILLSBORO SW-A (node 4003).
+  HILLSBORO 4 SWB links to HILLSBORO SW-B (node 4004).
+
+Graph links are based on names. Boundary continuity was not assessed.
+Countywide candidate votes have no precinct or graph allocation.
