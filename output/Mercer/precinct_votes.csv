@@ -1,0 +1,37 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Mercer,,Celina A,unofficial,Raw/Mercer.pdf,"1,2,3",5457,exact,223,367,231,364,192,427,202,417,207,379,211,401,216,399,220,395
+Mercer,,Celina B,unofficial,Raw/Mercer.pdf,"5,6,7",5458,exact,161,373,174,362,142,421,161,396,164,380,162,395,163,393,166,391
+Mercer,,Celina C,unofficial,Raw/Mercer.pdf,"9,10,11",5459,exact,180,387,201,374,169,435,178,424,179,410,178,416,187,413,196,408
+Mercer,,Celina D,unofficial,Raw/Mercer.pdf,"13,14,15",5460,combined_node,142,265,147,267,132,309,152,291,142,281,150,292,144,297,150,289
+Mercer,,Celina E,unofficial,Raw/Mercer.pdf,"17,18,19",5460,combined_node,141,214,135,220,130,246,137,238,138,220,141,231,146,225,143,230
+Mercer,,Celina F,unofficial,Raw/Mercer.pdf,"21,22,23",5461,exact,127,238,131,238,124,273,128,261,131,246,134,255,138,253,140,251
+Mercer,,Celina G,unofficial,Raw/Mercer.pdf,"25,26,27",5462,exact,119,215,128,215,119,248,122,241,124,218,129,233,123,239,130,232
+Mercer,,Celina H,unofficial,Raw/Mercer.pdf,"29,30,31",5460,combined_node,106,298,118,286,78,341,90,326,96,301,98,311,101,309,103,312
+Mercer,,East Jefferson North,unofficial,Raw/Mercer.pdf,"33,34,35",5460,combined_node,93,230,99,234,67,269,81,254,85,237,85,249,88,246,90,243
+Mercer,,East Jefferson South,unofficial,Raw/Mercer.pdf,"37,38,39",5468,exact,121,267,134,262,99,308,115,292,119,277,125,280,123,282,126,278
+Mercer,,West Jefferson,unofficial,Raw/Mercer.pdf,"41,42,43",5460,combined_node,126,374,126,382,98,434,109,424,121,397,122,408,118,415,115,417
+Mercer,,Center Township,unofficial,Raw/Mercer.pdf,"45,46,47",5460,combined_node,81,390,91,388,76,423,78,420,79,394,87,406,89,407,86,411
+Mercer,,Coldwater West,unofficial,Raw/Mercer.pdf,"50,51,52",5466,exact,129,453,140,441,93,507,105,489,118,465,102,489,115,479,119,477
+Mercer,,Coldwater Central,unofficial,Raw/Mercer.pdf,"54,55,56",5463,exact,121,403,126,396,99,444,104,437,114,402,116,416,115,414,116,416
+Mercer,,Coldwater Northeast,unofficial,Raw/Mercer.pdf,"58,59,60",5464,exact,81,312,81,313,77,327,83,320,81,310,80,320,82,320,87,314
+Mercer,,Coldwater Southeast,unofficial,Raw/Mercer.pdf,"62,63,64",5465,exact,92,330,110,328,81,381,94,367,103,344,106,355,101,360,107,354
+Mercer,,Butler East,unofficial,Raw/Mercer.pdf,"66,67,68",5455,exact,56,367,59,360,39,397,46,386,47,372,47,389,46,388,51,385
+Mercer,,Butler West,unofficial,Raw/Mercer.pdf,"70,71,72",5456,exact,75,437,81,437,56,473,61,469,65,445,73,449,70,456,72,454
+Mercer,,St. Henry North,unofficial,Raw/Mercer.pdf,"74,75,76",5480,exact,128,615,139,609,103,658,111,650,117,622,113,640,113,643,126,630
+Mercer,,St. Henry South,unofficial,Raw/Mercer.pdf,"78,79,80",5481,exact,97,385,99,384,75,413,76,412,86,393,87,399,83,397,85,400
+Mercer,,Granville East,unofficial,Raw/Mercer.pdf,"82,83,84",5472,normalized,38,330,44,324,30,352,38,343,34,345,34,345,34,344,41,340
+Mercer,,Granville West,unofficial,Raw/Mercer.pdf,"86,87,88",5473,normalized,23,388,25,387,21,401,19,402,22,389,24,395,26,392,32,388
+Mercer,,Ft. Recovery Village,unofficial,Raw/Mercer.pdf,"90,91,92",5471,combined_node,99,447,103,443,80,489,84,483,97,455,93,478,88,476,90,472
+Mercer,,Gibson Township,unofficial,Raw/Mercer.pdf,"94,95,96",5471,combined_node,26,475,23,476,17,499,20,495,24,479,29,484,29,483,21,490
+Mercer,,Recovery Township,unofficial,Raw/Mercer.pdf,"98,99,100",5478,exact,34,563,42,562,24,588,28,584,33,568,28,581,32,580,38,574
+Mercer,,Rockford Village,unofficial,Raw/Mercer.pdf,"102,103,104",5479,exact,72,235,78,232,66,262,70,259,74,240,77,253,74,254,80,249
+Mercer,,Dublin Township,unofficial,Raw/Mercer.pdf,"107,108,109",5467,exact,97,322,96,324,91,346,95,341,94,335,93,340,94,339,106,329
+Mercer,,Mendon-Union,unofficial,Raw/Mercer.pdf,"112,113,114",5477,exact,80,340,84,334,75,374,88,362,85,354,88,364,92,359,88,363
+Mercer,,Marion East,unofficial,Raw/Mercer.pdf,"117,118,119",5476,combined_node,81,790,89,786,73,825,72,820,74,801,79,811,84,804,92,800
+Mercer,,Marion West,unofficial,Raw/Mercer.pdf,"122,123,124",5476,combined_node,72,712,78,712,63,740,63,737,70,721,72,721,70,726,71,729
+Mercer,,Franklin East,unofficial,Raw/Mercer.pdf,"127,128,129",5469,exact,120,468,128,458,113,499,112,493,117,474,122,487,121,484,129,476
+Mercer,,Franklin West,unofficial,Raw/Mercer.pdf,"131,132,133",5470,exact,130,504,142,503,126,548,129,543,130,521,134,536,142,529,141,533
+Mercer,,Hopewell Township,unofficial,Raw/Mercer.pdf,"135,136,137",5474,exact,75,356,77,357,63,383,71,378,74,364,71,373,75,369,74,370
+Mercer,,Liberty Township,unofficial,Raw/Mercer.pdf,"140,141,142",5475,exact,49,270,50,276,46,294,44,294,53,278,50,287,55,283,54,287
+Mercer,,Washington Township,unofficial,Raw/Mercer.pdf,"145,146,147",5482,exact,48,471,53,469,40,500,38,499,47,484,47,492,46,488,50,485
+Mercer,,Blackcreek Township,unofficial,Raw/Mercer.pdf,"149,150,151",5454,exact,46,164,48,162,34,186,40,181,40,175,43,179,42,179,44,176

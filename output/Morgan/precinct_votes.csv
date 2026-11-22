@@ -1,0 +1,14 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Morgan,1.1,East Bloom,official,Raw/Morgan.pdf,"1,2",5895,normalized,77,202,79,196,72,216,75,214,74,205,74,216,72,214,84,205
+Morgan,2,West Bloom,official,Raw/Morgan.pdf,"4,5",5903,normalized,77,258,79,260,76,286,75,289,75,274,71,289,73,282,77,281
+Morgan,3,Bristol,official,Raw/Morgan.pdf,"7,8",5892,normalized,37,72,40,68,33,82,31,85,33,77,34,80,32,81,36,79
+Morgan,4,Center,official,Raw/Morgan.pdf,"10,11",5893,normalized,56,159,58,155,53,180,49,183,54,172,52,184,55,177,53,180
+Morgan,5,Homer,official,Raw/Morgan.pdf,"13,14",5896,normalized,199,355,212,347,193,372,194,372,190,361,196,378,197,366,204,358
+Morgan,6,Malta,official,Raw/Morgan.pdf,"16,17",5897,exact,167,373,176,375,150,414,150,418,149,399,151,416,156,411,160,407
+Morgan,7,Chesterhill,official,Raw/Morgan.pdf,"19,20",5894,normalized,140,210,152,191,145,219,146,218,144,212,144,221,144,218,144,216
+Morgan,8,Meigsville,official,Raw/Morgan.pdf,"23,24",5900,normalized,81,290,91,283,78,315,79,321,79,306,75,318,77,313,81,307
+Morgan,9,McConn A,official,Raw/Morgan.pdf,"26,27",5898,normalized,136,301,145,295,130,322,126,334,133,316,124,336,127,323,130,324
+Morgan,10,McConn B & C,official,Raw/Morgan.pdf,"29,30",5899,normalized,111,180,113,184,105,202,102,202,109,191,103,204,104,190,111,187
+Morgan,11,Penn,official,Raw/Morgan.pdf,"32,33",5901,normalized,73,166,83,163,77,186,68,193,74,184,68,192,75,186,76,184
+Morgan,12,Stockport,official,Raw/Morgan.pdf,"35,36",5902,normalized,182,410,196,397,178,448,172,455,174,435,166,460,170,447,177,439
+Morgan,13,York,official,Raw/Morgan.pdf,"38,39",5904,normalized,83,175,90,175,83,196,88,195,86,186,91,193,88,191,93,185

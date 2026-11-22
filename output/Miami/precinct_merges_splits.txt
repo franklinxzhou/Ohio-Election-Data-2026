@@ -1,0 +1,69 @@
+Miami County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Miami.pdf, Miami's Official Canvass SOVC dated November 17, 2026.
+  Physical pages 1–88 contain the statewide tables and county totals.
+  https://www.boe.ohio.gov/miami/election-info/election-results
+  Miami County GIS precinct shapefile named 2022_010523, posted as
+  updated September 24, 2025. Its 87 labeled precincts correspond
+  to the canvass codes and names. Later boundary changes may be missing.
+  https://ftp.miamicountyohio.gov/GIS/Miami_County_Precincts_2022_010523.zip
+  Census 2020 TIGERweb Voting Districts, Miami County, Ohio (39109):
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  Query: where=STATE='39' AND COUNTY='109', outFields=BASENAME,GEOID,
+  outSR=5070, f=geojson. OH_pct20.json provides graph membership.
+
+Method and changes
+  The two polygon layers were intersected in EPSG:5070. Links retain
+  predecessors covering at least 2% of the newer polygon or at least
+  95% of the predecessor. Shares below are of newer mapped area.
+  Eleven name variants differ in slash spacing. Small overlaps may
+  reflect mapping differences. Existing graph groups retain their shared
+  IDs and each canvass precinct keeps its own votes.
+  Former Huber Heights B is split among the four current Huber Heights
+  precincts. Current C also includes land from Bethel South Central.
+  The mapped B and D precincts fall entirely inside former B and account
+  for 34.01% and 28.55% of former B's area, respectively.
+
+Shared nodes in the 2020 graph
+  5487 Bradford, Newberry West
+  5490 Concord North, Troy 4-C
+  5492 Concord South, Concord West
+  5493 Covington A / B, Covington C / D, Newberry East
+  5500 Monroe East Central, Monroe North East, Monroe South East,
+       Monroe South, Monroe West, Tipp City C, Tipp City F,
+       Tipp City G, Tipp City H
+  5521 Springcreek East, Springcreek West, Washington
+  5522 Staunton North, Staunton South, Troy 1-A, Troy 2-A
+
+Mapped crosswalk exceptions
+002 PIQUA 1-B / D | boundary_overlap | 5504;5521 | WASHINGTON (65.20%); PIQUA 1-B / D (34.80%)
+006 PIQUA 2-D | boundary_overlap | 5508;5521 | PIQUA 2-D (76.07%); WASHINGTON (23.93%)
+007 PIQUA 3-A | boundary_overlap | 5509;5521 | PIQUA 3-A (93.51%); SPRINGCREEK EAST (6.49%)
+010 PIQUA 4-A | boundary_overlap | 5512;5521 | PIQUA 4-A (96.24%); WASHINGTON (3.76%)
+013 PIQUA 5-A | boundary_overlap | 5515;5518 | PIQUA 5-A (97.87%); PIQUA 5-D (2.13%)
+017 TROY 1-A | boundary_overlap | 5522 | TROY 1-A (79.99%); STAUNTON SOUTH (20.01%)
+019 TROY 1-C | boundary_overlap | 5528;5530 | TROY 1-C (97.03%); TROY 2-B (2.97%)
+020 TROY 1-D | boundary_overlap | 5529;5532 | TROY 1-D (90.93%); TROY 3-A (8.44%)
+023 TROY 2-C | boundary_overlap | 5531;5540 | TROY 2-C (95.00%); TROY 5-C (4.07%)
+025 TROY 3-B | boundary_overlap | 5533;5537 | TROY 3-B (96.64%); TROY 4-B (3.36%)
+027 TROY 3-D | boundary_overlap | 5490;5535;5540 | TROY 3-D (52.43%); TROY 4-C (24.57%); TROY 5-C (23.00%)
+028 TROY 4-A | boundary_overlap | 5490;5492;5536 | TROY 4-A (69.91%); CONCORD WEST (17.98%); CONCORD SOUTH (10.03%); CONCORD NORTH (2.08%)
+030 TROY 4-C | boundary_overlap | 5490;5536 | TROY 4-C (92.87%); TROY 4-A (7.13%)
+031 TROY 5-A | boundary_overlap | 5490;5538;5540;5541;5544 | TROY 6-A (39.26%); TROY 6-D (24.58%); TROY 5-A (24.48%); TROY 5-C (6.07%); CONCORD NORTH (5.61%)
+035 TROY 6-B | boundary_overlap | 5490;5542 | TROY 6-B (91.96%); CONCORD NORTH (8.04%)
+036 TROY 6-C | boundary_overlap | 5490;5543 | TROY 6-C (60.37%); CONCORD NORTH (39.39%)
+037 TROY 6-D | boundary_overlap | 5542;5544 | TROY 6-D (84.56%); TROY 6-B (15.44%)
+055 CONCORD SOUTH | boundary_overlap | 5491;5492;5545 | CONCORD SOUTH (78.93%); CONCORD SOUTH EAST (16.02%); UNION EAST (5.04%)
+060 MONROE SOUTH EAST | boundary_overlap | 5500 | MONROE SOUTH EAST (59.26%); MONROE EAST CENTRAL (40.39%)
+062 MONROE WEST | boundary_overlap | 5500;5545 | MONROE WEST (97.83%); UNION EAST (2.17%)
+065 COVINGTON C / D | boundary_overlap | 5493 | COVINGTON C / D (97.68%); NEWBERRY EAST (2.32%)
+068 PLEASANT HILL | boundary_overlap | 5501;5519 | PLEASANT HILL (93.90%); NEWTON EAST (6.10%)
+077 WEST MILTON A | boundary_overlap | 5499;5547 | WEST MILTON A (95.71%); LUDLOW CENTRAL (3.07%)
+078 WEST MILTON B | boundary_overlap | 5545;5548 | WEST MILTON B (84.25%); UNION EAST (14.56%)
+081 UNION SOUTH CENTRAL | boundary_overlap | 5546;5549 | UNION SOUTH CENTRAL (97.68%); WEST MILTON C (2.10%)
+085 HUBER HEIGHTS A | boundary_overlap | 5495;5496 | HUBER HEIGHTS A (71.54%); HUBER HEIGHTS B (28.46%)
+086 HUBER HEIGHTS B | split_precinct | 5496 | HUBER HEIGHTS B (100.00%)
+087 HUBER HEIGHTS C | boundary_overlap | 5484;5496 | BETHEL SOUTH CENTRAL (60.98%); HUBER HEIGHTS B (38.25%)
+088 HUBER HEIGHTS D | split_precinct | 5496 | HUBER HEIGHTS B (100.00%)

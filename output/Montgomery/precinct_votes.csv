@@ -1,0 +1,382 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Montgomery,BRK-A,BROOKVILLE A,unofficial,Raw/Montgomery.pdf,"15,32,48,64,80,96",5569;5570;5597,boundary_overlap,245,414,244,411,231,445,215,468,231,421,234,437,232,437,244,428
+Montgomery,BRK-B,BROOKVILLE B,unofficial,Raw/Montgomery.pdf,"15,32,48,64,80,96",5570,normalized,160,352,171,343,158,375,157,371,162,360,158,371,162,363,155,374
+Montgomery,BRK-C,BROOKVILLE C,unofficial,Raw/Montgomery.pdf,"15,32,48,64,80,96",5570;5571,boundary_overlap,204,440,226,431,196,482,199,479,196,449,211,465,212,461,216,457
+Montgomery,BRK-D,BROOKVILLE D,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5572,boundary_overlap,176,392,183,387,168,432,155,442,165,411,171,423,167,427,168,425
+Montgomery,BTLTWP-A,BUTLER TOWNSHIP A,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5573;5574,boundary_overlap,216,412,232,403,213,440,217,436,214,420,216,434,217,429,225,429
+Montgomery,BTLTWP-B,BUTLER TOWNSHIP B,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5573;5574,boundary_overlap,239,342,242,346,232,355,224,362,230,345,228,360,230,351,233,352
+Montgomery,BTLTWP-C,BUTLER TOWNSHIP C,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5575,normalized,294,445,317,433,290,480,297,470,298,452,297,471,302,468,308,459
+Montgomery,BTLTWP-D,BUTLER TOWNSHIP D,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5576,normalized,305,379,307,372,292,396,287,406,288,379,294,389,299,386,298,392
+Montgomery,BTLTWP-E,BUTLER TOWNSHIP E,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5577,normalized,186,283,195,283,185,302,189,296,188,288,184,300,189,292,197,286
+Montgomery,BTLTWP-F,BUTLER TOWNSHIP F,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5578,normalized,254,329,263,321,249,349,246,352,249,328,255,340,255,333,252,334
+Montgomery,BTLTWP-G,BUTLER TOWNSHIP G,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5579,normalized,179,160,172,158,164,172,167,170,168,167,169,173,175,166,178,164
+Montgomery,CLATWP-A,CLAY TOWNSHIP A,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5596,normalized,108,338,111,347,105,369,105,370,103,345,112,359,114,354,113,356
+Montgomery,CLATWP-B,CLAY TOWNSHIP B,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5572,combined_node,99,342,106,336,96,362,94,364,96,342,103,347,101,348,104,344
+Montgomery,CLATWP-C,CLAY TOWNSHIP C,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5597,normalized,161,497,169,504,153,546,149,547,156,518,161,529,166,526,161,524
+Montgomery,CTN 1-A,CLAYTON 01-A,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5598;5599,split_node,150,344,159,335,141,368,138,372,143,353,146,361,144,361,151,353
+Montgomery,CTN 1-B,CLAYTON 01-B,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5600;5601;5602,split_node,376,239,391,232,375,260,374,261,377,237,378,253,395,236,388,243
+Montgomery,CTN 1-C,CLAYTON 01-C,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5603,normalized,397,358,407,355,392,393,399,384,396,362,400,379,396,380,406,374
+Montgomery,CTN 1-D,CLAYTON 01-D,unofficial,Raw/Montgomery.pdf,"16,32,48,64,80,96",5604,normalized,310,158,318,156,313,164,309,169,308,157,314,166,321,156,314,163
+Montgomery,CTN 2-A,CLAYTON 02-A,unofficial,Raw/Montgomery.pdf,"16,33,49,65,81,97",5605,normalized,261,206,288,198,267,224,268,222,269,210,269,219,274,219,277,216
+Montgomery,CTN 2-B,CLAYTON 02-B,unofficial,Raw/Montgomery.pdf,"16,33,49,65,81,97",5606,normalized,430,231,450,219,437,247,422,261,446,226,441,241,442,238,443,235
+Montgomery,CTN 2-C,CLAYTON 02-C,unofficial,Raw/Montgomery.pdf,"16,33,49,65,81,97",5607,normalized,478,234,490,230,485,252,484,251,483,230,485,245,491,240,490,241
+Montgomery,CTN 3-A,CLAYTON 03-A,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5608;5609,boundary_overlap,431,261,448,253,439,285,430,295,436,266,443,278,440,280,448,270
+Montgomery,CTN 3-B,CLAYTON 03-B,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5609;5610,boundary_overlap,415,241,418,242,409,273,405,276,405,257,412,267,409,272,416,265
+Montgomery,CTN 3-C,CLAYTON 03-C,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5610,normalized,389,172,402,167,391,191,388,196,392,172,396,187,397,186,401,184
+Montgomery,CV-A,CENTERVILLE A,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5580,normalized,300,104,312,104,307,124,301,126,309,104,304,122,301,123,309,117
+Montgomery,CV-B,CENTERVILLE B,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5581,normalized,360,282,375,275,340,319,337,318,342,295,337,316,345,309,345,308
+Montgomery,CV-C,CENTERVILLE C,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5582,normalized,198,237,212,234,200,261,201,260,200,243,206,254,203,256,209,248
+Montgomery,CV-D,CENTERVILLE D,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5583,normalized,279,170,292,164,290,178,282,186,281,177,284,181,285,183,288,178
+Montgomery,CV-E,CENTERVILLE E,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5584,normalized,323,356,340,335,317,378,312,383,318,359,322,368,324,364,331,357
+Montgomery,CV-F,CENTERVILLE F,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5585,normalized,364,347,374,343,351,378,338,395,345,356,351,374,364,363,361,365
+Montgomery,CV-G,CENTERVILLE G,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5586,normalized,412,399,422,388,411,421,408,421,415,398,422,405,419,408,428,399
+Montgomery,CV-H,CENTERVILLE H,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5587;5589,boundary_overlap,446,402,464,376,420,436,408,437,429,407,433,419,443,406,443,403
+Montgomery,CV-I,CENTERVILLE I,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5588;5594,boundary_overlap,387,522,412,509,375,555,372,554,368,532,376,548,378,543,393,533
+Montgomery,CV-J,CENTERVILLE J,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5584;5589,boundary_overlap,317,362,345,343,314,390,296,403,318,365,312,387,326,380,321,380
+Montgomery,CV-K,CENTERVILLE K,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5590,normalized,378,383,410,357,376,411,364,419,374,384,380,397,379,396,381,397
+Montgomery,CV-L,CENTERVILLE L,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5591,normalized,409,449,427,430,404,468,391,483,403,444,402,461,406,457,405,458
+Montgomery,CV-M,CENTERVILLE M,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5586;5592,boundary_overlap,350,351,361,341,340,377,333,383,338,356,342,367,346,365,354,360
+Montgomery,CV-N,CENTERVILLE N,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5593,normalized,346,265,360,252,337,287,326,295,348,270,338,280,347,275,345,274
+Montgomery,CV-O,CENTERVILLE O,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5594,combined_node,469,436,470,429,437,470,433,476,440,451,446,460,443,464,447,461
+Montgomery,CV-P,CENTERVILLE P,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5595,normalized,403,348,425,334,393,372,389,374,394,347,401,357,402,355,406,353
+Montgomery,CV-Q,CENTERVILLE Q,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5580;5581;5593,boundary_overlap,370,306,400,288,371,327,355,343,369,311,358,334,375,320,383,309
+Montgomery,CV-R,CENTERVILLE R,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5583;5588,boundary_overlap,350,264,355,268,331,300,336,297,333,276,346,284,341,285,341,287
+Montgomery,DAY 1-A,DAYTON 01-A,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5611;5821,boundary_overlap,116,35,119,34,113,43,115,41,112,36,112,40,113,39,116,39
+Montgomery,DAY 1-B,DAYTON 01-B,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5612,normalized,537,96,550,90,531,116,520,122,528,102,525,116,537,107,537,105
+Montgomery,DAY 1-C,DAYTON 01-C,unofficial,Raw/Montgomery.pdf,"17,33,49,65,81,97",5612;5613;5614,boundary_overlap,390,58,391,61,390,68,388,73,391,59,392,71,395,61,391,67
+Montgomery,DAY 1-D,DAYTON 01-D,unofficial,Raw/Montgomery.pdf,"17,34,50,66,82,98",5615;5630,boundary_overlap,207,41,213,36,214,41,210,45,208,39,213,41,214,41,210,45
+Montgomery,DAY 1-E,DAYTON 01-E,unofficial,Raw/Montgomery.pdf,"17,34,50,66,82,98",5615;5616,boundary_overlap,456,80,474,76,464,89,463,91,456,80,461,92,464,90,471,84
+Montgomery,DAY 2-A,DAYTON 02-A,unofficial,Raw/Montgomery.pdf,"17,34,50,66,82,98",5659;5678,boundary_overlap,179,103,184,102,182,115,174,121,183,101,183,111,186,108,183,112
+Montgomery,DAY 2-B,DAYTON 02-B,unofficial,Raw/Montgomery.pdf,"17,34,50,66,82,98",5660,normalized,310,89,312,84,311,101,313,101,308,92,316,98,317,100,318,96
+Montgomery,DAY 2-C,DAYTON 02-C,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5659;5661,boundary_overlap,237,124,251,124,248,143,249,139,243,125,249,136,249,137,252,137
+Montgomery,DAY 2-D,DAYTON 02-D,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5659;5662;5674;5675;5676,boundary_overlap,141,81,144,83,139,90,140,90,139,79,142,85,142,87,143,85
+Montgomery,DAY 3-A,DAYTON 03-A,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5673,normalized,99,67,106,64,98,76,100,76,103,70,99,75,99,73,102,71
+Montgomery,DAY 3-B,DAYTON 03-B,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5573;5574,boundary_overlap,149,116,153,120,148,132,144,136,148,124,148,128,149,128,152,129
+Montgomery,DAY 3-C,DAYTON 03-C,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5674;5675;5676,boundary_overlap,347,295,368,288,350,324,341,329,345,303,358,316,355,314,353,316
+Montgomery,DAY 3-D,DAYTON 03-D,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5677,normalized,247,137,258,136,243,150,243,153,246,138,248,146,245,146,244,147
+Montgomery,DAY 3-E,DAYTON 03-E,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5678,combined_node,132,74,136,72,132,81,126,84,126,75,134,76,133,75,131,78
+Montgomery,DAY 3-F,DAYTON 03-F,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5679,normalized,378,192,392,184,374,217,359,228,363,206,369,218,365,217,374,209
+Montgomery,DAY 3-G,DAYTON 03-G,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5674;5675;5676,split_node,148,154,159,143,148,163,144,170,146,157,158,153,157,152,154,152
+Montgomery,DAY 3-H,DAYTON 03-H,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5674;5675;5676;5678,boundary_overlap,168,141,175,140,170,156,163,162,172,147,173,155,170,160,171,156
+Montgomery,DAY 3-I,DAYTON 03-I,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5674;5675;5676,split_node,426,230,445,223,422,249,412,253,421,226,423,237,418,242,425,233
+Montgomery,DAY 3-J,DAYTON 03-J,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5674;5675;5676,split_node,324,214,328,216,317,232,312,237,319,214,322,228,320,228,323,223
+Montgomery,DAY 3-K,DAYTON 03-K,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5674;5675;5676,boundary_overlap,461,284,479,266,472,289,464,301,476,277,483,283,477,288,475,289
+Montgomery,DAY 3-L,DAYTON 03-L,unofficial,Raw/Montgomery.pdf,"18,34,50,66,82,98",5674;5675;5676,boundary_overlap,364,274,373,260,359,285,355,291,353,272,363,277,361,277,368,273
+Montgomery,DAY 4-A,DAYTON 04-A,unofficial,Raw/Montgomery.pdf,"18,35,51,67,83,99",5680;5682,boundary_overlap,323,66,333,60,330,79,332,74,322,68,336,70,334,70,342,64
+Montgomery,DAY 4-B,DAYTON 04-B,unofficial,Raw/Montgomery.pdf,"18,35,51,67,83,99",5681;5682,boundary_overlap,252,52,260,54,266,63,261,66,266,56,261,68,263,65,265,61
+Montgomery,DAY 4-C,DAYTON 04-C,unofficial,Raw/Montgomery.pdf,"18,35,51,67,83,99",5681;5683,boundary_overlap,287,46,293,53,293,58,290,61,286,53,283,59,291,55,292,57
+Montgomery,DAY 5-A,DAYTON 05-A,unofficial,Raw/Montgomery.pdf,"18,35,51,67,83,99",5684,normalized,287,13,291,9,288,17,289,18,289,11,292,17,294,16,295,16
+Montgomery,DAY 5-B,DAYTON 05-B,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5685,normalized,261,27,264,28,265,35,261,41,265,28,270,31,270,32,268,35
+Montgomery,DAY 5-C,DAYTON 05-C,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5686,normalized,191,22,193,23,198,23,199,23,196,20,195,25,195,26,197,24
+Montgomery,DAY 5-D,DAYTON 05-D,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5687;5688,boundary_overlap,325,20,338,23,342,23,334,28,338,21,336,25,337,25,344,18
+Montgomery,DAY 6-A,DAYTON 06-A,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5644;5691,boundary_overlap,328,16,330,17,328,19,334,19,333,14,327,18,325,18,337,15
+Montgomery,DAY 6-B,DAYTON 06-B,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5689;5690,boundary_overlap,332,15,339,12,342,17,339,19,338,13,340,19,338,18,345,15
+Montgomery,DAY 6-C,DAYTON 06-C,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5690;5691,boundary_overlap,283,14,282,14,287,19,297,18,297,9,298,16,300,11,299,15
+Montgomery,DAY 7-A,DAYTON 07-A,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5692,normalized,265,14,270,16,282,16,282,17,283,10,279,19,281,15,282,17
+Montgomery,DAY 7-B,DAYTON 07-B,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5693,normalized,254,16,260,16,257,23,250,28,256,17,257,23,254,24,255,23
+Montgomery,DAY 8-A,DAYTON 08-A,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5694,normalized,336,175,352,175,339,191,335,196,332,177,335,189,339,182,348,178
+Montgomery,DAY 8-B,DAYTON 08-B,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5695,normalized,391,110,408,106,394,134,388,142,389,121,394,132,395,132,402,125
+Montgomery,DAY 8-C,DAYTON 08-C,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5694;5695;5696,boundary_overlap,356,137,365,141,358,152,355,153,350,138,358,146,359,145,364,141
+Montgomery,DAY 8-D,DAYTON 08-D,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5694;5697,boundary_overlap,362,121,370,125,369,138,368,139,365,121,369,135,376,130,373,131
+Montgomery,DAY 9-A,DAYTON 09-A,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5698,normalized,460,246,475,236,447,276,441,287,460,254,451,267,451,262,456,267
+Montgomery,DAY 9-B,DAYTON 09-B,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5699,normalized,393,181,412,182,405,194,409,195,402,177,403,196,405,189,401,193
+Montgomery,DAY 9-C,DAYTON 09-C,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5700;5701,boundary_overlap,443,216,459,211,437,234,431,245,436,219,441,227,446,222,450,221
+Montgomery,DAY 9-D,DAYTON 09-D,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5701,normalized,254,162,271,154,276,170,266,177,271,159,280,164,278,166,284,162
+Montgomery,DAY 10-A,DAYTON 10-A,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5617,exact,301,141,306,143,299,157,290,167,291,141,303,155,306,147,307,148
+Montgomery,DAY 10-B,DAYTON 10-B,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5618,exact,197,148,199,148,195,162,190,167,191,150,197,161,198,159,200,157
+Montgomery,DAY 10-C,DAYTON 10-C,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5619,exact,228,123,238,116,233,130,228,136,232,125,232,131,234,130,236,128
+Montgomery,DAY 10-D,DAYTON 10-D,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5620,exact,241,193,255,191,245,214,243,217,247,196,249,208,247,210,251,210
+Montgomery,DAY 10-E,DAYTON 10-E,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5621,exact,254,145,266,144,253,160,252,160,257,149,258,152,261,145,260,150
+Montgomery,DAY 11-A,DAYTON 11-A,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5622;5626,boundary_overlap,166,108,179,108,173,121,173,121,175,103,181,113,183,110,185,112
+Montgomery,DAY 11-B,DAYTON 11-B,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5622;5623,boundary_overlap,156,111,168,111,170,122,172,120,162,115,169,120,170,120,167,121
+Montgomery,DAY 11-C,DAYTON 11-C,unofficial,Raw/Montgomery.pdf,"19,35,51,67,83,99",5624,exact,202,69,213,73,210,84,209,84,210,69,211,82,212,83,211,83
+Montgomery,DAY 11-D,DAYTON 11-D,unofficial,Raw/Montgomery.pdf,"19,36,52,68,84,100",5624;5625,boundary_overlap,218,195,231,188,222,216,214,222,218,194,222,208,225,206,221,207
+Montgomery,DAY 11-E,DAYTON 11-E,unofficial,Raw/Montgomery.pdf,"19,36,52,68,84,100",5623;5624;5625,boundary_overlap,192,127,199,134,190,154,194,150,189,139,195,144,198,144,195,146
+Montgomery,DAY 12-A,DAYTON 12-A,unofficial,Raw/Montgomery.pdf,"19,36,52,68,84,100",5626,exact,335,152,353,153,352,168,336,182,340,149,345,165,353,161,349,161
+Montgomery,DAY 12-B,DAYTON 12-B,unofficial,Raw/Montgomery.pdf,"19,36,52,68,84,100",5627,exact,309,55,319,51,320,58,316,64,313,55,323,56,321,58,325,54
+Montgomery,DAY 12-C,DAYTON 12-C,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5628,exact,253,121,274,110,264,131,259,137,263,124,265,130,269,124,262,132
+Montgomery,DAY 12-D,DAYTON 12-D,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5628;5629,boundary_overlap,193,77,201,78,192,94,193,93,193,87,196,89,192,88,192,90
+Montgomery,DAY 13-A,DAYTON 13-A,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5611;5630,boundary_overlap,323,11,327,10,332,17,334,17,331,7,334,17,332,16,331,15
+Montgomery,DAY 13-B,DAYTON 13-B,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5631,exact,191,9,194,10,196,10,194,11,191,11,189,14,193,9,192,12
+Montgomery,DAY 14-A,DAYTON 14-A,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5632;5633,split_node,361,22,379,25,371,32,381,24,374,24,377,24,373,26,375,27
+Montgomery,DAY 14-B,DAYTON 14-B,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5634,exact,142,9,145,9,147,9,149,8,145,9,148,9,148,8,148,7
+Montgomery,DAY 14-C,DAYTON 14-C,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5635,combined_node,203,22,211,17,212,22,215,21,215,18,213,21,215,19,215,23
+Montgomery,DAY 14-D,DAYTON 14-D,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5635;5636,boundary_overlap,403,17,420,20,420,30,425,22,423,16,429,18,427,24,430,19
+Montgomery,DAY 15-A,DAYTON 15-A,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5637,exact,358,13,362,10,358,21,361,15,367,11,368,16,366,14,367,12
+Montgomery,DAY 15-B,DAYTON 15-B,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5638,exact,415,17,416,19,422,20,419,21,420,14,423,18,421,17,428,15
+Montgomery,DAY 15-C,DAYTON 15-C,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5639,exact,282,16,299,14,295,15,298,14,293,13,298,15,297,14,294,14
+Montgomery,DAY 15-D,DAYTON 15-D,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5640;5644,boundary_overlap,319,14,315,16,324,18,326,18,326,18,323,21,328,19,332,16
+Montgomery,DAY 16-A,DAYTON 16-A,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5641,exact,335,36,335,41,345,37,337,43,341,36,342,36,339,41,346,38
+Montgomery,DAY 16-B,DAYTON 16-B,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5642;5727,boundary_overlap,255,12,266,10,266,15,265,17,261,10,264,16,264,19,269,14
+Montgomery,DAY 16-C,DAYTON 16-C,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5643,exact,277,17,283,16,288,19,293,18,293,16,289,18,295,14,293,18
+Montgomery,DAY 16-D,DAYTON 16-D,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5644,combined_node,539,19,549,19,542,29,540,30,544,22,551,22,546,25,543,26
+Montgomery,DAY 16-E,DAYTON 16-E,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5645,exact,336,13,340,13,351,16,346,19,351,14,350,16,352,14,348,16
+Montgomery,DAY 17-A,DAYTON 17-A,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5646,exact,230,25,240,26,240,36,239,35,237,30,241,33,240,36,242,32
+Montgomery,DAY 17-B,DAYTON 17-B,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5647,exact,287,42,293,43,305,47,300,50,295,46,302,43,303,47,305,47
+Montgomery,DAY 17-C,DAYTON 17-C,unofficial,Raw/Montgomery.pdf,"20,36,52,68,84,100",5648,exact,345,26,360,29,357,45,362,41,368,27,368,36,363,39,366,33
+Montgomery,DAY 17-D,DAYTON 17-D,unofficial,Raw/Montgomery.pdf,"20,37,53,69,85,101",5649,exact,226,32,232,31,228,37,229,33,226,33,235,32,231,33,228,35
+Montgomery,DAY 18-A,DAYTON 18-A,unofficial,Raw/Montgomery.pdf,"20,37,53,69,85,101",5650,exact,269,16,285,15,283,19,274,24,272,15,283,18,279,19,282,16
+Montgomery,DAY 18-B,DAYTON 18-B,unofficial,Raw/Montgomery.pdf,"20,37,53,69,85,101",5651;5652,boundary_overlap,415,48,417,51,414,56,410,63,405,52,409,55,410,54,403,63
+Montgomery,DAY 18-C,DAYTON 18-C,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5653;5723,boundary_overlap,265,34,273,37,275,42,272,43,272,34,273,42,278,39,281,35
+Montgomery,DAY 18-D,DAYTON 18-D,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5654;5723,boundary_overlap,238,60,247,60,249,68,253,63,247,57,249,61,250,65,249,64
+Montgomery,DAY 19-A,DAYTON 19-A,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5655;5656;5658,boundary_overlap,146,4,147,5,152,7,154,4,154,4,153,4,153,3,154,5
+Montgomery,DAY 19-B,DAYTON 19-B,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5656;5657,boundary_overlap,345,14,349,13,350,18,352,16,352,14,359,13,350,20,350,21
+Montgomery,DAY 19-C,DAYTON 19-C,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5658,split_precinct,294,12,295,13,304,12,303,15,304,8,301,14,304,12,304,12
+Montgomery,DAY 20-A,DAYTON 20-A,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5663,exact,311,251,333,247,320,277,317,277,313,261,324,272,325,273,327,263
+Montgomery,DAY 20-B,DAYTON 20-B,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5664,exact,384,251,390,247,382,284,366,297,381,261,386,279,384,280,393,268
+Montgomery,DAY 20-C,DAYTON 20-C,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5663;5665;5843,boundary_overlap,224,224,236,221,221,250,224,253,226,226,233,241,236,234,229,246
+Montgomery,DAY 20-D,DAYTON 20-D,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5665;5666,boundary_overlap,213,185,220,183,217,201,218,195,220,185,219,198,220,195,225,190
+Montgomery,DAY 21-A,DAYTON 21-A,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5644;5667,boundary_overlap,249,11,253,16,258,15,258,17,260,11,260,16,257,18,259,16
+Montgomery,DAY 21-B,DAYTON 21-B,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5644;5667,boundary_overlap,264,13,278,11,280,13,281,12,275,12,280,11,277,16,282,15
+Montgomery,DAY 21-C,DAYTON 21-C,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5668,exact,425,16,433,14,441,20,439,22,439,14,440,20,440,19,441,20
+Montgomery,DAY 22-A,DAYTON 22-A,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5669;5670,boundary_overlap,514,42,535,41,543,46,535,52,531,40,538,45,538,46,541,45
+Montgomery,DAY 22-B,DAYTON 22-B,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5670,exact,425,33,437,33,440,36,432,44,436,32,443,34,438,38,444,33
+Montgomery,DAY 22-C,DAYTON 22-C,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5670;5671,boundary_overlap,627,19,632,21,641,29,630,33,633,24,644,24,637,26,640,21
+Montgomery,DAY 23-A,DAYTON 23-A,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5616;5672,boundary_overlap,357,63,365,57,364,73,354,81,358,69,367,65,362,71,366,71
+Montgomery,ENG-A,ENGLEWOOD A,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5598;5599;5702,boundary_overlap,386,271,412,259,384,293,374,301,382,281,388,283,400,269,400,271
+Montgomery,ENG-B,ENGLEWOOD B,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5703,normalized,281,262,298,255,267,292,269,296,271,274,276,283,280,277,286,272
+Montgomery,ENG-C,ENGLEWOOD C,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5704;5705,boundary_overlap,353,190,368,187,358,207,348,216,358,196,368,196,360,200,370,189
+Montgomery,ENG-D,ENGLEWOOD D,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5703;5705,boundary_overlap,314,324,339,312,316,350,310,352,320,323,323,342,329,333,336,327
+Montgomery,ENG-E,ENGLEWOOD E,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5704;5706,boundary_overlap,449,249,472,240,463,268,458,268,453,256,472,255,466,263,473,256
+Montgomery,ENG-F,ENGLEWOOD F,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5598;5599,split_node,233,263,243,257,227,284,232,282,228,268,228,278,235,274,234,278
+Montgomery,ENG-G,ENGLEWOOD G,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5707,normalized,327,287,343,272,323,306,311,316,321,281,331,289,329,294,333,288
+Montgomery,ENG-H,ENGLEWOOD H,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5603;5708,boundary_overlap,269,213,283,204,271,230,269,236,274,217,273,225,278,221,278,225
+Montgomery,ENG-I,ENGLEWOOD I,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5603;5709,boundary_overlap,243,185,253,174,242,193,235,199,247,180,254,184,246,190,256,180
+Montgomery,ENG-J,ENGLEWOOD J,unofficial,Raw/Montgomery.pdf,"21,37,53,69,85,101",5710,normalized,359,181,366,182,361,204,348,217,363,189,362,201,369,196,363,198
+Montgomery,FARM,FARMERSVILLE,unofficial,Raw/Montgomery.pdf,"21,38,54,70,86,102",5711;5753,boundary_overlap,113,270,118,271,103,298,103,297,105,273,109,290,110,288,118,282
+Montgomery,GERTWP-A,GERMAN TOWNSHIP A,unofficial,Raw/Montgomery.pdf,"21,38,54,70,86,102",5712,normalized,182,517,201,514,178,568,180,573,188,533,188,558,182,560,192,552
+Montgomery,GERTWP-B,GERMAN TOWNSHIP B,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5712;5713;5714,boundary_overlap,181,502,192,500,178,548,182,541,180,518,185,536,178,544,187,534
+Montgomery,GTN-A,GERMANTOWN A,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5712;5713;5714;5715;5717,boundary_overlap,226,347,250,342,221,378,216,386,223,363,229,371,229,368,233,366
+Montgomery,GTN-B,GERMANTOWN B,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5716,normalized,180,301,191,297,179,320,174,328,174,310,176,325,179,315,185,313
+Montgomery,GTN-C,GERMANTOWN C,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5712;5715;5717,boundary_overlap,182,344,200,338,186,354,173,364,173,350,185,348,175,353,177,355
+Montgomery,GTN-D,GERMANTOWN D,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5715;5716,boundary_overlap,211,361,216,371,208,401,205,399,202,374,210,390,209,392,207,393
+Montgomery,HARTWP-A,HARRISON TOWNSHIP A,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5718;5719,boundary_overlap,114,152,117,152,123,168,119,171,114,162,118,171,121,168,119,175
+Montgomery,HARTWP-B,HARRISON TOWNSHIP B,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5674;5675;5676;5719,boundary_overlap,143,203,152,198,141,229,142,220,132,216,140,227,141,221,141,220
+Montgomery,HARTWP-C,HARRISON TOWNSHIP C,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5674;5675;5676,boundary_overlap,179,180,182,182,183,190,178,197,178,189,180,189,180,192,182,187
+Montgomery,HARTWP-D,HARRISON TOWNSHIP D,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5720,normalized,463,172,474,165,469,185,468,189,465,178,471,184,471,184,467,184
+Montgomery,HARTWP-E,HARRISON TOWNSHIP E,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5573;5574,boundary_overlap,95,127,96,127,94,141,93,143,93,129,96,138,96,136,93,139
+Montgomery,HARTWP-F,HARRISON TOWNSHIP F,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5651;5652,boundary_overlap,248,28,257,27,256,36,260,33,259,25,260,35,264,31,260,35
+Montgomery,HARTWP-G,HARRISON TOWNSHIP G,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5721,normalized,335,52,336,56,338,57,340,61,339,55,345,55,345,55,346,54
+Montgomery,HARTWP-H,HARRISON TOWNSHIP H,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5722,normalized,385,54,397,54,407,61,408,61,406,50,410,60,409,56,412,56
+Montgomery,HARTWP-I,HARRISON TOWNSHIP I,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5723,normalized,308,75,316,73,309,85,305,92,314,75,316,79,315,80,306,87
+Montgomery,HARTWP-J,HARRISON TOWNSHIP J,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5724,normalized,364,49,364,51,366,56,361,59,367,51,369,57,365,60,365,55
+Montgomery,HARTWP-K,HARRISON TOWNSHIP K,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5677;5725,boundary_overlap,274,43,286,39,288,46,286,50,288,42,290,43,289,46,286,49
+Montgomery,HARTWP-L,HARRISON TOWNSHIP L,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5720;5726,boundary_overlap,485,148,492,145,493,158,490,161,489,149,495,155,501,151,501,151
+Montgomery,HARTWP-M,HARRISON TOWNSHIP M,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5724;5727,boundary_overlap,649,52,662,55,660,63,656,72,666,55,672,61,667,58,670,60
+Montgomery,HARTWP-N,HARRISON TOWNSHIP N,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5728,normalized,139,194,147,197,144,210,141,215,142,195,146,206,138,208,149,199
+Montgomery,HARTWP-O,HARRISON TOWNSHIP O,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5720;5721;5726,boundary_overlap,465,106,481,98,478,110,467,119,478,104,484,107,484,102,476,114
+Montgomery,HUB 1-A,HUBER HEIGHTS 01-A,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5729;5736,boundary_overlap,278,291,285,285,277,316,272,317,274,296,281,307,281,306,296,297
+Montgomery,HUB 1-B,HUBER HEIGHTS 01-B,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5730,normalized,440,314,447,310,436,337,423,348,430,319,436,332,442,326,445,324
+Montgomery,HUB 1-C,HUBER HEIGHTS 01-C,unofficial,Raw/Montgomery.pdf,"22,38,54,70,86,102",5731;5732,boundary_overlap,362,152,385,139,375,162,364,171,372,145,369,161,376,156,380,153
+Montgomery,HUB 1-D,HUBER HEIGHTS 01-D,unofficial,Raw/Montgomery.pdf,"22,39,55,71,87,103",5732,normalized,373,360,383,352,367,383,361,388,368,369,375,375,378,367,372,380
+Montgomery,HUB 2-A,HUBER HEIGHTS 02-A,unofficial,Raw/Montgomery.pdf,"22,39,55,71,87,103",5733;5734,boundary_overlap,358,283,370,268,355,302,358,297,352,288,351,307,356,297,352,302
+Montgomery,HUB 2-B,HUBER HEIGHTS 02-B,unofficial,Raw/Montgomery.pdf,"22,39,55,71,87,103",5734;5736,boundary_overlap,317,316,336,300,310,346,302,353,311,325,321,331,321,332,324,330
+Montgomery,HUB 3-A,HUBER HEIGHTS 03-A,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5737,normalized,237,245,247,238,245,254,239,257,246,246,248,249,242,256,252,245
+Montgomery,HUB 3-B,HUBER HEIGHTS 03-B,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5735;5738;5739,boundary_overlap,270,112,287,112,281,124,279,125,283,109,282,119,283,115,279,122
+Montgomery,HUB 3-C,HUBER HEIGHTS 03-C,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5737;5739,boundary_overlap,223,214,237,211,229,231,226,233,230,211,233,224,232,227,243,216
+Montgomery,HUB 3-D,HUBER HEIGHTS 03-D,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5733;5735;5739;5747,boundary_overlap,294,315,307,313,291,340,291,340,290,325,296,336,298,334,300,333
+Montgomery,HUB 3-E,HUBER HEIGHTS 03-E,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5733;5734,boundary_overlap,284,192,309,184,292,203,289,203,289,189,292,202,294,196,305,190
+Montgomery,HUB 4-A,HUBER HEIGHTS 04-A,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5741;5743,boundary_overlap,284,248,287,243,279,275,280,275,283,253,281,274,290,264,282,268
+Montgomery,HUB 4-B,HUBER HEIGHTS 04-B,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5737;5740;5742,boundary_overlap,254,243,269,244,261,276,258,280,261,252,269,268,265,268,274,264
+Montgomery,HUB 4-C,HUBER HEIGHTS 04-C,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5743,normalized,333,240,347,229,331,268,322,278,331,253,331,268,333,267,335,261
+Montgomery,HUB 4-D,HUBER HEIGHTS 04-D,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5741;5742;5744,boundary_overlap,342,203,359,205,341,243,338,243,341,217,348,230,344,235,355,221
+Montgomery,HUB 5-A,HUBER HEIGHTS 05-A,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5741;5745,boundary_overlap,269,239,295,239,279,273,284,266,283,243,289,260,295,253,295,255
+Montgomery,HUB 5-B,HUBER HEIGHTS 05-B,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5674;5675;5676,split_node,345,219,354,218,344,247,341,249,347,232,350,241,350,241,356,233
+Montgomery,HUB 5-C,HUBER HEIGHTS 05-C,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5746,normalized,276,247,284,238,272,268,266,274,280,246,284,258,281,259,281,254
+Montgomery,HUB 5-D,HUBER HEIGHTS 05-D,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5674;5675;5676;5745;5746;5749,boundary_overlap,271,250,288,241,272,287,276,279,280,253,280,277,281,271,284,267
+Montgomery,HUB 6-A,HUBER HEIGHTS 06-A,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5747,normalized,271,258,290,242,274,265,266,272,277,247,281,258,285,252,288,251
+Montgomery,HUB 6-B,HUBER HEIGHTS 06-B,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5748,normalized,318,375,326,372,303,403,307,399,320,365,310,391,315,386,313,386
+Montgomery,HUB 6-C,HUBER HEIGHTS 06-C,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5749,normalized,320,311,335,297,324,329,326,324,326,311,323,327,327,320,331,316
+Montgomery,HUB 6-D,HUBER HEIGHTS 06-D,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5747;5748,boundary_overlap,243,318,266,297,251,332,240,343,250,312,249,330,259,320,259,321
+Montgomery,JAKTWP-A,JACKSON TOWNSHIP A,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5752,normalized,148,547,160,544,141,580,146,579,147,560,146,575,150,568,154,563
+Montgomery,JAKTWP-B,JACKSON TOWNSHIP B,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5753,normalized,123,366,128,368,103,405,107,406,113,381,115,390,109,391,117,387
+Montgomery,JEFTWP-A,JEFFERSON TOWNSHIP A,unofficial,Raw/Montgomery.pdf,"23,39,55,71,87,103",5635,combined_node,427,288,432,294,420,314,427,309,425,293,430,309,423,310,427,308
+Montgomery,JEFTWP-B,JEFFERSON TOWNSHIP B,unofficial,Raw/Montgomery.pdf,"23,39,40,55,56,71,72,87,88,103,104",5632;5633,split_node,278,102,281,99,285,108,283,112,284,102,283,108,284,107,284,104
+Montgomery,JEFTWP-C,JEFFERSON TOWNSHIP C,unofficial,Raw/Montgomery.pdf,"23,24,40,56,72,88,104",5635,combined_node,214,284,232,286,219,309,223,303,218,294,217,307,225,296,231,290
+Montgomery,JEFTWP-D,JEFFERSON TOWNSHIP D,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5635;5754,boundary_overlap,504,30,521,27,533,32,526,37,533,25,534,29,535,28,534,34
+Montgomery,JNLB-A,JACKSON TOWNSHIP_NEW LEBANON A,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5750;5752,boundary_overlap,105,201,115,199,110,218,103,224,101,204,110,214,107,216,110,212
+Montgomery,JNLB-B,JACKSON TOWNSHIP_NEW LEBANON B,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5751;5752,boundary_overlap,152,327,160,329,148,359,155,354,150,338,153,351,149,355,155,348
+Montgomery,KT 1-A,KETTERING 01-A,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5755,normalized,312,165,331,157,324,174,314,184,313,164,321,171,322,176,321,172
+Montgomery,KT 1-B,KETTERING 01-B,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5756;5759,boundary_overlap,200,231,212,223,206,250,208,246,201,235,203,245,202,248,200,247
+Montgomery,KT 1-C,KETTERING 01-C,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5757;5761,boundary_overlap,324,293,341,277,322,327,310,337,322,300,327,320,327,319,325,317
+Montgomery,KT 1-D,KETTERING 01-D,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5758;5762,boundary_overlap,394,239,407,233,393,258,383,270,396,250,397,258,396,253,394,258
+Montgomery,KT 1-E,KETTERING 01-E,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5759,normalized,279,227,297,226,278,250,273,253,281,234,280,248,283,245,282,245
+Montgomery,KT 1-F,KETTERING 01-F,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5760,normalized,272,197,275,203,283,214,281,213,276,204,285,211,283,212,284,207
+Montgomery,KT 1-G,KETTERING 01-G,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5761,normalized,278,210,285,205,272,229,270,228,271,214,277,222,280,221,283,219
+Montgomery,KT 1-H,KETTERING 01-H,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5762;5763,boundary_overlap,331,257,344,243,330,286,329,285,337,250,341,272,346,267,345,265
+Montgomery,KT 1-I,KETTERING 01-I,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5763,normalized,310,240,327,226,311,266,301,275,305,245,313,262,320,255,319,251
+Montgomery,KT 2-A,KETTERING 02-A,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5764,normalized,311,220,326,222,320,234,321,232,317,217,326,228,315,237,326,226
+Montgomery,KT 2-B,KETTERING 02-B,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5765,normalized,328,232,344,223,321,259,313,269,321,244,331,250,329,249,330,245
+Montgomery,KT 2-C,KETTERING 02-C,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5766,normalized,339,284,361,270,338,311,342,306,339,287,339,304,336,306,339,301
+Montgomery,KT 2-D,KETTERING 02-D,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5767,normalized,350,242,371,228,360,272,350,279,349,241,367,256,362,253,371,251
+Montgomery,KT 2-E,KETTERING 02-E,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5768,normalized,297,298,317,284,297,316,293,321,298,295,294,314,303,306,307,302
+Montgomery,KT 2-F,KETTERING 02-F,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5769,normalized,256,213,267,212,251,235,253,234,255,220,259,228,256,226,259,224
+Montgomery,KT 2-G,KETTERING 02-G,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5768;5770,boundary_overlap,367,425,384,412,377,442,362,448,369,414,367,438,367,444,384,429
+Montgomery,KT 2-H,KETTERING 02-H,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5771,normalized,356,321,368,311,350,354,333,373,349,325,350,351,361,338,360,341
+Montgomery,KT 2-I,KETTERING 02-I,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5765;5772,boundary_overlap,290,222,294,235,286,260,280,261,286,244,286,256,288,249,291,246
+Montgomery,KT 2-J,KETTERING 02-J,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5764;5767,boundary_overlap,244,127,273,127,261,145,255,148,254,129,256,148,259,143,262,141
+Montgomery,KT 3-A,KETTERING 03-A,unofficial,Raw/Montgomery.pdf,"24,40,56,72,88,104",5773,normalized,378,271,384,260,368,299,368,295,364,280,372,287,374,284,379,283
+Montgomery,KT 3-B,KETTERING 03-B,unofficial,Raw/Montgomery.pdf,"24,41,57,73,89,105",5774,normalized,390,200,403,200,383,226,382,229,387,207,387,221,390,218,395,208
+Montgomery,KT 3-C,KETTERING 03-C,unofficial,Raw/Montgomery.pdf,"24,41,57,73,89,105",5775;5876,boundary_overlap,329,347,347,339,325,365,316,371,320,353,326,360,325,363,328,358
+Montgomery,KT 3-D,KETTERING 03-D,unofficial,Raw/Montgomery.pdf,"24,41,57,73,89,105",5776,normalized,373,132,394,123,388,142,377,154,385,128,387,142,391,137,387,142
+Montgomery,KT 3-E,KETTERING 03-E,unofficial,Raw/Montgomery.pdf,"24,41,57,73,89,105",5777,normalized,353,262,356,265,339,294,339,294,349,268,344,287,350,274,362,269
+Montgomery,KT 3-F,KETTERING 03-F,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5778,normalized,277,212,284,207,275,227,265,236,271,218,272,229,280,222,278,221
+Montgomery,KT 3-G,KETTERING 03-G,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5779,normalized,278,222,291,214,269,242,266,242,280,215,272,238,273,234,283,228
+Montgomery,KT 3-H,KETTERING 03-H,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5780,normalized,359,258,366,253,343,294,344,293,346,271,355,278,353,279,349,283
+Montgomery,KT 3-I,KETTERING 03-I,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5781,normalized,269,304,281,283,256,309,248,319,257,298,257,307,258,305,269,295
+Montgomery,KT 3-J,KETTERING 03-J,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5782,normalized,305,286,329,266,310,291,305,292,299,277,308,288,309,288,305,293
+Montgomery,KT 3-K,KETTERING 03-K,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5775;5783,boundary_overlap,405,338,414,326,390,376,378,388,390,357,391,373,400,358,401,360
+Montgomery,KT 4-A,KETTERING 04-A,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5784,normalized,496,246,517,235,497,276,482,295,485,258,506,267,503,266,504,267
+Montgomery,KT 4-B,KETTERING 04-B,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5785,normalized,531,205,562,194,546,228,535,232,538,207,538,225,544,219,544,218
+Montgomery,KT 4-C,KETTERING 04-C,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5786,normalized,249,199,261,186,246,214,240,215,249,199,247,208,249,209,247,209
+Montgomery,KT 4-D,KETTERING 04-D,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5785;5787,boundary_overlap,394,235,410,227,391,259,395,249,391,235,394,247,399,247,403,240
+Montgomery,KT 4-E,KETTERING 04-E,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5788,normalized,345,216,366,205,342,247,339,249,349,219,352,231,350,234,354,228
+Montgomery,KT 4-F,KETTERING 04-F,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5789,normalized,394,245,413,233,387,268,380,273,395,241,399,252,399,251,397,258
+Montgomery,KT 4-G,KETTERING 04-G,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5790,normalized,425,409,453,376,414,425,406,426,421,398,415,415,424,405,430,404
+Montgomery,KT 4-H,KETTERING 04-H,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5791,normalized,253,192,263,198,263,212,257,218,252,207,258,216,261,210,262,208
+Montgomery,KT 4-I,KETTERING 04-I,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5792,normalized,430,232,444,226,416,259,419,259,428,234,426,244,430,246,441,237
+Montgomery,KT 4-J,KETTERING 04-J,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5793,normalized,420,209,433,196,400,241,394,245,405,215,407,228,413,225,415,220
+Montgomery,KT 4-K,KETTERING 04-K,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5793;5794,boundary_overlap,368,217,386,221,362,250,360,251,368,225,368,240,368,239,367,242
+Montgomery,MBG 1-A,MIAMISBURG 01-A,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5713;5714,split_node,302,399,322,404,296,429,291,437,295,406,307,415,311,411,315,410
+Montgomery,MBG 1-B,MIAMISBURG 01-B,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5713;5714,boundary_overlap,238,376,236,378,233,410,223,416,221,400,241,395,233,401,236,400
+Montgomery,MBG 1-C,MIAMISBURG 01-C,unofficial,Raw/Montgomery.pdf,"25,41,57,73,89,105",5713;5714;5815,boundary_overlap,278,317,297,311,280,345,270,352,287,311,284,339,283,338,288,336
+Montgomery,MBG 2-A,MIAMISBURG 02-A,unofficial,Raw/Montgomery.pdf,"25,41,42,57,58,73,74,89,90,105,106",5713;5714,boundary_overlap,216,228,225,230,207,254,204,260,208,230,213,246,218,244,213,249
+Montgomery,MBG 2-B,MIAMISBURG 02-B,unofficial,Raw/Montgomery.pdf,"25,42,58,74,90,106",5713;5714;5816,boundary_overlap,218,278,234,280,226,314,230,311,217,293,230,306,236,297,238,297
+Montgomery,MBG 2-C,MIAMISBURG 02-C,unofficial,Raw/Montgomery.pdf,"25,42,58,74,90,106",5816,normalized,257,397,275,394,258,429,250,433,254,404,263,418,261,422,274,409
+Montgomery,MBG 3-A,MIAMISBURG 03-A,unofficial,Raw/Montgomery.pdf,"25,42,58,74,90,106",5817,normalized,203,234,210,235,194,262,189,267,197,240,199,252,194,260,201,251
+Montgomery,MBG 3-B,MIAMISBURG 03-B,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5818,normalized,259,334,267,324,242,354,242,361,246,337,246,350,254,344,253,343
+Montgomery,MBG 3-C,MIAMISBURG 03-C,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5797;5798;5804;5808,boundary_overlap,317,334,337,321,324,345,306,364,322,330,323,346,320,349,333,335
+Montgomery,MBG 3-D,MIAMISBURG 03-D,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5797;5798;5817;5818,boundary_overlap,242,369,256,365,237,405,228,413,234,382,235,400,238,392,245,390
+Montgomery,MBG 4-A,MIAMISBURG 04-A,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5819,normalized,243,326,256,325,248,360,251,358,241,342,254,351,248,358,260,346
+Montgomery,MBG 4-B,MIAMISBURG 04-B,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5797;5798,split_node,195,326,210,312,189,351,183,355,191,331,193,343,196,338,191,341
+Montgomery,MBG 4-C,MIAMISBURG 04-C,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5797;5798,boundary_overlap,207,274,216,269,200,293,209,288,204,274,201,293,206,284,214,277
+Montgomery,MBG 4-D,MIAMISBURG 04-D,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5813;5820,boundary_overlap,388,533,400,520,367,574,375,570,375,546,376,560,386,549,386,550
+Montgomery,MIATWP-A,MIAMI TOWNSHIP A,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5795;5797;5798,boundary_overlap,295,270,301,267,296,287,287,293,299,269,298,281,298,280,298,279
+Montgomery,MIATWP-B,MIAMI TOWNSHIP B,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5796,normalized,266,230,286,230,276,251,267,256,271,229,277,240,272,246,277,236
+Montgomery,MIATWP-C,MIAMI TOWNSHIP C,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5713;5714,split_node,152,361,159,361,139,393,139,396,148,370,149,382,148,381,151,379
+Montgomery,MIATWP-D,MIAMI TOWNSHIP D,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5797;5798,boundary_overlap,291,195,289,205,287,219,279,227,283,210,290,217,289,214,294,214
+Montgomery,MIATWP-E,MIAMI TOWNSHIP E,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5799,normalized,333,439,339,432,334,462,320,473,323,438,330,456,329,457,330,454
+Montgomery,MIATWP-F,MIAMI TOWNSHIP F,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5800;5805;5810,boundary_overlap,312,224,320,221,308,244,301,254,303,233,304,245,312,240,315,238
+Montgomery,MIATWP-G,MIAMI TOWNSHIP G,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5801;5802,split_node,232,233,242,232,229,255,227,256,231,245,227,255,230,248,234,248
+Montgomery,MIATWP-H,MIAMI TOWNSHIP H,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5803,normalized,255,209,273,210,272,230,264,232,271,211,272,225,269,226,276,220
+Montgomery,MIATWP-I,MIAMI TOWNSHIP I,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5804;5806;5867,boundary_overlap,184,137,194,127,187,145,185,145,192,131,194,137,195,131,193,136
+Montgomery,MIATWP-J,MIAMI TOWNSHIP J,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5713;5714;5813,boundary_overlap,141,336,148,336,131,361,132,360,136,346,133,352,135,353,137,354
+Montgomery,MIATWP-K,MIAMI TOWNSHIP K,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5805,normalized,344,394,364,368,330,420,323,428,334,395,328,419,342,411,344,405
+Montgomery,MIATWP-L,MIAMI TOWNSHIP L,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5806;5867,boundary_overlap,236,233,240,230,233,260,226,265,231,249,242,249,240,252,240,249
+Montgomery,MIATWP-M,MIAMI TOWNSHIP M,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5805;5807,boundary_overlap,263,252,272,249,256,286,257,283,265,250,264,273,261,271,269,267
+Montgomery,MIATWP-N,MIAMI TOWNSHIP N,unofficial,Raw/Montgomery.pdf,"26,42,58,74,90,106",5808,normalized,336,371,342,371,340,385,334,395,336,371,338,382,348,378,345,380
+Montgomery,MIATWP-O,MIAMI TOWNSHIP O,unofficial,Raw/Montgomery.pdf,"26,43,59,75,91,107",5809,normalized,283,317,293,308,283,331,274,336,281,315,286,322,282,325,286,322
+Montgomery,MIATWP-P,MIAMI TOWNSHIP P,unofficial,Raw/Montgomery.pdf,"26,43,59,75,91,107",5797;5798;5810;5820,boundary_overlap,218,108,238,101,237,115,230,120,234,106,235,114,235,111,235,117
+Montgomery,MIATWP-Q,MIAMI TOWNSHIP Q,unofficial,Raw/Montgomery.pdf,"26,43,59,75,91,107",5811,normalized,339,232,364,225,345,250,347,247,338,225,340,242,347,239,355,231
+Montgomery,MIATWP-R,MIAMI TOWNSHIP R,unofficial,Raw/Montgomery.pdf,"26,43,59,75,91,107",5812,normalized,172,142,169,146,172,153,167,156,164,149,168,151,168,155,173,146
+Montgomery,MIATWP-S,MIAMI TOWNSHIP S,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5813,normalized,243,352,260,346,230,376,230,369,234,349,230,363,230,362,238,354
+Montgomery,MIATWP-T,MIAMI TOWNSHIP T,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5814,normalized,232,215,248,213,234,234,220,244,224,227,227,236,236,231,236,231
+Montgomery,MIATWP-U,MIAMI TOWNSHIP U,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5796;5809,boundary_overlap,239,177,253,164,245,188,242,186,245,175,248,181,245,182,249,178
+Montgomery,MIATWP-V,MIAMI TOWNSHIP V,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5813;5814,boundary_overlap,225,268,237,259,221,286,222,286,227,268,228,277,224,279,225,280
+Montgomery,MOR 1-A,MORAINE 01-A,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5821,normalized,102,167,119,162,110,181,105,183,110,165,112,180,112,180,112,177
+Montgomery,MOR 2-A,MORAINE 02-A,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5635,combined_node,271,317,280,314,277,339,270,344,276,325,279,330,280,333,277,333
+Montgomery,MOR 3-A,MORAINE 03-A,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5713;5714;5822,boundary_overlap,163,194,166,195,164,215,161,217,162,195,162,215,169,206,168,207
+Montgomery,MOR 4-A,MORAINE 04-A,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5823,normalized,185,118,189,121,186,131,191,129,188,120,193,125,187,129,190,127
+Montgomery,MOR 4-B,MORAINE 04-B,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5796;5823,boundary_overlap,167,58,177,59,178,56,174,62,175,56,174,58,176,58,183,53
+Montgomery,OAK-A,OAKWOOD A,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5824,normalized,419,231,435,221,414,247,398,264,418,225,404,250,415,238,426,231
+Montgomery,OAK-B,OAKWOOD B,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5825,normalized,440,262,460,241,426,283,425,287,433,254,421,281,427,274,418,283
+Montgomery,OAK-C,OAKWOOD C,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5826,normalized,433,128,446,124,424,153,410,161,418,133,415,154,426,147,432,140
+Montgomery,OAK-D,OAKWOOD D,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5827,normalized,416,151,441,132,415,164,414,163,418,146,417,158,419,155,423,153
+Montgomery,OAK-E,OAKWOOD E,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5828,normalized,456,139,463,138,454,157,444,167,455,144,451,156,454,155,456,153
+Montgomery,OAK-F,OAKWOOD F,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5825;5829,boundary_overlap,551,185,566,168,533,209,513,221,537,187,526,207,529,204,539,202
+Montgomery,OAK-G,OAKWOOD G,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5830,normalized,413,225,435,206,414,236,388,261,415,221,408,237,423,224,414,232
+Montgomery,OAK-H,OAKWOOD H,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5784;5824;5825;5830,boundary_overlap,314,199,328,187,300,215,293,222,305,200,302,211,306,212,306,211
+Montgomery,PERTWP-A,PERRY TOWNSHIP A,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5572,combined_node,83,336,86,338,75,366,76,366,76,346,86,352,83,355,82,354
+Montgomery,PERTWP-B,PERRY TOWNSHIP B,unofficial,Raw/Montgomery.pdf,"27,43,59,75,91,107",5572,combined_node,138,362,147,358,132,389,134,392,124,375,136,388,141,383,140,385
+Montgomery,PERTWP-C,PERRY TOWNSHIP C,unofficial,Raw/Montgomery.pdf,"27,44,60,76,92,108",5833,normalized,134,388,132,374,118,414,111,421,122,397,127,402,121,404,119,406
+Montgomery,PHBG,PHILLIPSBURG,unofficial,Raw/Montgomery.pdf,"27,44,60,76,92,108",5596;5834,boundary_overlap,51,104,61,103,52,119,55,120,54,106,57,117,60,115,59,115
+Montgomery,PM,PAGE MANOR,unofficial,Raw/Montgomery.pdf,"27,44,60,76,92,108",5832,exact,192,104,194,109,197,109,194,113,193,107,196,110,196,109,197,107
+Montgomery,PNLB,PERRY TOWNSHIP_NEW LEBANON,unofficial,Raw/Montgomery.pdf,"27,28,44,60,76,92,108",5831;5833,boundary_overlap,110,202,117,200,112,219,114,217,111,211,113,218,114,213,116,216
+Montgomery,RV-A,RIVERSIDE A,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5835,normalized,235,261,249,258,229,289,222,294,231,272,237,276,236,280,227,290
+Montgomery,RV-B,RIVERSIDE B,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5674;5675;5676,boundary_overlap,143,228,154,221,150,238,153,234,144,230,153,228,158,228,157,225
+Montgomery,RV-C,RIVERSIDE C,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5836,normalized,272,200,279,201,277,221,276,226,271,210,282,216,283,213,284,212
+Montgomery,RV-D,RIVERSIDE D,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5837,normalized,201,299,212,288,202,324,202,320,202,304,206,316,208,315,219,305
+Montgomery,RV-E,RIVERSIDE E,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5674;5675;5676,boundary_overlap,159,241,173,243,158,270,151,278,162,255,166,261,159,271,168,260
+Montgomery,RV-F,RIVERSIDE F,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5674;5675;5676;5838,boundary_overlap,232,215,249,209,237,233,242,229,236,220,240,230,249,226,247,224
+Montgomery,RV-G,RIVERSIDE G,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5839,normalized,188,190,197,187,176,212,178,211,185,196,184,204,190,200,186,204
+Montgomery,RV-H,RIVERSIDE H,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5840,normalized,94,101,95,97,91,112,97,109,94,103,102,105,98,108,98,106
+Montgomery,RV-I,RIVERSIDE I,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5841,normalized,147,189,155,187,152,199,141,210,147,189,159,188,151,197,150,199
+Montgomery,RV-J,RIVERSIDE J,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5624;5842,boundary_overlap,163,217,171,211,163,233,163,231,160,218,160,230,162,231,170,218
+Montgomery,RV-K,RIVERSIDE K,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5674;5675;5676,boundary_overlap,282,253,310,239,291,266,280,273,292,251,283,272,298,257,291,263
+Montgomery,RV-L,RIVERSIDE L,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5624;5843,boundary_overlap,102,168,110,168,101,186,103,184,104,172,105,177,105,180,107,180
+Montgomery,RV-M,RIVERSIDE M,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5674;5675;5676,boundary_overlap,259,249,269,246,259,279,262,276,252,254,266,270,267,269,265,269
+Montgomery,RV-N,RIVERSIDE N,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5674;5675;5676;5838,boundary_overlap,150,177,159,176,153,196,148,199,151,186,151,196,156,190,152,194
+Montgomery,RV-O,RIVERSIDE O,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5837;5843,boundary_overlap,262,257,268,254,251,286,259,280,255,275,263,276,254,286,262,275
+Montgomery,RV-P,RIVERSIDE P,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5836;5841,boundary_overlap,280,249,285,248,276,284,280,280,267,257,282,272,281,270,287,269
+Montgomery,TR 1-A,TROTWOOD 01-A,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5844,normalized,441,129,448,132,452,140,443,149,449,133,447,140,451,139,454,139
+Montgomery,TR 1-B,TROTWOOD 01-B,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5600;5601;5602,split_node,263,81,272,81,271,87,269,85,266,83,273,85,274,83,271,87
+Montgomery,TR 1-C,TROTWOOD 01-C,unofficial,Raw/Montgomery.pdf,"28,44,60,76,92,108",5845,normalized,430,14,434,14,432,15,433,22,434,13,432,17,440,13,439,14
+Montgomery,TR 1-D,TROTWOOD 01-D,unofficial,Raw/Montgomery.pdf,"28,45,61,77,93,109",5846,normalized,323,23,323,25,338,26,331,31,331,24,336,24,335,25,338,24
+Montgomery,TR 1-E,TROTWOOD 01-E,unofficial,Raw/Montgomery.pdf,"28,45,61,77,93,109",5847,normalized,572,27,572,32,578,37,582,33,576,31,581,37,580,35,581,35
+Montgomery,TR 2-A,TROTWOOD 02-A,unofficial,Raw/Montgomery.pdf,"28,45,61,77,93,109",5848,normalized,452,36,456,41,458,44,457,43,457,34,469,36,459,42,460,37
+Montgomery,TR 2-B,TROTWOOD 02-B,unofficial,Raw/Montgomery.pdf,"28,45,61,77,93,109",5849,normalized,495,45,514,41,513,49,507,55,505,42,512,49,512,47,510,50
+Montgomery,TR 2-C,TROTWOOD 02-C,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5850,normalized,353,24,365,18,357,29,357,29,364,18,361,23,357,23,356,24
+Montgomery,TR 2-D,TROTWOOD 02-D,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5851,normalized,254,61,250,62,256,69,258,68,251,64,255,72,259,70,260,68
+Montgomery,TR 2-E,TROTWOOD 02-E,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5852,normalized,384,25,387,23,387,26,390,26,391,23,391,22,391,21,390,22
+Montgomery,TR 3-A,TROTWOOD 03-A,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5853,normalized,269,100,272,95,269,107,263,113,262,101,266,103,264,107,270,104
+Montgomery,TR 3-B,TROTWOOD 03-B,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5854,normalized,213,214,219,213,228,227,222,227,219,215,229,228,229,226,233,218
+Montgomery,TR 3-C,TROTWOOD 03-C,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5855,normalized,239,118,249,110,249,124,244,125,251,116,255,116,247,120,253,115
+Montgomery,TR 3-D,TROTWOOD 03-D,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5640;5853;5854,boundary_overlap,518,61,533,58,532,68,532,62,529,60,536,61,531,63,536,57
+Montgomery,TR 4-A,TROTWOOD 04-A,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5644,combined_node,491,21,499,20,496,26,498,27,498,19,499,21,492,23,502,22
+Montgomery,TR 4-B,TROTWOOD 04-B,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5640;5644,boundary_overlap,362,34,377,35,382,40,381,42,378,36,380,41,380,41,381,40
+Montgomery,TR 4-C,TROTWOOD 04-C,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5644,boundary_overlap,306,39,314,40,317,40,312,46,313,39,322,39,315,43,321,40
+Montgomery,TR 4-D,TROTWOOD 04-D,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5644;5856,boundary_overlap,342,29,347,28,335,42,343,38,337,32,344,36,344,35,346,33
+Montgomery,UN-A,UNION A,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5598;5599,split_node,122,200,130,201,127,213,131,210,129,205,126,215,134,203,130,207
+Montgomery,UN-B,UNION B,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5857,normalized,268,313,270,309,253,339,258,330,253,325,259,334,254,335,260,326
+Montgomery,UN-C,UNION C,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5573;5574,boundary_overlap,248,378,263,364,238,409,235,410,241,388,237,405,244,399,241,402
+Montgomery,UN-D,UNION D,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5598;5599;5858,boundary_overlap,292,337,299,325,290,358,284,360,287,339,288,356,298,347,298,347
+Montgomery,UN-E,UNION E,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5573;5574;5598;5599,boundary_overlap,238,363,256,358,234,396,231,399,229,376,229,395,240,383,240,381
+Montgomery,VD-A,VANDALIA A,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5859,normalized,224,280,231,292,222,311,225,309,215,296,224,306,223,309,230,298
+Montgomery,VD-B,VANDALIA B,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5573;5574,split_node,114,165,120,171,112,186,109,190,112,173,117,180,117,180,120,178
+Montgomery,VD-C,VANDALIA C,unofficial,Raw/Montgomery.pdf,"29,45,61,77,93,109",5860,normalized,236,341,250,333,234,370,237,363,239,344,238,359,252,351,250,348
+Montgomery,VD-D,VANDALIA D,unofficial,Raw/Montgomery.pdf,"29,46,62,78,94,110",5573;5574,split_node,289,286,296,290,287,308,284,312,286,290,287,303,287,305,291,297
+Montgomery,VD-E,VANDALIA E,unofficial,Raw/Montgomery.pdf,"29,46,62,78,94,110",5573;5574,split_node,139,238,139,235,131,258,127,264,138,238,142,248,137,250,140,251
+Montgomery,VD-F,VANDALIA F,unofficial,Raw/Montgomery.pdf,"29,46,62,78,94,110",5573;5574;5860;5861,boundary_overlap,283,370,293,362,262,409,265,408,271,381,274,399,286,380,282,385
+Montgomery,VD-G,VANDALIA G,unofficial,Raw/Montgomery.pdf,"29,46,62,78,94,110",5862,normalized,215,302,234,291,225,318,215,326,218,303,222,313,225,306,228,308
+Montgomery,VD-H,VANDALIA H,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5573;5574,split_node,264,430,275,427,247,457,240,464,245,438,251,456,250,453,257,446
+Montgomery,VD-I,VANDALIA I,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5863,normalized,239,306,252,301,240,324,228,339,232,314,240,319,234,327,246,314
+Montgomery,VD-J,VANDALIA J,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5573;5574,split_node,343,450,348,451,327,482,330,478,336,456,340,462,347,460,342,464
+Montgomery,VD-K,VANDALIA K,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5573;5574;5859;5863,boundary_overlap,291,341,303,343,284,379,273,392,284,355,289,367,287,369,295,362
+Montgomery,WASTWP-A,WASHINGTON TOWNSHIP A,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5593;5870,boundary_overlap,294,342,316,325,292,356,283,367,289,340,287,359,290,352,299,345
+Montgomery,WASTWP-B,WASHINGTON TOWNSHIP B,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5871,normalized,430,481,452,457,406,512,401,513,409,484,413,499,418,499,432,486
+Montgomery,WASTWP-C,WASHINGTON TOWNSHIP C,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5872;5880,boundary_overlap,341,370,353,358,338,387,318,405,330,372,332,384,344,375,341,379
+Montgomery,WASTWP-D,WASHINGTON TOWNSHIP D,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5873,normalized,276,308,296,294,270,323,267,320,274,304,273,315,280,310,282,306
+Montgomery,WASTWP-E,WASHINGTON TOWNSHIP E,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5781;5874,boundary_overlap,387,385,388,386,379,403,370,414,379,390,381,402,375,404,380,402
+Montgomery,WASTWP-F,WASHINGTON TOWNSHIP F,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5875,normalized,239,251,243,251,232,273,230,274,234,257,237,259,234,267,237,262
+Montgomery,WASTWP-G,WASHINGTON TOWNSHIP G,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5874;5876,boundary_overlap,445,372,466,358,419,399,414,405,424,382,427,394,425,387,426,391
+Montgomery,WASTWP-H,WASHINGTON TOWNSHIP H,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5877,normalized,322,335,325,333,305,342,298,354,301,336,300,350,308,342,317,335
+Montgomery,WASTWP-I,WASHINGTON TOWNSHIP I,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5878,normalized,287,196,294,199,289,216,290,216,300,194,292,214,301,206,294,210
+Montgomery,WASTWP-J,WASHINGTON TOWNSHIP J,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5879,normalized,354,303,362,298,348,326,350,322,356,301,359,314,360,306,360,310
+Montgomery,WASTWP-K,WASHINGTON TOWNSHIP K,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5880,normalized,320,345,349,330,323,370,313,376,314,354,316,368,328,359,319,369
+Montgomery,WASTWP-L,WASHINGTON TOWNSHIP L,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5881,normalized,297,220,309,217,294,248,286,252,294,230,298,237,300,240,302,236
+Montgomery,WASTWP-M,WASHINGTON TOWNSHIP M,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5882,normalized,360,405,384,392,352,435,342,444,360,411,364,423,356,427,363,425
+Montgomery,WASTWP-N,WASHINGTON TOWNSHIP N,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5883,normalized,363,231,381,230,374,247,354,264,363,239,371,247,383,240,382,241
+Montgomery,WASTWP-O,WASHINGTON TOWNSHIP O,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5594,combined_node,381,367,396,363,368,393,365,394,371,372,378,382,383,372,379,378
+Montgomery,WASTWP-P,WASHINGTON TOWNSHIP P,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5884,normalized,404,367,418,356,382,393,371,401,387,366,378,390,387,382,397,377
+Montgomery,WASTWP-Q,WASHINGTON TOWNSHIP Q,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5885,normalized,404,331,427,316,399,360,398,363,399,334,409,349,415,346,410,348
+Montgomery,WASTWP-R,WASHINGTON TOWNSHIP R,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5886,normalized,260,285,270,280,248,309,243,310,248,282,247,302,252,301,255,295
+Montgomery,WASTWP-S,WASHINGTON TOWNSHIP S,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5594,combined_node,280,304,288,290,274,316,268,317,278,296,279,307,277,303,282,302
+Montgomery,WASTWP-T,WASHINGTON TOWNSHIP T,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5887,normalized,347,251,372,243,346,278,350,272,351,250,355,261,351,262,350,269
+Montgomery,WASTWP-U,WASHINGTON TOWNSHIP U,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5884;5888,boundary_overlap,351,375,376,359,334,404,323,410,340,374,338,392,342,391,337,388
+Montgomery,WASTWP-V,WASHINGTON TOWNSHIP V,unofficial,Raw/Montgomery.pdf,"30,46,62,78,94,110",5889,normalized,328,318,352,304,327,349,320,356,322,327,324,347,332,336,337,334
+Montgomery,WASTWP-W,WASHINGTON TOWNSHIP W,unofficial,Raw/Montgomery.pdf,"30,47,63,79,95,111",5890,normalized,268,182,275,172,259,193,253,208,260,184,261,194,258,196,268,190
+Montgomery,WASTWP-X,WASHINGTON TOWNSHIP X,unofficial,Raw/Montgomery.pdf,"30,47,63,79,95,111",5891,normalized,296,278,307,277,291,300,293,298,284,290,291,299,286,300,289,294
+Montgomery,WASTWP-Y,WASHINGTON TOWNSHIP Y,unofficial,Raw/Montgomery.pdf,"30,47,63,79,95,111",5594,boundary_overlap,503,411,517,412,489,452,463,475,494,415,486,449,497,435,499,437
+Montgomery,WASTWP-Z,WASHINGTON TOWNSHIP Z,unofficial,Raw/Montgomery.pdf,"30,47,63,79,95,111",5871;5886,boundary_overlap,304,320,320,306,307,329,305,334,311,314,307,326,311,320,320,313
+Montgomery,WASTWP-AA,WASHINGTON TOWNSHIP AA,unofficial,Raw/Montgomery.pdf,"31,47,63,79,95,111",5877;5883;5889,boundary_overlap,326,344,340,325,311,375,305,378,315,343,306,369,318,356,329,346
+Montgomery,WASTWP-BB,WASHINGTON TOWNSHIP BB,unofficial,Raw/Montgomery.pdf,"31,47,63,79,95,111",5594;5879;5881,boundary_overlap,249,192,262,190,242,212,246,206,249,196,248,202,246,205,256,193
+Montgomery,WASTWP-CC,WASHINGTON TOWNSHIP CC,unofficial,Raw/Montgomery.pdf,"31,47,63,79,95,111",5870;5873;5876,boundary_overlap,431,365,456,350,422,405,424,399,422,372,421,393,442,377,439,378
+Montgomery,WCR-A,WEST CARROLLTON A,unofficial,Raw/Montgomery.pdf,"31,47,63,79,95,111",5713;5714,split_node,215,229,226,216,213,247,213,248,212,230,214,246,216,244,222,238
+Montgomery,WCR-B,WEST CARROLLTON B,unofficial,Raw/Montgomery.pdf,"31,47,63,79,95,111",5864,normalized,247,282,249,286,243,312,233,316,236,291,246,304,239,304,245,304
+Montgomery,WCR-C,WEST CARROLLTON C,unofficial,Raw/Montgomery.pdf,"31,47,63,79,95,111",5865;5866,boundary_overlap,210,298,225,293,213,319,214,316,215,301,213,317,217,314,219,308
+Montgomery,WCR-D,WEST CARROLLTON D,unofficial,Raw/Montgomery.pdf,"31,47,63,79,95,111",5865;5866,boundary_overlap,238,321,252,315,233,345,228,349,231,327,235,338,232,339,237,336
+Montgomery,WCR-E,WEST CARROLLTON E,unofficial,Raw/Montgomery.pdf,"31,47,63,79,95,111",5867,normalized,259,114,267,112,264,124,254,131,264,120,264,127,265,125,267,121
+Montgomery,WCR-F,WEST CARROLLTON F,unofficial,Raw/Montgomery.pdf,"31,47,63,79,95,111",5864;5865;5868,boundary_overlap,228,162,236,164,232,180,232,179,229,176,233,179,235,177,233,180
+Montgomery,WCR-G,WEST CARROLLTON G,unofficial,Raw/Montgomery.pdf,"31,47,63,79,95,111",5818;5869,boundary_overlap,302,271,314,264,298,298,298,297,300,280,305,288,303,287,309,281
+Montgomery,WCR-H,WEST CARROLLTON H,unofficial,Raw/Montgomery.pdf,"31,47,63,79,95,111",5713;5714;5822;5868,boundary_overlap,207,284,220,282,211,305,201,315,202,289,213,300,219,297,216,301
+Montgomery,WCR-I,WEST CARROLLTON I,unofficial,Raw/Montgomery.pdf,"31,47,63,79,95,111",5867;5869,boundary_overlap,264,59,274,62,269,72,265,76,266,66,270,70,271,71,270,71

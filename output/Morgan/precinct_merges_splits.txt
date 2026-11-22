@@ -1,0 +1,34 @@
+Morgan County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Morgan.pdf and the county's published 40-page Precinct Detail.
+  https://www.boe.ohio.gov/morgan/c/elecres/20261103precinct.pdf
+  Official countywide canvass, November 16, 2026 at 3:11 PM, pp. 1–3.
+  https://www.boe.ohio.gov/morgan/c/elecres/20261103results.pdf
+  https://www.morgancounty-oh.gov/
+  Morgan County Board of Elections precinct maps index.
+  https://www.boe.ohio.gov/morgan/precinct-and-polling-location-info/precinct-maps/
+  OH_pct20.json, MORGAN nodes and ORIG_NAME membership.
+
+The precinct detail footer is dated November 16, 2026 at 11:04 AM.
+Its template header reads “UNOFFICIAL RESULTS,” “February 18, 2022,”
+and “Electionware County.” The board publishes it as the November 3,
+2026 precinct detail. The CSV uses official because its 16 candidate
+totals and county ballot count reconcile to the official canvass.
+The printed East Bloom identifier 1.1 is preserved.
+
+The 13 canvass rows each link to one of the 13 Morgan graph nodes.
+Seven canvass labels shorten or reformat existing joint precinct
+names in the graph.
+
+  West Bloom 2   | 5903 | W.BLOOM/DEERFIELD
+  Bristol 3      | 5892 | BRISTOL/MANCHESTER
+  Homer 5        | 5896 | HOMER/UNION
+  Chesterhill 7  | 5894 | CHESTERHILL/MARION
+  McConn A 9     | 5898 | MCCONN A/MORGAN
+  McConn B & C 10 | 5899 | MCCONN B/MCCONN C
+  Stockport 12   | 5902 | STOCKPORT/WINDSOR
+
+The name-based crosswalk identifies no new precinct mergers or splits.
+Boundary continuity was not assessed.

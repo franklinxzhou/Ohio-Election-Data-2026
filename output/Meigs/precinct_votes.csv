@@ -1,0 +1,28 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Meigs,01,BEDFORD,official,Raw/Meigs.pdf,"1,2,3",5427,exact,173,308,171,307,166,334,163,330,165,323,164,346,166,335,170,328
+Meigs,03,EAST CHESTER,official,Raw/Meigs.pdf,"7,8,9",5430,exact,106,339,111,350,94,373,89,373,100,362,93,383,97,375,105,364
+Meigs,04,WEST CHESTER,official,Raw/Meigs.pdf,"13,14,15",5452,exact,106,322,107,323,94,343,99,325,94,333,95,355,93,347,100,334
+Meigs,05,COLUMBIA,official,Raw/Meigs.pdf,"19,20,21",5429,exact,222,331,240,341,214,366,215,363,221,352,219,385,232,360,231,359
+Meigs,06,LEBANON,official,Raw/Meigs.pdf,"25,26,27",5433,exact,68,174,62,181,62,189,62,193,64,184,59,198,66,190,65,191
+Meigs,07,LETART,official,Raw/Meigs.pdf,"31,32,33",5434,exact,49,149,58,151,47,171,49,167,47,165,46,170,51,167,52,165
+Meigs,08,NORTH OLIVE,official,Raw/Meigs.pdf,"37,38,39",5439,exact,101,252,110,261,100,281,100,277,102,274,102,286,106,281,119,265
+Meigs,09,SOUTH OLIVE,official,Raw/Meigs.pdf,"43,44,45",5450,exact,78,197,75,205,75,209,75,211,75,208,69,221,74,218,80,211
+Meigs,10,ORANGE,official,Raw/Meigs.pdf,"49,50,51",5440,exact,116,280,123,281,118,302,116,298,118,301,102,327,111,319,123,301
+Meigs,11,RUTLAND VILLAGE,official,Raw/Meigs.pdf,"55,56,57",5447,exact,39,87,47,78,33,91,38,89,37,91,35,95,35,92,38,89
+Meigs,12,EAST RUTLAND,official,Raw/Meigs.pdf,"61,62,63",5431,exact,58,172,62,180,53,188,58,181,57,186,50,200,57,190,56,187
+Meigs,13,WEST RUTLAND,official,Raw/Meigs.pdf,"67,68,69",5453,exact,84,165,86,167,87,178,83,182,86,169,82,190,81,187,88,180
+Meigs,14,SALEM,official,Raw/Meigs.pdf,"73,74,75",5448,exact,75,230,78,226,76,237,78,233,73,233,76,243,76,242,78,233
+Meigs,16,MIDDLEPORT 2ND,official,Raw/Meigs.pdf,"79,80,81",5435,exact,63,90,63,95,55,103,57,98,56,104,52,107,58,100,58,101
+Meigs,17,MIDDLEPORT 3RD,official,Raw/Meigs.pdf,"85,86,87",5436,exact,74,116,72,118,63,127,71,116,68,121,64,130,65,126,70,122
+Meigs,18,MIDDLEPORT 4TH,official,Raw/Meigs.pdf,"91,92,93",5437,exact,57,95,64,93,61,101,56,104,57,98,51,112,60,100,60,100
+Meigs,19,POMEROY 1ST,official,Raw/Meigs.pdf,"97,98,99",5441,exact,41,48,45,46,43,52,42,52,43,54,40,56,43,53,43,53
+Meigs,20,POMEROY 2ND,official,Raw/Meigs.pdf,"103,104,105",5442,exact,62,89,64,93,64,97,57,102,62,97,62,99,60,102,62,99
+Meigs,21,POMEROY 3RD,official,Raw/Meigs.pdf,"109,110,111",5443,exact,29,38,28,40,27,45,28,43,27,41,23,50,29,44,27,46
+Meigs,22,BRADBURY,official,Raw/Meigs.pdf,"115,116,117",5428,exact,41,144,46,144,43,150,44,145,41,150,41,159,42,154,48,144
+Meigs,23,LAUREL CLIFF,official,Raw/Meigs.pdf,"121,122,123",5432,exact,54,132,48,138,51,144,52,136,50,137,49,147,51,142,50,141
+Meigs,24,ROCKSPRINGS,official,Raw/Meigs.pdf,"127,128,129",5446,exact,44,107,49,109,41,117,37,123,39,116,30,135,36,124,38,122
+Meigs,25,SCIPIO,official,Raw/Meigs.pdf,"133,134,135",5449,exact,136,238,137,236,134,243,133,241,130,250,131,258,133,249,137,242
+Meigs,26,RACINE VILLAGE,official,Raw/Meigs.pdf,"139,140,141",5444,exact,59,160,51,175,59,173,56,178,59,176,52,190,59,176,61,172
+Meigs,27,SYRACUSE VILLAGE,official,Raw/Meigs.pdf,"145,146,147",5451,exact,85,187,87,188,83,204,87,197,82,199,72,218,76,210,80,206
+Meigs,28,MINERSVILLE,official,Raw/Meigs.pdf,"151,152,153",5438,exact,93,197,100,195,82,217,84,214,88,207,85,215,87,213,89,209
+Meigs,29,RACINE,official,Raw/Meigs.pdf,"157,158,159",5445,exact,61,279,73,279,65,294,60,296,63,289,52,315,63,297,67,291

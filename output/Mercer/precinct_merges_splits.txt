@@ -1,0 +1,43 @@
+Mercer County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Mercer.pdf, Mercer Unofficial Precinct Summary with Group Detail,
+  November 3, 2026. CSV references are physical PDF pages. The report
+  supplies precinct labels, and the precinct code field is blank.
+  https://www.mercercountyoh.gov/bskpdf/mercer-unofficial-precinct-summary-with-group-detail/
+  Mercer County's separately certified countywide canvass, November 17:
+  https://www.mercercountyoh.gov/bskpdf/11-03-2026-mercer-official-canvass/
+  OH_pct20.json, nodes[].ORIG_NAME for historical graph membership.
+
+Combined graph nodes
+  5460: Celina D, Celina E, Celina H, Center Township, East Jefferson
+    North, and West Jefferson.
+  5471: Ft. Recovery Village and Gibson Township.
+  5476: Marion East and Marion West.
+  Each precinct keeps its own canvass row and full vote counts.
+
+Label variants
+  Granville East (5472) and Granville West (5473) match their
+  respective GRANVILLE TOWNSHIP EAST and WEST graph names.
+
+The 36 precincts link by name to 29 graph nodes. The name crosswalk
+identifies no canvass precinct merges or splits. Boundary continuity
+remains unverified.
+
+Vote reconciliation
+  All 16 precinct sums match the Mercer row in the Ohio Secretary of
+  State’s unofficial workbook, archived at
+  output/Highland/unofficial_state_canvass.xlsx.
+  https://liveresults.ohiosos.gov/Api/v1/download?filename=GeneralElectionXlsFile
+  Compared with the unofficial precinct sums, the certified summary
+  adds the following Democratic and Republican votes, respectively:
+    U.S. Senate 30 / 146
+    Governor 42 / 143
+    Attorney General 31 / 157
+    Auditor of State 34 / 152
+    Secretary of State 34 / 147
+    Treasurer of State 38 / 146
+    Supreme Court Jan. 1 36 / 150
+    Supreme Court Jan. 2 37 / 149
+  All differences are in the mailed absentee and provisional columns.

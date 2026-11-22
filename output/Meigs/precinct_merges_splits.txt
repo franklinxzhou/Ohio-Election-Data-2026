@@ -1,0 +1,14 @@
+Meigs County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Meigs.pdf, official Precinct Detail Report dated November 12,
+  2026. The CSV cites physical PDF pages and preserves precinct codes.
+  https://www.boe.ohio.gov/meigs/election-info/election-results/
+  Countywide official summary, pp. 1–2:
+  https://www.boe.ohio.gov/meigs/c/elecres/20261103results.pdf
+  OH_pct20.json, nodes[].ORIG_NAME for historical precinct membership.
+
+All 27 current precinct names have one-to-one graph links. The name
+crosswalk identifies no merges or splits. Boundary continuity remains
+unverified.
