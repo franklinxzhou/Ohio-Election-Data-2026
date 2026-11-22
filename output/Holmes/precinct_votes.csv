@@ -1,0 +1,18 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Holmes,001,Berlin North,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4039,exact,67,433,70,429,58,445,59,447,58,437,58,442,58,444,62,436
+Holmes,002,Berlin South,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4040,exact,68,368,74,366,67,365,66,372,66,355,66,367,67,368,68,363
+Holmes,003,Clark Township,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4041,exact,21,234,27,227,25,234,22,236,22,233,24,234,23,231,26,222
+Holmes,004,Hardy Township,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4042,exact,148,602,164,579,140,627,134,635,135,612,132,611,135,616,137,616
+Holmes,005,Millersburg East,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4046,exact,218,402,224,400,212,433,210,441,205,415,206,436,204,440,204,441
+Holmes,006,Millersburg West,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4047,exact,82,216,84,226,82,234,81,236,79,223,79,238,83,237,85,232
+Holmes,007,Prairie Township,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4050,exact,81,449,90,451,81,475,79,481,73,467,80,476,79,476,78,471
+Holmes,008,Killbuck Township,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4043,exact,127,450,136,460,125,491,123,494,127,464,129,478,127,480,135,473
+Holmes,009,Knox Township,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4044,exact,88,341,101,337,86,377,84,382,86,353,93,361,94,365,96,364
+Holmes,010,Mechanic Township,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4045,exact,147,467,168,459,147,486,147,489,148,479,148,484,146,490,150,482
+Holmes,012,Monroe Township,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4048,exact,106,439,120,434,101,466,102,468,104,452,103,462,111,456,114,452
+Holmes,013,Paint Township,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4049,exact,33,445,36,447,32,447,29,457,30,440,35,447,31,448,33,439
+Holmes,014,Richland Township,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4051,exact,61,238,65,244,57,262,68,257,61,241,57,264,65,259,65,260
+Holmes,015,Ripley Township,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4052,exact,147,447,150,460,132,488,129,493,138,467,139,478,137,480,136,481
+Holmes,016,Saltcreek Township,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4053,exact,39,355,39,363,36,368,33,378,31,361,34,367,34,368,34,359
+Holmes,017,Walnut Creek Township,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4054,exact,82,529,82,525,82,546,84,541,83,529,74,546,84,540,92,524
+Holmes,018,Washington Township,official,Raw/Holmes.pdf,"2,3,4,5,6,7,8,10",4055,exact,182,438,198,423,175,481,173,491,170,457,180,472,174,480,191,464

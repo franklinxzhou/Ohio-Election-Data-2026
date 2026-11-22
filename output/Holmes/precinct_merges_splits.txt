@@ -1,0 +1,14 @@
+Holmes County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Holmes.pdf, official Statement of Votes Cast dated November 12, 2026.
+  Page 1 lists precinct codes and names. Pages 2-8 and 10 contain the
+  statewide race tables and countywide totals.
+  https://www.boe.ohio.gov/holmes/election-info/election-results/
+  OH_pct20.json, nodes[].ORIG_NAME for 2020 graph precinct names.
+
+All 17 canvass precincts link one-to-one to the 17 Holmes graph nodes by
+precinct name, ignoring capitalization. The canvass numbering skips 011.
+The name crosswalk reveals no merges or splits. Boundary continuity was
+not assessed.

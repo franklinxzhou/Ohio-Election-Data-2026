@@ -1,0 +1,31 @@
+Huron County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Huron.pdf, Official Statement of Votes Cast by Contest, dated
+  November 17, 2026. Statewide precinct tables are on pp. 1-72.
+  https://www.huron.boe.ohio.gov/wp-content/uploads/Huron-County-Official-of-Votes-Cast-SOVC-by-Contest-11-3-2026.pdf
+  Countywide official candidate totals are on page 1 of the summary.
+  https://www.huron.boe.ohio.gov/wp-content/uploads/Huron-County-2026-General-Official-Summary-Results-with-Counter-Groups.pdf
+  OH_pct20.json, nodes[].ORIG_NAME supplies the historical names and
+  membership of each graph node.
+
+Combined graph nodes
+  4057: 02 BELLEVUE 4 (p. 1) and 28 LYME TWP (p. 3).
+  4063: 24 GREENFIELD TWP (p. 2), 29 NEW HAVEN TWP (p. 3), and
+    16 WILLARD 2 (p. 9).
+  4072: 04 NORWALK 1-B (p. 4), 06 NORWALK 2-A (p. 4),
+    07 NORWALK 2-B (pp. 4-5), 08 NORWALK 2-C (p. 5),
+    34 NORWALK TWP NORTH (p. 6), 36 NORWALK TWP SOUTH (p. 6),
+    35 NORWALK-MILAN (p. 6), and 40 RIDGEFIELD TWP (p. 7).
+  Page references above refer to the Governor table. Each named precinct
+  has its own canvass vote row. The graph has 36 nodes for the 46 rows.
+
+Label variants
+  FAIRFIELD (22) matches FAIRFIELD TWP (4061).
+  NORWALK-MILAN (35) matches NORWALK-MILAN TWP within node 4072.
+  BRONSON TWP #1 and #2 (19 and 20) and NEW LONDON VILLAGE #1 and #2
+  (32 and 33) match the corresponding names without the number sign.
+
+The name crosswalk identifies no canvass precinct merges or splits.
+Boundary continuity was not assessed.
