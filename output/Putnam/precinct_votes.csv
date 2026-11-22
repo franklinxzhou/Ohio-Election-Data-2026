@@ -1,0 +1,26 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Putnam,001,Blanchard Twp.,unofficial,Raw/Putnam.pdf,"1,2",6308,normalized,75,445,86,436,77,460,78,459,73,451,80,449,83,451,78,452
+Putnam,002,Greensburg Twp.,unofficial,Raw/Putnam.pdf,"5,6",6311,normalized,77,616,90,596,74,649,83,638,82,622,92,628,88,631,88,630
+Putnam,003,Jackson Twp.,unofficial,Raw/Putnam.pdf,"9,10",6312,normalized,62,341,61,347,53,374,56,372,57,359,55,364,57,366,65,357
+Putnam,004,Jennings Twp.,unofficial,Raw/Putnam.pdf,"13,14",6313,normalized,155,744,167,737,145,806,157,789,151,773,154,787,156,789,161,780
+Putnam,005,Liberty Twp.,unofficial,Raw/Putnam.pdf,"17,18",6316,combined_node,107,586,118,581,94,639,105,620,97,617,101,620,97,626,112,611
+Putnam,006,Leipsic Corp.,unofficial,Raw/Putnam.pdf,"21,22",6315,normalized,183,438,191,441,174,480,185,468,178,458,179,475,190,461,186,467
+Putnam,007,Van Buren Twp.,unofficial,Raw/Putnam.pdf,"25,26",6316,combined_node,50,207,52,201,41,229,41,233,45,214,43,228,49,223,50,220
+Putnam,008,Monroe Twp./Continental,unofficial,Raw/Putnam.pdf,"29,30",6317,normalized,135,601,155,585,137,640,143,637,145,617,149,629,138,638,145,633
+Putnam,009,Sugar Creek Twp.,unofficial,Raw/Putnam.pdf,"33,34",6328,normalized,70,415,72,422,66,451,71,444,68,430,70,442,73,437,76,432
+Putnam,010,Ottoville Corp.,unofficial,Raw/Putnam.pdf,"37,38",6322,normalized,111,311,120,300,91,348,90,344,89,329,98,332,95,333,105,328
+Putnam,011,Monterey Twp.,unofficial,Raw/Putnam.pdf,"41,42",6318,normalized,102,433,111,422,83,486,87,477,94,457,94,468,98,467,102,460
+Putnam,012,Glandorf Corp.,unofficial,Raw/Putnam.pdf,"45,46",6310,combined_node,90,474,99,450,77,488,75,487,76,477,85,480,79,485,84,478
+Putnam,013,Ottawa Corp. 1,unofficial,Raw/Putnam.pdf,"49,50",6319,normalized,225,587,243,572,184,656,201,632,197,620,207,616,210,620,215,615
+Putnam,014,Ottawa Corp. 2,unofficial,Raw/Putnam.pdf,"53,54",6320,normalized,111,338,106,337,102,365,110,364,114,352,112,357,115,356,117,354
+Putnam,015,Ottawa Corp. 3,unofficial,Raw/Putnam.pdf,"57,58",6310,combined_node,162,340,173,330,145,383,158,370,155,358,161,365,154,371,158,368
+Putnam,016,Ottawa Twp. East,unofficial,Raw/Putnam.pdf,"61,62",6310,combined_node,133,580,149,559,128,608,128,613,129,594,132,605,134,598,136,599
+Putnam,017,Pandora Corp.,unofficial,Raw/Putnam.pdf,"65,66",6324,normalized,131,319,140,322,126,349,124,344,127,334,133,337,130,341,141,330
+Putnam,018,Riley Twp.,unofficial,Raw/Putnam.pdf,"69,70",6327,normalized,77,417,81,407,68,439,67,440,72,426,71,434,76,427,74,430
+Putnam,019,Kalida Corp.,unofficial,Raw/Putnam.pdf,"73,74",6314,normalized,124,584,125,576,97,621,105,608,112,590,103,609,112,608,115,600
+Putnam,020,Union Twp.,unofficial,Raw/Putnam.pdf,"77,78",6329,normalized,99,650,113,635,81,691,90,687,100,652,92,679,102,664,99,665
+Putnam,021,Palmer Twp.,unofficial,Raw/Putnam.pdf,"81,82",6323,normalized,73,414,84,400,66,451,72,440,64,430,70,442,69,438,69,443
+Putnam,022,Perry Twp.,unofficial,Raw/Putnam.pdf,"85,86",6325,normalized,72,298,78,299,67,335,71,333,71,320,73,330,72,329,75,324
+Putnam,023,Columbus Grove Corp.,unofficial,Raw/Putnam.pdf,"89,90",6309,normalized,185,564,200,565,174,618,178,614,181,594,185,604,186,600,189,596
+Putnam,024,Pleasant Twp.,unofficial,Raw/Putnam.pdf,"93,94",6326,normalized,87,703,96,699,65,764,76,750,74,732,77,744,70,746,78,741
+Putnam,025,Ottawa Twp. West,unofficial,Raw/Putnam.pdf,"97,98",6321,normalized,71,486,86,462,64,502,66,504,68,489,75,488,66,499,68,496

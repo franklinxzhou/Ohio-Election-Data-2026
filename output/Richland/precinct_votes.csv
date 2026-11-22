@@ -1,0 +1,84 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Richland,0100,MAN 1 - A,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6347,combined_node,251,375,271,364,242,392,238,402,245,384,244,392,240,395,246,389
+Richland,0110,MAN 1 - B,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6347,combined_node,213,397,230,384,213,416,203,429,203,401,210,407,211,410,214,410
+Richland,0120,MAN 1 - C,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6348,combined_node,221,225,222,227,218,242,213,245,213,233,217,243,216,244,221,238
+Richland,0130,MAN 1 - D,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6348,combined_node,357,406,359,417,349,444,337,462,346,437,345,457,351,446,356,443
+Richland,0140,MAN 1 - E,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6347,combined_node,374,492,376,503,351,548,340,552,356,525,353,547,360,545,366,538
+Richland,0150,MAN 1 - F,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6349,normalized,183,293,199,283,180,310,175,314,177,312,171,319,177,317,182,314
+Richland,0200,MAN 2 - A,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6350,normalized,253,220,255,220,246,241,240,247,248,232,242,243,241,245,250,240
+Richland,0210,MAN 2 - B,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6351,normalized,195,182,203,189,197,201,196,203,201,188,200,205,208,197,208,197
+Richland,0220,MAN 2 - C,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6352,normalized,130,89,137,92,129,106,135,102,131,96,134,101,135,101,134,102
+Richland,0230,MAN 2 - D,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6353,normalized,313,361,331,348,301,386,295,396,312,368,305,388,309,385,311,381
+Richland,0240,MAN 2 - E,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6354,normalized,313,353,313,356,303,384,295,392,305,373,299,389,299,391,302,387
+Richland,0250,MAN 2 - F,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6355,normalized,305,308,316,307,288,339,291,338,295,328,295,338,299,337,303,328
+Richland,0300,MAN 3 - A,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6356,normalized,148,97,149,103,152,109,149,115,153,97,157,108,153,111,149,112
+Richland,0310,MAN 3 - B,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6357,normalized,269,218,274,222,269,247,261,256,263,238,263,254,276,245,272,244
+Richland,0320,MAN 3 - C,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6358,normalized,272,237,285,231,269,258,263,271,276,249,266,264,276,255,283,249
+Richland,0330,MAN 3 - D,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6359,normalized,287,220,290,217,285,240,281,248,285,220,284,244,294,234,292,238
+Richland,0340,MAN 3 - E,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6360,normalized,296,292,291,288,290,315,285,326,288,311,285,323,289,320,290,319
+Richland,0400,MAN 4 - A,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6344,combined_node,120,214,119,220,120,239,125,235,123,225,121,245,130,232,126,232
+Richland,0410,MAN 4 - B,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6361,normalized,204,136,216,138,209,148,209,151,211,141,213,148,212,150,215,149
+Richland,0420,MAN 4 - C,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6362,normalized,198,54,203,57,210,61,209,63,207,56,208,66,210,62,212,60
+Richland,0430,MAN 4 - D,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6363,normalized,146,106,145,105,147,116,144,116,148,110,150,116,150,115,149,119
+Richland,0440,MAN 4 - E,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6364,normalized,230,88,245,91,242,104,242,109,244,98,246,104,247,106,243,106
+Richland,0500,MAN 5 - A,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6365,normalized,132,172,136,179,130,185,126,189,126,183,126,193,132,188,130,187
+Richland,0510,MAN 5 - B,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6366,normalized,137,34,141,41,150,41,147,44,150,35,154,42,150,45,157,36
+Richland,0600,MAN 6 - A,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6367,normalized,149,64,154,61,163,64,157,70,155,64,162,69,162,69,165,68
+Richland,0610,MAN 6 - B,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6341,combined_node,236,253,235,250,244,262,238,275,234,253,243,266,244,263,254,261
+Richland,0630,MAN 6 - D,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6368,normalized,188,111,203,108,201,121,201,123,200,114,201,123,201,125,202,122
+Richland,0640,MAN 6 - E,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6369,normalized,227,267,233,261,222,296,215,301,219,279,226,289,226,289,227,289
+Richland,0700,SHL 1 - A,official,Raw/Richland.pdf,"4,5,10,13,16,17,22,25,28,31",6385,normalized,113,199,116,199,107,219,105,224,100,216,105,221,104,225,113,216
+Richland,0710,SHL 1 - B,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6384,combined_node,137,240,142,238,127,261,126,264,130,258,127,262,134,259,134,261
+Richland,0800,SHL 2 - A,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6386,normalized,121,204,124,207,117,222,113,224,115,216,114,222,119,216,117,221
+Richland,0810,SHL 2 - B,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6387,normalized,117,211,128,211,119,234,120,237,119,222,120,232,124,229,124,227
+Richland,0900,SHL 3 - A,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6388,normalized,145,227,145,231,138,251,144,247,136,240,138,255,139,254,148,243
+Richland,0910,SHL 3 - B,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6384,combined_node,82,138,79,136,86,156,85,158,80,146,84,159,83,160,81,162
+Richland,1000,SHL 4 - A,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6389,normalized,157,283,167,285,157,311,156,311,157,300,168,292,158,305,166,296
+Richland,1010,SHL 4 - B,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6390,normalized,148,296,149,293,145,311,144,315,146,303,140,318,148,309,148,310
+Richland,1100,BLMG,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6330,normalized,48,225,47,224,46,245,50,244,45,240,48,248,50,247,48,248
+Richland,1200,BUTLER,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6331,normalized,42,143,42,145,38,151,38,152,37,154,39,149,43,147,40,151
+Richland,1300,CASS,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6332,normalized,61,275,60,283,56,295,53,301,53,289,56,296,56,300,66,288
+Richland,1400,FRANK,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6333,normalized,118,497,116,502,114,528,109,533,113,514,112,522,110,527,119,519
+Richland,1500,JACK A,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6334,normalized,125,358,139,358,123,393,132,383,133,371,137,381,131,388,144,375
+Richland,1510,JACK B,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6335,normalized,134,394,138,395,121,422,119,432,123,417,117,427,119,428,120,427
+Richland,1600,JEFF A,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6336,normalized,206,655,225,648,198,698,195,703,196,675,194,701,204,692,214,688
+Richland,1610,JEFF C,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6337,combined_node,108,413,128,394,111,418,106,436,104,424,105,433,112,423,110,426
+Richland,1620,JEFF D,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6337,combined_node,169,604,177,603,165,634,154,649,166,617,162,634,166,633,162,640
+Richland,1700,MAD A,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6341,combined_node,189,436,202,437,191,460,181,483,191,443,189,465,194,457,204,457
+Richland,1710,MAD D,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6342,normalized,154,320,158,320,149,357,156,353,147,339,155,354,155,353,161,347
+Richland,1720,MAD E,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6343,normalized,203,508,209,512,203,529,192,554,197,526,195,538,196,541,210,530
+Richland,1730,MAD G,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6344,combined_node,170,357,179,365,165,383,169,386,169,374,171,389,174,385,168,389
+Richland,1740,MAD I,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6345,normalized,205,358,216,355,198,391,191,404,196,377,197,392,206,385,205,383
+Richland,1750,MAD O,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6346,normalized,192,350,200,341,183,376,183,384,189,359,192,370,187,376,194,369
+Richland,1800,MIFF A,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6370,normalized,134,256,135,264,123,294,123,294,122,283,125,295,121,299,132,291
+Richland,1810,MIFF B,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6371,normalized,154,368,165,376,153,397,154,400,150,387,146,405,158,397,155,398
+Richland,1820,MIFF C,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6372,normalized,115,294,117,294,113,310,102,328,110,305,112,312,117,309,114,311
+Richland,1830,MIFF D,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6373,normalized,217,367,225,363,203,392,212,384,209,375,210,386,214,383,213,388
+Richland,1840,MIFF E,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6374,normalized,213,331,229,332,218,358,211,370,216,349,220,359,223,356,221,359
+Richland,1900,MON A,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6375,normalized,127,474,129,480,121,504,113,517,115,493,113,511,119,506,122,499
+Richland,1910,MON B,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6376,normalized,156,473,159,466,147,499,145,505,146,486,149,502,154,496,149,503
+Richland,2000,PERRY,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6381,normalized,96,413,103,409,91,430,94,430,94,416,91,432,96,427,100,422
+Richland,2100,PLY,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6382,normalized,156,453,161,456,142,491,137,501,135,473,144,484,144,488,148,483
+Richland,2200,SAND,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6383,normalized,136,288,143,296,137,317,131,324,135,303,134,322,135,320,138,317
+Richland,2300,SHARON,official,Raw/Richland.pdf,"6,7,11,14,18,19,23,26,29,33",6384,combined_node,102,271,108,269,96,293,93,302,96,286,97,298,94,297,100,294
+Richland,2400,ONT 1 - A,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6377,normalized,252,367,261,368,251,395,249,394,255,376,247,399,259,392,261,386
+Richland,2500,ONT 2 - A,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6378,combined_node,238,359,258,357,248,375,245,377,241,367,246,377,253,372,260,364
+Richland,2600,ONT 3 - A,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6379,normalized,322,475,332,461,298,512,290,521,309,488,298,507,311,499,316,499
+Richland,2700,ONT 4 - A,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6380,normalized,275,528,300,512,269,555,267,562,266,540,273,550,272,550,278,543
+Richland,2800,SPFLD A,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6391,normalized,103,265,100,270,101,286,102,285,104,272,104,285,100,288,101,283
+Richland,2810,SPFLD B,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6378,combined_node,226,519,243,525,224,570,221,573,217,548,218,570,230,556,226,554
+Richland,2820,SPFLD C,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6392,normalized,158,353,170,355,158,381,156,387,159,361,162,380,169,376,171,372
+Richland,2830,SPFLD D,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6378,combined_node,151,295,159,293,151,299,143,311,150,292,147,307,151,301,147,303
+Richland,2900,LEX B,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6338,normalized,221,324,232,319,220,354,226,350,220,332,218,348,219,348,227,343
+Richland,2910,LEX C,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6339,normalized,209,489,211,479,198,517,191,530,197,505,194,522,199,519,200,519
+Richland,2920,LEX E,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6340,normalized,281,509,289,509,277,551,266,559,269,531,275,546,286,541,282,545
+Richland,3000,TROY A,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6347,combined_node,181,424,184,412,170,438,172,439,170,422,167,440,178,430,180,428
+Richland,3010,TROY B,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6393,normalized,206,579,235,551,209,596,205,602,209,575,204,600,211,596,213,594
+Richland,3100,WASH A,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6394,normalized,154,403,158,394,145,430,148,433,146,415,150,433,152,424,155,419
+Richland,3110,WASH B,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6395,normalized,209,366,228,366,199,409,195,417,198,396,206,403,201,409,208,403
+Richland,3120,WASH C,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6347,combined_node,212,439,218,447,188,488,196,488,197,468,200,478,201,476,207,476
+Richland,3130,WASH D,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6396,normalized,136,362,140,365,129,386,135,387,130,374,130,389,129,395,129,395
+Richland,3150,WASH F,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6397,normalized,189,541,191,540,178,579,174,587,177,558,174,580,187,567,192,560
+Richland,3200,WELLER,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6398,normalized,175,581,181,579,163,623,163,630,163,599,163,616,161,618,169,612
+Richland,3300,WORTH A,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6399,normalized,104,223,103,236,95,255,91,261,97,245,93,258,95,256,97,256
+Richland,3310,WORTH B,official,Raw/Richland.pdf,"8,9,12,15,20,21,24,27,30,35",6400,normalized,210,588,210,582,197,620,192,634,198,601,193,629,202,617,204,617

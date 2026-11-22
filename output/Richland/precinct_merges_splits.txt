@@ -1,0 +1,29 @@
+Richland County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Richland.pdf, official Statement of Votes Cast, November 13,
+  2026 at 11:11 AM. Statewide precinct candidate columns on pp. 4–35.
+  https://www.boe.ohio.gov/richland/c/elecres/20261103precinct.pdf
+  Official countywide canvass, November 13, 2026 at 8:26 AM.
+  https://www.boe.ohio.gov/richland/c/elecres/20261103results.pdf
+  County precinct and polling place list, August 19, 2026, for codes.
+  https://www.boe.ohio.gov/richland/c/upload/Info_PrecinctPollingPlaceList.pdf
+  OH_pct20.json, RICHLAND nodes and ORIG_NAME membership.
+
+The CSV preserves the SOVC codes and labels. Matching expands the
+city and township abbreviations and restores letter A in the
+historical labels for Cass, Franklin, Plymouth and Weller.
+
+Shared graph nodes, listed with canvass labels
+  6337 | JEFF C, JEFF D
+  6341 | MAD A, MAN 6 - B
+  6344 | MAD G, MAN 4 - A
+  6347 | MAN 1 - A, MAN 1 - B, MAN 1 - E, TROY A, WASH C
+  6348 | MAN 1 - C, MAN 1 - D
+  6378 | ONT 2 - A, SPFLD B, SPFLD D
+  6384 | SHARON, SHL 1 - B, SHL 3 - B
+
+The 83 canvass precincts map to 71 graph nodes. Each precinct retains
+its own vote row. The name-based crosswalk identifies no additional
+mergers or splits. Boundary continuity was not assessed.

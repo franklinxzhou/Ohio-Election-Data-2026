@@ -1,0 +1,42 @@
+Preble County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Preble.pdf, official Custom Table Report, November 16, 2026,
+  11:26 AM. The statewide vote tables are on physical pages 3–17.
+  https://www.boe.ohio.gov/preble/election-info/election-results/
+  Official countywide results, November 16, 2026, 11:19 AM.
+  https://www.boe.ohio.gov/preble/c/elecres/20261103results.pdf
+  OH_pct20.json, PREBLE nodes and ORIG_NAME membership.
+
+The canvass reports 65 numbered rows. They are retained individually
+and linked by name to 39 graph nodes. Letter suffixes on reporting
+rows are dropped for matching, along with Twp and Village where
+appropriate. The CSV preserves the source spelling, including
+Lewisburg Viillage South. Boundaries were not compared.
+
+Separate 2026 rows sharing a 2020 source precinct name
+  6282 | Gasper 1: 013, 073, 109
+  6284 | Gasper 3: 017, 075
+  6286 | Harrison Southeast: 097, 113
+  6287 | Harrison West: 049, 099
+  6288 | Israel II: 031, 033, 035
+  6293 | Lanier Southeast: 081, 115
+  6299 | Somers East: 037, 083
+  6300 | Somers West: 019, 039, 085
+  6301 | Twin East: 101, 119, 121
+  6302 | Twin West: 021, 103, 123
+
+Graph nodes with comma-separated historical members
+  6274 | Eaton 2: 002; Washington East: 023, 059
+  6275 | Eaton 3: 003; Washington West: 025, 061
+  6285 | Gratis Village: 067; Gratis North: 077, 079, 111
+
+Graph source precincts with composite names
+  6271 | College Corner / Israel 1: 027, 029
+  6303 | Verona / Harrison Northeast: 093, 095
+  6306 | West Elkton / Gratis South: 069, 071, 087
+
+The split_precinct status denotes multiple canvass rows mapped to
+one historical member label. These groups are based on names and
+do not establish when the reporting divisions were introduced.

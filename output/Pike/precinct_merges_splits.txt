@@ -1,0 +1,29 @@
+Pike County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Pike.pdf, scanned Official Group Detail Report, November 17,
+  2026 at 8:50 AM, pp. 1–3. It gives ballots cast, registration,
+  and turnout for 22 precincts, with 8,878 ballots countywide.
+  https://www.boe.ohio.gov/pike/election-info/election-results
+  The posted precinct and cumulative reports each open as three-page
+  image PDFs in the web index. Direct retrieval of the cumulative PDF
+  returned HTTP 403, so its candidate totals could not be established.
+  https://www.boe.ohio.gov/pike/c/elecres/20261103precinct.pdf
+  https://www.boe.ohio.gov/pike/c/elecres/20261103results.pdf
+  Countywide vote source: Ohio Secretary of State November 3, 2026
+  General Unofficial Canvass workbook, Pike row 70 on Statewide Offices,
+  Supreme Court, and U.S. Congress. The extractor reuses the identical
+  workbook already saved under output/Gallia/. This snapshot lists
+  8,693 ballots countywide.
+  https://liveresults.ohiosos.gov/Api/v1/download?filename=GeneralElectionXlsFile
+  OH_pct20.json, PIKE nodes and ORIG_NAME membership.
+
+Shared nodes identified from the official turnout labels
+  6127 | 011 Jackson Township | 018 Pee Pee Township B
+  6134 | 021 Seal Township    | 024 Piketon Village
+
+The 22 turnout labels map by name to 20 graph nodes. The name match
+uses Township/TWP and Campcreek/Camp Creek aliases. The name crosswalk
+identifies no additional merges or splits. Boundary continuity was
+not assessed. Candidate votes are countywide only.

@@ -1,0 +1,36 @@
+Portage County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Portage.pdf, Unofficial Precinct by Precinct Results Report,
+  November 4, 2026 at 1:00 PM, 631 pages. The CSV cites physical pages.
+  https://www.portagecounty-oh.gov/board-elections
+  All 16 candidate totals reconcile to the Ohio Secretary of State's
+  General Unofficial Canvass workbook (Portage county rows).
+  https://liveresults.ohiosos.gov/Api/v1/download?filename=GeneralElectionXlsFile
+  OH_pct20.json, PORTAGE nodes and ORIG_NAME membership.
+  Portage County polling locations, February 23, 2026.
+  https://www.portagecounty-oh.gov/sites/g/files/vyhlif3706/f/uploads/polling_locations_2.23.26.pdf
+  Reporting on Kent's 2025 precinct boundary changes.
+  https://theportager.com/a-closer-look-at-portage-countys-election-results-november-2026/
+  County GIS precinct layer consulted for vintage.
+  https://www.arcgis.com/apps/mapviewer/index.html?webmap=489a51e98e454018b66c3c9e49a2d3c4
+
+The CSV preserves the report's precinct names. Its headings supply
+no separate precinct codes. Name matching omits City, Twp, and
+Village where the graph does. Windham township and village labels
+retain their qualifiers so the two sets of precincts stay distinct.
+
+Four graph nodes have two separate canvass rows each
+  6175 | Franklin Twp E, Kent City 4B
+  6181 | Hiram Twp B, Hiram Village
+  6223 | Ravenna City 2C, Ravenna Twp G
+  6232 | Ravenna Twp D, Ravenna Twp E
+
+The report lists 18 current Kent precincts. Kent 3D (6193),
+6C (6200), and 6D (6201) were eliminated after ward boundary changes.
+The county GIS layer still shows the old labels. The CSV links the
+surviving Kent labels by name. The successor boundaries of the three
+retired precincts and the boundaries of surviving labels remain
+unverified. Graph node 6264, Voting Districts Not Defined, also has
+no corresponding report row.

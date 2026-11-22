@@ -1,0 +1,23 @@
+Putnam County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Putnam.pdf, scanned Precinct by Precinct Summary Results with
+  Groups, unofficial canvass, November 3, 2026 at 8:44 PM. The CSV
+  cites the physical PDF pages containing each precinct's vote counts.
+  https://www.boe.ohio.gov/putnam/c/elecres/20261103precinct.pdf
+  All 16 candidate sums match the Putnam row (73) in the Ohio
+  Secretary of State's General Unofficial Canvass workbook.
+  https://liveresults.ohiosos.gov/Api/v1/download?filename=GeneralElectionXlsFile
+  OH_pct20.json, PUTNAM nodes and ORIG_NAME membership.
+
+The 25 canvass precincts map by name to 22 graph nodes. Name matching
+ignores periods in Twp. and Corp. and expands the graph name for
+008 Monroe Twp./Continental to MONROE TWP/CONTINENTAL CORP (6317).
+
+Shared graph nodes
+  6310 | 012 Glandorf Corp.; 015 Ottawa Corp. 3; 016 Ottawa Twp. East
+  6316 | 005 Liberty Twp.; 007 Van Buren Twp.
+
+Each precinct retains its own vote row. The name crosswalk identifies
+no additional merges or splits. Boundary continuity was not assessed.
