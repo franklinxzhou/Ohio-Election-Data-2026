@@ -1,0 +1,120 @@
+Tuscarawas County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Tuscarawas.pdf, official precinct results published November 16.
+  https://www.boe.ohio.gov/tuscarawas/c/elecres/20261103precinct.pdf
+  Countywide official cumulative results, pp. 1–2.
+  https://www.boe.ohio.gov/tuscarawas/c/elecres/20261103results.pdf
+  County precinct list and November 2026 sample ballots.
+  https://www.boe.ohio.gov/tuscarawas/c/pdf/PrecinctList.pdf
+  https://www.boe.ohio.gov/tuscarawas/c/upload/Election_TempBallotProofs.pdf
+  2020 official precinct detail, Warwick East and West on pp. 381 and 386.
+  https://www.boe.ohio.gov/tuscarawas/c/elecres/20201103precinct.pdf
+  2024 Precinct-Level Election Results, The New York Times. The publisher
+  flags the Tuscarawas geometry as official boundaries for 2024.
+  https://www.nytimes.com/interactive/2025/us/elections/2024-election-map-precinct-results.html
+  https://int.nyt.com/newsgraphics/elections/map-data/2024/national/OH-precincts-with-results.geojson.gz
+  Census 2020 TIGERweb VTDs, Tuscarawas County (39157).
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  Query where=STATE='39' AND COUNTY='157', outFields=BASENAME,GEOID,
+  outSR=5070, f=geojson. OH_pct20.json supplies graph memberships.
+
+Method and limitations
+  The 2024 geometry serves as a proxy for the 2026 boundaries. Join by
+  numeric precinct code except Warwick. In the 2026 canvass and November
+  sample ballots, 077 is West and 078 is East. The 2024 geometry and the
+  county precinct list use the reverse code order. The crosswalk follows
+  the East and West names for those two precincts. The ballot and canvass
+  spellings of East differ. The CSV keeps the canvass label.
+  The county precinct list distinguishes Dennison Village 1 (057) and 2
+  (058), both of which appear as Dennison Vlg in the canvass.
+  In EPSG:5070, retain intersections covering at least 2% of a 2024
+  precinct or 95% of a 2020 VTD. Multiple accepted VTDs are marked
+  boundary_overlap. A sole overlap covering under 95% of the old VTD is
+  marked split_precinct. Percentages are polygon area shares. Graph IDs
+  include all nodes carrying each retained VTD name. combined_node
+  identifies consolidation in the graph. Each precinct keeps its votes.
+
+Crosswalk rows
+001 | Dover 1A | boundary_overlap | 7422;7426 | DOVER CORP 1A (96.14% 2024 / 94.76% 2020); DOVER TWP 1 (2.88% 2024 / 0.08% 2020)
+002 | Dover 1B | normalized | 7423 | DOVER CORP 1B (98.76% 2024 / 97.66% 2020)
+003 | Dover 1C | combined_node | 7424 | DOVER CORP 1C (98.59% 2024 / 95.04% 2020)
+004 | Dover 2A | normalized | 7425 | DOVER CORP 2A (98.24% 2024 / 99.52% 2020)
+005 | Dover 2B | boundary_overlap | 7426 | DOVER CORP 2B (94.63% 2024 / 95.42% 2020); DOVER TWP 2 (4.97% 2024 / 0.32% 2020)
+006 | Dover 2C | boundary_overlap | 7424 | DOVER CORP 2C (89.14% 2024 / 96.44% 2020); DOVER TWP 4 & PARRAL (8.73% 2024 / 0.78% 2020)
+007 | Dover 3A | boundary_overlap | 7426;7427 | DOVER CORP 3A (97.35% 2024 / 81.82% 2020); DOVER TWP 2 (2.34% 2024 / 0.08% 2020)
+008 | Dover 3B | combined_node | 7426 | DOVER CORP 3B (99.83% 2024 / 99.13% 2020)
+009 | Dover 3C | normalized | 7428 | DOVER CORP 3C (97.31% 2024 / 98.47% 2020)
+010 | Dover 4A | boundary_overlap | 7426 | DOVER CORP 4A (94.35% 2024 / 97.84% 2020); DOVER TWP 1 (4.26% 2024 / 0.49% 2020)
+011 | Dover 4B | boundary_overlap | 7427;7429 | DOVER CORP 4B (92.27% 2024 / 98.44% 2020); DOVER CORP 3A (6.53% 2024 / 9.56% 2020)
+012 | Dover 4C | boundary_overlap | 7426 | DOVER CORP 4C (95.50% 2024 / 98.80% 2020); DOVER TWP 2 (3.10% 2024 / 0.15% 2020)
+013 | NPhila 1A | boundary_overlap | 7426 | NEW PHILADELPHIA 1A (94.46% 2024 / 91.11% 2020); DOVER TWP 1 (4.03% 2024 / 0.31% 2020)
+014 | NPhila 1B | normalized | 7443 | NEW PHILADELPHIA 1B (98.26% 2024 / 99.75% 2020)
+015 | NPhila 1C | normalized | 7444 | NEW PHILADELPHIA 1C (99.26% 2024 / 98.21% 2020)
+016 | NPhila 1D | normalized | 7445 | NEW PHILADELPHIA 1D (99.20% 2024 / 98.37% 2020)
+017 | NPhila 2A | normalized | 7446 | NEW PHILADELPHIA 2A (99.38% 2024 / 99.12% 2020)
+018 | NPhila 2B | normalized | 7447 | NEW PHILADELPHIA 2B (98.32% 2024 / 95.69% 2020)
+019 | NPhila 2C | boundary_overlap | 7434 | NEW PHILADELPHIA 2C (94.56% 2024 / 94.12% 2020); GOSHEN TWP & ROSWELL (5.36% 2024 / 0.65% 2020)
+020 | NPhila 2D | boundary_overlap | 7435;7448 | NEW PHILADELPHIA 2D (93.94% 2024 / 95.57% 2020); GOSHEN TWP 2 (5.03% 2024 / 0.40% 2020)
+021 | NPhila 3A | combined_node | 7426 | NEW PHILADELPHIA 3A (99.00% 2024 / 95.08% 2020)
+022 | NPhila 3B | normalized | 7449 | NEW PHILADELPHIA 3B (99.20% 2024 / 98.74% 2020)
+023 | NPhila 3C | normalized | 7450 | NEW PHILADELPHIA 3C (97.89% 2024 / 99.41% 2020)
+024 | NPhila 3D | boundary_overlap | 7426 | NEW PHILADELPHIA 3D (88.84% 2024 / 93.91% 2020); GOSHEN TWP 4 (8.22% 2024 / 0.60% 2020); NEW PHILADELPHIA 3A (2.40% 2024 / 2.46% 2020)
+025 | NPhila 4A | boundary_overlap | 7426 | NEW PHILADELPHIA 4A (97.30% 2024 / 94.22% 2020); GOSHEN TWP 4 (2.60% 2024 / 0.15% 2020)
+026 | NPhila 4B | boundary_overlap | 7426 | NEW PHILADELPHIA 4B (93.89% 2024 / 94.01% 2020); GOSHEN TWP 4 (6.02% 2024 / 0.37% 2020)
+027 | NPhila 4C | boundary_overlap | 7426 | NEW PHILADELPHIA 4C (91.12% 2024 / 95.75% 2020); GOSHEN TWP 4 (7.57% 2024 / 0.65% 2020)
+028 | NPhila 4D | boundary_overlap | 7426;7435 | NEW PHILADELPHIA 4D (91.70% 2024 / 85.60% 2020); GOSHEN TWP 2 (5.28% 2024 / 2.64% 2020); GOSHEN TWP 4 (2.64% 2024 / 0.68% 2020)
+029 | XVille 1 | normalized | 7462 | UHRICHSVILLE WARD 1 (98.92% 2024 / 96.79% 2020)
+030 | XVille 2 | boundary_overlap | 7441 | UHRICHSVILLE WARD 2 (91.85% 2024 / 92.94% 2020); MILL TWP (5.66% 2024 / 0.19% 2020)
+031 | XVille 3 | boundary_overlap | 7441;7463 | UHRICHSVILLE WARD 3 (91.29% 2024 / 93.48% 2020); MILL TWP (8.48% 2024 / 0.20% 2020)
+032 | XVille 4 | combined_node | 7441 | UHRICHSVILLE WARD 4 (96.94% 2024 / 95.62% 2020)
+033 | Auburn Twp | exact | 7416 | AUBURN TWP (99.79% 2024 / 99.77% 2020)
+034 | Baltic Vlg | normalized | 7417 | BALTIC VILLAGE (99.52% 2024 / 95.85% 2020)
+035 | Bucks Twp | exact | 7419 | BUCKS TWP (99.74% 2024 / 99.73% 2020)
+036 | Gnaden | boundary_overlap | 7420;7433;7461 | GNADENHUTTEN (90.56% 2024 / 84.84% 2020); WARWICK TWP EAST (4.87% 2024 / 0.48% 2020); CLAY TWP (4.43% 2024 / 0.17% 2020)
+037 | Clay Twp | exact | 7420 | CLAY TWP (99.24% 2024 / 98.90% 2020)
+038 | Dover Twp1 | combined_node | 7426 | DOVER TWP 1 (98.45% 2024 / 98.82% 2020)
+039 | Dover Twp 2 | combined_node | 7426 | DOVER TWP 2 (99.15% 2024 / 95.33% 2020)
+040 | Dover Twp 3 | exact | 7430 | DOVER TWP 3 (99.22% 2024 / 99.77% 2020)
+041 | Dover 4/Parral | combined_node | 7424 | DOVER TWP 4 & PARRAL (98.92% 2024 / 98.87% 2020)
+042 | Fairfield Twp | exact | 7431 | FAIRFIELD TWP (99.32% 2024 / 99.94% 2020)
+043 | Strasburg Vlg | boundary_overlap | 7432 | STRASBURG VILLAGE 1 (90.70% 2024 / 91.45% 2020); FRANKLIN TWP (9.26% 2024 / 0.43% 2020)
+044 | Strasburg Vlg 2 | boundary_overlap | 7432 | STRASBURG VILLAGE 2 (80.43% 2024 / 96.41% 2020); STRASBURG VILLAGE 1 (14.20% 2024 / 6.13% 2020); FRANKLIN TWP (5.37% 2024 / 0.11% 2020)
+045 | Franklin Twp | combined_node | 7432 | FRANKLIN TWP (98.72% 2024 / 98.93% 2020)
+046 | Midvale Vlg | boundary_overlap | 7435;7441 | MIDVALE VILLAGE (94.28% 2024 / 95.95% 2020); GOSHEN TWP 3 & BARNHILL (2.66% 2024 / 0.29% 2020); MILL TWP (2.59% 2024 / 0.09% 2020)
+047 | Gshn 1/Ross | boundary_overlap | 7426;7434 | GOSHEN TWP & ROSWELL (95.26% 2024 / 98.27% 2020); DOVER TWP 2 (3.23% 2024 / 3.51% 2020)
+048 | Gshn Twp 2 | boundary_overlap | 7435 | GOSHEN TWP 2 (96.26% 2024 / 95.80% 2020); NEW PHILADELPHIA 4D (2.10% 2024 / 3.90% 2020)
+049 | Gshn 3/Brnh | combined_node | 7435 | GOSHEN TWP 3 & BARNHILL (98.83% 2024 / 98.67% 2020)
+050 | Gshn Twp 4 | boundary_overlap | 7426;7435 | GOSHEN TWP 4 (93.54% 2024 / 96.14% 2020); NEW PHILADELPHIA 4D (2.60% 2024 / 9.73% 2020)
+051 | Stncrk/Jef | normalized | 7436 | JEFFERSON TWP & STONECREEK (99.69% 2024 / 99.71% 2020)
+052 | Bolivar Vlg | split_precinct | 7418 | BOLIVAR VILLAGE (98.26% 2024 / 78.13% 2020)
+053 | Lwrnc 1/Zoar | normalized | 7437 | LAWRENCE TWP 1 (98.44% 2024 / 97.87% 2020)
+054 | Lwrnc Twp 2 | normalized | 7438 | LAWRENCE TWP 2 (98.79% 2024 / 99.45% 2020)
+055 | Lwrnc Twp 3 | normalized | 7439 | LAWRENCE TWP 3 (98.78% 2024 / 99.87% 2020)
+056 | Lwrnc Twp 4 | normalized | 7440 | LAWRENCE TWP 4 (99.59% 2024 / 99.27% 2020)
+057 | Dennison Vlg | boundary_overlap | 7421 | DENNISON VILLAGE 1 (92.48% 2024 / 94.58% 2020); UNION TWP (6.01% 2024 / 0.21% 2020)
+058 | Dennison Vlg | boundary_overlap | 7421;7441 | DENNISON VILLAGE 2 (94.10% 2024 / 93.03% 2020); UHRICHSVILLE WARD 2 (2.96% 2024 / 2.50% 2020)
+059 | Mill Twp | combined_node | 7441 | MILL TWP (98.93% 2024 / 98.99% 2020)
+060 | Nct 1 | boundary_overlap | 7451 | NEWCOMERSTOWN 1 (94.56% 2024 / 94.45% 2020); OXFORD TWP (5.12% 2024 / 0.31% 2020)
+061 | Nct 2 | split_precinct | 7452 | NEWCOMERSTOWN 2 (98.75% 2024 / 94.13% 2020)
+062 | Nct 3 | boundary_overlap | 7451;7453 | NEWCOMERSTOWN 3 (91.83% 2024 / 96.53% 2020); OXFORD TWP (5.32% 2024 / 0.09% 2020)
+063 | Oxford Twp | combined_node | 7451 | OXFORD TWP (99.06% 2024 / 99.25% 2020)
+064 | Perry Twp | exact | 7454 | PERRY TWP (99.78% 2024 / 99.84% 2020)
+065 | Rush Twp | exact | 7456 | RUSH TWP (99.80% 2024 / 99.72% 2020)
+066 | Prt Washington | boundary_overlap | 7451;7455 | PORT WASHINGTON (91.15% 2024 / 99.12% 2020); SALEM TWP (8.85% 2024 / 0.15% 2020)
+067 | Salem Twp | combined_node | 7451 | SALEM TWP (99.41% 2024 / 99.71% 2020)
+068 | Mineral City | boundary_overlap | 7442 | MINERAL CITY (96.61% 2024 / 94.94% 2020); SANDY TWP EAST (2.50% 2024 / 0.18% 2020)
+069 | Sandy Twp East | combined_node | 7442 | SANDY TWP EAST (99.29% 2024 / 99.26% 2020)
+070 | Sandy Twp West | exact | 7457 | SANDY TWP WEST (99.43% 2024 / 99.89% 2020)
+071 | Sgrcreek Vlg 1 | normalized | 7459 | SUGARCREEK VILLAGE 1 (99.46% 2024 / 97.88% 2020)
+072 | Sgrcreek Vlg 2 | boundary_overlap | 7458;7460 | SUGARCREEK VILLAGE 2 (92.04% 2024 / 98.28% 2020); SUGARCREEK TWP (7.92% 2024 / 1.01% 2020)
+073 | Sgrcreek Twp | normalized | 7458 | SUGARCREEK TWP (99.44% 2024 / 98.49% 2020)
+074 | Union Twp | combined_node | 7421 | UNION TWP (99.58% 2024 / 99.31% 2020)
+075 | Warren Twp | exact | 7464 | WARREN TWP (99.93% 2024 / 99.58% 2020)
+076 | Tusky Vlg | boundary_overlap | 7461;7465 | TUSCARAWAS VILLAGE (92.10% 2024 / 94.95% 2020); WARWICK TWP EAST (4.48% 2024 / 0.37% 2020); WARWICK TWP WEST (3.41% 2024 / 0.21% 2020)
+077 | Warwick Twp West | exact | 7465 | WARWICK TWP WEST (99.48% 2024 / 99.62% 2020)
+078 | Warrwick Twp East | combined_node | 7461 | WARWICK TWP EAST (98.51% 2024 / 98.92% 2020)
+079 | Washington Twp | exact | 7466 | WASHINGTON TWP (99.84% 2024 / 99.60% 2020)
+080 | Wayne Twp | normalized | 7467 | WAYNE TWP & DUNDEE (99.72% 2024 / 98.86% 2020)
+081 | York Twp | combined_node | 7426 | YORK TWP (99.76% 2024 / 99.63% 2020)

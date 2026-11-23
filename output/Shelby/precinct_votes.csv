@@ -1,0 +1,37 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Shelby,1,Sidney 1-A,official,Raw/Shelby.pdf,"1,2",6626;6627,boundary_overlap,129,278,138,276,128,309,134,301,139,288,138,301,140,297,134,298
+Shelby,2,Sidney 1-B,official,Raw/Shelby.pdf,"5,6",6627,normalized,166,408,175,404,150,450,161,433,160,422,156,440,162,432,164,433
+Shelby,3,Sidney 1-C,official,Raw/Shelby.pdf,"9,10",6628,normalized,228,617,236,617,220,653,217,650,214,631,216,650,228,633,224,636
+Shelby,4,Sidney 2-A,official,Raw/Shelby.pdf,"13,14",6629,normalized,100,181,116,185,107,208,108,209,107,188,109,206,113,199,107,204
+Shelby,5,Sidney 2-B,official,Raw/Shelby.pdf,"17,18",6630,normalized,112,312,130,301,122,334,117,335,113,318,121,327,122,325,121,325
+Shelby,6,Sidney 2-C,official,Raw/Shelby.pdf,"21,22",6631,normalized,97,213,103,216,95,231,101,221,98,216,100,225,100,220,100,222
+Shelby,7,Sidney 2-D,official,Raw/Shelby.pdf,"25,26",6632,normalized,156,328,161,322,152,361,157,360,158,338,154,360,160,352,158,352
+Shelby,8,Sidney 3-A,official,Raw/Shelby.pdf,"29,30",6633,normalized,170,270,180,274,168,314,175,308,176,285,180,299,178,300,179,294
+Shelby,9,Sidney 3-B,official,Raw/Shelby.pdf,"33,34",6634,combined_node,153,281,164,272,153,308,153,300,153,287,154,304,155,305,164,294
+Shelby,10,Sidney 4-A,official,Raw/Shelby.pdf,"37,38",6634;6635,boundary_overlap,124,158,129,157,123,188,130,181,134,164,129,181,132,179,137,175
+Shelby,11,Sidney 4-B,official,Raw/Shelby.pdf,"41,42",6634;6635,boundary_overlap,119,186,122,189,118,221,120,214,119,203,129,206,126,207,123,213
+Shelby,12,Sidney 4-C,official,Raw/Shelby.pdf,"45,46",6636,normalized,133,258,143,265,133,283,131,285,130,276,135,283,136,280,139,277
+Shelby,13,Sidney 4-D,official,Raw/Shelby.pdf,"49,50",6634,combined_node,178,394,185,390,168,425,166,427,176,405,167,425,173,419,176,416
+Shelby,14,Clinton,official,Raw/Shelby.pdf,"53,54",6634,combined_node,98,261,102,254,93,285,98,276,98,270,98,277,105,267,103,270
+Shelby,15,Cynthian East,official,Raw/Shelby.pdf,"57,58",6637,normalized,54,347,53,348,39,377,47,366,44,356,51,359,50,364,53,358
+Shelby,16,Cynthian West,official,Raw/Shelby.pdf,"61,62",6638,normalized,67,455,76,442,62,485,67,477,72,455,63,478,67,477,78,466
+Shelby,17,Anna Village,official,Raw/Shelby.pdf,"65,66",6634;6639,boundary_overlap,138,450,148,446,132,486,135,483,130,466,131,481,132,481,139,472
+Shelby,18,Botkins Village,official,Raw/Shelby.pdf,"69,70",6640;6641,boundary_overlap,85,430,94,424,77,468,80,465,84,454,92,452,85,456,88,453
+Shelby,19,Dinsmore,official,Raw/Shelby.pdf,"73,74",6641,normalized,98,578,106,573,78,627,87,614,83,604,92,599,93,598,88,604
+Shelby,20,Franklin,official,Raw/Shelby.pdf,"77,78",6634,combined_node,146,615,158,611,135,656,128,656,141,628,146,640,145,638,139,639
+Shelby,21,Green,official,Raw/Shelby.pdf,"81,82",6642,normalized,55,292,57,302,46,334,55,324,53,314,48,330,55,323,53,320
+Shelby,22,Jackson Center Village,official,Raw/Shelby.pdf,"85,86",6643,normalized,99,389,117,387,93,435,95,432,91,418,97,426,99,424,99,420
+Shelby,23,Jackson,official,Raw/Shelby.pdf,"89,90",6644,normalized,58,378,63,379,50,407,52,403,57,393,54,395,50,399,58,391
+Shelby,24,Loramie East,official,Raw/Shelby.pdf,"93,94",6645,normalized,71,404,69,401,72,429,68,433,69,419,70,429,74,426,70,427
+Shelby,25,Loramie West,official,Raw/Shelby.pdf,"97,98",6646,normalized,64,642,69,645,56,674,61,666,57,654,59,665,62,663,61,661
+Shelby,26,Fort Loramie Village,official,Raw/Shelby.pdf,"101,102",6647,boundary_overlap,120,686,123,672,108,711,107,708,117,687,114,700,114,696,113,695
+Shelby,27,McLean,official,Raw/Shelby.pdf,"105,106",6647,combined_node,105,732,130,728,105,786,108,778,115,749,109,772,116,766,124,750
+Shelby,28,Orange,official,Raw/Shelby.pdf,"109,110",6634,combined_node,110,435,107,440,97,466,103,462,95,462,102,464,102,465,100,464
+Shelby,29,Perry,official,Raw/Shelby.pdf,"113,114",6634,combined_node,49,283,54,288,52,296,54,293,51,288,55,288,55,288,58,289
+Shelby,30,Salem East,official,Raw/Shelby.pdf,"117,118",6648,normalized,64,348,79,343,67,384,62,386,65,372,71,378,71,372,70,378
+Shelby,31,Salem West,official,Raw/Shelby.pdf,"121,122",6634,combined_node,104,366,111,359,99,385,101,383,102,372,98,358,103,354,101,375
+Shelby,32,Turtle Creek,official,Raw/Shelby.pdf,"125,126",6634,combined_node,130,534,140,533,116,580,116,578,118,557,127,564,123,567,126,561
+Shelby,33,Van Buren North,official,Raw/Shelby.pdf,"129,130",6649,normalized,45,370,57,369,33,406,38,394,35,387,42,391,45,389,49,386
+Shelby,34,Van Buren South,official,Raw/Shelby.pdf,"133,134",6650,normalized,95,554,104,547,82,589,91,577,94,554,94,566,90,567,95,564
+Shelby,35,Washington,official,Raw/Shelby.pdf,"137,138",6634,combined_node,151,545,161,539,134,605,141,600,141,569,137,597,139,588,148,582
+Shelby,36,Sidney 3-C,official,Raw/Shelby.pdf,"141,142",6634,split_precinct,125,216,131,222,132,246,129,249,128,232,131,246,136,241,131,245

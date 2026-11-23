@@ -1,0 +1,82 @@
+Union County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Union.pdf, official Statement of Votes Cast, November 17, 2026.
+  https://www.unioncountyohio.gov/media/Agencies/Board%20of%20Elections/Union%20County%20OfficialCanvassSOVC_Nov_17_2026_11_07_56.pdf
+  Countywide official summary, November 17, 2026.
+  https://www.unioncountyohio.gov/media/Agencies/Board%20of%20Elections/Union%20County%20OfficialCanvass905_PALL_Election_Summary.pdf
+  Union County GIS precinct boundaries, Precinct Region layer.
+  https://www7.co.union.oh.us/unioncountyohio/rest/services/voteLocation/MapServer/1
+  Query where=1=1, outFields=*, outSR=5070, f=geojson.
+  Census 2020 TIGERweb VTDs, Union County (39159).
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  Query where=STATE='39' AND COUNTY='159', outFields=BASENAME,GEOID,
+  outSR=5070, f=geojson. OH_pct20.json supplies graph memberships.
+
+Method
+  The county GIS precinct names join to the election report names.
+  The GIS code field differs from the canvass code sequence and repeats
+  three codes across six Jerome precincts. CSV codes come from the canvass.
+  Retain polygon intersections covering at least 2% of the current
+  precinct or at least 95% of the 2020 VTD. Multiple qualifying VTDs
+  are marked boundary_overlap. A sole overlap covering less than 95%
+  of the 2020 VTD is marked split_precinct. Graph IDs include all nodes
+  carrying the qualifying VTD names. Combined_node refers to a graph
+  node with multiple source precincts. All percentages are area shares.
+  Each precinct's vote totals are kept together.
+
+Crosswalk rows
+01 | ALLEN 1 | exact | 7468 | ALLEN 1 (99.99% current / 99.99% 2020)
+02 | ALLEN 2 | exact | 7469 | ALLEN 2 (99.98% current / 99.96% 2020)
+03 | RICHWOOD 1 | combined_node | 7470 | RICHWOOD 1 (99.30% current / 99.87% 2020)
+04 | RICHWOOD 2 | exact | 7490 | RICHWOOD 2 (99.94% current / 99.75% 2020)
+05 | CLAIBOURNE | combined_node | 7470 | CLAIBOURNE (99.98% current / 99.97% 2020)
+06 | DARBY 1 | combined_node | 7471 | DARBY 1 (99.20% current / 99.98% 2020)
+07 | DARBY 2 | combined_node | 7471 | DARBY 2 (99.96% current / 99.62% 2020)
+08 | DOVER 1 | exact | 7472 | DOVER 1 (99.98% current / 100.00% 2020)
+09 | DOVER 2 | combined_node | 7471 | DOVER 2 (99.87% current / 98.10% 2020)
+10 | JACKSON | exact | 7474 | JACKSON (100.00% current / 99.83% 2020)
+11 | PLAIN CITY | boundary_overlap | 7478;7479 | PLAIN CITY (50.34% current / 99.66% 2020); JEROME 5 (49.60% current / 9.59% 2020)
+12 | DUBLIN CITY 1 | split_precinct | 7473 | DUBLIN CITY 1 (99.51% current / 54.76% 2020)
+13 | DUBLIN CITY 2 | combined_node | 7473 | DUBLIN CITY 2 (99.83% current / 98.02% 2020)
+14 | DUBLIN CITY 3 | boundary_overlap | 7473 | DUBLIN CITY 1 (97.45% current / 44.31% 2020); JEROME 4 (2.55% current / 0.32% 2020)
+15 | JEROME 1 | split_precinct | 7475 | JEROME 1 (99.89% current / 94.90% 2020)
+16 | JEROME 2 | exact | 7476 | JEROME 2 (99.17% current / 99.85% 2020)
+17 | JEROME 3 | split_precinct | 7477 | JEROME 3 (99.94% current / 48.05% 2020)
+18 | JEROME 4 | split_precinct | 7473 | JEROME 4 (99.53% current / 54.41% 2020)
+19 | JEROME 5 | split_precinct | 7478;7479 | JEROME 5 (99.76% current / 90.20% 2020)
+20 | JEROME 6 | split_precinct | 7473 | JEROME 6 (99.99% current / 27.93% 2020)
+21 | JEROME 7 | split_precinct | 7475 | JEROME 1 (100.00% current / 5.05% 2020)
+22 | JEROME 8 | split_precinct | 7477 | JEROME 3 (99.69% current / 51.71% 2020)
+23 | JEROME 9 | split_precinct | 7473 | JEROME 6 (99.88% current / 71.88% 2020)
+24 | JEROME 10 | split_precinct | 7473 | JEROME 4 (99.43% current / 44.48% 2020)
+25 | LEESBURG | exact | 7480 | LEESBURG (99.99% current / 99.99% 2020)
+26 | LIBERTY 1 | exact | 7481 | LIBERTY 1 (99.98% current / 99.95% 2020)
+27 | LIBERTY 2 | exact | 7482 | LIBERTY 2 (99.93% current / 99.95% 2020)
+28 | MILLCREEK | exact | 7489 | MILLCREEK (99.09% current / 99.95% 2020)
+29 | MARYSVILLE 1 | boundary_overlap | 7471 | MARYSVILLE 1 (69.82% current / 99.21% 2020); PARIS (23.41% current / 1.76% 2020); MARYSVILLE 9 (6.62% current / 14.56% 2020)
+30 | MARYSVILLE 2 | combined_node | 7471 | MARYSVILLE 2 (98.68% current / 99.08% 2020)
+31 | MARYSVILLE 3 | split_precinct | 7486 | MARYSVILLE 3 (99.91% current / 42.57% 2020)
+32 | MARYSVILLE 4 | exact | 7487 | MARYSVILLE 4 (97.80% current / 99.87% 2020)
+33 | MARYSVILLE 5 | combined_node | 7471 | MARYSVILLE 5 (99.81% current / 99.57% 2020)
+34 | MARYSVILLE 6 | boundary_overlap | 7471 | MARYSVILLE 6 (94.35% current / 98.30% 2020); MARYSVILLE 12 (5.57% current / 0.44% 2020)
+35 | MARYSVILLE 7 | combined_node | 7471 | MARYSVILLE 7 (99.99% current / 99.92% 2020)
+36 | MARYSVILLE 8 | combined_node | 7471 | MARYSVILLE 8 (99.88% current / 99.96% 2020)
+37 | MARYSVILLE 9 | split_precinct | 7471 | MARYSVILLE 9 (99.92% current / 84.84% 2020)
+38 | MARYSVILLE 10 | combined_node | 7471 | MARYSVILLE 10 (99.86% current / 99.94% 2020)
+39 | MARYSVILLE 11 | split_precinct | 7471 | MARYSVILLE 11 (99.99% current / 27.83% 2020)
+40 | MARYSVILLE 12 | split_precinct | 7471 | MARYSVILLE 12 (99.59% current / 46.85% 2020)
+41 | MARYSVILLE 13 | exact | 7483 | MARYSVILLE 13 (98.68% current / 99.36% 2020)
+42 | MARYSVILLE 14 | exact | 7484 | MARYSVILLE 14 (99.70% current / 99.33% 2020)
+43 | MARYSVILLE 15 | boundary_overlap | 7471;7485 | PARIS (57.07% current / 2.48% 2020); MARYSVILLE 15 (42.51% current / 99.71% 2020)
+44 | MARYSVILLE 16 | split_precinct | 7486 | MARYSVILLE 3 (99.96% current / 57.33% 2020)
+45 | MARYSVILLE 17 | split_precinct | 7471 | MARYSVILLE 11 (99.96% current / 61.53% 2020)
+46 | MARYSVILLE 18 | boundary_overlap | 7471 | MARYSVILLE 12 (72.85% current / 52.28% 2020); PARIS (27.14% current / 5.41% 2020)
+47 | PARIS | split_precinct | 7471 | PARIS (99.87% current / 90.24% 2020)
+48 | TAYLOR 1 | exact | 7491 | TAYLOR 1 (99.98% current / 99.97% 2020)
+49 | TAYLOR 2 | exact | 7492 | TAYLOR 2 (99.98% current / 99.95% 2020)
+50 | MILFORD CENTER | exact | 7488 | MILFORD CENTER (99.68% current / 99.00% 2020)
+51 | UNION | combined_node | 7471 | UNION (99.98% current / 99.98% 2020)
+52 | WASHINGTON | exact | 7493 | WASHINGTON (99.82% current / 99.98% 2020)
+53 | YORK | exact | 7494 | YORK (99.96% current / 99.99% 2020)

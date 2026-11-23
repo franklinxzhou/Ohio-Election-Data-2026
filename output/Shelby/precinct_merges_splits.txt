@@ -1,0 +1,44 @@
+Shelby County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Shelby.pdf, official Precinct Summary with Groups,
+  November 10, 2026 at noon. The CSV cites physical PDF pages.
+  https://www.boe.ohio.gov/shelby/election-info/election-results/
+  Official countywide canvass, November 10, 2026 at 11:55 AM.
+  https://www.boe.ohio.gov/shelby/c/elecres/20261103results.pdf
+  County Auditor voting precinct polygons, all 36 named features.
+  https://cama.shelbycountyauditors.com/arcgis/rest/services/SCEO_Basemaps/Shelby_County_Reference_Data_Update/MapServer/20
+  Query: where=OBJECTID>0, outFields=Precinct_Number, returnGeometry=true, f=json.
+  County Board of Elections Sidney 3-C map dated May 15, 2024.
+  https://www.boe.ohio.gov/shelby/c/maps/Sidney3rdWardC.pdf
+  2020 Census TIGERweb VTDs, Shelby County, Ohio (39149).
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  Query: where=STATE='39' AND COUNTY='149', outFields=BASENAME,GEOID,
+  outSR=5070, f=geojson. OH_pct20.json supplies graph memberships.
+
+Method
+  Intersect both layers in EPSG:5070. Retain historical precincts
+  covering at least 2% of current area, or at least 95% of the former
+  precinct. Printed shares refer to polygon area. Small overlaps
+  may reflect offsets between the source layers. Where the only
+  retained predecessor has the same precinct code, use that code's
+  graph link. Each current precinct retains its own votes.
+
+Shared groups in the 2020 graph
+  6634 | codes 9, 10, 13, 14, 20, 28, 29, 31, 32, 35
+  6647 | codes 26 and 27
+
+Sidney 3-C
+  The official May 2024 precinct map already shows code 36. Its
+  current polygon is 99.69% within former Sidney 3-B, which maps to
+  graph node 6634. Sidney 3-B and 3-C retain separate vote rows.
+
+Crosswalk exceptions
+1 | boundary_overlap | 6626;6627 | 0001 SIDNEY 1ST WARD A (96.74% current / 97.97% former); 0002 SIDNEY 1ST WARD B (2.70% current / 1.67% former)
+10 | boundary_overlap | 6634;6635 | 0010 SIDNEY 4TH WARD A (91.07% current / 97.72% former); 0011 SIDNEY 4TH WARD B (4.83% current / 11.36% former)
+11 | boundary_overlap | 6634;6635 | 0011 SIDNEY 4TH WARD B (97.07% current / 88.29% former); 0013 SIDNEY 4TH WARD D (2.11% current / 0.35% former)
+17 | boundary_overlap | 6634;6639 | 0017 ANNA VLG (90.67% current / 99.80% former); 0020 FRANKLIN (9.19% current / 0.44% former)
+18 | boundary_overlap | 6640;6641 | 0018 BOTKINS VLG (91.50% current / 99.41% former); 0019 DINSMORE (8.50% current / 0.34% former)
+26 | boundary_overlap | 6647 | 0026 FORT LORAMIE VLG (97.28% current / 99.62% former); 0027 MCLEAN (2.72% current / 0.09% former)
+36 | split_precinct | 6634 | 0009 SIDNEY 3RD WARD B (99.69% current / 22.38% former)
