@@ -1,0 +1,33 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Van Wert,,Convoy,official,Raw/Van Wert.pdf,"3,4,6,8,10,12",7495,exact,101,221,105,220,106,242,109,235,99,231,109,238,109,239,108,240
+Van Wert,,Delphos 3A,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7496;7497,boundary_overlap,75,179,71,186,71,204,73,198,71,195,73,201,76,198,76,195
+Van Wert,,Delphos 3B,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7497;7498,boundary_overlap,44,182,40,189,43,208,42,208,42,194,41,209,45,205,45,205
+Van Wert,,Delphos 4A,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7499;7500,boundary_overlap,102,326,106,331,91,366,102,352,107,337,100,354,104,351,104,353
+Van Wert,,Harrison,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7501,exact,109,328,111,328,113,349,115,345,109,329,111,347,116,344,113,349
+Van Wert,,Hoaglin,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7502,exact,46,197,48,204,46,217,50,213,50,205,47,214,51,212,51,213
+Van Wert,,Jackson,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7503,exact,31,159,33,160,33,173,31,173,31,169,33,173,32,173,35,171
+Van Wert,,Jennings,official,Raw/Van Wert.pdf,"2,3,4,6,8,10,12",7504,exact,44,197,49,189,43,208,46,210,47,202,45,205,44,208,49,203
+Van Wert,,Liberty,official,Raw/Van Wert.pdf,"3,4,6,8,10,12",7505,exact,52,280,50,295,49,306,53,302,48,296,48,305,47,307,53,297
+Van Wert,,Middle Point,official,Raw/Van Wert.pdf,"3,4,6,8,10,12",7506,exact,46,120,49,125,46,135,48,133,46,130,46,136,49,132,49,135
+Van Wert,,Ohio City,official,Raw/Van Wert.pdf,"3,4,6,8,10,12",7507,exact,49,164,56,167,52,187,55,183,51,179,53,185,50,189,56,183
+Van Wert,,Pleasant East,official,Raw/Van Wert.pdf,"3,4,6,8,10,12",7508,combined_node,51,214,60,205,53,230,55,225,52,216,56,224,57,221,59,219
+Van Wert,,Pleasant North,official,Raw/Van Wert.pdf,"3,5,7,9,11,13",7509,combined_node,92,239,97,237,84,264,97,254,93,247,89,257,90,255,95,253
+Van Wert,,Pleasant West,official,Raw/Van Wert.pdf,"3,4,6,8,10,12",7508,combined_node,73,171,77,167,67,187,73,179,72,175,74,179,68,183,71,184
+Van Wert,,Ridge,official,Raw/Van Wert.pdf,"3,4,6,8,10,12",7510,combined_node,128,397,131,393,120,433,126,428,124,409,126,428,126,425,127,420
+Van Wert,,Tully,official,Raw/Van Wert.pdf,"3,4,6,8,10,12",7511,exact,92,299,100,297,91,321,90,325,87,309,93,316,91,323,90,324
+Van Wert,,Union,official,Raw/Van Wert.pdf,"3,4,6,8,10,12",7512,exact,70,282,82,274,72,297,75,293,68,290,73,296,74,294,74,292
+Van Wert,,Van Wert 1A,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7508;7513;7515;7522,boundary_overlap,123,156,127,170,130,184,129,183,128,170,128,185,130,183,136,177
+Van Wert,,Van Wert 1B,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7513;7514,boundary_overlap,85,138,93,144,94,152,90,156,87,142,92,153,92,153,91,156
+Van Wert,,Van Wert 2A,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7509;7516;7517,boundary_overlap,126,223,135,232,134,252,139,244,133,235,138,244,137,250,143,244
+Van Wert,,Van Wert 2C,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7509;7518,boundary_overlap,121,245,130,247,135,276,141,275,135,260,135,275,144,269,143,269
+Van Wert,,Van Wert 3A,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7508;7519;7520,boundary_overlap,71,103,80,106,78,113,76,116,76,104,76,114,81,110,79,112
+Van Wert,,Van Wert 3C,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7508,combined_node,109,234,114,240,118,260,120,257,114,249,116,260,119,258,121,258
+Van Wert,,Van Wert 3D,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7518;7521,boundary_overlap,93,182,94,196,84,213,89,205,89,201,88,203,93,202,87,207
+Van Wert,,Van Wert 4A,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7508;7510;7519;7520;7522,boundary_overlap,131,234,142,230,132,258,136,257,134,238,131,256,143,249,137,253
+Van Wert,,Van Wert 4B,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7510;7522,boundary_overlap,109,236,118,232,111,261,118,257,116,242,118,251,121,250,115,255
+Van Wert,,Van Wert 4D,official,Raw/Van Wert.pdf,"2,4,6,8,10,12",7508,combined_node,177,364,184,354,168,386,163,388,167,375,171,380,168,384,162,384
+Van Wert,,Washington East,official,Raw/Van Wert.pdf,"3,5,7,9,11,13",7500,combined_node,56,312,61,308,48,339,58,331,52,320,58,330,55,332,56,331
+Van Wert,,Washington West,official,Raw/Van Wert.pdf,"3,5,7,9,11,13",7523,exact,38,256,39,263,39,272,40,269,41,261,37,269,40,268,43,268
+Van Wert,,Willshire,official,Raw/Van Wert.pdf,"3,5,7,9,11,13",7524,exact,54,218,58,225,69,248,65,251,64,231,72,244,67,248,73,242
+Van Wert,,Wren,official,Raw/Van Wert.pdf,"3,5,7,9,11,13",7525,exact,45,167,49,173,46,180,44,181,44,174,45,179,44,177,47,177
+Van Wert,,York,official,Raw/Van Wert.pdf,"3,5,7,9,11,13",7526,exact,39,253,48,247,42,272,45,265,44,260,48,265,45,267,46,267

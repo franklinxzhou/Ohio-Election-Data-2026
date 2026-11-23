@@ -1,0 +1,136 @@
+Wood County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Wood.pdf, official precinct results dated November 18, 2026.
+  https://boe.woodcountyohio.gov/DocumentCenter/View/1050/Official-Precinct-Breakdown
+  Official countywide summary.
+  https://boe.woodcountyohio.gov/DocumentCenter/View/1051/Official-Results
+  County city precinct maps, including Perrysburg.
+  https://boe.woodcountyohio.gov/233/Cities
+  Published 2024 precinct geometry, flagged official by the publisher.
+  https://int.nyt.com/newsgraphics/elections/map-data/2024/national/OH-precincts-with-results.geojson.gz
+  Census 2020 TIGERweb VTDs, Wood County (39173).
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  Query where=STATE='39' AND COUNTY='173', outFields=BASENAME,GEOID,
+  outSR=5070, f=geojson. OH_pct20.json supplies graph memberships.
+  Census 2024 Ohio State House district boundaries independently
+  corroborate the district assignments and territorial overlaps.
+  https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_39_sldl.zip
+
+Method and limitations
+  The 2024 boundaries serve as a proxy for 2026. Canvass names join to
+  the 2024 features after reconciling township and village abbreviations.
+  Retain intersections covering at least 2% of the 2024 precinct or
+  95% of the 2020 VTD, measured in EPSG:5070. Multiple qualifying old
+  precincts are marked boundary_overlap. A single overlap covering less
+  than 95% of the old precinct is marked split_precinct. The crosswalk
+  lists all graph IDs associated with each qualifying precinct name.
+  For graph pairs 7861/7862 and 7864/7865, the Ohio House tables in
+  Raw/Wood.pdf, pp. 59–64, identify which populated graph nodes serve
+  each precinct. Only Perrysburg Twp Ft Meigs appears in both House
+  districts within those two groups. The Perrysburg A, B and U rows
+  retain the zero-2020-population HD44 geographic nodes, alongside the
+  populated HD75 nodes. Their House votes appear in HD75 alone.
+  The vote CSV retains precinct totals.
+
+Crosswalk rows
+010 | BOWLING GREEN 1-A | exact | 7839 | BOWLING GREEN 1-A (99.97% 2024 / 99.95% 2020)
+020 | BOWLING GREEN 1-B | exact | 7840 | BOWLING GREEN 1-B (99.95% 2024 / 99.96% 2020)
+030 | BOWLING GREEN 1-C | exact | 7841 | BOWLING GREEN 1-C (99.98% 2024 / 99.98% 2020)
+040 | BOWLING GREEN 2-A | exact | 7842 | BOWLING GREEN 2-A (99.97% 2024 / 99.94% 2020)
+050 | BOWLING GREEN 2-B | exact | 7843 | BOWLING GREEN 2-B (99.95% 2024 / 99.93% 2020)
+060 | BOWLING GREEN 2-C | combined_node | 7844 | BOWLING GREEN 2-C (99.97% 2024 / 99.95% 2020)
+070 | BOWLING GREEN 2-D | exact | 7845 | BOWLING GREEN 2-D (99.96% 2024 / 99.97% 2020)
+072 | BOWLING GREEN 2-F | exact | 7846 | BOWLING GREEN 2-F (99.95% 2024 / 99.95% 2020)
+090 | BOWLING GREEN 3-B | exact | 7847 | BOWLING GREEN 3-B (99.90% 2024 / 99.91% 2020)
+100 | BOWLING GREEN 3-C | exact | 7848 | BOWLING GREEN 3-C (99.92% 2024 / 99.94% 2020)
+101 | BOWLING GREEN 3-D | exact | 7849 | BOWLING GREEN 3-D (99.96% 2024 / 99.97% 2020)
+102 | BOWLING GREEN 3-E | combined_node | 7844 | BOWLING GREEN 3-E (99.97% 2024 / 99.97% 2020)
+104 | BOWLING GREEN 3-G | combined_node | 7844 | BOWLING GREEN 3-G (99.95% 2024 / 99.95% 2020)
+110 | BOWLING GREEN 4-A | combined_node | 7844 | BOWLING GREEN 4-A (99.98% 2024 / 99.95% 2020)
+120 | BOWLING GREEN 4-B | combined_node | 7844 | BOWLING GREEN 4-B (99.95% 2024 / 99.95% 2020)
+140 | BOWLING GREEN 4-D | combined_node | 7844 | BOWLING GREEN 4-D (99.96% 2024 / 99.96% 2020)
+141 | BOWLING GREEN 4-E | combined_node | 7844 | BOWLING GREEN 4-E (99.97% 2024 / 99.96% 2020)
+144 | BOWLING GREEN 4-H | combined_node | 7844 | BOWLING GREEN 4-H (99.96% 2024 / 99.98% 2020)
+146 | BOWLING GREEN 4-J | combined_node | 7844 | BOWLING GREEN 4-J (99.97% 2024 / 99.96% 2020)
+150 | BLOOM TWP NORTH | exact | 7837 | BLOOM TWP NORTH (99.99% 2024 / 100.00% 2020)
+190 | BLOOM TWP SOUTH | exact | 7838 | BLOOM TWP SOUTH (100.00% 2024 / 99.99% 2020)
+210 | CENTER TWP | combined_node | 7844 | CENTER TOWNSHIP (99.99% 2024 / 99.99% 2020)
+230 | FREEDOM TWP | normalized | 7851 | FREEDOM TOWNSHIP (100.00% 2024 / 99.99% 2020)
+240 | FREEDOM TWP PEMBERVILLE | exact | 7852 | FREEDOM TWP PEMBERVILLE (99.97% 2024 / 99.96% 2020)
+260 | GRAND RAPIDS TWP PARK | combined_node | 7853 | GRAND RAPIDS TWP PARK (99.99% 2024 / 99.99% 2020)
+270 | GRAND RAPIDS TWP GR | combined_node | 7853 | GRAND RAPIDS TWP GR (99.97% 2024 / 99.97% 2020)
+280 | HENRY TWP HAMMANSBURG | exact | 7854 | HENRY TWP HAMMANSBURG (100.00% 2024 / 100.00% 2020)
+300 | HENRY TWP N BALTIMORE A | exact | 7855 | HENRY TWP N BALTIMORE A (99.98% 2024 / 99.97% 2020)
+310 | HENRY TWP N BALTIMORE B | exact | 7856 | HENRY TWP N BALTIMORE B (99.97% 2024 / 99.98% 2020)
+340 | JACKSON TWP | exact | 7857 | JACKSON TWP (100.00% 2024 / 100.00% 2020)
+370 | LAKE TWP EAST | combined_node | 7858 | LAKE TWP EAST (99.99% 2024 / 99.98% 2020)
+371 | LAKE TWP NORTH | exact | 7860 | LAKE TWP NORTH (99.98% 2024 / 99.98% 2020)
+390 | LAKE TWP LATCHA | exact | 7859 | LAKE TWP LATCHA (100.00% 2024 / 99.99% 2020)
+400 | LAKE TWP MILLBURY | combined_node | 7858 | LAKE TWP MILLBURY (99.98% 2024 / 99.97% 2020)
+420 | LAKE TWP UNION | combined_node | 7862 | LAKE TWP UNION (99.98% 2024 / 99.99% 2020); canvass House district(s) 75
+430 | LAKE TWP WALBRIDGE A | combined_node | 7862 | LAKE TWP WALBRIDGE A (99.96% 2024 / 99.98% 2020); canvass House district(s) 75
+432 | LAKE TWP WALBRIDGE B | combined_node | 7862 | LAKE TWP WALBRIDGE B (99.97% 2024 / 99.96% 2020); canvass House district(s) 75
+440 | LIBERTY TWP | exact | 7863 | LIBERTY TWP (100.00% 2024 / 100.00% 2020)
+450 | MIDDLETON TWP WEST | split_precinct | 7865 | MIDDLETON TWP NORTH (99.99% 2024 / 69.07% 2020); canvass House district(s) 75
+460 | MIDDLETON TWP NORTH | split_precinct | 7865 | MIDDLETON TWP NORTH (99.98% 2024 / 21.60% 2020); canvass House district(s) 75
+470 | MIDDLETON TWP SOUTH | exact | 7867 | MIDDLETON TWP SOUTH (99.99% 2024 / 99.99% 2020)
+480 | MIDDLETON TWP HASKINS | exact | 7866 | MIDDLETON TWP HASKINS (99.97% 2024 / 99.98% 2020)
+490 | MIDDLETON TWP DUNBRIDGE | combined_node | 7865 | MIDDLETON TWP DUNBRIDGE (99.99% 2024 / 99.99% 2020); canvass House district(s) 75
+500 | MILTON TWP | exact | 7868 | MILTON TWP (100.00% 2024 / 99.99% 2020)
+540 | MONTGOMERY TWP WEST | exact | 7871 | MONTGOMERY TWP WEST (99.99% 2024 / 100.00% 2020)
+550 | MONTGOMERY TWP NE | exact | 7869 | MONTGOMERY TWP NE (99.99% 2024 / 99.98% 2020)
+590 | MONTGOMERY TWP SE | exact | 7870 | MONTGOMERY TWP SE (99.99% 2024 / 99.99% 2020)
+600 | FOSTORIA CITY | exact | 7850 | FOSTORIA CITY (99.98% 2024 / 99.95% 2020)
+601 | PERRY TWP EAST | exact | 7874 | PERRY TWP EAST (99.99% 2024 / 99.99% 2020)
+610 | PERRY TWP PERRY | exact | 7875 | PERRY TWP PERRY (99.99% 2024 / 99.99% 2020)
+630 | PERRYSBURG TWP HAMLET | combined_node | 7889 | PERRYSBURG TWP HAMLET (99.97% 2024 / 99.96% 2020)
+650 | PERRYSBURG TWP GLENWOOD | combined_node | 7887 | PERRYSBURG TWP GLENWOOD (99.99% 2024 / 99.99% 2020)
+652 | PRBG TWP FALLEN TIMBERS | exact | 7898 | PRBG TWP FALLEN TIMBERS (99.97% 2024 / 99.96% 2020)
+653 | PRBG TWP STARBRIGHT | exact | 7899 | PRBG TWP STARBRIGHT (99.97% 2024 / 99.97% 2020)
+656 | PERRYSBURG TWP BELMONT | combined_node | 7887 | PERRYSBURG TWP BELMONT (99.95% 2024 / 99.97% 2020)
+658 | PERRYSBURG TWP FORD | combined_node | 7889 | PERRYSBURG TWP FORD (99.97% 2024 / 99.96% 2020)
+660 | PERRYSBURG TWP NORTH | exact | 7890 | PERRYSBURG TWP NORTH (99.97% 2024 / 99.98% 2020)
+662 | PERRYSBURG TWP FT MEIGS | split_node | 7864;7865 | PERRYSBURG TWP FT MEIGS (99.98% 2024 / 99.97% 2020); canvass House district(s) 44/75
+663 | PERRYSBURG TWP ECKEL | combined_node | 7888 | PERRYSBURG TWP ECKEL (99.97% 2024 / 99.95% 2020)
+671 | PERRYSBURG TWP SOUTH | exact | 7891 | PERRYSBURG TWP SOUTH (99.99% 2024 / 99.99% 2020)
+690 | PERRYSBURG A | split_node | 7876;7877 | PERRYSBURG A (99.97% 2024 / 99.98% 2020)
+700 | PERRYSBURG B | split_node | 7878;7879 | PERRYSBURG B (99.98% 2024 / 99.95% 2020)
+730 | PERRYSBURG E | exact | 7880 | PERRYSBURG E (99.96% 2024 / 99.98% 2020)
+741 | PERRYSBURG G | exact | 7881 | PERRYSBURG G (99.96% 2024 / 99.95% 2020)
+743 | PERRYSBURG I | exact | 7882 | PERRYSBURG I (99.97% 2024 / 99.97% 2020)
+744 | PERRYSBURG J | boundary_overlap | 7865 | MIDDLETON TWP NORTH (57.49% 2024 / 9.31% 2020); PERRYSBURG K (42.50% 2024 / 23.81% 2020); canvass House district(s) 75
+745 | PERRYSBURG K | split_precinct | 7865 | PERRYSBURG K (99.98% 2024 / 76.16% 2020); canvass House district(s) 75
+746 | PERRYSBURG L | combined_node | 7865 | PERRYSBURG L (99.97% 2024 / 99.97% 2020); canvass House district(s) 75
+747 | PERRYSBURG M | exact | 7883 | PERRYSBURG M (99.95% 2024 / 99.96% 2020)
+748 | PERRYSBURG N | exact | 7884 | PERRYSBURG N (99.94% 2024 / 99.93% 2020)
+749 | PERRYSBURG O | exact | 7885 | PERRYSBURG O (99.98% 2024 / 99.94% 2020)
+750 | PERRYSBURG P | exact | 7886 | PERRYSBURG P (99.96% 2024 / 99.94% 2020)
+752 | PERRYSBURG R | split_precinct | 7895 | PERRYSBURG W (99.96% 2024 / 51.04% 2020)
+753 | PERRYSBURG S | split_precinct | 7865 | PERRYSBURG X (99.98% 2024 / 47.01% 2020); canvass House district(s) 75
+754 | PERRYSBURG T | combined_node | 7888 | PERRYSBURG T (99.95% 2024 / 99.96% 2020)
+755 | PERRYSBURG U | split_node | 7892;7893 | PERRYSBURG U (99.98% 2024 / 99.97% 2020)
+756 | PERRYSBURG V | exact | 7894 | PERRYSBURG V (99.96% 2024 / 99.95% 2020)
+757 | PERRYSBURG W | split_precinct | 7895 | PERRYSBURG W (99.97% 2024 / 48.94% 2020)
+758 | PERRYSBURG X | split_precinct | 7865 | PERRYSBURG X (99.96% 2024 / 52.96% 2020); canvass House district(s) 75
+760 | PERRYSBURG Y | combined_node | 7865 | PERRYSBURG Y (99.98% 2024 / 99.98% 2020); canvass House district(s) 75
+761 | PLAIN TWP | combined_node | 7844 | PLAIN TWP (99.99% 2024 / 99.99% 2020)
+770 | PORTAGE TWP EAST | normalized | 7896 | PORTAGE TOWNSHIP EAST (100.00% 2024 / 100.00% 2020)
+800 | PORTAGE WEST | normalized | 7897 | PORTAGE TOWNSHIP WEST (99.99% 2024 / 99.99% 2020)
+810 | NORTHWOOD A | combined_node | 7861 | NORTHWOOD A (99.99% 2024 / 99.97% 2020); canvass House district(s) 44
+811 | NORTHWOOD B | exact | 7872 | NORTHWOOD B (99.99% 2024 / 99.99% 2020)
+830 | NORTHWOOD D | exact | 7873 | NORTHWOOD D (99.99% 2024 / 99.97% 2020)
+840 | ROSSFORD A | exact | 7900 | ROSSFORD A (99.97% 2024 / 99.97% 2020)
+870 | ROSSFORD D | exact | 7901 | ROSSFORD D (99.98% 2024 / 99.96% 2020)
+890 | ROSSFORD F | exact | 7902 | ROSSFORD F (99.97% 2024 / 99.95% 2020)
+892 | ROSSFORD H | exact | 7903 | ROSSFORD H (99.95% 2024 / 99.93% 2020)
+893 | ROSSFORD I | combined_node | 7887 | ROSSFORD I (99.97% 2024 / 99.97% 2020)
+900 | TROY TWP NORTH | exact | 7905 | TROY TWP NORTH (99.99% 2024 / 99.99% 2020)
+920 | TROY TWP SOUTH | exact | 7906 | TROY TWP SOUTH (99.99% 2024 / 99.99% 2020)
+930 | TROY TWP LUCKEY | exact | 7904 | TROY TWP LUCKEY (99.97% 2024 / 99.98% 2020)
+940 | WASHINGTON TWP | combined_node | 7907 | WASHINGTON TWP (100.00% 2024 / 99.99% 2020)
+950 | WASHINGTON TWP TONTOGANY | combined_node | 7907 | WASHINGTON TWP TONTOGANY (99.96% 2024 / 99.96% 2020)
+960 | WEBSTER TWP | exact | 7908 | WEBSTER TWP (100.00% 2024 / 100.00% 2020)
+980 | WESTON TWP WILLOW | exact | 7910 | WESTON TWP WILLOW (99.99% 2024 / 99.99% 2020)
+999 | WESTON VILLAGE | normalized | 7909 | WESTON TWP WESTON VILL (99.98% 2024 / 99.99% 2020)

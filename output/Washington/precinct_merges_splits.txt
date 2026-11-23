@@ -1,0 +1,36 @@
+Washington County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Washington.pdf, official precinct canvass, November 17, 2026.
+  https://www.boe.ohio.gov/washington/c/elecres/20261103precinct.pdf
+  Official countywide canvass, November 17, 2026.
+  https://www.boe.ohio.gov/washington/c/elecres/20261103results.pdf
+  OH_pct20.json, Washington County ORIG_NAME memberships.
+  Published 2024 precinct geometry, flagged official by the publisher.
+  https://int.nyt.com/newsgraphics/elections/map-data/2024/national/OH-precincts-with-results.geojson.gz
+  Census 2020 TIGERweb VTDs, Washington County (39167).
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  Query where=STATE='39' AND COUNTY='167', outFields=BASENAME,GEOID,
+  outSR=5070, f=geojson.
+
+Findings
+  All 50 canvass precincts match individual 2020 precinct names after
+  accounting for abbreviations and slash spacing. The 2020–2024 polygon
+  comparison supports those links. The minimum same-name area shares
+  are 99.94% of 2024 area and 99.91% of 2020 area, rounded to two decimals.
+  These polygons cover 2020 and 2024. The 2026 links use canvass names.
+  No precinct merges or splits were identified in these sources.
+
+Graph combinations already present in OH_pct20.json
+  7724 | Fearing; Marietta 1A; Marietta 1B; Marietta East A
+  7750 | Rockland East; Rockland West
+  The CSV keeps a separate vote row for each precinct in these nodes.
+
+Canvass names and graph abbreviations
+  Beverly/Waterford → BEV / WATERFORD
+  Lowell/Adams → LOWELL / ADAMS
+  Matamoras/Grandview → MATAMORAS / GRANDVIEW
+  Marietta East A–D and Marietta West → MTTA EAST A–D and MTTA WEST
+  Muskingum East A–C and Muskingum West → MUSK EAST A–C and MUSK WEST
+  Warren North East and Warren North West → WARREN NE and WARREN NW

@@ -1,0 +1,23 @@
+Vinton County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Vinton.pdf, Vinton County's Official Canvass, Precinct Summary.
+  https://www.boe.ohio.gov/vinton/c/elecres/20261103precinct.pdf
+  Countywide Official Canvass, November 10, 2026 at 10:18 AM.
+  https://www.boe.ohio.gov/vinton/c/elecres/20261103results.pdf
+  OH_pct20.json, Vinton County nodes 7527–7546.
+  Published 2024 precinct geometry, flagged official by the publisher.
+  https://int.nyt.com/newsgraphics/elections/map-data/2024/national/OH-precincts-with-results.geojson.gz
+  Census 2020 TIGERweb VTDs, Vinton County (39163).
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  Query where=STATE='39' AND COUNTY='163', outFields=BASENAME,GEOID,
+  outSR=5070, f=geojson.
+
+Findings
+  All 20 canvass precinct names match a unique 2020 graph node by name.
+  No merges or splits identified. As corroboration, each 2024 polygon
+  overlaps its identically named 2020 VTD. The minimum area share is
+  99.93% in either direction, rounded to two decimal places.
+  The geometry comparison uses EPSG:5070 and covers 2020 to 2024.
+  The 2026 match uses the official canvass names.

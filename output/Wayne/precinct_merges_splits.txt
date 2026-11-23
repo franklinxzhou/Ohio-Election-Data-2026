@@ -1,0 +1,108 @@
+Wayne County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Wayne.pdf, unofficial Statement of Votes Cast including write-ins,
+  November 4, 2026, 11:44 AM. Candidate counts on PDF pages 4–50.
+  https://www.waynecountyoh.gov/wp-content/uploads/2026/11/Unofficial-SOVC-Incl-WI-Gen-26.pdf
+  Countywide unofficial canvass including write-ins.
+  https://www.waynecountyoh.gov/wp-content/uploads/2026/11/Unofficial-Canvass-Incl-WI-Gen-26.pdf
+  County precinct roster and code abbreviations.
+  https://www.waynecountyoh.gov/precincts-voter-ward-precinct-maps/
+  County boundary notices and linked maps (spring and fall 2025,
+  then spring 2026).
+  https://www.waynecountyoh.gov/jan-25-polling-place-changes/
+  https://www.waynecountyoh.gov/oct-25-polling-place-changes/
+  https://www.waynecountyoh.gov/spring-2026-polling-place-and-precinct-changes/
+  https://www.waynecountyoh.gov/wp-content/uploads/2026/04/East-Union-PP-Map.png
+  https://www.waynecountyoh.gov/wp-content/uploads/2026/03/Wayne-Twp-Change-Map.png
+  https://www.waynecountyoh.gov/wp-content/uploads/2025/09/Canaan-Twp-Change-Map.png
+  Wooster Ordinance 2022-13, ward redistricting, and the county's
+  February 2025 ward maps used to identify overlaps across ward lines.
+  https://www.woosteroh.com/sites/default/files/2022-06/wards.pdf
+  https://www.waynecountyoh.gov/wp-content/uploads/2025/02/2025-Ward-2-Precinct-Changes.png
+  https://www.waynecountyoh.gov/wp-content/uploads/2025/02/2025-Ward-3-Precinct-Changes.png
+  https://www.waynecountyoh.gov/wp-content/uploads/2025/02/2025-Ward-4-Precinct-Changes.png
+  Published 2024 precinct polygons, compared against Census 2020
+  TIGERweb VTDs (county 39169, outSR=5070). OH_pct20.json provides IDs.
+  https://int.nyt.com/newsgraphics/elections/map-data/2024/national/OH-precincts-with-results.geojson.gz
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+
+Method and limitations
+  Match abbreviated canvass names to the 2024 geography and graph
+  through the county roster. For precincts with documented 2025 or 2026
+  changes, use the county notices and maps to identify contributing 2020
+  precincts. These map-based links are qualitative, with no 2026 overlap
+  percentages. Other rows show the 2024 and 2020 area shares, retaining
+  overlaps of at least 2% of 2024 area or 95% of 2020 area. The historic
+  comparison does not establish the exact boundary of the reporting unit
+  in November 2026. If multiple qualifying 2020 precincts share a graph
+  node, the CSV lists that ID once. Each precinct retains its vote totals.
+
+Crosswalk rows
+01-01 | Orr 1 | normalized | 7787 | ORRVILLE CITY 1 (99.98% 2024 / 99.98% 2020)
+02-01 | Orr 2 | normalized | 7788 | ORRVILLE CITY 2 (99.97% 2024 / 99.97% 2020)
+03-01 | Orr 3 | normalized | 7789 | ORRVILLE CITY 3 (99.96% 2024 / 99.97% 2020)
+05-01 | Orr 4A | normalized | 7790 | ORRVILLE CITY 4-A (99.97% 2024 / 99.96% 2020)
+06-01 | Orr 4B | normalized | 7791 | ORRVILLE CITY 4-B (99.96% 2024 / 99.98% 2020)
+10-01 | Ritt 1 | combined_node | 7786 | RITTMAN CITY 1 (99.98% 2024 / 99.98% 2020)
+11-01 | Ritt 2 | combined_node | 7786 | RITTMAN CITY 2 (99.98% 2024 / 99.96% 2020)
+12-01 | Ritt 3 | split_precinct | 7795 | Rittman 3 lost territory north of Sunset Drive to Rittman 4.
+13-01 | Ritt 4 | boundary_overlap | 7795;7796 | Rittman 4 plus a portion of old Rittman 3 north of Sunset Drive.
+15-01 | Woo 1A | combined_node | 7804 | WOOSTER CITY 1-A (99.97% 2024 / 99.06% 2020)
+16-01 | Woo 1B | boundary_overlap | 7805;7814 | Ward 4 map shows a northern extension into old Wooster 4B.
+17-01 | Woo 1C | boundary_overlap | 7806;7813 | Ward 4 map shows a northern extension into old Wooster 4A.
+20-01 | Woo 2A | normalized | 7807 | WOOSTER CITY 2-A (99.98% 2024 / 99.98% 2020)
+21-01 | Woo 2B | boundary_overlap | 7808;7809;7810 | Old Wooster 2B plus portions of 2C and 2D.
+22-01 | Woo 2C | boundary_overlap | 7809;7810 | Old Wooster 2C plus a portion of 2D at its northwest edge.
+23-01 | Woo 2D | boundary_overlap | 7802;7810;7812 | Old Wooster 2D lost territory to 2B and 2C. The northern extension shown on the county map overlaps old Wooster 3D and 4D.
+26-01 | Woo 3A | boundary_overlap | 7801 | Ward 3 map shows eastern additions from old Wayne Township 1. Both old precincts share graph node 7801.
+27-01 | Woo 3B | normalized | 7811 | WOOSTER CITY 3-B (99.98% 2024 / 99.97% 2020)
+28-01 | Woo 3C | split_precinct | 7803 | Old Wooster 3C lost several blocks to Wooster 3D.
+29-01 | Woo 3D | boundary_overlap | 7802;7803;7812 | Old Wooster 3D and 3E plus blocks from old Wooster 3C. The Ward 3 map also shows additions from old Wayne Township 2, which shares node 7802 with old 3E.
+32-01 | Woo 4A | boundary_overlap | 7802;7813 | Ward 4 map shows an extension into old Wooster 4D.
+33-01 | Woo 4B | combined_node | 7814 | WOOSTER CITY 4-B (99.98% 2024 / 99.98% 2020)
+34-01 | Woo 4C | split_precinct | 7802 | Old Wooster 4C contributed northern territory to 4E.
+35-01 | Woo 4D | split_precinct | 7802 | Old Wooster 4D contributed northern territory to 4E.
+36-01 | Woo 4E | boundary_overlap | 7802 | New precinct from old Wooster 4C and 4D. The Ward 4 map also shows an overlap with old 3E. All three share node 7802.
+43-01 | Ba 1 | normalized | 7759 | BAUGHMAN TWP 1 (99.99% 2024 / 99.99% 2020)
+44-01 | Ba 2 | normalized | 7760 | BAUGHMAN TWP 2 (100.00% 2024 / 99.99% 2020)
+45-01 | Ca 1 | split_precinct | 7761 | Old Canaan 1 lost blocks to Canaan 3, as indicated on the county change map.
+46-01 | Ca 2 Creston Vlg | split_precinct | 7762 | Old Canaan 2 lost the portion of Creston south of Myers Street to Canaan 3.
+47-01 | Ca 3 | boundary_overlap | 7761;7762;7763 | Old Canaan 3 expanded into Canaan 1 and Canaan 2.
+50-01 | Che 1 | boundary_overlap | 7764;7765 | Old Chester 1 and part of Chester 2 after the boundary moved to Lattasburg Road.
+51-01 | Che 2 NW LSD | boundary_overlap | 7764;7765 | Old Chester 2 and part of Chester 1 after the boundary moved to Lattasburg Road.
+53-01 | Chip 1 | normalized | 7766 | CHIPPEWA TWP 1 (100.00% 2024 / 99.99% 2020)
+54-01 | Chip 2 | normalized | 7767 | CHIPPEWA TWP 2 (99.99% 2024 / 99.99% 2020)
+55-01 | Chip 3 | normalized | 7768 | CHIPPEWA TWP 3 (99.99% 2024 / 99.98% 2020)
+56-01 | Chip 4 D-Town Vlg | normalized | 7769 | CHIPPEWA TWP 4 DOY/TOWN (99.96% 2024 / 99.96% 2020)
+57-01 | Chip 5 D-town Vlg | normalized | 7770 | CHIPPEWA TWP 5 DOY/TOWN (99.96% 2024 / 99.98% 2020)
+58-01 | Chip 6 | normalized | 7771 | CHIPPEWA TWP 6 (99.98% 2024 / 99.98% 2020)
+62-01 | Cli 1 | normalized | 7772 | CLINTON TWP 1 (100.00% 2024 / 99.99% 2020)
+63-01 | Cli 2 Shreve Vlg | normalized | 7773 | CLINTON TWP 2 SHREVE (99.97% 2024 / 99.97% 2020)
+65-01 | Con 1 W Salem Vlg | combined_node | 7774 | CONGRESS TWP 1 W SALEM (99.97% 2024 / 99.97% 2020)
+66-01 | Con 2 | combined_node | 7774 | CONGRESS TWP 2 (99.99% 2024 / 99.99% 2020)
+67-01 | Con 3 | normalized | 7775 | CONGRESS TWP 3 (100.00% 2024 / 99.99% 2020)
+68-01 | EU 1 | boundary_overlap | 7776;7777 | East Union 1 combines southeast and northeast areas from old precincts 1 and 2.
+69-01 | EU 2 WD LSD | boundary_overlap | 7776;7779 | East Union 2 takes northwest and central-west areas from old precincts 4 and 1.
+70-01 | EU 3 | boundary_overlap | 7776;7778 | East Union 3 combines old Apple Creek precinct 3 with southwest area from old precinct 1.
+73-01 | Fr 1 | normalized | 7780 | FRANKLIN TWP 1 (100.00% 2024 / 99.99% 2020)
+74-01 | Fr 2 | normalized | 7781 | FRANKLIN TWP 2 (99.99% 2024 / 99.99% 2020)
+75-01 | Gr 1 | normalized | 7782 | GREEN TWP 1 (99.99% 2024 / 99.99% 2020)
+76-01 | Gr 2 | normalized | 7783 | GREEN TWP 2 (99.99% 2024 / 99.99% 2020)
+77-01 | Gr 3 Smthvle Vlg | normalized | 7784 | GREEN TWP 3 SMITHVILLE (99.98% 2024 / 99.98% 2020)
+80-01 | Mil 1 | normalized | 7785 | MILTON TWP 1 (100.00% 2024 / 99.99% 2020)
+81-01 | Mil 2 | combined_node | 7786 | MILTON TWP 2 (99.99% 2024 / 99.99% 2020)
+83-01 | Paint 1 | normalized | 7792 | PAINT TWP 1 (100.00% 2024 / 99.99% 2020)
+84-01 | Plain 1 | normalized | 7793 | PLAIN TWP 1 (100.00% 2024 / 99.99% 2020)
+85-01 | Plain 2 | normalized | 7794 | PLAIN TWP 2 (99.99% 2024 / 99.99% 2020)
+86-01 | Salt 1 | normalized | 7797 | SALT CREEK TWP 1 (100.00% 2024 / 100.00% 2020)
+87-01 | Sug 1 | normalized | 7798 | SUGAR CREEK TWP 1 (100.00% 2024 / 99.99% 2020)
+88-01 | Sug 2 | normalized | 7799 | SUGAR CREEK TWP 2 (99.99% 2024 / 99.99% 2020)
+89-01 | Sug 3 Dalton Vlg | normalized | 7800 | SUGAR CREEK TWP 3 DALTON (99.96% 2024 / 99.97% 2020)
+92-01 | Way 1 | split_precinct | 7801 | Wayne 1 ceded area to Wayne 3 at Cleveland Road.
+93-01 | Way 2 | boundary_overlap | 7802;7803 | Wayne 2 gained territory from old Wayne 3 south of Smithville Western Road.
+94-01 | Way 3 | boundary_overlap | 7801;7803 | Wayne 3 gained territory from old Wayne 1 west of Cleveland Road and lost territory to Wayne 2.
+97-01 | Wst 1 | combined_node | 7804 | WOOSTER TWP 1 (99.54% 2024 / 99.98% 2020)
+98-01 | Wst 2 | normalized | 7815 | WOOSTER TWP 2 (99.99% 2024 / 99.99% 2020)
+99-01 | Wst 3 | combined_node | 7814 | WOOSTER TWP 3 (99.99% 2024 / 99.99% 2020)
