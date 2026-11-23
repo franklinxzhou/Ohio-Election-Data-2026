@@ -1,0 +1,38 @@
+county,file,source_type,vintage,source_url,notes
+Athens,Athens/precincts.geojson,Countywide GIS,2026-08,https://services2.arcgis.com/2zE4x6y8cTIstSBE/ArcGIS/rest/services/VotinigDistricts/FeatureServer/0,65 features for 50 precincts. Group by precinctid.
+Auglaize,Auglaize/precincts.geojson,Countywide GIS,2026,https://gis.auglaizecounty.org/arcgis/rest/services/BrdofElections/VotingPrecincts/MapServer/4,Multiple features per precinct.
+Brown,Brown/precincts-2021.zip,Historical GIS,2021-05,https://gis.browncountyengineer.org/GISWEB/DOWNLOAD-DATA/VOTING-PRECINCT.zip,Original shapefile archive.
+Butler,Butler/precincts.kml,Countywide KML,2026,https://www.google.com/maps/d/kml?mid=1PgPoiqhzQ0oXHCLj7UV-uLqznpNAsiU&forcekml=1,Use the 2026 Precincts folder. Group 333 polygon placemarks into 292 precincts by removing the suffix after the first period.
+Clark,Clark/precincts.geojson,Countywide GIS,2026,https://ago.clarkcountyohio.gov/ccoarcgis/rest/services/WMAS/VotingPrecincts/MapServer/0,
+Clermont,Clermont/precincts.geojson,Countywide GIS,2026,https://maps.clermontcountyohio.gov/server/rest/services/WMAS/Voting_Precincts_GenMap/MapServer/0,
+Cuyahoga,Cuyahoga/precincts.geojson,Countywide GIS,2026,https://services7.arcgis.com/GXM8JipKyc0m6HBi/arcgis/rest/services/Voting_Precincts_region/FeatureServer/0,
+Delaware,Delaware/precincts.geojson,Countywide GIS,2026,https://services2.arcgis.com/ziXVKVy3BiopMCCU/ArcGIS/rest/services/Precincts/FeatureServer/0,
+Fairfield,Fairfield/precincts.zip,Countywide GIS,2026,https://www.co.fairfield.oh.us/gis/Fairfield_Data/Precincts.zip,Original shapefile archive. Use precincts.shp.
+Franklin,Franklin/precincts.geojson,Countywide GIS,2026,https://gis.franklincountyohio.gov/hosting/rest/services/BOEL/BOEL_Information/FeatureServer/0,
+Geauga,,Countywide PDF,2026-03-05,https://www.boe.ohio.gov/geauga/c/upload/PrecinctPollingLocationMaps.pdf,Download returned HTTP 403. Official map covers all 79 precincts and requires digitization.
+Greene,Greene/precincts.geojson,Countywide GIS,2026,https://gis.greenecountyohio.gov/webgis2/rest/services/BOE/VotingPrecincts/MapServer/0,
+Hamilton,Hamilton/precincts.geojson,Countywide GIS,2026,https://services.arcgis.com/JyZag7oO4NteHGiq/ArcGIS/rest/services/Open_Data_Feature_Collection/FeatureServer/41,
+Hocking,Hocking/precincts.zip,Countywide GIS,2026-08-27,https://hocking.oh.gov/PublicMaps/index.php?dir=GIS+SHAPEFILES%2FVOTING+PRECINCTS,Original shapefile archive from the linked county download directory.
+Knox,Knox/precincts.zip,Countywide GIS,2026-06-12,https://www.co.knox.oh.us/DocumentCenter/View/1174/Voting-Precincts-ZIP,Original shapefile archive.
+Lake,Lake/precincts.geojson,Countywide GIS,2026,https://gis.lakecountyohio.gov/arcgis/rest/services/Elections/Elections_Precincts/MapServer/0,
+Licking,Licking/precincts.geojson,Countywide GIS,2026,https://gis.lickingcounty.gov/server/rest/services/Auditor/Boundaries/MapServer/2,96 precincts. Some records have November 18 edits.
+Lorain,Lorain/precincts.geojson,Countywide GIS,2026,https://election.loraincounty.com/map/precincts.geojson?v=2026-11-05,
+Marion,Marion/precincts-2024.geojson,Historical GIS,2024,https://raw.githubusercontent.com/21MetcalfJ/2024Precincts/main/states/Ohio/OH24.zip,45 original features selected by Statewides labels and a representative point inside the Marion 2020 VTD union.
+Miami,Miami/precincts-2022.zip,Historical GIS,2022,https://ftp.miamicountyohio.gov/GIS/Miami_County_Precincts_2022_010523.zip,Original shapefile archive.
+Montgomery,Montgomery/election-boundaries.zip,Historical GIS,2024-08,https://go.mcohio.org/embed/auditor/downloads/Shape_files/SHAPEFILE_BOARD_OF_ELECTIONS.zip,Original archive includes several vintages. Date describes the precinct layer metadata used in the county notes.
+Pickaway,Pickaway/circleville-precincts.geojson,Municipal GIS,,https://services6.arcgis.com/FhJ42byMw3LmPYCN/ArcGIS/rest/services/2022_Voting/FeatureServer/4,Nine City of Circleville precincts. Exact vintage unverified. Use with the Pickaway county layer.
+Pickaway,Pickaway/county-precincts.geojson,County GIS outside Circleville,2026,https://services6.arcgis.com/FhJ42byMw3LmPYCN/ArcGIS/rest/services/Precincts_Pickaway_County/FeatureServer/0,37 named precincts. Blank-name features are outside the canvass roster.
+Portage,Portage/precincts-stale-kent.geojson,Historical GIS,,https://services3.arcgis.com/USPCOVt8MExYdEzE/arcgis/rest/services/Voting_Precincts/FeatureServer/0,Still contains retired Kent precincts.
+Shelby,Shelby/precincts.esrijson,Countywide GIS,2026,https://cama.shelbycountyauditors.com/arcgis/rest/services/SCEO_Basemaps/Shelby_County_Reference_Data_Update/MapServer/20,Native Esri JSON polygon export in EPSG:3734.
+Stark,Stark/precincts.geojson,Countywide GIS,2026,https://scgisa.starkcountyohio.gov/arcgis/rest/services/BoardOfElections/PollingLocationsAndPrecincts/MapServer/1,276 features for 274 precincts. Source includes post-election edits.
+Summit,Summit/precincts-2024.geojson,Historical GIS,2024,https://int.nyt.com/newsgraphics/elections/map-data/2024/national/OH-precincts-with-results.geojson.gz,"County subset by GEOID prefix 39153. Retains geometry, GEOID and official_boundary."
+Tuscarawas,Tuscarawas/precincts-2024.geojson,Historical GIS,2024,https://int.nyt.com/newsgraphics/elections/map-data/2024/national/OH-precincts-with-results.geojson.gz,"County subset by GEOID prefix 39157. Retains geometry, GEOID and official_boundary."
+Union,Union/precincts.geojson,Countywide GIS,2026,https://www7.co.union.oh.us/unioncountyohio/rest/services/voteLocation/MapServer/1,
+VanWert,VanWert/precincts-2024.geojson,Historical GIS,2024,https://int.nyt.com/newsgraphics/elections/map-data/2024/national/OH-precincts-with-results.geojson.gz,"County subset by GEOID prefix 39161. Retains geometry, GEOID and official_boundary."
+Warren,Warren/precinct-map-2025.pdf,Historical map,2025-04,https://vote.warrencountyohio.gov/doc/Maps/Voter_Precincts1.pdf,Countywide GeoPDF.
+Warren,Warren/precincts-2024.geojson,Historical GIS,2024,https://int.nyt.com/newsgraphics/elections/map-data/2024/national/OH-precincts-with-results.geojson.gz,"County subset by GEOID prefix 39165. Retains geometry, GEOID and official_boundary."
+Wayne,Wayne/canaan-township-change-map.png,Precinct change map,2025-09,https://www.waynecountyoh.gov/wp-content/uploads/2025/09/Canaan-Twp-Change-Map.png,
+Wayne,Wayne/east-union-township-change-map.png,Precinct change map,2026-04,https://www.waynecountyoh.gov/wp-content/uploads/2026/04/East-Union-PP-Map.png,
+Wayne,Wayne/precincts-2024.geojson,Historical GIS,2024,https://int.nyt.com/newsgraphics/elections/map-data/2024/national/OH-precincts-with-results.geojson.gz,"County subset by GEOID prefix 39169. Retains geometry, GEOID and official_boundary."
+Wayne,Wayne/wayne-township-change-map.png,Precinct change map,2026-03,https://www.waynecountyoh.gov/wp-content/uploads/2026/03/Wayne-Twp-Change-Map.png,
+Wood,Wood/precincts-2024.geojson,Historical GIS,2024,https://int.nyt.com/newsgraphics/elections/map-data/2024/national/OH-precincts-with-results.geojson.gz,"County subset by GEOID prefix 39173. Retains geometry, GEOID and official_boundary."
