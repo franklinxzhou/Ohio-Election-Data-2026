@@ -2,6 +2,8 @@
 
 This repository provides precinct-level estimates of the results of the November 3, 2026, general election in Ohio from [Duke Quantifying Gerrymandering Group](https://sites.duke.edu/quantifyinggerrymandering/). The underlying election canvass data were collected as of November 21, 2026.
 
+Still outlying (as of 11/22 9PM): Medina, Van Wert, Vinton, Warren, Washington, Wayne, Williams, Wood, Wyandot
+
 ## Data Sources
 
 We prioritize election results according to the following hierarchy of sources:
