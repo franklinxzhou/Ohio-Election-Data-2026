@@ -26,6 +26,24 @@ To reconcile these differences, we first attempted to match precincts using thei
 
 Our objective is to align the 2026 election returns with the 2020 precinct geography used in our redistricting analysis as accurately as the available records permit.
 
+### Reproduce the statewide recast
+
+Run `output/recast_remaining.py` from the repository root with Python 3.11 or newer and `geopandas`, `numpy`, `pyogrio`, `pyproj`, and `shapely>=2.1`. The script takes the county canvass CSVs, `OH_pct20.json`, the clean recast, and the VEST 2020 archive supplied for this project.
+
+Download the [Ohio 2020 Census block shapefile](https://www2.census.gov/geo/tiger/TIGER2020PL/STATE/39_OHIO/39/tl_2020_39_tabblock20.zip) and the [Ohio P.L. 94-171 redistricting file](https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Ohio/oh2020.pl.zip). Pass the paths to the ZIPs as follows.
+
+```sh
+python output/recast_remaining.py \
+  --blocks /path/to/tl_2020_39_tabblock20.zip \
+  --pl /path/to/oh2020.pl.zip
+```
+
+For unresolved precincts with mapped 2026 boundaries, the script checks whether one graph node covers at least 98% of the precinct. Documented merges spanning multiple nodes proceed to allocation. Other mapped precincts use VEST party votes weighted by the voting-age population of the intersecting Census blocks. For partial blocks, voting-age population is prorated by polygon area. The precinct geometries and population overlays use EPSG:5070.
+
+For an unlocated precinct, the script uses VEST vote shares across its candidate nodes when available. It pools precincts with no candidate nodes and uses the uncovered part of the county where mapped precincts establish coverage. Countywide totals use VEST party shares across all nodes in the county. Where several graph nodes share a VEST precinct, the script uses the graph's historical party counts for relative shares within that group. A verified `block_geoid,graph_node_id` CSV supplied via `--block-nodes` can locate those pieces for block-weighted overlaps. Older boundary layers are retained as references.
+
+The script writes `output/recast_2026_to_2020.csv` with one row per graph node and `output/recast_2026_to_2020_allocations.csv` with the contributing canvass units, allocation method, weights, and integer vote counts. Largest-remainder rounding preserves every reported county total by race and party.
+
 ## Research Purpose and Limitations
 
 The primary objective of this dataset is **not to provide a definitive reconstruction of the 2026 election results at the precinct level**. Rather, it is to support a sensitivity analysis of our ensemble-based redistricting study under an unusually Democratic-favorable electoral environment.
