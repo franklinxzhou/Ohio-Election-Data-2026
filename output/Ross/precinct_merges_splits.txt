@@ -1,0 +1,21 @@
+Ross County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Ross.pdf, official precinct summary with groups, November 13,
+  2026 at 11:16 AM. The CSV cites physical pages with candidate totals.
+  https://www.boe.ohio.gov/ross/c/elecres/20261103precinct.pdf
+  Official countywide summary with groups, November 13, 2026 at 11:15 AM.
+  https://www.boe.ohio.gov/ross/c/elecres/20261103results.pdf
+  OH_pct20.json, ROSS nodes and ORIG_NAME membership.
+
+Three graph nodes have multiple canvass rows. Each row retains the
+precinct's original code, name and votes.
+
+  6405 | 3 Chillicothe 1-C, 51 Scioto Six
+  6406 | 4 Chillicothe 1-D, 7 Chillicothe 2-C, 53 Scioto West
+  6433 | 34 Green Kingston, 35 Green North
+
+The CSV links 65 precincts to 61 graph nodes by name. Matching ignores
+periods in five abbreviated labels. No additional merges or splits
+were identified by name. Boundary continuity was not assessed.

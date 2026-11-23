@@ -1,0 +1,52 @@
+county,precinct_code,precinct_name,canvass_type,source_file,source_pages,graph_node_ids,graph_match_status,us_senate_dem,us_senate_rep,governor_dem,governor_rep,attorney_general_dem,attorney_general_rep,auditor_of_state_dem,auditor_of_state_rep,secretary_of_state_dem,secretary_of_state_rep,treasurer_of_state_dem,treasurer_of_state_rep,supreme_court_2027_01_01_dem,supreme_court_2027_01_01_rep,supreme_court_2027_01_02_dem,supreme_court_2027_01_02_rep
+Seneca,,Fostoria 1-A,official,Raw/Seneca.pdf,"1,2,3,4",6591,exact,239,194,252,194,239,227,246,215,235,210,235,227,240,223,246,221
+Seneca,,Fostoria 1-B,official,Raw/Seneca.pdf,"8,9,10,11",6592,combined_node,185,134,208,133,202,156,202,154,205,141,204,152,207,148,210,146
+Seneca,,Fostoria 3-A,official,Raw/Seneca.pdf,"15,16,17,18",6593,exact,188,103,196,115,203,131,198,131,194,127,199,132,204,128,197,136
+Seneca,,Fostoria 3-B,official,Raw/Seneca.pdf,"22,23,24,25",6594,exact,176,88,186,95,183,111,179,114,182,104,184,109,181,111,185,106
+Seneca,,Fostoria 4-A,official,Raw/Seneca.pdf,"29,30,31,32",6595,exact,140,140,145,147,142,176,143,173,138,160,148,171,145,174,152,165
+Seneca,,Fostoria 4-B,official,Raw/Seneca.pdf,"36,37,38,39",6596,combined_node,162,131,161,127,161,146,165,146,163,139,164,146,165,145,170,142
+Seneca,,Tiffin 1-A,official,Raw/Seneca.pdf,"43,44,45,46",6611,exact,95,84,96,85,91,103,89,102,92,97,93,99,95,96,96,96
+Seneca,,Tiffin 1-B,official,Raw/Seneca.pdf,"50,51,52,53",6612,exact,229,168,240,162,234,193,224,198,225,185,230,196,238,189,232,193
+Seneca,,Tiffin 1-C,official,Raw/Seneca.pdf,"57,58,59,60",6613,exact,195,191,202,190,196,224,188,232,195,205,186,231,193,227,198,221
+Seneca,,Tiffin 2-A,official,Raw/Seneca.pdf,"64,65,66,67",6614,exact,245,178,258,178,245,218,245,217,232,205,245,218,246,215,253,206
+Seneca,,Tiffin 2-B,official,Raw/Seneca.pdf,"71,72,73,74",6615,exact,113,100,119,104,114,114,115,114,114,105,115,114,115,113,118,111
+Seneca,,Tiffin 2-C,official,Raw/Seneca.pdf,"78,79,80,81",6616,exact,272,232,279,235,274,272,269,278,270,253,279,266,279,267,274,272
+Seneca,,Tiffin 3-A,official,Raw/Seneca.pdf,"85,86,87,88",6617,exact,124,114,136,107,127,123,127,123,129,119,127,125,129,123,127,122
+Seneca,,Tiffin 3-B,official,Raw/Seneca.pdf,"92,93,94,95",6618,exact,155,178,168,183,162,202,163,202,157,196,156,203,163,200,161,202
+Seneca,,Tiffin 3-C,official,Raw/Seneca.pdf,"99,100,101,102",6619,exact,163,178,168,176,156,206,164,196,154,198,161,203,158,202,159,201
+Seneca,,Tiffin 3-D,official,Raw/Seneca.pdf,"106,107,108,109",6620,exact,137,146,148,145,140,171,140,172,134,159,140,169,138,172,143,168
+Seneca,,Tiffin 4-A,official,Raw/Seneca.pdf,"113,114,115,116",6621,exact,202,265,230,242,198,300,203,295,201,281,205,284,202,291,206,285
+Seneca,,Tiffin 4-B,official,Raw/Seneca.pdf,"120,121,122,123",6622,exact,323,371,352,347,325,398,324,397,324,388,322,401,332,393,327,399
+Seneca,,Tiffin 4-C,official,Raw/Seneca.pdf,"127,128,129,130",6623,exact,185,198,185,200,175,232,177,229,175,208,184,219,181,223,181,223
+Seneca,,Tiffin 4-D,official,Raw/Seneca.pdf,"134,135,136,137",6624,exact,137,146,141,138,122,169,126,166,124,154,129,161,132,159,130,161
+Seneca,,Green Springs Village,official,Raw/Seneca.pdf,"141,142,143,144",6597,exact,65,125,69,123,62,138,62,139,60,135,65,137,64,137,67,134
+Seneca,,Adams Township,official,Raw/Seneca.pdf,"148,149,150,151",6578,exact,134,369,141,354,120,409,120,410,124,383,124,401,134,394,131,395
+Seneca,,New Riegel Village,official,Raw/Seneca.pdf,"155,156,157,158",6603,exact,29,68,27,67,27,75,27,74,30,71,29,74,30,72,29,73
+Seneca,,Big Spring Township,official,Raw/Seneca.pdf,"162,163,164,165",6581,exact,127,438,144,421,119,483,120,482,116,464,121,475,127,476,129,468
+Seneca,,Bloomville Village,official,Raw/Seneca.pdf,"169,170,171,172",6583,exact,79,120,83,118,73,145,74,143,72,138,79,139,80,138,79,139
+Seneca,,Bloom Township,official,Raw/Seneca.pdf,"176,177,178,179",6582,exact,85,247,108,232,87,276,88,276,87,253,93,267,93,265,84,269
+Seneca,,Clinton A,official,Raw/Seneca.pdf,"183,184,185,186",6584,exact,126,196,139,193,122,223,121,221,128,203,127,212,128,210,129,211
+Seneca,,Clinton B,official,Raw/Seneca.pdf,"190,191,192,193",6585,exact,100,164,113,159,101,188,97,190,97,178,105,184,108,178,105,181
+Seneca,,Clinton C,official,Raw/Seneca.pdf,"197,198,199,200",6586,exact,198,340,208,332,178,382,187,373,191,353,184,372,185,376,192,369
+Seneca,,Clinton D,official,Raw/Seneca.pdf,"204,205,206,207",6587,exact,127,226,136,220,114,260,118,256,116,246,122,251,128,244,129,244
+Seneca,,Clinton E,official,Raw/Seneca.pdf,"211,212,213,214",6588,exact,86,154,100,150,84,172,81,174,82,172,86,169,86,169,88,167
+Seneca,,Eden North,official,Raw/Seneca.pdf,"218,219,220,221",6589,exact,175,366,193,363,162,400,163,402,166,386,169,391,173,390,168,390
+Seneca,,Eden South,official,Raw/Seneca.pdf,"225,226,227,228",6590,exact,111,206,111,201,98,230,97,229,99,222,101,224,101,230,105,221
+Seneca,,Hopewell A,official,Raw/Seneca.pdf,"232,233,234,235",6598,combined_node,126,273,133,262,124,298,119,305,120,287,126,296,129,294,131,291
+Seneca,,Hopewell B,official,Raw/Seneca.pdf,"239,240,241,242",6598,combined_node,101,269,109,264,90,300,91,298,95,284,90,297,94,296,99,289
+Seneca,,Hopewell C,official,Raw/Seneca.pdf,"246,247,248,249",6599,exact,92,176,103,171,91,202,98,198,93,181,104,187,100,191,96,197
+Seneca,,Jackson Township,official,Raw/Seneca.pdf,"253,254,255,256",6592,combined_node,187,305,205,291,186,334,189,334,187,320,186,338,190,335,195,326
+Seneca,,Bettsville Village,official,Raw/Seneca.pdf,"260,261,262,263",6580,exact,77,103,78,116,72,134,73,134,69,126,73,132,73,129,75,131
+Seneca,,Liberty A,official,Raw/Seneca.pdf,"268,269,270,271",6600,exact,80,214,94,205,81,236,79,236,77,218,80,232,80,234,84,231
+Seneca,,Liberty B,official,Raw/Seneca.pdf,"275,276,277,278",6601,exact,60,154,59,158,50,188,51,186,50,176,53,183,52,182,55,180
+Seneca,,Loudon North,official,Raw/Seneca.pdf,"282,283,284,285",6596,combined_node,167,334,172,326,165,380,167,375,158,365,156,385,167,378,168,375
+Seneca,,Loudon South,official,Raw/Seneca.pdf,"289,290,291,292",6602,exact,77,171,80,170,74,189,64,199,68,185,73,190,74,189,77,186
+Seneca,,Pleasant Township,official,Raw/Seneca.pdf,"296,297,298,299",6604,exact,186,417,205,407,170,481,174,482,166,454,165,483,178,474,178,468
+Seneca,,Reed Township,official,Raw/Seneca.pdf,"303,304,305,306",6605,exact,100,204,105,185,100,219,94,225,93,212,103,217,99,215,94,222
+Seneca,,Republic Village,official,Raw/Seneca.pdf,"310,311,312,313",6606,normalized,47,124,51,122,46,134,47,133,46,131,48,134,47,135,49,132
+Seneca,,Scipio Township,official,Raw/Seneca.pdf,"317,318,319,320",6607,exact,122,336,128,330,111,380,107,384,114,361,113,375,116,376,115,375
+Seneca,,Seneca A,official,Raw/Seneca.pdf,"324,325,326,327",6608,exact,106,244,121,238,107,281,106,281,102,266,106,279,111,274,103,282
+Seneca,,Seneca B,official,Raw/Seneca.pdf,"331,332,333,334",6609,exact,68,190,74,184,61,215,63,214,59,203,64,210,64,210,68,207
+Seneca,,Thompson Township,official,Raw/Seneca.pdf,"338,339,340,341",6610,exact,146,276,153,282,137,325,134,324,138,309,142,317,141,322,141,320
+Seneca,,Attica Village,official,Raw/Seneca.pdf,"345,346,347,348",6579,exact,89,200,95,198,93,213,88,219,84,212,88,214,91,214,91,212
+Seneca,,Venice Township,official,Raw/Seneca.pdf,"352,353,354,355",6625,exact,72,250,79,249,70,264,70,264,69,260,66,270,70,263,76,259

@@ -1,0 +1,21 @@
+Seneca County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Seneca.pdf, official Precinct Summary – Group Detail,
+  November 13, 2026 at 3:10 PM. The CSV cites physical PDF pages.
+  https://www.boe.ohio.gov/seneca/election-info/election-results/
+  Official countywide canvass, November 13, 2026 at 3:09 PM, pp. 2–5.
+  https://www.boe.ohio.gov/seneca/c/elecres/20261103results.pdf
+  OH_pct20.json, SENECA nodes and ORIG_NAME membership.
+
+Three graph nodes have two separate canvass rows each
+  6592 | Fostoria 1-B, Jackson Township
+  6596 | Fostoria 4-B, Loudon North
+  6598 | Hopewell A, Hopewell B
+
+Republic Village maps to the graph label REPUBLIC VILL (6606).
+The precinct report headings supply names without separate codes.
+All 51 precincts retain their own vote rows and match 48 graph nodes.
+The name crosswalk identifies no additional mergers or splits.
+Boundary continuity was not assessed.

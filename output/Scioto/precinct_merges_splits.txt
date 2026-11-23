@@ -1,0 +1,21 @@
+Scioto County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Scioto.pdf, unofficial Statement of Votes Cast, November 3,
+  2026 at 9:58:15 PM. The CSV cites the physical candidate-table pages.
+  https://www.boe.ohio.gov/scioto/election-info/election-results
+  Unofficial countywide summary, November 3, 2026 at 9:56:01 PM.
+  https://www.boe.ohio.gov/scioto/c/elecres/20261103results.pdf
+  OH_pct20.json, SCIOTO nodes and ORIG_NAME membership.
+
+The same 77 precinct names appear in the report and the graph.
+The CSV keeps the printed precinct codes, including South Webster
+Village's 0024, which wraps to the next line in the source tables.
+
+Graph node 6516 includes three separate canvass precincts
+  0038 Harrison C, 0040 Harrison E, 0053 Porter A
+
+Each precinct retains its own vote row. The name-based crosswalk
+covers all 75 county graph nodes and identifies no additional mergers
+or splits. Boundary continuity was not assessed.
