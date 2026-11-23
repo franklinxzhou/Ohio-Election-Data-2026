@@ -1,0 +1,35 @@
+Wyandot County precinct merges and splits
+November 3, 2026 general election
+
+Sources
+  Raw/Wyandot.pdf, official precinct canvass, November 16, 2026.
+  https://www.boe.ohio.gov/wyandot/c/elecres/20261103precinct.pdf
+  County official cumulative results.
+  https://www.boe.ohio.gov/wyandot/c/elecres/20261103results.pdf
+  The county's November 9 notice explains why the earlier unofficial
+  report is unsuitable for checking the official precinct totals.
+  https://www.boe.ohio.gov/wyandot/c/pdf/WyandotCountyPressRelease11.06.2026.pdf
+  OH_pct20.json, Wyandot County nodes 7911–7927.
+  Published 2024 precinct boundaries, flagged official by the publisher.
+  https://int.nyt.com/newsgraphics/elections/map-data/2024/national/OH-precincts-with-results.geojson.gz
+  Census 2020 TIGERweb VTDs, Wyandot County (39175).
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Census2020/tigerWMS_Census2020/MapServer/58
+  Query where=STATE='39' AND COUNTY='175', outFields=BASENAME,GEOID,
+  outSR=5070, f=geojson.
+
+Findings
+  All 23 2026 canvass names match distinct 2020 precinct names after
+  expanding Upper to Upper Sandusky, adding Village for Carey and
+  Nevada, and adding TWP to the bare township names. All 17 graph
+  nodes are represented.
+  No precinct merges or splits identified. The corresponding 2024 and
+  2020 polygons overlap by at least 99.95% of area in either direction,
+  rounded to two decimal places (EPSG:5070). The 2026 links use names
+  and the geographic comparison covers 2020 and 2024.
+  All 184 contest totals reconcile within the official precinct report.
+  The separate scanned countywide report could not be read for comparison.
+
+Existing graph combinations
+  7912 | Carey A; Crawford
+  7915 | Crane; Pitt; Salem; Upper A; Upper D; Upper F
+  These precincts keep separate vote rows in the CSV.
